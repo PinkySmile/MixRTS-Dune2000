@@ -1,0 +1,297 @@
+{
+	"_general": {
+		"build": "sounds/BUILD1.WAV"
+	},
+	"wtra": {
+		"anims": [
+			{ "anim": "wtra_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "wtra",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "wtra_anim", "when_hp_bigger": 50, "layer": 1, "delay": 3 }
+		],
+		"queue": "building",
+		"requirements": [],
+		"cost": { "base:credits": 225 },
+		"speed": 1024,
+		"sight": 2,
+		"power": -200,
+		"lower_power_when_damaged": true,
+		"show_after_build": 11,
+		"build_anim": { "anim": "wtra_make", "layer": 1, "delay": 2 },
+		"hp": 3000,
+		"size": { "x": 64, "y": 64 },
+		"tiles": [
+			[6, 6],
+			[7, 7],
+			[5, 5]
+		]
+	},
+	"refi": {
+		"anims": [
+			{ "anim": "refi_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "refi",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "refi_bot",                        "layer": 0 }
+		],
+		"queue": "building",
+		"requirements": ["wtra"],
+		"storage": { "base:credits": 2000 },
+		"upgrades": [],
+		"cost": { "base:credits": 1500 },
+		"speed": 3073,
+		"sight": 2,
+		"power": 75,
+		"show_after_build": 11,
+		"build_anim": { "anim": "refi_make", "layer": 1, "delay": 2 },
+		"hp": 3000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[4, 6, 6],
+			[7, 7, 5],
+			[5, 5, 5]
+		]
+	},
+	"outp": {
+		"anims": [
+			{ "anim": "outp_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "outp",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "outp_anim", "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": ["barr"],
+		"cost": { "base:credits": 1500 },
+		"speed": 3073,
+		"sight": 4,
+		"power": 125,
+		"show_after_build": 11,
+		"build_anim": { "anim": "outp_make", "layer": 1, "delay": 2 },
+		"hp": 3000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[4, 6, 6],
+			[7, 7, 5],
+			[5, 5, 5]
+		]
+	},
+	"htec": {
+		"anims": [
+			{ "anim": "htec_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "htec",      "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": [["o_cony", "h_cony"], "outp"],
+		"cost": { "base:credits": 1150 },
+		"speed": 2305,
+		"sight": 3,
+		"power": 75,
+		"show_after_build": 11,
+		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 2 },
+		"producing_anim": { "anim": "htec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"hp": 3500,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[0, 6, 0],
+			[6, 6, 6],
+			[7, 7, 7],
+			[5, 5, 5]
+		]
+	},
+	"ahtec": {
+		"anims": [
+			{ "anim": "ahtec_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "ahtec",      "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": ["a_cony", "outp"],
+		"cost": { "base:credits": 1150 },
+		"speed": 2305,
+		"sight": 3,
+		"power": 75,
+		"show_after_build": 11,
+		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 2 },
+		"producing_anim": { "anim": "ahtec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"hp": 3500,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[0, 6, 0],
+			[6, 6, 6],
+			[7, 7, 7],
+			[5, 5, 5]
+		]
+	},
+	"lfac": {
+		"anims": [
+			{ "anim": "lfac_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "lfac",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "lfac_bot",                        "layer": 0 }
+		],
+		"queue": "building",
+		"requirements": ["refi"],
+		"cost": { "base:credits": 500 },
+		"speed": 1581,
+		"sight": 4,
+		"power": 125,
+		"show_after_build": 9,
+		"build_anim": { "anim": "lfac_make", "layer": 1, "delay": 2 },
+		"producing_anim": { "anim": "lfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"hp": 3300,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[6, 6, 6],
+			[7, 7, 7],
+			[5, 5, 5]
+		]
+	},
+	"silo": {
+		"anims": [
+			{ "anim": "silo_br", "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "silo_0",  "when_hp_bigger": 50, "layer": 1, "when_storage_is_in": [0, 25] },
+			{ "anim": "silo_1",  "when_hp_bigger": 50, "layer": 1, "when_storage_is_in": [25, 50] },
+			{ "anim": "silo_2",  "when_hp_bigger": 50, "layer": 1, "when_storage_is_in": [50, 75] },
+			{ "anim": "silo_3",  "when_hp_bigger": 50, "layer": 1, "when_storage_bigger": 75 }
+		],
+		"storage": { "base:credits": 1500 },
+		"queue": "building",
+		"requirements": ["refi"],
+		"cost": { "base:credits": 120 },
+		"speed": 768,
+		"sight": 1,
+		"power": 15,
+		"show_after_build": 8,
+		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 2 },
+		"hp": 1500,
+		"size": { "x": 32, "y": 32 },
+		"tiles": [[7]]
+	},
+	"hfac": {
+		"anims": [
+			{ "anim": "hfac_br",  "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "hfac",     "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "hfac_bot",                       "layer": 0 }
+		],
+		"queue": "building",
+		"requirements": ["refi"],
+		"cost": { "base:credits": 1000 },
+		"speed": 3688,
+		"sight": 3,
+		"power": 150,
+		"show_after_build": 11,
+		"build_anim": { "anim": "hfac_make", "layer": 1, "delay": 2 },
+		"producing_anim": { "anim": "hfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"hp": 3500,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[0, 6, 0],
+			[6, 6, 6],
+			[7, 7, 7],
+			[5, 5, 5]
+		]
+	},
+	"star": {
+		"anims": [
+			{ "anim": "star_br", "when_hp_lower": 50,  "layer": 0 },
+			{ "anim": "star",    "when_hp_bigger": 50, "layer": 0 }
+		],
+		"queue": "building",
+		"requirements": ["hfac", "outp"],
+		"cost": { "base:credits": 1500 },
+		"speed": 3073,
+		"sight": 2,
+		"power": 150,
+		"show_after_build": 11,
+		"build_anim": { "anim": "star_make", "layer": 1, "delay": 2 },
+		"producing_anim": { "anim": "star_anim", "when_hp_bigger": 50, "layer": 0, "delay": 5 },
+		"hp": 3500,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[6, 6, 6],
+			[6, 6, 6],
+			[4, 6, 4]
+		]
+	},
+	"ixrc": {
+		"anims": [
+			{ "anim": "ixrc_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "ixrc",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 3 }
+		],
+		"queue": "building",
+		"requirements": ["hfac", "hfac.upgrade1", "outp"],
+		"cost": { "base:credits": 1000 },
+		"speed": 1537,
+		"sight": 3,
+		"power": 175,
+		"show_after_build": 11,
+		"build_anim": { "anim": "ixrc_make", "layer": 1, "delay": 2 },
+		"hp": 2500,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[0, 6, 0],
+			[6, 6, 6],
+			[7, 7, 7],
+			[5, 5, 5]
+		]
+	},
+	"apala": {
+		"anims": [
+			{ "anim": "a_pala_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "a_pala",      "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": ["a_cony", "ixrc"],
+		"cost": { "base:credits": 1600 },
+		"speed": 4610,
+		"sight": 3,
+		"power": 200,
+		"show_after_build": 11,
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"hp": 4000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[6, 6, 4],
+			[7, 7, 7],
+			[5, 7, 7]
+		]
+	},
+	"hpala": {
+		"anims": [
+			{ "anim": "h_pala_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "h_pala",      "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": ["h_cony", "ixrc"],
+		"cost": { "base:credits": 1600 },
+		"speed": 4610,
+		"sight": 3,
+		"power": 200,
+		"show_after_build": 11,
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"special_anim": { "anim": "h_pala_anim", "when_hp_bigger": 50, "layer": 1 },
+		"hp": 4000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[6, 6, 4],
+			[7, 7, 7],
+			[5, 7, 7]
+		]
+	},
+	"opala": {
+		"anims": [
+			{ "anim": "o_pala_br",   "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "o_pala",      "when_hp_bigger": 50, "layer": 1 }
+		],
+		"queue": "building",
+		"requirements": ["o_cony", "ixrc"],
+		"cost": { "base:credits": 1600 },
+		"speed": 4610,
+		"sight": 3,
+		"power": 200,
+		"show_after_build": 11,
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"hp": 4000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[6, 6, 4],
+			[7, 7, 7],
+			[5, 7, 7]
+		]
+	}
+}

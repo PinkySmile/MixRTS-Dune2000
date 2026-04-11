@@ -1,0 +1,61 @@
+{
+	"_general": {
+		"can_sell": true,
+		"can_repair": true,
+		"place": {
+			"ok":   [ "cursor/tile_ok.png"   ],
+			"bad":  [ "cursor/tile_bad.png"  ],
+			"best": [ "cursor/tile_best.png" ]
+		},
+		"upgrades": [ "upgrades.json" ],
+		"money": [ "base:credits" ],
+		"regress_tech": true
+	},
+	"atreides": {
+		"buildings": [
+			"concrete.json",
+			"buildings.json",
+			"a_buildings.json"
+		],
+		"animations": [
+			"concrete_anim.json",
+			"animations.json",
+			"a_animations.json"
+		],
+		"ui": {
+			"path": "ui/en/ui.gui",
+			"blazon": "ui/common/blazon_a.png",
+			"cameo_prefix": "a"
+		}
+	},
+	"harkonnen": {
+		"buildings": [
+			"buildings.json",
+			"h_buildings.json"
+		],
+		"animations": [
+			"animations.json",
+			"h_animations.json"
+		],
+		"ui": {
+			"path": "ui/en/ui.gui",
+			"blazon": "ui/common/blazon_h.png",
+			"cameo_prefix": "h"
+		}
+	},
+	"ordos": {
+		"buildings": [
+			"buildings.json",
+			"o_buildings.json"
+		],
+		"animations": [
+			"animations.json",
+			"o_animations.json"
+		],
+		"ui": {
+			"path": "ui/en/ui.gui",
+			"blazon": "ui/common/blazon_o.png",
+			"cameo_prefix": "o"
+		}
+	}
+}

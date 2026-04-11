@@ -1,0 +1,46 @@
+{
+	"conc": {
+		"build": "sounds/CHUNG.WAV",
+		"cameo": "cameos/b_3con.png",
+		"requirements": ["group.cony"],
+		"anims": [{ "anim": "conc", "layer": 0 }],
+		"cost": {},
+		"speed": 461,
+		"hp": 500,
+		"tiles": [[8]],
+		"size": { "x": 32, "y": 32 }
+	},
+	"2con": {
+		"build": "sounds/CHUNG.WAV",
+		"cameo": "cameos/b_2con.png",
+		"requirements": ["group.cony"],
+		"anims": [],
+		"queue": "building",
+		"cost": { "base:credits": 20 },
+		"speed": 307,
+		"hp": 500,
+		"tiles": [
+			[8, 8],
+			[8, 8]
+		],
+		"fake": true,
+		"size": { "x": 64, "y": 64 }
+	},
+	"3con": {
+		"build": "sounds/CHUNG.WAV",
+		"cameo": "cameos/b_3con.png",
+		"requirements": ["group.cony", "cony.upgrade"],
+		"anims": [],
+		"queue": "building",
+		"cost": { "base:credits": 50 },
+		"speed": 461,
+		"hp": 500,
+		"tiles": [
+			[8, 8, 8],
+			[8, 8, 8],
+			[8, 8, 8]
+		],
+		"fake": true,
+		"size": { "x": 96, "y": 96 }
+	}
+}

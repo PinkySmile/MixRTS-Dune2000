@@ -1,0 +1,64 @@
+{
+	"normal": [
+		{ "sprite": "cursor/standard/MOUSE.R16.000-sprite.png", "center": { "x": 0, "y": 0 }, "duration": 999 }
+	],
+	"move": [
+		{ "sprite": "cursor/move/MOUSE.R16.008-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.009-sprite.png", "center": { "x": 14, "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.010-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.011-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.012-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.013-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.014-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.015-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 }
+	],
+	"move_inf": [
+		{ "sprite": "cursor/move/MOUSE.R16.256-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.257-sprite.png", "center": { "x": 14, "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.258-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.259-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.260-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.261-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.262-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/move/MOUSE.R16.263-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 }
+	],
+	"no_move": [
+		{ "sprite": "cursor/move/MOUSE.R16.024-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 999 }
+	],
+	"select": [
+		{ "sprite": "cursor/select/MOUSE.R16.040-sprite.png", "center": { "x": 13, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.041-sprite.png", "center": { "x": 11, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.042-sprite.png", "center": { "x": 10, "y": 8  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.043-sprite.png", "center": { "x": 9,  "y": 7  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.044-sprite.png", "center": { "x": 8,  "y": 6  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.045-sprite.png", "center": { "x": 9,  "y": 7  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.046-sprite.png", "center": { "x": 10, "y": 8  }, "duration": 3 },
+		{ "sprite": "cursor/select/MOUSE.R16.047-sprite.png", "center": { "x": 11, "y": 9  }, "duration": 3 }
+	],
+	"attack": [
+		{ "sprite": "cursor/attack/MOUSE.R16.016-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.017-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.018-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.019-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.020-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.021-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.022-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.023-sprite.png", "center": { "x": 13, "y": 10 }, "duration": 3 }
+	],
+	"air_strike": [
+		{ "sprite": "cursor/attack/MOUSE.R16.072-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.073-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.074-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.075-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.076-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.077-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.078-sprite.png", "center": { "x": 12, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/attack/MOUSE.R16.079-sprite.png", "center": { "x": 13, "y": 10 }, "duration": 3 }
+	],
+	"enter": [
+		{ "sprite": "cursor/enter/MOUSE.R16.032-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/MOUSE.R16.033-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/MOUSE.R16.034-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/MOUSE.R16.035-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 }
+	]
+}
