@@ -479,9 +479,9 @@ Button.Upgrade {
         TextColorHover = None;
         Texture = "upgrade.png" Smooth;
         TextureDisabled = "upgrade.png" Smooth;
-        TextureDown = "upgrade_down.png" Smooth;
-        TextureDownFocused = "upgrade_down.png" Smooth;
-        TextureDownHover = "upgrade_down.png" Smooth;
+        TextureDown = "upgrade.png" Smooth;
+        TextureDownFocused = "upgrade.png" Smooth;
+        TextureDownHover = "upgrade.png" Smooth;
         TextureFocused = "upgrade.png" Smooth;
         TextureHover = "upgrade.png" Smooth;
     }
@@ -509,9 +509,9 @@ Button.Main1 {
         TextColorHover = None;
         Texture = "main1.png" Smooth;
         TextureDisabled = "main1.png" Smooth;
-        TextureDown = "main1_down.png" Smooth;
-        TextureDownFocused = "main1_down.png" Smooth;
-        TextureDownHover = "main1_down.png" Smooth;
+        TextureDown = "main1.png" Smooth;
+        TextureDownFocused = "main1.png" Smooth;
+        TextureDownHover = "main1.png" Smooth;
         TextureFocused = "main1.png" Smooth;
         TextureHover = "main1.png" Smooth;
     }
@@ -537,13 +537,13 @@ Button.Starport {
         TextColorDisabled = None;
         TextColorDown = None;
         TextColorHover = None;
-        Texture = "startport.png" Smooth;
-        TextureDisabled = "startport.png" Smooth;
-        TextureDown = "startport_down.png" Smooth;
-        TextureDownFocused = "startport_down.png" Smooth;
-        TextureDownHover = "startport_down.png" Smooth;
-        TextureFocused = "startport.png" Smooth;
-        TextureHover = "startport.png" Smooth;
+        Texture = "starport.png" Smooth;
+        TextureDisabled = "starport.png" Smooth;
+        TextureDown = "starport.png" Smooth;
+        TextureDownFocused = "starport.png" Smooth;
+        TextureDownHover = "starport.png" Smooth;
+        TextureFocused = "starport.png" Smooth;
+        TextureHover = "starport.png" Smooth;
     }
 }
 
@@ -569,9 +569,9 @@ Button.Main2 {
         TextColorHover = None;
         Texture = "main2.png" Smooth;
         TextureDisabled = "main2.png" Smooth;
-        TextureDown = "main2_down.png" Smooth;
-        TextureDownFocused = "main2_down.png" Smooth;
-        TextureDownHover = "main2_down.png" Smooth;
+        TextureDown = "main2.png" Smooth;
+        TextureDownFocused = "main2.png" Smooth;
+        TextureDownHover = "main2.png" Smooth;
         TextureFocused = "main2.png" Smooth;
         TextureHover = "main2.png" Smooth;
     }

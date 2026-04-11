@@ -24,7 +24,6 @@
 			"a_animations.json"
 		],
 		"ui": {
-			"path": "ui/en/ui.gui",
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a"
 		}
@@ -39,7 +38,6 @@
 			"h_animations.json"
 		],
 		"ui": {
-			"path": "ui/en/ui.gui",
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h"
 		}
@@ -54,7 +52,6 @@
 			"o_animations.json"
 		],
 		"ui": {
-			"path": "ui/en/ui.gui",
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o"
 		}
