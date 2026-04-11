@@ -6,7 +6,7 @@
 		"anims": [
 			{ "anim": "wtra_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "wtra",      "when_hp_bigger": 50, "layer": 1 },
-			{ "anim": "wtra_anim", "when_hp_bigger": 50, "layer": 1, "delay": 3 }
+			{ "anim": "wtra_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
 		"queue": "building",
 		"requirements": [],
@@ -16,7 +16,7 @@
 		"power": -200,
 		"lower_power_when_damaged": true,
 		"show_after_build": 11,
-		"build_anim": { "anim": "wtra_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "wtra_make", "layer": 1, "delay": 6 },
 		"hp": 3000,
 		"size": { "x": 64, "y": 64 },
 		"tiles": [
@@ -40,7 +40,7 @@
 		"sight": 2,
 		"power": 75,
 		"show_after_build": 11,
-		"build_anim": { "anim": "refi_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "refi_make", "layer": 1, "delay": 6 },
 		"hp": 3000,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -62,7 +62,7 @@
 		"sight": 4,
 		"power": 125,
 		"show_after_build": 11,
-		"build_anim": { "anim": "outp_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "outp_make", "layer": 1, "delay": 6 },
 		"hp": 3000,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -83,8 +83,8 @@
 		"sight": 3,
 		"power": 75,
 		"show_after_build": 11,
-		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 2 },
-		"producing_anim": { "anim": "htec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 6 },
+		"producing_anim": { "anim": "htec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 20 },
 		"hp": 3500,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -106,8 +106,8 @@
 		"sight": 3,
 		"power": 75,
 		"show_after_build": 11,
-		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 2 },
-		"producing_anim": { "anim": "ahtec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"build_anim": { "anim": "htec_make", "layer": 1, "delay": 6 },
+		"producing_anim": { "anim": "ahtec_anim", "when_hp_bigger": 50, "layer": 1, "delay": 20 },
 		"hp": 3500,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -130,8 +130,8 @@
 		"sight": 4,
 		"power": 125,
 		"show_after_build": 9,
-		"build_anim": { "anim": "lfac_make", "layer": 1, "delay": 2 },
-		"producing_anim": { "anim": "lfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"build_anim": { "anim": "lfac_make", "layer": 1, "delay": 6 },
+		"producing_anim": { "anim": "lfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 20 },
 		"hp": 3300,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -156,7 +156,7 @@
 		"sight": 1,
 		"power": 15,
 		"show_after_build": 8,
-		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
 		"hp": 1500,
 		"size": { "x": 32, "y": 32 },
 		"tiles": [[7]]
@@ -174,8 +174,8 @@
 		"sight": 3,
 		"power": 150,
 		"show_after_build": 11,
-		"build_anim": { "anim": "hfac_make", "layer": 1, "delay": 2 },
-		"producing_anim": { "anim": "hfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 10 },
+		"build_anim": { "anim": "hfac_make", "layer": 1, "delay": 6 },
+		"producing_anim": { "anim": "hfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 20 },
 		"hp": 3500,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -197,8 +197,8 @@
 		"sight": 2,
 		"power": 150,
 		"show_after_build": 11,
-		"build_anim": { "anim": "star_make", "layer": 1, "delay": 2 },
-		"producing_anim": { "anim": "star_anim", "when_hp_bigger": 50, "layer": 0, "delay": 5 },
+		"build_anim": { "anim": "star_make", "layer": 1, "delay": 6 },
+		"producing_anim": { "anim": "star_anim", "when_hp_bigger": 50, "layer": 0, "delay": 10 },
 		"hp": 3500,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -211,7 +211,7 @@
 		"anims": [
 			{ "anim": "ixrc_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "ixrc",      "when_hp_bigger": 50, "layer": 1 },
-			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 3 }
+			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
 		"queue": "building",
 		"requirements": ["hfac", "hfac.upgrade1", "outp"],
@@ -220,7 +220,7 @@
 		"sight": 3,
 		"power": 175,
 		"show_after_build": 11,
-		"build_anim": { "anim": "ixrc_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "ixrc_make", "layer": 1, "delay": 6 },
 		"hp": 2500,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -242,7 +242,7 @@
 		"sight": 3,
 		"power": 200,
 		"show_after_build": 11,
-		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 6 },
 		"hp": 4000,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
@@ -263,7 +263,7 @@
 		"sight": 3,
 		"power": 200,
 		"show_after_build": 11,
-		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 6 },
 		"special_anim": { "anim": "h_pala_anim", "when_hp_bigger": 50, "layer": 1 },
 		"hp": 4000,
 		"size": { "x": 96, "y": 96 },
@@ -285,7 +285,7 @@
 		"sight": 3,
 		"power": 200,
 		"show_after_build": 11,
-		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 2 },
+		"build_anim": { "anim": "pala_make", "layer": 1, "delay": 6 },
 		"hp": 4000,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [

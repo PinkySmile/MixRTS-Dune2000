@@ -640,3 +640,67 @@ ScrollablePanel.UnitsQueue {
         }
     }
 }
+
+ScrollablePanel.UpgradeQueue {
+    ContentSize = (0, 0);
+    HorizontalScrollbarPolicy = Never;
+    Position = (Picture2.x + 20, 184);
+    Size = (122, Picture4.y - y);
+    VerticalScrollbarPolicy = Never;
+
+    Renderer {
+        BackgroundColor = transparent;
+        BorderColor = black;
+        TextureBackground = None;
+
+        Scrollbar {
+            ArrowBackgroundColor = #F5F5F5;
+            ArrowBackgroundColorHover = white;
+            ArrowColor = #3C3C3C;
+            ArrowColorHover = black;
+            TextureArrowDown = None;
+            TextureArrowDownHover = None;
+            TextureArrowUp = None;
+            TextureArrowUpHover = None;
+            TextureThumb = None;
+            TextureThumbHover = None;
+            TextureTrack = None;
+            TextureTrackHover = None;
+            ThumbColor = #DCDCDC;
+            ThumbColorHover = #E6E6E6;
+            TrackColor = #F5F5F5;
+        }
+    }
+}
+
+ScrollablePanel.StarportQueue {
+    ContentSize = (0, 0);
+    HorizontalScrollbarPolicy = Never;
+    Position = (Picture2.x + 20, 184);
+    Size = (122, Picture4.y - y);
+    VerticalScrollbarPolicy = Never;
+
+    Renderer {
+        BackgroundColor = transparent;
+        BorderColor = black;
+        TextureBackground = None;
+
+        Scrollbar {
+            ArrowBackgroundColor = #F5F5F5;
+            ArrowBackgroundColorHover = white;
+            ArrowColor = #3C3C3C;
+            ArrowColorHover = black;
+            TextureArrowDown = None;
+            TextureArrowDownHover = None;
+            TextureArrowUp = None;
+            TextureArrowUpHover = None;
+            TextureThumb = None;
+            TextureThumbHover = None;
+            TextureTrack = None;
+            TextureTrackHover = None;
+            ThumbColor = #DCDCDC;
+            ThumbColorHover = #E6E6E6;
+            TrackColor = #F5F5F5;
+        }
+    }
+}

@@ -19,6 +19,7 @@
 		],
 		"animations": [
 			"concrete_anim.json",
+			"animations_make.json",
 			"animations.json",
 			"a_animations.json"
 		],
