@@ -25,7 +25,8 @@
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_a.png",
-			"cameo_prefix": "a"
+			"cameo_prefix": "a",
+			"eva_folder": "atreides"
 		}
 	},
 	"harkonnen": {
@@ -39,7 +40,8 @@
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
-			"cameo_prefix": "h"
+			"cameo_prefix": "h",
+			"eva_folder": "harkonnen"
 		}
 	},
 	"ordos": {
@@ -53,7 +55,8 @@
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",
-			"cameo_prefix": "o"
+			"cameo_prefix": "o",
+			"eva_folder": "ordos"
 		}
 	}
 }

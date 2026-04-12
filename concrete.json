@@ -1,6 +1,11 @@
 {
+	"_general": {
+		"build": {
+			"path": "sounds/CHUNG.WAV",
+			"volume": 60
+		}
+	},
 	"conc": {
-		"build": "sounds/CHUNG.WAV",
 		"cameo": "cameos/b_3con.png",
 		"requirements": ["group.cony"],
 		"anims": [{ "anim": "conc", "layer": 0 }],
@@ -11,7 +16,6 @@
 		"size": { "x": 32, "y": 32 }
 	},
 	"2con": {
-		"build": "sounds/CHUNG.WAV",
 		"cameo": "cameos/b_2con.png",
 		"requirements": ["group.cony"],
 		"anims": [],
@@ -27,7 +31,6 @@
 		"size": { "x": 64, "y": 64 }
 	},
 	"3con": {
-		"build": "sounds/CHUNG.WAV",
 		"cameo": "cameos/b_3con.png",
 		"requirements": ["group.cony", "cony.upgrade"],
 		"anims": [],

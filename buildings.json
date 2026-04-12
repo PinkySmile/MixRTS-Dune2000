@@ -1,6 +1,9 @@
 {
 	"_general": {
-		"build": "sounds/BUILD1.WAV"
+		"build": {
+			"path": "sounds/BUILD1.WAV",
+			"volume": 60
+		}
 	},
 	"wtra": {
 		"anims": [
@@ -53,7 +56,7 @@
 		"anims": [
 			{ "anim": "outp_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "outp",      "when_hp_bigger": 50, "layer": 1 },
-			{ "anim": "outp_anim", "when_hp_bigger": 50, "layer": 1 }
+			{ "anim": "outp_anim", "when_hp_bigger": 50, "layer": 1, "delay": 2 }
 		],
 		"queue": "building",
 		"requirements": ["barr"],
@@ -66,8 +69,8 @@
 		"hp": 3000,
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
-			[4, 6, 6],
-			[7, 7, 5],
+			[6, 6, 6],
+			[7, 7, 7],
 			[5, 5, 5]
 		]
 	},
@@ -214,7 +217,7 @@
 			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
 		"queue": "building",
-		"requirements": ["hfac", "hfac.upgrade1", "outp"],
+		"requirements": ["hfac", "hfac.upgrade", "outp"],
 		"cost": { "base:credits": 1000 },
 		"speed": 1537,
 		"sight": 3,

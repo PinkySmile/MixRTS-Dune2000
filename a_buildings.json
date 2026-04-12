@@ -1,12 +1,15 @@
 {
 	"_general": {
-		"build": "sounds/BUILD1.WAV",
+		"build": {
+			"path": "sounds/BUILD1.WAV",
+			"volume": 60
+		},
 		"grid": { "x": 32, "y": 32 }
 	},
 	"a_cony": {
 		"anims": [
-			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 },
-			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 }
+			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
 		],
 		"group": "cony",
 		"queue": "building",
@@ -28,8 +31,8 @@
 	},
 	"barr": {
 		"anims": [
-			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 },
-			{ "anim": "barr",      "when_hp_bigger": 50, "layer": 1 }
+			{ "anim": "barr",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 }
 		],
 		"queue": "building",
 		"requirements": ["wtra"],
@@ -49,8 +52,8 @@
 	},
 	"repr": {
 		"anims": [
-			{ "anim": "repr_br", "when_hp_lower": 50,  "layer": 0 },
-			{ "anim": "repr",    "when_hp_bigger": 50, "layer": 0 }
+			{ "anim": "repr",    "when_hp_bigger": 50, "layer": 0 },
+			{ "anim": "repr_br", "when_hp_lower": 50,  "layer": 0 }
 		],
 		"queue": "building",
 		"requirements": ["hfac", "hfac.upgrade"],

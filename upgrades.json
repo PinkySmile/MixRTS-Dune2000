@@ -4,34 +4,39 @@
 		"speed": 3073,
 		"requirements": ["group.cony"],
 		"source": "cony",
-		"queue": "upgrade"
+		"queue": "upgrade",
+		"limit": 1
 	},
 	"barr.upgrade": {
 		"cost": { "base:credits": 500 },
 		"speed": 1024,
 		"requirements": ["barr"],
 		"source": "barr",
-		"queue": "upgrade"
+		"queue": "upgrade",
+		"limit": 1
 	},
 	"ahtec.upgrade": {
 		"cost": { "base:credits": 1500 },
 		"speed": 4610,
 		"requirements": ["ahtec"],
 		"source": "ahtec",
-		"queue": "upgrade"
+		"queue": "upgrade",
+		"limit": 1
 	},
 	"lfac.upgrade": {
 		"cost": { "base:credits": 400 },
 		"speed": 1317,
 		"requirements": ["lfac"],
 		"source": "lfac",
-		"queue": "upgrade"
+		"queue": "upgrade",
+		"limit": 1
 	},
 	"hfac.upgrade": {
 		"cost": { "base:credits": 800 },
 		"speed": 2305,
 		"requirements": ["hfac"],
 		"source": "hfac",
-		"queue": "upgrade"
+		"queue": "upgrade",
+		"limit": 1
 	}
 }
