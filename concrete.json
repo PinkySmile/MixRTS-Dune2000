@@ -1,7 +1,7 @@
 {
 	"_general": {
 		"build": {
-			"path": "sounds/CHUNG.WAV",
+			"path": "sounds/CHUNG.ogg",
 			"volume": 60
 		}
 	},
