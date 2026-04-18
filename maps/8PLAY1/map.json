@@ -1,0 +1,45 @@
+{
+	"name": "The Funeral Plain (XL 6 player)",
+	"tilesheet": "../BLOXBGBS.png",
+	"tileattrs": "../BLOXBGBS.dat",
+	"tilemeta":  "../BLOXBGBS.json",
+	"objects": [
+		{ "type": "bloom", "x": 80, "y": 33 },
+		{ "type": "bloom", "x": 69, "y": 35 },
+		{ "type": "bloom", "x": 37, "y": 44 },
+		{ "type": "bloom", "x": 82, "y": 49 },
+		{ "type": "bloom", "x": 52, "y": 54 },
+		{ "type": "bloom", "x": 61, "y": 54 },
+		{ "type": "bloom", "x": 71, "y": 55 },
+		{ "type": "worm",  "x": 58, "y": 58 },
+		{ "type": "bloom", "x": 46, "y": 62 },
+		{ "type": "bloom", "x": 72, "y": 64 },
+		{ "type": "bloom", "x": 26, "y": 65 },
+		{ "type": "worm",  "x": 68, "y": 65 },
+		{ "type": "worm",  "x": 58, "y": 73 },
+		{ "type": "bloom", "x": 48, "y": 74 },
+		{ "type": "bloom", "x": 69, "y": 74 },
+		{ "type": "bloom", "x": 83, "y": 75 },
+		{ "type": "bloom", "x": 58, "y": 78 },
+		{ "type": "bloom", "x": 25, "y": 87 },
+		{ "type": "bloom", "x": 48, "y": 94 },
+		{ "type": "bloom", "x": 79, "y": 96 }
+	],
+	"starts": [
+		{ "x": 71,  "y": 18 },
+		{ "x": 34,  "y": 22 },
+		{ "x": 100, "y": 33 },
+		{ "x": 8,   "y": 58 },
+		{ "x": 100, "y": 65 },
+		{ "x": 96,  "y": 100 },
+		{ "x": 8,   "y": 102 },
+		{ "x": 49,  "y": 110 }
+	],
+	"grid": { "x": 32, "y": 32 },
+	"size": { "x": 128, "y": 128 },
+	"translate": { "x": 0, "y": 0 },
+	"resources": [
+		{ "strategy": "random", "tile_pool": [300, 301, 320, 321], "lots": 2, "id": 2, "deplete": 1 },
+		{ "strategy": "connected", "tiles": "spice.dat",           "lots": 2, "id": 1, "deplete": 0 }
+	]
+}

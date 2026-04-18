@@ -9,6 +9,8 @@
 		},
 		"upgrades": [ "upgrades.json" ],
 		"money": [ "base:credits" ],
+		"grid": { "x": 32, "y": 32 },
+		"starting_money": { "base:credits": 10000 },
 		"regress_tech": true
 	},
 	"atreides": {
@@ -27,7 +29,10 @@
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
-		}
+		},
+		"starting_building": [
+			{ "name": "a_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		]
 	},
 	"harkonnen": {
 		"buildings": [
@@ -42,7 +47,10 @@
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
 			"eva_folder": "harkonnen"
-		}
+		},
+		"starting_building": [
+			{ "name": "h_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		]
 	},
 	"ordos": {
 		"buildings": [
@@ -57,6 +65,9 @@
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"
-		}
+		},
+		"starting_building": [
+			{ "name": "o_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		]
 	}
 }

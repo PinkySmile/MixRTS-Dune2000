@@ -1,11 +1,9 @@
 {
-	"_general": {
-		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
-	},
 	"conc": [
 		{
 			"sprite": "buildings/conc.png",
-			"offset": { "x": 0, "y": 0 }
+			"offset": { "x": 0, "y": 0 },
+			"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
 		}
 	]
 }
