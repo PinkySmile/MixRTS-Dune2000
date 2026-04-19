@@ -28,6 +28,16 @@ Picture.Picture1 {
     }
 }
 
+Picture.Picture6 {
+    Position = (Picture5.x, 170);
+    Size = (17, 20);
+
+    Renderer {
+        Texture = "../common/top.png" Part(0, 0, 50, 20) Smooth;
+        TransparentTexture = false;
+    }
+}
+
 Panel.Panel1 {
     Position = (Power.x, 172);
     Size = (10, ((&.h - y) - Picture4.h) + 2);

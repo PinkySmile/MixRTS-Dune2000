@@ -3,7 +3,11 @@
 		"build": {
 			"path": "sounds/BUILD1.ogg",
 			"volume": 60
-		}
+		},
+		"build_max_distance": 1,
+		"selectable": true,
+		"sellable": true,
+		"repairable": true
 	},
 	"wtra": {
 		"anims": [

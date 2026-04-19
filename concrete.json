@@ -3,7 +3,11 @@
 		"build": {
 			"path": "sounds/CHUNG.ogg",
 			"volume": 60
-		}
+		},
+		"build_max_distance": 1,
+		"selectable": false,
+		"sellable": false,
+		"repairable": false
 	},
 	"conc": {
 		"cameo": "cameos/b_3con.png",

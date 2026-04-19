@@ -4,7 +4,11 @@
 			"path": "sounds/BUILD1.ogg",
 			"volume": 60
 		},
-		"grid": { "x": 32, "y": 32 }
+		"grid": { "x": 32, "y": 32 },
+		"build_max_distance": 1,
+		"selectable": true,
+		"sellable": true,
+		"repairable": true
 	},
 	"a_cony": {
 		"anims": [

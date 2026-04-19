@@ -60,5 +60,53 @@
 		{ "sprite": "cursor/enter/MOUSE.R16.033-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
 		{ "sprite": "cursor/enter/MOUSE.R16.034-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
 		{ "sprite": "cursor/enter/MOUSE.R16.035-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 }
+	],
+	"scroll_t": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.112-sprite.png", "center": { "x": 8, "y": 0 }, "duration": 999 }
+	],
+	"scroll_tr": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.120-sprite.png", "center": { "x": 15, "y": 0 }, "duration": 999 }
+	],
+	"scroll_r": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.128-sprite.png", "center": { "x": 18, "y": 5 }, "duration": 999 }
+	],
+	"scroll_br": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.136-sprite.png", "center": { "x": 15, "y": 13 }, "duration": 999 }
+	],
+	"scroll_b": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.144-sprite.png", "center": { "x": 6, "y": 13 }, "duration": 999 }
+	],
+	"scroll_bl": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.152-sprite.png", "center": { "x": 0, "y": 11 }, "duration": 999 }
+	],
+	"scroll_l": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.160-sprite.png", "center": { "x": 0, "y": 5 }, "duration": 999 }
+	],
+	"scroll_tl": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.168-sprite.png", "center": { "x": 0, "y": 0 }, "duration": 999 }
+	],
+	"no_scroll_t": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.176-sprite.png", "center": { "x": 8, "y": 0 }, "duration": 999 }
+	],
+	"no_scroll_tr": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.184-sprite.png", "center": { "x": 15, "y": 0 }, "duration": 999 }
+	],
+	"no_scroll_r": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.192-sprite.png", "center": { "x": 18, "y": 5 }, "duration": 999 }
+	],
+	"no_scroll_br": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.200-sprite.png", "center": { "x": 15, "y": 13 }, "duration": 999 }
+	],
+	"no_scroll_b": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.208-sprite.png", "center": { "x": 6, "y": 13 }, "duration": 999 }
+	],
+	"no_scroll_bl": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.216-sprite.png", "center": { "x": 0, "y": 11 }, "duration": 999 }
+	],
+	"no_scroll_l": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.224-sprite.png", "center": { "x": 0, "y": 5 }, "duration": 999 }
+	],
+	"no_scroll_tl": [
+		{ "sprite": "cursor/scroll/MOUSE.R16.232-sprite.png", "center": { "x": 0, "y": 0 }, "duration": 999 }
 	]
 }
