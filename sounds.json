@@ -1,0 +1,10 @@
+{
+	"build": {
+		"path": "sounds/BUILD1.ogg",
+		"volume": 60
+	},
+	"conc_build": {
+		"path": "sounds/CHUNG.ogg",
+		"volume": 60
+	}
+}

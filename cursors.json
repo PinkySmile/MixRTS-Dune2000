@@ -108,5 +108,18 @@
 	],
 	"no_scroll_tl": [
 		{ "sprite": "cursor/scroll/MOUSE.R16.232-sprite.png", "center": { "x": 0, "y": 0 }, "duration": 999 }
+	],
+	"deploy": [
+		{ "sprite": "cursor/deploy/MOUSE.R16.096-sprite.png", "center": { "x": 14, "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.097-sprite.png", "center": { "x": 13, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.098-sprite.png", "center": { "x": 12, "y":  9 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.099-sprite.png", "center": { "x":  9, "y":  6 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.100-sprite.png", "center": { "x":  8, "y":  5 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.101-sprite.png", "center": { "x":  9, "y":  6 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.102-sprite.png", "center": { "x": 12, "y":  9 }, "duration": 3 },
+		{ "sprite": "cursor/deploy/MOUSE.R16.103-sprite.png", "center": { "x": 13, "y": 10 }, "duration": 3 }
+	],
+	"no_deploy": [
+		{ "sprite": "cursor/deploy/MOUSE.R16.104-sprite.png", "center": { "x": 12, "y": 9 }, "duration": 999 }
 	]
 }

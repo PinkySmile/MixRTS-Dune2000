@@ -1,9 +1,6 @@
 {
 	"_general": {
-		"build": {
-			"path": "sounds/CHUNG.ogg",
-			"volume": 60
-		},
+		"build": "conc_build",
 		"build_max_distance": 1,
 		"selectable": false,
 		"sellable": false,

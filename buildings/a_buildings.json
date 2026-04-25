@@ -1,10 +1,6 @@
 {
 	"_general": {
-		"build": {
-			"path": "sounds/BUILD1.ogg",
-			"volume": 60
-		},
-		"grid": { "x": 32, "y": 32 },
+		"build": "build",
 		"build_max_distance": 1,
 		"selectable": true,
 		"sellable": true,

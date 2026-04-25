@@ -30,7 +30,7 @@ for y in range(size[1]):
 		if flags in [1, 2]:
 			index |= flags << 24
 		elif flags == 23:
-			starts.append({ "x": x, "y": y })
+			starts.append({ "x": x * 32, "y": y * 32 })
 		elif flags == 20:
 			index |= 1 << 24
 			objects.append({ "type": "worm", "x": x, "y": y })

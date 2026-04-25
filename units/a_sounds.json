@@ -1,0 +1,12 @@
+{
+	"v_select": [
+		{ "path": "announcers/<locale>/atreides/vehicules/sel1.ogg" },
+		{ "path": "announcers/<locale>/atreides/vehicules/sel2.ogg" },
+		{ "path": "announcers/<locale>/atreides/vehicules/sel3.ogg" }
+	],
+	"v_confirm": [
+		{ "path": "announcers/<locale>/atreides/vehicules/conf1.ogg" },
+		{ "path": "announcers/<locale>/atreides/vehicules/conf2.ogg" },
+		{ "path": "announcers/<locale>/atreides/vehicules/conf3.ogg" }
+	]
+}

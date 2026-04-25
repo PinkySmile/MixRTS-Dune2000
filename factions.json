@@ -7,7 +7,7 @@
 			"bad":  [ "cursor/tile_bad.png"  ],
 			"best": [ "cursor/tile_best.png" ]
 		},
-		"upgrades": [ "upgrades.json" ],
+		"upgrades": [ "buildings/upgrades.json" ],
 		"money": [ "base:credits" ],
 		"grid": { "x": 32, "y": 32 },
 		"starting_money": { "base:credits": 10000 },
@@ -15,23 +15,33 @@
 	},
 	"atreides": {
 		"buildings": [
-			"concrete.json",
-			"buildings.json",
-			"a_buildings.json"
+			"buildings/concrete.json",
+			"buildings/buildings.json",
+			"buildings/a_buildings.json"
 		],
 		"animations": [
-			"concrete_anim.json",
-			"animations_make.json",
-			"animations.json",
-			"a_animations.json"
+			"buildings/concrete_anim.json",
+			"buildings/animations_make.json",
+			"buildings/animations.json",
+			"buildings/a_animations.json",
+			"units/mcv/anim.json"
+		],
+		"units": [
+			"units/a_units.json",
+			"units/units.json"
+		],
+		"sounds": [
+			"sounds.json",
+			"units/a_sounds.json"
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
 		},
-		"starting_building": [
-			{ "name": "a_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		"starting_building": [],
+		"starting_units": [
+			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
 	"harkonnen": {
@@ -43,13 +53,22 @@
 			"animations.json",
 			"h_animations.json"
 		],
+		"units": [
+			"units/h_units.json",
+			"units/units.json"
+		],
+		"sounds": [
+			"sounds.json",
+			"units/h_sounds.json"
+		],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
 			"eva_folder": "harkonnen"
 		},
-		"starting_building": [
-			{ "name": "h_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		"starting_building": [],
+		"starting_units": [
+			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
 	"ordos": {
@@ -61,13 +80,22 @@
 			"animations.json",
 			"o_animations.json"
 		],
+		"units": [
+			"units/o_units.json",
+			"units/units.json"
+		],
+		"sounds": [
+			"sounds.json",
+			"units/h_sounds.json"
+		],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"
 		},
-		"starting_building": [
-			{ "name": "o_cony", "offset": { "x": -1, "y": -1 }, "queue": "building" }
+		"starting_building": [],
+		"starting_units": [
+			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	}
 }
