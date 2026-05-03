@@ -1,4 +1,7 @@
 {
+	"_general": {
+		"grid_bound": true
+	},
 	"mcv": {
 		"anims": [
 			{ "anim": "mcv", "layer": 1 }
@@ -7,6 +10,7 @@
 		"turn_speed": 4,
 		"directions": 32,
 		"queue": "heavy_vehicule",
+		"pass_flags": 2,
 		"requirements": [],
 		"cost": { "base:credits": 2000 },
 		"build_speed": 61,
