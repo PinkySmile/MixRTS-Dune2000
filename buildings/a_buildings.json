@@ -37,6 +37,8 @@
 		"queue": "building",
 		"requirements": ["wtra"],
 		"gives_queue": "infantry",
+		"spawn_offset": {"x": 32, "y": 32},
+		"exit_offset": {"x": 32, "y": 64},
 		"cost": { "base:credits": 225 },
 		"build_speed": 1317,
 		"sight": 3,
