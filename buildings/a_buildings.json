@@ -36,6 +36,7 @@
 		],
 		"queue": "building",
 		"requirements": ["wtra"],
+		"gives_queue": "infantry",
 		"cost": { "base:credits": 225 },
 		"build_speed": 1317,
 		"sight": 3,
