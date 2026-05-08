@@ -14,7 +14,7 @@
 		"requirements": ["hfac.upgrade", "repr"],
 		"cost": { "base:credits": 2000 },
 		"build_speed": 3688,
-		"speed": 12,
+		"speed": 0.375,
 		"size": { "x": 32, "y": 32 },
 		"sight": 1,
 		"hp": 4500,
