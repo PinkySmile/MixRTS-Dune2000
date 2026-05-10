@@ -7,6 +7,7 @@
 			{ "anim": "mcv", "layer": 1 }
 		],
 		"select_sound": "v_select",
+		"do_sound": "v_confirm",
 		"turn_speed": 4,
 		"directions": 32,
 		"queue": "heavy_vehicule",

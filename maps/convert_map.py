@@ -4,10 +4,9 @@ import json
 
 
 source    = sys.argv[1]
-tilesheet = sys.argv[2]
-tileattrs = sys.argv[3]
-name      = sys.argv[4]
-canon_name= sys.argv[5]
+tileset   = sys.argv[2]
+name      = sys.argv[3]
+canon_name= sys.argv[4]
 
 
 with open(source, "rb") as fd:
@@ -62,8 +61,7 @@ with open(name + "/tiles.dat", "wb") as fd:
 with open(name + "/map.json", "w") as fd:
 	json.dump({
 		"name": canon_name.strip(),
-		"tilesheet": f"../{tilesheet}",
-		"tileattrs": f"../{tileattrs}",
+		"tileset": f"../{tileset}",
 		"objects": objects,
 		"starts": starts,
 		"grid": { "x": 32, "y": 32 },

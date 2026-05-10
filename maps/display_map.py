@@ -184,7 +184,14 @@ def get_display_tile(size, x, y):
 
 if __name__ == '__main__':
 	extra = Image.open("unconverted/extra.png")
-	tileset = Image.open(sys.argv[2])
+	tileset = Image.open(sys.argv[2] + "/tilesheet.png")
+	with open(sys.argv[2] + "/colors.dat", "rb") as fd:
+		colors_data = fd.read()
+		color_list = []
+		for i in range(colors_data[0]):
+			color_list.append((colors_data[1+i*3 + 2], colors_data[1+i*3 + 1], colors_data[1+i*3]))
+		colors = [color_list[k] for k in colors_data[1+colors_data[0]*3:]]
+		assert len(colors) == 800
 	with open(sys.argv[1], "rb") as fd:
 		data = fd.read()
 	size = [
@@ -192,6 +199,8 @@ if __name__ == '__main__':
 		int.from_bytes(data[2:4], 'little')
 	]
 	result = Image.new("RGB", (size[0] * 32, size[1] * 32))
+	result_mm = Image.new("RGB", (size[0], size[1]))
+	px = result_mm.load()
 	spices = [300, 301, 320, 321]
 	spices_ = [300, 301, 320, 321, 748]
 	for y in range(size[1]):
@@ -202,7 +211,11 @@ if __name__ == '__main__':
 			if g is not None:
 				g = extra.crop((g * 32, 0, g * 32 + 32, 32))
 				result.paste(g, (x * 32, y * 32), g)
+			offset = 4 + (size[0] * y + x) * 4
+			px[x,y] = colors[index]
 	if len(sys.argv) == 3:
 		result.show()
+		result_mm.show()
 	else:
 		result.save(sys.argv[3])
+		result_mm.save("mini_" + sys.argv[3])

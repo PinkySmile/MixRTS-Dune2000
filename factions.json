@@ -15,24 +15,25 @@
 	},
 	"atreides": {
 		"buildings": [
+			"buildings/a_buildings.json",
 			"buildings/concrete.json",
-			"buildings/buildings.json",
-			"buildings/a_buildings.json"
+			"buildings/buildings.json"
 		],
 		"animations": [
+			"buildings/a_animations.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
-			"buildings/a_animations.json",
-			"units/mcv/anim.json"
+			"units/mcv/anim.json",
+			"units/harv/anim.json"
 		],
 		"units": [
 			"units/a_units.json",
 			"units/units.json"
 		],
 		"sounds": [
-			"sounds.json",
-			"units/a_sounds.json"
+			"units/a_sounds.json",
+			"sounds.json"
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_a.png",
