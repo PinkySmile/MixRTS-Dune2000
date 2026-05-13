@@ -12,7 +12,7 @@
 			"id": 2,
 			"deplete": 1,
 			"value": { "d2k:credit": 100 },
-			"only_adjacent_collectible": [300, 301, 320, 321, 748]
+			"only_adjacent_collectible": [300, 301, 320, 321]
 		},
 		{
 			"strategy": "connected",

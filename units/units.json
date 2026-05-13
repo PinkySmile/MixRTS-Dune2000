@@ -12,6 +12,15 @@
 		"directions": 32,
 		"queue": "heavy_vehicule",
 		"pass_flags": 2,
+		"resource_storage": 7,
+		"harvest_anim": {
+			"anim": "harv_suck",
+			"layer": 0,
+			"delay": 10,
+			"dirs": 8
+		},
+		"harvest_time": 0,
+		"harvest_delay": 300,
 		"requirements": ["hfac"],
 		"cost": { "base:credits": 1200 },
 		"build_speed": 3073,
