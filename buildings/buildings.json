@@ -45,13 +45,13 @@
 		"power": 75,
 		"show_after_build": 11,
 		"build_anim": { "anim": "refi_make", "layer": 1, "delay": 6 },
+		"accept_resources": [ "base:credits" ],
 		"hp": 3000,
 		"spawn": {
-			"type": "instant",
 			"unit": "harv",
-			"pos": { "x": 2, "y": 1 }
+			"pos": { "x": 64, "y": 32 }
 		},
-		"point": { "x": 2, "y": 1 },
+		"point": { "x": 64, "y": 32 },
 		"size": { "x": 96, "y": 96 },
 		"tiles": [
 			[4, 6, 6],

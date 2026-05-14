@@ -19,8 +19,9 @@
 			"delay": 10,
 			"dirs": 8
 		},
+		"spawn_orders": [ "harvest" ],
 		"harvest_time": 0,
-		"harvest_delay": 300,
+		"harvest_delay": 180,
 		"requirements": ["hfac"],
 		"cost": { "base:credits": 1200 },
 		"build_speed": 3073,
