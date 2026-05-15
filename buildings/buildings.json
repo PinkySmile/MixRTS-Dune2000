@@ -44,6 +44,7 @@
 		"sight": 2,
 		"power": 75,
 		"show_after_build": 11,
+		"produced_anim": { "anim": "refi_flame", "layer": 1, "delay": 7 },
 		"build_anim": { "anim": "refi_make", "layer": 1, "delay": 6 },
 		"accept_resources": [ "base:credits" ],
 		"hp": 3000,

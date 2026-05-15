@@ -67,6 +67,68 @@
 			"blending": "add"
 		}
 	],
+	"refi_flame": [
+		{
+			"sprite": "buildings/refinery/flame_duo_0.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_1.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_2.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_3.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_4.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_5.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_6.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_7.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_8.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_9.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_10.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/refinery/flame_duo_11.png",
+			"offset": { "x": 0, "y": -50 },
+			"blending": "add"
+		}
+	],
 	"repr": [
 		{
 			"sprite": "buildings/repair_pad/repr_0.png",

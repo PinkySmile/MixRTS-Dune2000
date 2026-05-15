@@ -19,6 +19,14 @@
 			"delay": 10,
 			"dirs": 8
 		},
+		"dump": {
+			"dir": 12,
+			"delay": 30,
+			"delay_after": 120,
+			"during":     { "anim": "harv_dumping",    "layer": 1 },
+			"start_anim": { "anim": "harv_dump_start", "layer": 1, "delay": 10 },
+			"stop_anim":  { "anim": "harv_dump_stop",  "layer": 1, "delay": 10 }
+		},
 		"spawn_orders": [ "harvest" ],
 		"harvest_time": 0,
 		"harvest_delay": 180,

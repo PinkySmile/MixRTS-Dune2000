@@ -195,6 +195,61 @@
 			"offset": { "x": -3, "y": -4 }
 		}
 	],
+	"harv_dump_start": [
+		{
+			"sprite": "units/harv/deploy_0.png",
+			"offset": { "x": -5, "y": -2 }
+		},
+		{
+			"sprite": "units/harv/deploy_1.png",
+			"offset": { "x": -5, "y": -2 }
+		},
+		{
+			"sprite": "units/harv/deploy_2.png",
+			"offset": { "x": -5, "y": -3 }
+		},
+		{
+			"sprite": "units/harv/deploy_3.png",
+			"offset": { "x": -5, "y": -4 }
+		},
+		{
+			"sprite": "units/harv/deploy_4.png",
+			"offset": { "x": -5, "y": -4 }
+		},
+		{
+			"sprite": "units/harv/deploy_5.png",
+			"offset": { "x": -5, "y": -5 }
+		},
+		{
+			"sprite": "units/harv/deploy_6.png",
+			"offset": { "x": -5, "y": -5 }
+		},
+		{
+			"sprite": "units/harv/deploy_7.png",
+			"offset": { "x": -5, "y": -6 }
+		},
+		{
+			"sprite": "units/harv/deploy_8.png",
+			"offset": { "x": -5, "y": -6 }
+		},
+		{
+			"sprite": "units/harv/deploy_9.png",
+			"offset": { "x": -5, "y": -6 }
+		},
+		{
+			"sprite": "units/harv/deploy_10.png",
+			"offset": { "x": -5, "y": -6 }
+		}
+	],
+	"harv_dump_stop": {
+		"copy": "harv_dump_start",
+		"inverted": true
+	},
+	"harv_dumping": {
+		"copy": "harv_dump_stop",
+		"inverted": false,
+		"count": 1
+	},
 	"harv_suck_0": [
 		{
 			"sprite": "units/harv/DATA.R16.3884-sprite.png",

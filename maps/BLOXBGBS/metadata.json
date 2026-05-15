@@ -11,7 +11,7 @@
 			"storage": 1,
 			"id": 2,
 			"deplete": 1,
-			"value": { "d2k:credit": 100 },
+			"value": { "base:credits": 100 },
 			"only_adjacent_collectible": [300, 301, 320, 321]
 		},
 		{
@@ -21,7 +21,7 @@
 			"storage": 1,
 			"id": 1,
 			"deplete": 0,
-			"value": { "d2k:credit": 100 }
+			"value": { "base:credits": 100 }
 		}
 	]
 }

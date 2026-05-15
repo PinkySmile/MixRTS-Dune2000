@@ -1,8 +1,10 @@
 import sys
+import json
 
 with open(sys.argv[1], "rb") as fd:
 	data = fd.read()
 
+name = sys.argv[2]
 attributes = data[0:3200]
 text_display = data[3200:6400]
 
@@ -40,5 +42,33 @@ for i in range(800):
 	mask |= terrain_type
 	result[i * 4:i * 4 + 4] = mask.to_bytes(4, 'little')
 
-with open(sys.argv[2], "wb") as fd:
+with open(name + "/tileattrs.dat", "wb") as fd:
 	fd.write(result)
+with open(name + "/metadata.json", "w") as fd:
+	json.dump({
+		"animations": [
+		],
+		"generators": [
+		],
+		"resources": [
+			{
+				"strategy": "random",
+				"tile_pool": [300, 301, 320, 321],
+				"lots": 2,
+				"storage": 1,
+				"id": 2,
+				"deplete": 1,
+				"value": { "base:credit": 100 },
+				"only_adjacent_collectible": [300, 301, 320, 321]
+			},
+			{
+				"strategy": "connected",
+				"tiles": "spice.dat",
+				"lots": 2,
+				"storage": 1,
+				"id": 1,
+				"deplete": 0,
+				"value": { "base:credit": 100 }
+			}
+		]
+	}, fd, indent='\t')

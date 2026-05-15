@@ -58,17 +58,17 @@ except:
 	pass
 with open(name + "/tiles.dat", "wb") as fd:
 	fd.write(indices)
-#with open(name + "/map.json", "w") as fd:
-#	json.dump({
-#		"name": canon_name.strip(),
-#		"tileset": f"../{tileset}",
-#		"objects": objects,
-#		"starts": starts,
-#		"grid": { "x": 32, "y": 32 },
-#		"size": { "x": size[0], "y": size[1] },
-#		"translate": { "x": 0, "y": 0 },
-#		"resources": [
-#			{ "strategy": "random", "tile_pool": [300, 301, 320, 321], "lots": 2, "id": 2, "deplete": 1 },
-#			{ "strategy": "connected", "tiles": "spice.dat",           "lots": 2, "id": 1, "deplete": 0 },
-#		]
-#	}, fd, indent='\t')
+with open(name + "/map.json", "w") as fd:
+	json.dump({
+		"name": canon_name.strip(),
+		"tileset": f"../{tileset}",
+		"objects": objects,
+		"starts": starts,
+		"grid": { "x": 32, "y": 32 },
+		"size": { "x": size[0], "y": size[1] },
+		"translate": { "x": 0, "y": 0 },
+		"resources": [
+			{ "strategy": "random", "tile_pool": [300, 301, 320, 321], "lots": 2, "id": 2, "deplete": 1 },
+			{ "strategy": "connected", "tiles": "spice.dat",           "lots": 2, "id": 1, "deplete": 0 },
+		]
+	}, fd, indent='\t')
