@@ -46,27 +46,33 @@
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
-	"harkonnen": {
+	"harkonen": {
 		"buildings": [
-			"buildings.json",
-			"h_buildings.json"
+			"buildings/a_buildings.json",
+			"buildings/concrete.json",
+			"buildings/buildings.json"
 		],
 		"animations": [
-			"animations.json",
-			"h_animations.json"
+			"buildings/a_animations.json",
+			"buildings/concrete_anim.json",
+			"buildings/animations_make.json",
+			"buildings/animations.json",
+			"buildings/animations_sell.json",
+			"units/mcv/anim.json",
+			"units/harv/anim.json"
 		],
 		"units": [
-			"units/h_units.json",
+			"units/a_units.json",
 			"units/units.json"
 		],
 		"sounds": [
-			"sounds.json",
-			"units/h_sounds.json"
+			"units/a_sounds.json",
+			"sounds.json"
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
-			"eva_folder": "harkonnen"
+			"eva_folder": "harkonen"
 		},
 		"starting_building": [],
 		"starting_units": [
@@ -75,20 +81,26 @@
 	},
 	"ordos": {
 		"buildings": [
-			"buildings.json",
-			"o_buildings.json"
+			"buildings/a_buildings.json",
+			"buildings/concrete.json",
+			"buildings/buildings.json"
 		],
 		"animations": [
-			"animations.json",
-			"o_animations.json"
+			"buildings/a_animations.json",
+			"buildings/concrete_anim.json",
+			"buildings/animations_make.json",
+			"buildings/animations.json",
+			"buildings/animations_sell.json",
+			"units/mcv/anim.json",
+			"units/harv/anim.json"
 		],
 		"units": [
-			"units/o_units.json",
+			"units/a_units.json",
 			"units/units.json"
 		],
 		"sounds": [
-			"sounds.json",
-			"units/h_sounds.json"
+			"units/a_sounds.json",
+			"sounds.json"
 		],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",
