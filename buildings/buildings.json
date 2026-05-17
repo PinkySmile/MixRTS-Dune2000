@@ -12,6 +12,10 @@
 			{ "anim": "wtra",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "wtra_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
+		"sell": {
+			"anim": { "anim": "wtra_sell", "layer": 1 },
+			"refund": { "base:credits": 112 }
+		},
 		"queue": "building",
 		"requirements": [],
 		"cost": { "base:credits": 225 },
@@ -35,6 +39,10 @@
 			{ "anim": "refi",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "refi_bot",                        "layer": 0 }
 		],
+		"sell": {
+			"anim": { "anim": "refi_sell", "layer": 1 },
+			"refund": { "base:credits": 150 }
+		},
 		"queue": "building",
 		"requirements": ["wtra"],
 		"storage": { "base:credits": 2000 },
@@ -66,6 +74,10 @@
 			{ "anim": "outp",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "outp_anim", "when_hp_bigger": 50, "layer": 1, "delay": 2 }
 		],
+		"sell": {
+			"anim": { "anim": "outp_sell", "layer": 1 },
+			"refund": { "base:credits": 750 }
+		},
 		"queue": "building",
 		"requirements": ["barr"],
 		"cost": { "base:credits": 1500 },
@@ -87,6 +99,10 @@
 			{ "anim": "htec_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "htec",      "when_hp_bigger": 50, "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "htec_sell", "layer": 1 },
+			"refund": { "base:credits": 575 }
+		},
 		"queue": "building",
 		"requirements": [["o_cony", "h_cony"], "outp"],
 		"cost": { "base:credits": 1150 },
@@ -110,6 +126,10 @@
 			{ "anim": "ahtec_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "ahtec",      "when_hp_bigger": 50, "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "htec_sell", "layer": 1 },
+			"refund": { "base:credits": 375 }
+		},
 		"queue": "building",
 		"requirements": ["a_cony", "outp"],
 		"cost": { "base:credits": 1150 },
@@ -134,6 +154,10 @@
 			{ "anim": "lfac",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "lfac_bot",                        "layer": 0 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 750 }
+		},
 		"queue": "building",
 		"requirements": ["refi"],
 		"gives_queue": "light_vehicule",
@@ -162,6 +186,10 @@
 			{ "anim": "silo_2",  "when_hp_bigger": 50, "layer": 1, "when_storage_is_in": [50, 75] },
 			{ "anim": "silo_3",  "when_hp_bigger": 50, "layer": 1, "when_storage_bigger": 75 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 60 }
+		},
 		"storage": { "base:credits": 1500 },
 		"queue": "building",
 		"requirements": ["refi"],
@@ -181,6 +209,10 @@
 			{ "anim": "hfac",     "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "hfac_bot",                       "layer": 0 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 500 }
+		},
 		"queue": "building",
 		"requirements": ["refi"],
 		"gives_queue": "heavy_vehicule",
@@ -207,6 +239,10 @@
 			{ "anim": "star_br", "when_hp_lower": 50,  "layer": 0 },
 			{ "anim": "star",    "when_hp_bigger": 50, "layer": 0 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 750 }
+		},
 		"queue": "building",
 		"requirements": ["hfac", "outp"],
 		"gives_queue": "starport",
@@ -231,6 +267,10 @@
 			{ "anim": "ixrc",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 500 }
+		},
 		"queue": "building",
 		"requirements": ["hfac", "hfac.upgrade", "outp"],
 		"cost": { "base:credits": 1000 },
@@ -253,6 +293,10 @@
 			{ "anim": "a_pala_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "a_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
 		"queue": "building",
 		"requirements": ["a_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},
@@ -276,6 +320,10 @@
 			{ "anim": "h_pala_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "h_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
 		"queue": "building",
 		"requirements": ["h_cony", "ixrc"],
 		"cost": { "base:credits": 1600 },
@@ -298,6 +346,10 @@
 			{ "anim": "o_pala_br",   "when_hp_lower": 50,  "layer": 1 },
 			{ "anim": "o_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
 		"queue": "building",
 		"requirements": ["o_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},

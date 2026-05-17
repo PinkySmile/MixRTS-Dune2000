@@ -1,0 +1,51 @@
+{
+	"cony_sell": {
+		"copy": "cony_make",
+		"inverted": true,
+		"count": 22
+	},
+	"wtra_sell": {
+		"copy": "wtra_make",
+		"inverted": true
+	},
+	"refi_sell": {
+		"copy": "refi_make",
+		"inverted": true
+	},
+	"outp_sell": {
+		"copy": "outp_make",
+		"inverted": true
+	},
+	"htec_sell": {
+		"copy": "htec_make",
+		"inverted": true
+	},
+	"lfac_sell": {
+		"copy": "lfac_make",
+		"inverted": true
+	},
+	"hfac_sell": {
+		"copy": "hfac_make",
+		"inverted": true
+	},
+	"silo_sell": {
+		"copy": "silo_make",
+		"inverted": true
+	},
+	"star_sell": {
+		"copy": "star_make",
+		"inverted": true
+	},
+	"repr_sell": {
+		"copy": "repr_make",
+		"inverted": true
+	},
+	"ixrc_sell": {
+		"copy": "ixrc_make",
+		"inverted": true
+	},
+	"pala_sell": {
+		"copy": "pala_make",
+		"inverted": true
+	}
+}

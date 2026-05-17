@@ -11,6 +11,10 @@
 			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "cony_sell", "layer": 1 },
+			"refund": { "base:credits": 1000 }
+		},
 		"group": "cony",
 		"queue": "building",
 		"requirements": [false],
@@ -34,6 +38,10 @@
 			{ "anim": "barr",      "when_hp_bigger": 50, "layer": 1 },
 			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 }
 		],
+		"sell": {
+			"anim": { "anim": "barr_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
 		"queue": "building",
 		"requirements": ["wtra"],
 		"gives_queue": "infantry",
@@ -58,6 +66,10 @@
 			{ "anim": "repr",    "when_hp_bigger": 50, "layer": 0 },
 			{ "anim": "repr_br", "when_hp_lower": 50,  "layer": 0 }
 		],
+		"sell": {
+			"anim": { "anim": "repr_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
 		"queue": "building",
 		"requirements": ["hfac", "hfac.upgrade"],
 		"cost": { "base:credits": 800 },

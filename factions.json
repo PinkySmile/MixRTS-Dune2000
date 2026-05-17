@@ -24,6 +24,7 @@
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
+			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json"
 		],
