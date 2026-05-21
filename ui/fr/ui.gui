@@ -714,3 +714,55 @@ ScrollablePanel.StarportQueue {
         }
     }
 }
+
+Panel.Settings {
+    Size = (&.w, &.h);
+
+    Renderer {
+        BackgroundColor = transparent;
+        BorderColor = black;
+        TextureBackground = None;
+    }
+
+    Picture.Picture8 {
+        Position = ((&.w - w) / 2, (&.h - h) / 2);
+        Size = (205, 250);
+
+        Renderer {
+            Texture = "../settings_holder.png" Smooth;
+            TransparentTexture = false;
+        }
+    }
+
+    BitmapButton.Resume {
+        Image = "resume.png" Smooth;
+        ImageScaling = 0;
+        Position = (Picture8.x + 32, Picture8.y + 196);
+        Size = (140, 21);
+        TextSize = 13;
+
+        Renderer {
+            BackgroundColor = #F5F5F5;
+            BackgroundColorDisabled = #E6E6E6;
+            BackgroundColorDown = #EBEBEB;
+            BackgroundColorHover = white;
+            BorderColor = transparent;
+            BorderColorDisabled = transparent;
+            BorderColorDown = transparent;
+            BorderColorFocused = transparent;
+            BorderColorHover = transparent;
+            Borders = (0, 0, 0, 0);
+            TextColor = transparent;
+            TextColorDisabled = transparent;
+            TextColorDown = transparent;
+            TextColorHover = transparent;
+            Texture = "../buttons/BUT1_UP.BMP" Smooth;
+            TextureDisabled = "../buttons/BUT1_UP.BMP" Smooth;
+            TextureDown = "../buttons/BUT1_DN.BMP" Smooth;
+            TextureDownFocused = "../buttons/BUT1_DN.BMP" Smooth;
+            TextureDownHover = "../buttons/BUT1_DN.BMP" Smooth;
+            TextureFocused = "../buttons/BUT1_UP.BMP" Smooth;
+            TextureHover = "../buttons/BUT1_UP.BMP" Smooth;
+        }
+    }
+}
