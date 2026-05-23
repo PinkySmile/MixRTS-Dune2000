@@ -735,7 +735,7 @@ Panel.Settings {
     }
 
     BitmapButton.Resume {
-        Image = "resume.png" Smooth;
+        Image = None;
         ImageScaling = 0;
         Position = (Picture8.x + 32, Picture8.y + 196);
         Size = (140, 21);
@@ -763,6 +763,27 @@ Panel.Settings {
             TextureDownHover = "../buttons/BUT1_DN.BMP" Smooth;
             TextureFocused = "../buttons/BUT1_UP.BMP" Smooth;
             TextureHover = "../buttons/BUT1_UP.BMP" Smooth;
+        }
+    }
+
+    Picture.Picture9 {
+        IgnoreMouseEvents = true;
+        Position = (Resume.x + ((Resume.w - w) / 2), Resume.y + ((Resume.h - h) / 2));
+        Size = (50, 13);
+
+        Renderer {
+            Texture = "resume.png" NoSmooth;
+            TransparentTexture = false;
+        }
+    }
+
+    Picture.Picture10 {
+        Position = (Picture8.x + ((Picture8.w - w) / 2), Picture8.y + 25);
+        Size = (47, 13);
+
+        Renderer {
+            Texture = "options_text.png" Smooth;
+            TransparentTexture = false;
         }
     }
 }
