@@ -1,0 +1,574 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"cony": [
+		{
+			"sprite": "buildings/conyard/h_cony_1.png",
+			"offset": { "x": 1, "y": -21 }
+		}
+	],
+	"cony_br": [
+		{
+			"sprite": "buildings/conyard/h_cony_2.png",
+			"offset": { "x": 1, "y": -20 }
+		}
+	],
+	"cony_b": [
+		{
+			"sprite": "buildings/conyard/h_anim_0.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_1.png",
+			"offset": { "x": 6, "y": -3 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_2.png",
+			"offset": { "x": 5, "y": -3 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_3.png",
+			"offset": { "x": 0, "y": -2 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_4.png",
+			"offset": { "x": 1, "y": -2 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_5.png",
+			"offset": { "x": 6, "y": -3 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_6.png",
+			"offset": { "x": 6, "y": -3 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_7.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_8.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_9.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_10.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_11.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_12.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "buildings/conyard/h_anim_13.png",
+			"offset": { "x": 6, "y": -2 }
+		}
+	],
+	"wtra": [
+		{
+			"sprite": "buildings/windtrap/h_wtra_1.png",
+			"offset": { "x": 3, "y": -9 }
+		}
+	],
+	"wtra_anim": [
+		{
+			"sprite": "buildings/windtrap/h_anim_0.png",
+			"offset": { "x": 16, "y": 2 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_1.png",
+			"offset": { "x": 17, "y": 1 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_2.png",
+			"offset": { "x": 16, "y": 1 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_3.png",
+			"offset": { "x": 16, "y": 1 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_4.png",
+			"offset": { "x": 17, "y": 1 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_5.png",
+			"offset": { "x": 25, "y": 37 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_6.png",
+			"offset": { "x": 25, "y": 36 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_7.png",
+			"offset": { "x": 26, "y": 37 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_8.png",
+			"offset": { "x": 26, "y": 37 }
+		},
+		{
+			"sprite": "buildings/windtrap/h_anim_9.png",
+			"offset": { "x": 26, "y": 37 }
+		}
+	],
+	"wtra_br": [
+		{
+			"sprite": "buildings/windtrap/h_wtra_2.png",
+			"offset": { "x": 0, "y": -9 }
+		}
+	],
+	"barr": [
+		{
+			"sprite": "buildings/barracks/h_barr_1.png",
+			"offset": { "x": 2, "y": -6 }
+		}
+	],
+	"barr_br": [
+		{
+			"sprite": "buildings/barracks/h_barr_2.png",
+			"offset": { "x": 2, "y": -5 }
+		}
+	],
+	"refi_bot": [
+		{
+			"sprite": "buildings/refinery/h_refi_0.png",
+			"offset": { "x": 1, "y": 12 }
+		}
+	],
+	"refi": [
+		{
+			"sprite": "buildings/refinery/h_refi_1.png",
+			"offset": { "x": 3, "y": -21 }
+		}
+	],
+	"refi_br": [
+		{
+			"sprite": "buildings/refinery/h_refi_2.png",
+			"offset": { "x": 3, "y": -20 }
+		}
+	],
+	"outp": [
+		{
+			"sprite": "buildings/outpost/h_outp_1.png",
+			"offset": { "x": 0, "y": -12 }
+		}
+	],
+	"outp_br": [
+		{
+			"sprite": "buildings/outpost/h_outp_2.png",
+			"offset": { "x": 0, "y": -12 }
+		}
+	],
+	"outp_anim": [
+		{
+			"sprite": "buildings/outpost/h_moulin_0.png",
+			"offset": { "x": 46, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_1.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_2.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_3.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_4.png",
+			"offset": { "x": 39, "y": 18}
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_5.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_6.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_7.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_8.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_9.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_10.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_11.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_12.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_13.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_14.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_15.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_16.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_17.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_18.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_19.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_20.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_21.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_22.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_23.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_24.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_25.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_26.png",
+			"offset": { "x": 39, "y": 17 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_27.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_28.png",
+			"offset": { "x": 39, "y": 18 }
+		},
+		{
+			"sprite": "buildings/outpost/h_moulin_29.png",
+			"offset": { "x": 39, "y": 18 }
+		}
+	],
+	"htec": [
+		{
+			"sprite": "buildings/htech_fac/h_htec_1.png",
+			"offset": { "x": 7, "y": -5 }
+		}
+	],
+	"htec_br": [
+		{
+			"sprite": "buildings/htech_fac/h_htec_2.png",
+			"offset": { "x": 1, "y": -4 }
+		}
+	],
+	"htec_anim": [
+		{
+			"sprite": "buildings/htech_fac/h_anim_0.png",
+			"offset": { "x": 62, "y": 58 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_1.png",
+			"offset": { "x": 45, "y": 42 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_2.png",
+			"offset": { "x": 63, "y": 35 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_3.png",
+			"offset": { "x": 44, "y": 42 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_4.png",
+			"offset": { "x": 62, "y": 58 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_5.png",
+			"offset": { "x": 69, "y": 44 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_6.png",
+			"offset": { "x": 47, "y": 37 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_7.png",
+			"offset": { "x": 62, "y": 58 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_8.png",
+			"offset": { "x": 46, "y": 34 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/htech_fac/h_anim_9.png",
+			"offset": { "x": 53, "y": 36 },
+			"blending": "add"
+		}
+	],
+	"lfac_bot": [
+		{
+			"sprite": "buildings/light_factory/h_lfac_0.png",
+			"offset": { "x": 13, "y": 18 }
+		}
+	],
+	"lfac": [
+		{
+			"sprite": "buildings/light_factory/h_lfac_1.png",
+			"offset": { "x": 1, "y": 1 }
+		}
+	],
+	"lfac_br": [
+		{
+			"sprite": "buildings/light_factory/h_lfac_2.png",
+			"offset": { "x": 1, "y": 1 }
+		}
+	],
+	"lfac_anim": [
+		{
+			"sprite": "buildings/light_factory/h_anim_0.png",
+			"offset": { "x": 50, "y": 13 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_1.png",
+			"offset": { "x": 57, "y": 9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_2.png",
+			"offset": { "x": 7, "y": 9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_3.png",
+			"offset": { "x": 59, "y": 83 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_4.png",
+			"offset": { "x": 55, "y": 9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_5.png",
+			"offset": { "x": 59, "y": 13 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_6.png",
+			"offset": { "x": 6, "y": 9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_7.png",
+			"offset": { "x": 57, "y": 9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_8.png",
+			"offset": { "x": 56, "y": 23 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/light_factory/h_anim_9.png",
+			"offset": { "x": 52, "y": 13 },
+			"blending": "add"
+		}
+	],
+	"silo_0": [
+		{
+			"sprite": "buildings/silo/h_silo_1.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"silo_1": [
+		{
+			"sprite": "buildings/silo/h_silo_2.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"silo_2": [
+		{
+			"sprite": "buildings/silo/h_silo_3.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"silo_3": [
+		{
+			"sprite": "buildings/silo/h_silo_4.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"silo_br": [
+		{
+			"sprite": "buildings/silo/h_silo_5.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"hfac_bot": [
+		{
+			"sprite": "buildings/heavy_factory/h_hfac_0.png",
+			"offset": { "x": 1, "y": 45 }
+		}
+	],
+	"hfac": [
+		{
+			"sprite": "buildings/heavy_factory/h_hfac_1.png",
+			"offset": { "x": 3, "y": 3 }
+		}
+	],
+	"hfac_br": [
+		{
+			"sprite": "buildings/heavy_factory/h_hfac_2.png",
+			"offset": { "x": 1, "y": 8 }
+		}
+	],
+	"hfac_anim": [
+		{
+			"sprite": "buildings/heavy_factory/h_anim_0.png",
+			"offset": { "x": 71, "y": 53 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_1.png",
+			"offset": { "x": 66, "y": 53 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_2.png",
+			"offset": { "x": 14, "y": 56 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_3.png",
+			"offset": { "x": 39, "y": 32 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_4.png",
+			"offset": { "x": 71, "y": 64 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_5.png",
+			"offset": { "x": 54, "y": 53 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_6.png",
+			"offset": { "x": 39, "y": 20 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_7.png",
+			"offset": { "x": 14, "y": 32 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_8.png",
+			"offset": { "x": 71, "y": 64 },
+			"blending": "add"
+		},
+		{
+			"sprite": "buildings/heavy_factory/h_anim_9.png",
+			"offset": { "x": 24, "y": 53 },
+			"blending": "add"
+		}
+	],
+	"star": [
+		{
+			"sprite": "buildings/starport/h_star_0.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"star_br": [
+		{
+			"sprite": "buildings/starport/h_star_2.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"star_anim": [
+		{
+			"sprite": "buildings/starport/h_anim_0.png",
+			"offset": { "x": 22, "y": 21 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_1.png",
+			"offset": { "x": 22, "y": 20 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_2.png",
+			"offset": { "x": 22, "y": 21 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_3.png",
+			"offset": { "x": 49, "y": 26 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_4.png",
+			"offset": { "x": 46, "y": 30 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_5.png",
+			"offset": { "x": 45, "y": 34 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_6.png",
+			"offset": { "x": 45, "y": 37 }
+		},
+		{
+			"sprite": "buildings/starport/h_anim_7.png",
+			"offset": { "x": 48, "y": 42 }
+		}
+	]
+}

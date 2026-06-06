@@ -15,6 +15,7 @@
 			"anim": { "anim": "cony_sell", "layer": 1 },
 			"refund": { "base:credits": 1000 }
 		},
+		"central": true,
 		"group": "cony",
 		"queue": "building",
 		"requirements": [false],
@@ -39,7 +40,7 @@
 			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "barr_sell", "layer": 1 },
+			"anim": { "anim": "a_barr_sell", "layer": 1 },
 			"refund": { "base:credits": 800 }
 		},
 		"queue": "building",

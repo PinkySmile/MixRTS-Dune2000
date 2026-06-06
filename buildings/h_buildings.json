@@ -1,0 +1,91 @@
+{
+	"_general": {
+		"build": "build",
+		"build_max_distance": 1,
+		"selectable": true,
+		"sellable": true,
+		"repairable": true
+	},
+	"h_cony": {
+		"anims": [
+			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
+		],
+		"sell": {
+			"anim": { "anim": "cony_sell", "layer": 1 },
+			"refund": { "base:credits": 1000 }
+		},
+		"central": true,
+		"group": "cony",
+		"queue": "building",
+		"requirements": [false],
+		"cost": { "base:credits": -1 },
+		"sight": 4,
+		"power": -20,
+		"show_after_build": 31,
+		"build_anim": { "anim": "cony_make", "layer": 1, "delay": 6 },
+		"produced_anim": { "anim": "cony_b", "when_hp_bigger": 50, "layer": 1, "delay": 6 },
+		"hp": 3000,
+		"gives_queue": "building",
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[14, 14, 14],
+			[15, 15, 15],
+			[13, 13, 13]
+		]
+	},
+	"barr": {
+		"anims": [
+			{ "anim": "barr",      "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 }
+		],
+		"sell": {
+			"anim": { "anim": "barr_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
+		"queue": "building",
+		"requirements": ["wtra"],
+		"gives_queue": "infantry",
+		"spawn_offset": {"x": 32, "y": 32},
+		"exit_offset": {"x": 32, "y": 64},
+		"cost": { "base:credits": 225 },
+		"build_speed": 1317,
+		"sight": 3,
+		"power": 30,
+		"show_after_build": 11,
+		"build_anim": { "anim": "barr_make", "layer": 1, "delay": 6 },
+		"hp": 3200,
+		"size": { "x": 64, "y": 64 },
+		"tiles": [
+			[6, 6],
+			[7, 7],
+			[5, 5]
+		]
+	},
+	"repr": {
+		"anims": [
+			{ "anim": "repr",    "when_hp_bigger": 50, "layer": 0 },
+			{ "anim": "repr_br", "when_hp_lower": 50,  "layer": 0 }
+		],
+		"sell": {
+			"anim": { "anim": "repr_sell", "layer": 1 },
+			"refund": { "base:credits": 800 }
+		},
+		"queue": "building",
+		"requirements": ["hfac", "hfac.upgrade"],
+		"cost": { "base:credits": 800 },
+		"build_speed": 1844,
+		"sight": 2,
+		"power": 50,
+		"show_after_build": 11,
+		"build_anim": { "anim": "repr_make", "layer": 1, "delay": 6 },
+		"special_anim": { "anim": "repr_anim", "when_hp_bigger": 50, "layer": 0, "delay": 8 },
+		"hp": 3000,
+		"size": { "x": 96, "y": 96 },
+		"tiles": [
+			[4, 6, 4],
+			[6, 6, 6],
+			[4, 6, 4]
+		]
+	}
+}

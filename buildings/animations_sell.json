@@ -8,6 +8,14 @@
 		"copy": "wtra_make",
 		"inverted": true
 	},
+	"a_barr_sell": {
+		"copy": "a_barr_make",
+		"inverted": true
+	},
+	"barr_sell": {
+		"copy": "barr_make",
+		"inverted": true
+	},
 	"refi_sell": {
 		"copy": "refi_make",
 		"inverted": true

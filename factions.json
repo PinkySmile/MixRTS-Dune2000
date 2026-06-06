@@ -41,6 +41,7 @@
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
 		},
+		"primary_queue": "build",
 		"starting_building": [],
 		"starting_units": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
@@ -48,12 +49,12 @@
 	},
 	"harkonen": {
 		"buildings": [
-			"buildings/a_buildings.json",
+			"buildings/h_buildings.json",
 			"buildings/concrete.json",
 			"buildings/buildings.json"
 		],
 		"animations": [
-			"buildings/a_animations.json",
+			"buildings/h_animations.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -62,7 +63,7 @@
 			"units/harv/anim.json"
 		],
 		"units": [
-			"units/a_units.json",
+			"units/h_units.json",
 			"units/units.json"
 		],
 		"sounds": [
@@ -74,6 +75,7 @@
 			"cameo_prefix": "h",
 			"eva_folder": "harkonen"
 		},
+		"primary_queue": "build",
 		"starting_building": [],
 		"starting_units": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
@@ -107,6 +109,7 @@
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"
 		},
+		"primary_queue": "build",
 		"starting_building": [],
 		"starting_units": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
