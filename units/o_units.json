@@ -1,0 +1,33 @@
+{
+	"_general": {
+		"grid_bound": true
+	},
+	"mcv": {
+		"anims": [
+			{ "anim": "mcv", "layer": 1 }
+		],
+		"central": true,
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_speed": 4,
+		"directions": 32,
+		"queue": "heavy_vehicule",
+		"pass_flags": 2,
+		"requirements": ["hfac.upgrade", "repr"],
+		"cost": { "base:credits": 2000 },
+		"build_speed": 3688,
+		"speed": 0.375,
+		"size": { "x": 32, "y": 32 },
+		"sight": 1,
+		"hp": 4500,
+		"select": { "x": 0, "y": -4, "h": 32, "w": 32 },
+		"deploy": {
+			"direction": 29,
+			"spawn_building": {
+				"name": "o_cony",
+				"queue": "building",
+				"offset": { "x": -32, "y": -32 }
+			}
+		}
+	}
+}

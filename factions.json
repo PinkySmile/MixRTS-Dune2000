@@ -83,12 +83,12 @@
 	},
 	"ordos": {
 		"buildings": [
-			"buildings/a_buildings.json",
+			"buildings/o_buildings.json",
 			"buildings/concrete.json",
 			"buildings/buildings.json"
 		],
 		"animations": [
-			"buildings/a_animations.json",
+			"buildings/o_animations.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -97,7 +97,7 @@
 			"units/harv/anim.json"
 		],
 		"units": [
-			"units/a_units.json",
+			"units/o_units.json",
 			"units/units.json"
 		],
 		"sounds": [
