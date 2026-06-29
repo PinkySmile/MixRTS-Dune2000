@@ -9,11 +9,11 @@
 	"conc": {
 		"cameo": "cameos/b_3con.png",
 		"requirements": ["group.cony"],
-		"anims": [{ "anim": "conc", "layer": 0 }],
+		"anims": [{ "anim": "conc", "layer": -1 }],
 		"cost": {},
 		"build_speed": 461,
 		"hp": 500,
-		"tiles": [[12]],
+		"tiles": [[5]],
 		"size": { "x": 32, "y": 32 }
 	},
 	"2con": {
@@ -25,8 +25,8 @@
 		"build_speed": 307,
 		"hp": 500,
 		"tiles": [
-			[8, 8],
-			[8, 8]
+			[1, 1],
+			[1, 1]
 		],
 		"fake": true,
 		"size": { "x": 64, "y": 64 }
@@ -40,9 +40,9 @@
 		"build_speed": 461,
 		"hp": 500,
 		"tiles": [
-			[8, 8, 8],
-			[8, 8, 8],
-			[8, 8, 8]
+			[1, 1, 1],
+			[1, 1, 1],
+			[1, 1, 1]
 		],
 		"fake": true,
 		"size": { "x": 96, "y": 96 }
