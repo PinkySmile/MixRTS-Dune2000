@@ -2,6 +2,7 @@
 	"_general": {
 		"build": "build",
 		"build_max_distance": 1,
+		"requires_placement": true,
 		"selectable": true,
 		"sellable": true,
 		"repairable": true

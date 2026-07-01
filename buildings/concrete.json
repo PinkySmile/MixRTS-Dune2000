@@ -4,7 +4,8 @@
 		"build_max_distance": 1,
 		"selectable": false,
 		"sellable": false,
-		"repairable": false
+		"repairable": false,
+		"requires_placement": true
 	},
 	"conc": {
 		"cameo": "cameos/b_3con.png",

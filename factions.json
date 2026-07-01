@@ -14,10 +14,12 @@
 		"regress_tech": true
 	},
 	"atreides": {
-		"buildings": [
+		"objects": [
 			"buildings/a_buildings.json",
 			"buildings/concrete.json",
-			"buildings/buildings.json"
+			"buildings/buildings.json",
+			"units/a_units.json",
+			"units/units.json"
 		],
 		"animations": [
 			"buildings/a_animations.json",
@@ -27,10 +29,6 @@
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json"
-		],
-		"units": [
-			"units/a_units.json",
-			"units/units.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",
@@ -42,16 +40,17 @@
 			"eva_folder": "atreides"
 		},
 		"primary_queue": "build",
-		"starting_building": [],
-		"starting_units": [
+		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
 	"harkonen": {
-		"buildings": [
+		"objects": [
 			"buildings/h_buildings.json",
 			"buildings/concrete.json",
-			"buildings/buildings.json"
+			"buildings/buildings.json",
+			"units/h_units.json",
+			"units/units.json"
 		],
 		"animations": [
 			"buildings/h_animations.json",
@@ -61,10 +60,6 @@
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json"
-		],
-		"units": [
-			"units/h_units.json",
-			"units/units.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",
@@ -76,16 +71,17 @@
 			"eva_folder": "harkonen"
 		},
 		"primary_queue": "build",
-		"starting_building": [],
-		"starting_units": [
+		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
 	"ordos": {
-		"buildings": [
+		"objects": [
 			"buildings/o_buildings.json",
 			"buildings/concrete.json",
-			"buildings/buildings.json"
+			"buildings/buildings.json",
+			"units/o_units.json",
+			"units/units.json"
 		],
 		"animations": [
 			"buildings/o_animations.json",
@@ -95,10 +91,6 @@
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json"
-		],
-		"units": [
-			"units/o_units.json",
-			"units/units.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",
@@ -110,8 +102,7 @@
 			"eva_folder": "ordos"
 		},
 		"primary_queue": "build",
-		"starting_building": [],
-		"starting_units": [
+		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	}

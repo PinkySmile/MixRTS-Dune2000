@@ -4,7 +4,8 @@
 		"build_max_distance": 1,
 		"selectable": true,
 		"sellable": true,
-		"repairable": true
+		"repairable": true,
+		"requires_placement": true
 	},
 	"wtra": {
 		"anims": [
