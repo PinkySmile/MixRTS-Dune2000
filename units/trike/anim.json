@@ -1,0 +1,198 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"trike_0": [
+		{
+			"sprite": "units/trike/art_0.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"trike_1": [
+		{
+			"sprite": "units/trike/art_1.png",
+			"offset": { "x": 2, "y": 1 }
+		}
+	],
+	"trike_2": [
+		{
+			"sprite": "units/trike/art_2.png",
+			"offset": { "x": 1, "y": 1 }
+		}
+	],
+	"trike_3": [
+		{
+			"sprite": "units/trike/art_3.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"trike_4": [
+		{
+			"sprite": "units/trike/art_4.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"trike_5": [
+		{
+			"sprite": "units/trike/art_5.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"trike_6": [
+		{
+			"sprite": "units/trike/art_6.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"trike_7": [
+		{
+			"sprite": "units/trike/art_7.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"trike_8": [
+		{
+			"sprite": "units/trike/art_8.png",
+			"offset": { "x": 1, "y": 4 }
+		}
+	],
+	"trike_9": [
+		{
+			"sprite": "units/trike/art_9.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"trike_10": [
+		{
+			"sprite": "units/trike/art_10.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"trike_11": [
+		{
+			"sprite": "units/trike/art_11.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"trike_12": [
+		{
+			"sprite": "units/trike/art_12.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"trike_13": [
+		{
+			"sprite": "units/trike/art_13.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"trike_14": [
+		{
+			"sprite": "units/trike/art_14.png",
+			"offset": { "x": 1, "y": 1 }
+		}
+	],
+	"trike_15": [
+		{
+			"sprite": "units/trike/art_15.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"trike_16": [
+		{
+			"sprite": "units/trike/art_16.png",
+			"offset": { "x": 4, "y": 1 }
+		}
+	],
+	"trike_17": [
+		{
+			"sprite": "units/trike/art_17.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"trike_18": [
+		{
+			"sprite": "units/trike/art_18.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"trike_19": [
+		{
+			"sprite": "units/trike/art_19.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"trike_20": [
+		{
+			"sprite": "units/trike/art_20.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"trike_21": [
+		{
+			"sprite": "units/trike/art_21.png",
+			"offset": { "x": -1, "y": 3 }
+		}
+	],
+	"trike_22": [
+		{
+			"sprite": "units/trike/art_22.png",
+			"offset": { "x": -2, "y": 3 }
+		}
+	],
+	"trike_23": [
+		{
+			"sprite": "units/trike/art_23.png",
+			"offset": { "x": -3, "y": 4 }
+		}
+	],
+	"trike_24": [
+		{
+			"sprite": "units/trike/art_24.png",
+			"offset": { "x": -3, "y": 4 }
+		}
+	],
+	"trike_25": [
+		{
+			"sprite": "units/trike/art_25.png",
+			"offset": { "x": -3, "y": 5 }
+		}
+	],
+	"trike_26": [
+		{
+			"sprite": "units/trike/art_26.png",
+			"offset": { "x": -2, "y": 5 }
+		}
+	],
+	"trike_27": [
+		{
+			"sprite": "units/trike/art_27.png",
+			"offset": { "x": -1, "y": 4 }
+		}
+	],
+	"trike_28": [
+		{
+			"sprite": "units/trike/art_28.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"trike_29": [
+		{
+			"sprite": "units/trike/art_29.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"trike_30": [
+		{
+			"sprite": "units/trike/art_30.png",
+			"offset": { "x": 4, "y": 1 }
+		}
+	],
+	"trike_31": [
+		{
+			"sprite": "units/trike/art_31.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	]
+}

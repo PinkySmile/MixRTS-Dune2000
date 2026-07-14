@@ -38,5 +38,62 @@
 		"sight": 1,
 		"hp": 4500,
 		"select": { "x": 0, "y": -4, "h": 32, "w": 32 }
+	},
+	"trik": {
+		"anims": [
+			{ "anim": "trike", "layer": 1 }
+		],
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_speed": 0,
+		"directions": 32,
+		"queue": "light_vehicule",
+		"pass_flags": 2,
+		"requirements": ["lfac"],
+		"cost": { "base:credits": 300 },
+		"build_speed": 1106,
+		"speed": 1.5,
+		"size": { "x": 24, "y": 24 },
+		"sight": 3,
+		"hp": 900,
+		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
+	},
+	"quad": {
+		"anims": [
+			{ "anim": "quad", "layer": 1 }
+		],
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_speed": 0,
+		"directions": 32,
+		"queue": "light_vehicule",
+		"pass_flags": 2,
+		"requirements": ["lfac", "lfac.upgrade"],
+		"cost": { "base:credits": 400 },
+		"build_speed": 1581,
+		"speed": 1.125,
+		"size": { "x": 24, "y": 24 },
+		"sight": 3,
+		"hp": 1100,
+		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
+	},
+	"rifl": {
+		"anims": [
+			{ "anim": "rifle", "layer": 1 }
+		],
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_speed": 0,
+		"directions": 8,
+		"queue": "infantry",
+		"pass_flags": 1,
+		"requirements": ["barr"],
+		"cost": { "base:credits": 50 },
+		"build_speed": 307,
+		"speed": 0.25,
+		"size": { "x": 16, "y": 16 },
+		"sight": 2,
+		"hp": 600,
+		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	}
 }

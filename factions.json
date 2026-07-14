@@ -28,7 +28,10 @@
 			"buildings/animations.json",
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
-			"units/harv/anim.json"
+			"units/harv/anim.json",
+			"units/trike/anim.json",
+			"units/quad/anim.json",
+			"units/rifle/anim.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",
@@ -59,7 +62,10 @@
 			"buildings/animations.json",
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
-			"units/harv/anim.json"
+			"units/harv/anim.json",
+			"units/trike/anim.json",
+			"units/quad/anim.json",
+			"units/rifle/anim.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",
@@ -90,7 +96,10 @@
 			"buildings/animations.json",
 			"buildings/animations_sell.json",
 			"units/mcv/anim.json",
-			"units/harv/anim.json"
+			"units/harv/anim.json",
+			"units/trike/anim.json",
+			"units/quad/anim.json",
+			"units/rifle/anim.json"
 		],
 		"sounds": [
 			"units/a_sounds.json",

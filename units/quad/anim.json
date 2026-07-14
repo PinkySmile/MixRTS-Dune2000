@@ -1,0 +1,198 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"quad_0": [
+		{
+			"sprite": "units/quad/art_0.png",
+			"offset": { "x": 2, "y": 3 }
+		}
+	],
+	"quad_1": [
+		{
+			"sprite": "units/quad/art_1.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"quad_2": [
+		{
+			"sprite": "units/quad/art_2.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_3": [
+		{
+			"sprite": "units/quad/art_3.png",
+			"offset": { "x": -1, "y": 3 }
+		}
+	],
+	"quad_4": [
+		{
+			"sprite": "units/quad/art_4.png",
+			"offset": { "x": -1, "y": 3 }
+		}
+	],
+	"quad_5": [
+		{
+			"sprite": "units/quad/art_5.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_6": [
+		{
+			"sprite": "units/quad/art_6.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_7": [
+		{
+			"sprite": "units/quad/art_7.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"quad_8": [
+		{
+			"sprite": "units/quad/art_8.png",
+			"offset": { "x": 3, "y": 4 }
+		}
+	],
+	"quad_9": [
+		{
+			"sprite": "units/quad/art_9.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"quad_10": [
+		{
+			"sprite": "units/quad/art_10.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"quad_11": [
+		{
+			"sprite": "units/quad/art_11.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"quad_12": [
+		{
+			"sprite": "units/quad/art_12.png",
+			"offset": { "x": -1, "y": 2 }
+		}
+	],
+	"quad_13": [
+		{
+			"sprite": "units/quad/art_13.png",
+			"offset": { "x": -1, "y": 2 }
+		}
+	],
+	"quad_14": [
+		{
+			"sprite": "units/quad/art_14.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_15": [
+		{
+			"sprite": "units/quad/art_15.png",
+			"offset": { "x": 1, "y": 4 }
+		}
+	],
+	"quad_16": [
+		{
+			"sprite": "units/quad/art_16.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	],
+	"quad_17": [
+		{
+			"sprite": "units/quad/art_17.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_18": [
+		{
+			"sprite": "units/quad/art_18.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"quad_19": [
+		{
+			"sprite": "units/quad/art_19.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"quad_20": [
+		{
+			"sprite": "units/quad/art_20.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"quad_21": [
+		{
+			"sprite": "units/quad/art_21.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"quad_22": [
+		{
+			"sprite": "units/quad/art_22.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"quad_23": [
+		{
+			"sprite": "units/quad/art_23.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"quad_24": [
+		{
+			"sprite": "units/quad/art_24.png",
+			"offset": { "x": 2, "y": 4 }
+		}
+	],
+	"quad_25": [
+		{
+			"sprite": "units/quad/art_25.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_26": [
+		{
+			"sprite": "units/quad/art_26.png",
+			"offset": { "x": 2, "y": 3 }
+		}
+	],
+	"quad_27": [
+		{
+			"sprite": "units/quad/art_27.png",
+			"offset": { "x": 1, "y": 3 }
+		}
+	],
+	"quad_28": [
+		{
+			"sprite": "units/quad/art_28.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_29": [
+		{
+			"sprite": "units/quad/art_29.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_30": [
+		{
+			"sprite": "units/quad/art_30.png",
+			"offset": { "x": 0, "y": 3 }
+		}
+	],
+	"quad_31": [
+		{
+			"sprite": "units/quad/art_31.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	]
+}
