@@ -922,5 +922,127 @@
 			"offset": { "x": -3, "y": 6 },
 			"repeat": 5
 		}
+	],
+	"rifle_death_3": [
+		{
+			"sprite": "units/rifle/art_179.png",
+			"offset": { "x": 1, "y": -3 }
+		},
+		{
+			"sprite": "units/rifle/art_187.png",
+			"offset": { "x": 0, "y": 2 }
+		},
+		{
+			"sprite": "units/rifle/art_195.png",
+			"offset": { "x": -1, "y": 3 }
+		},
+		{
+			"sprite": "units/rifle/art_203.png",
+			"offset": { "x": -1, "y": 10 }
+		},
+		{
+			"sprite": "units/rifle/art_211.png",
+			"offset": { "x": -1, "y": 10 }
+		},
+		{
+			"sprite": "units/rifle/art_219.png",
+			"offset": { "x": -1, "y": 10 }
+		},
+		{
+			"sprite": "units/rifle/art_227.png",
+			"offset": { "x": -1, "y": 10 }
+		},
+		{
+			"sprite": "units/rifle/art_235.png",
+			"offset": { "x": -1, "y": 10 },
+			"repeat": 5
+		}
+	],
+	"rifle_scrounch": [
+		{
+			"sprite": "units/rifle/art_180.png",
+			"offset": { "x": -3, "y": 12 }
+		},
+		{
+			"sprite": "units/rifle/art_188.png",
+			"offset": { "x": -3, "y": 11 }
+		},
+		{
+			"sprite": "units/rifle/art_196.png",
+			"offset": { "x": -6, "y": 10 }
+		},
+		{
+			"sprite": "units/rifle/art_204.png",
+			"offset": { "x": -6, "y": 10 },
+			"repeat": 5
+		}
+	],
+	"rifle_idle_1": [
+		{
+			"sprite": "units/rifle/art_181.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_189.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_197.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_205.png",
+			"offset": { "x": 0, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_213.png",
+			"offset": { "x": 0, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_221.png",
+			"offset": { "x": 0, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_229.png",
+			"offset": { "x": 0, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_237.png",
+			"offset": { "x": 2, "y": 0 }
+		}
+	],
+	"rifle_idle_2": [
+		{
+			"sprite": "units/rifle/art_182.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_190.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_198.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_206.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_214.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_222.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_230.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/rifle/art_238.png",
+			"offset": { "x": 4, "y": 0 }
+		}
 	]
 }

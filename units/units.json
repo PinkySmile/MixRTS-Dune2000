@@ -86,7 +86,10 @@
 		"turn_speed": 0,
 		"directions": 8,
 		"idle_time": [0, 900],
-		"anim_idles": [],
+		"anim_idles": [
+			{ "anim": "rifle_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "rifle_idle_2", "layer": 1, "delay": 10 }
+		],
 		"anim_move":       { "anim": "rifle_walk",        "layer": 1, "delay": 10 },
 		"anim_fire":       { "anim": "rifle_shoot",       "layer": 1, "delay": 10 },
 		"anim_crouch":     { "anim": "rifle_crawl_idle",  "layer": 1 },
