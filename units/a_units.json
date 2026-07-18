@@ -11,7 +11,7 @@
 		"do_sound": "v_confirm",
 		"turn_speed": 4,
 		"directions": 32,
-		"queue": "heavy_vehicule",
+		"queue": "heavy_vehicle",
 		"pass_flags": 2,
 		"requirements": ["hfac.upgrade", "repr"],
 		"cost": { "base:credits": 2000 },
