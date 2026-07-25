@@ -6,5 +6,8 @@
 	"conc_build": {
 		"path": "sounds/CHUNG.ogg",
 		"volume": 60
+	},
+	"crush": {
+		"path": "sounds/CRUSH1.ogg"
 	}
 }

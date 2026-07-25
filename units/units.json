@@ -106,7 +106,8 @@
 		"sight": 2,
 		"hp": 600,
 		"stackable": true,
-		"crushable": true,
+		"crush_anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 },
+		"crush_sound": "crush",
 		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	},
 	"misl": {
