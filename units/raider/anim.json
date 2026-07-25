@@ -1,0 +1,199 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+
+	"raider_0": [
+		{
+			"sprite": "units/raider/art_0.png",
+			"offset": { "x": 3, "y": 0 }
+		}
+	],
+	"raider_1": [
+		{
+			"sprite": "units/raider/art_1.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"raider_2": [
+		{
+			"sprite": "units/raider/art_2.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"raider_3": [
+		{
+			"sprite": "units/raider/art_3.png",
+			"offset": { "x": -1, "y": 1 }
+		}
+	],
+	"raider_4": [
+		{
+			"sprite": "units/raider/art_4.png",
+			"offset": { "x": -2, "y": 2 }
+		}
+	],
+	"raider_5": [
+		{
+			"sprite": "units/raider/art_5.png",
+			"offset": { "x": -2, "y": 4 }
+		}
+	],
+	"raider_6": [
+		{
+			"sprite": "units/raider/art_6.png",
+			"offset": { "x": -2, "y": 5 }
+		}
+	],
+	"raider_7": [
+		{
+			"sprite": "units/raider/art_7.png",
+			"offset": { "x": -1, "y": 5 }
+		}
+	],
+	"raider_8": [
+		{
+			"sprite": "units/raider/art_8.png",
+			"offset": { "x": -1, "y": 4 }
+		}
+	],
+	"raider_9": [
+		{
+			"sprite": "units/raider/art_9.png",
+			"offset": { "x": -1, "y": 3 }
+		}
+	],
+	"raider_10": [
+		{
+			"sprite": "units/raider/art_10.png",
+			"offset": { "x": -2, "y": 2 }
+		}
+	],
+	"raider_11": [
+		{
+			"sprite": "units/raider/art_11.png",
+			"offset": { "x": -2, "y": 1 }
+		}
+	],
+	"raider_12": [
+		{
+			"sprite": "units/raider/art_12.png",
+			"offset": { "x": -2, "y": 1 }
+		}
+	],
+	"raider_13": [
+		{
+			"sprite": "units/raider/art_13.png",
+			"offset": { "x": -1, "y": 1 }
+		}
+	],
+	"raider_14": [
+		{
+			"sprite": "units/raider/art_14.png",
+			"offset": { "x": 2, "y": 1 }
+		}
+	],
+	"raider_15": [
+		{
+			"sprite": "units/raider/art_15.png",
+			"offset": { "x": 4, "y": 1 }
+		}
+	],
+	"raider_16": [
+		{
+			"sprite": "units/raider/art_16.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"raider_17": [
+		{
+			"sprite": "units/raider/art_17.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"raider_18": [
+		{
+			"sprite": "units/raider/art_18.png",
+			"offset": { "x": 4, "y": 1 }
+		}
+	],
+	"raider_19": [
+		{
+			"sprite": "units/raider/art_19.png",
+			"offset": { "x": 2, "y": 1 }
+		}
+	],
+	"raider_20": [
+		{
+			"sprite": "units/raider/art_20.png",
+			"offset": { "x": 0, "y": 1 }
+		}
+	],
+	"raider_21": [
+		{
+			"sprite": "units/raider/art_21.png",
+			"offset": { "x": -3, "y": 1 }
+		}
+	],
+	"raider_22": [
+		{
+			"sprite": "units/raider/art_22.png",
+			"offset": { "x": -4, "y": 2 }
+		}
+	],
+	"raider_23": [
+		{
+			"sprite": "units/raider/art_23.png",
+			"offset": { "x": -4, "y": 3 }
+		}
+	],
+	"raider_24": [
+		{
+			"sprite": "units/raider/art_24.png",
+			"offset": { "x": -4, "y": 4 }
+		}
+	],
+	"raider_25": [
+		{
+			"sprite": "units/raider/art_25.png",
+			"offset": { "x": -4, "y": 5 }
+		}
+	],
+	"raider_26": [
+		{
+			"sprite": "units/raider/art_26.png",
+			"offset": { "x": -3, "y": 5 }
+		}
+	],
+	"raider_27": [
+		{
+			"sprite": "units/raider/art_27.png",
+			"offset": { "x": -2, "y": 4 }
+		}
+	],
+	"raider_28": [
+		{
+			"sprite": "units/raider/art_28.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"raider_29": [
+		{
+			"sprite": "units/raider/art_29.png",
+			"offset": { "x": 2, "y": 1 }
+		}
+	],
+	"raider_30": [
+		{
+			"sprite": "units/raider/art_30.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"raider_31": [
+		{
+			"sprite": "units/raider/art_31.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	]
+}

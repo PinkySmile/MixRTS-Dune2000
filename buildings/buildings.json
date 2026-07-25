@@ -88,7 +88,7 @@
 			"refund": { "base:credits": 750 }
 		},
 		"queue": "building",
-		"requirements": ["barr"],
+		"requirements": ["group.barr"],
 		"cost": { "base:credits": 1500 },
 		"build_speed": 3073,
 		"sight": 4,
@@ -204,7 +204,7 @@
 			"refund": { "base:credits": 750 }
 		},
 		"queue": "building",
-		"requirements": ["hfac", "outp"],
+		"requirements": ["group.hfac", "outp"],
 		"gives_queue": "starport",
 		"cost": { "base:credits": 1500 },
 		"build_speed": 3073,
@@ -232,7 +232,7 @@
 			"refund": { "base:credits": 500 }
 		},
 		"queue": "building",
-		"requirements": ["hfac", "hfac.upgrade", "outp"],
+		"requirements": ["group.hfac", "hfac.upgrade", "outp"],
 		"cost": { "base:credits": 1000 },
 		"build_speed": 1537,
 		"sight": 3,
