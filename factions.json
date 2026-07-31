@@ -45,12 +45,14 @@
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
 		},
+		"has_radar": false,
+		"radar_powered": true,
 		"primary_queue": "build",
 		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
 		]
 	},
-	"harkonen": {
+	"harkonnen": {
 		"objects": [
 			"buildings/h_buildings.json",
 			"buildings/concrete.json",
@@ -82,6 +84,8 @@
 			"cameo_prefix": "h",
 			"eva_folder": "harkonen"
 		},
+		"has_radar": false,
+		"radar_powered": true,
 		"primary_queue": "build",
 		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
@@ -119,6 +123,8 @@
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"
 		},
+		"has_radar": false,
+		"radar_powered": true,
 		"primary_queue": "build",
 		"starting_objects": [
 			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
