@@ -14,7 +14,7 @@
 		"cost": {},
 		"build_speed": 461,
 		"hp": 500,
-		"tiles": [[5]],
+		"tiles": [[1]],
 		"size": { "x": 32, "y": 32 }
 	},
 	"2con": {

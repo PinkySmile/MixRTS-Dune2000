@@ -15,7 +15,7 @@
 			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "cony_sell", "layer": 1 },
+			"anim": { "anim": "cony_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 1000 }
 		},
 		"central": true,
@@ -48,7 +48,7 @@
 			{ "anim": "lfac_bot",                        "layer": 0 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "lfac_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 750 }
 		},
 		"group": "lfac",
@@ -83,7 +83,7 @@
 			{ "anim": "hfac_bot",                       "layer": 0 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "hfac_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 500 }
 		},
 		"group": "hfac",
@@ -118,7 +118,7 @@
 			{ "anim": "barr_br",   "when_hp_lower": 50,  "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "barr_sell", "layer": 1 },
+			"anim": { "anim": "barr_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 }
 		},
 		"group": "barr",
@@ -151,7 +151,7 @@
 			{ "anim": "repr_br", "when_hp_lower": 50,  "layer": 0 }
 		],
 		"sell": {
-			"anim": { "anim": "repr_sell", "layer": 1 },
+			"anim": { "anim": "repr_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 }
 		},
 		"queue": "building",

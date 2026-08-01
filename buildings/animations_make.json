@@ -287,7 +287,7 @@
 		},
 		{
 			"sprite": "buildings/windtrap/make_23.png",
-			"offset": { "x": 21, "y": -62 }
+			"offset": { "x": 21, "y": 62 }
 		}
 	],
 	"a_barr_make": [

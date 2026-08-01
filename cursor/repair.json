@@ -1,0 +1,12 @@
+{
+	"_general": {
+	},
+	"repairing": [
+		{
+			"sprite": "cursor/repair.png",
+			"offset": { "x": -12, "y": -10 },
+			"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
+		},
+		{}
+	]
+}

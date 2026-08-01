@@ -16,7 +16,7 @@
 			{ "anim": "wtra_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
 		"sell": {
-			"anim": { "anim": "wtra_sell", "layer": 1 },
+			"anim": { "anim": "wtra_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 112 }
 		},
 		"queue": "building",
@@ -47,7 +47,7 @@
 			{ "anim": "refi_bot",                        "layer": 0 }
 		],
 		"sell": {
-			"anim": { "anim": "refi_sell", "layer": 1 },
+			"anim": { "anim": "refi_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 150 }
 		},
 		"queue": "building",
@@ -86,7 +86,7 @@
 			{ "anim": "outp_anim", "when_hp_bigger": 50, "layer": 1, "delay": 2 }
 		],
 		"sell": {
-			"anim": { "anim": "outp_sell", "layer": 1 },
+			"anim": { "anim": "outp_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 750 }
 		},
 		"queue": "building",
@@ -116,7 +116,7 @@
 			{ "anim": "htec",      "when_hp_bigger": 50, "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "htec_sell", "layer": 1 },
+			"anim": { "anim": "htec_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 575 }
 		},
 		"queue": "building",
@@ -148,7 +148,7 @@
 			{ "anim": "ahtec",      "when_hp_bigger": 50, "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "htec_sell", "layer": 1 },
+			"anim": { "anim": "htec_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 375 }
 		},
 		"queue": "building",
@@ -183,7 +183,7 @@
 			{ "anim": "silo_3",  "when_hp_bigger": 50, "layer": 1, "when_storage_bigger": 75 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "silo_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 60 }
 		},
 		"storage": { "base:credits": 1500 },
@@ -205,7 +205,7 @@
 			{ "anim": "star",    "when_hp_bigger": 50, "layer": 0 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "star_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 750 }
 		},
 		"queue": "building",
@@ -233,7 +233,7 @@
 			{ "anim": "ixrc_anim", "when_hp_bigger": 50, "layer": 1, "delay": 6 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "ixrc_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 500 }
 		},
 		"queue": "building",
@@ -263,7 +263,7 @@
 			{ "anim": "a_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 }
 		},
 		"queue": "building",
@@ -294,7 +294,7 @@
 			{ "anim": "h_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 }
 		},
 		"queue": "building",
@@ -324,7 +324,7 @@
 			{ "anim": "o_pala",      "when_hp_bigger": 50, "layer": 1 }
 		],
 		"sell": {
-			"anim": { "anim": "lfac_sell", "layer": 1 },
+			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 }
 		},
 		"queue": "building",
