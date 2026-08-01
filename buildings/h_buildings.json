@@ -7,7 +7,7 @@
 		"repairable": true,
 		"requires_placement": true,
 		"repair_heal": 12,
-		"repair_delay": 10
+		"repair_delay": 16
 	},
 	"h_cony": {
 		"anims": [
@@ -39,7 +39,8 @@
 			[7, 7, 7],
 			[7, 7, 7],
 			[5, 5, 5]
-		]
+		],
+		"repair_cost": { "base:credits": 4 }
 	},
 	"h_lfac": {
 		"anims": [
@@ -74,7 +75,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"h_hfac": {
 		"anims": [
@@ -110,7 +112,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"h_barr": {
 		"anims": [
@@ -143,7 +146,8 @@
 			[6, 6],
 			[6, 6],
 			[4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"repr": {
 		"anims": [
@@ -169,6 +173,7 @@
 			[4, 6, 4],
 			[6, 6, 6],
 			[4, 6, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	}
 }

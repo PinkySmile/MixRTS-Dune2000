@@ -7,7 +7,7 @@
 		"repairable": true,
 		"requires_placement": true,
 		"repair_heal": 12,
-		"repair_delay": 10
+		"repair_delay": 16
 	},
 	"wtra": {
 		"anims": [
@@ -38,7 +38,8 @@
 			[6, 6],
 			[6, 6],
 			[4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"refi": {
 		"anims": [
@@ -77,7 +78,8 @@
 			[4, 6, 6],
 			[6, 6, 4],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 3 }
 	},
 	"outp": {
 		"anims": [
@@ -108,7 +110,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"htec": {
 		"anims": [
@@ -140,7 +143,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"ahtec": {
 		"anims": [
@@ -172,7 +176,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"silo": {
 		"anims": [
@@ -197,7 +202,8 @@
 		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
 		"hp": 1500,
 		"size": { "x": 32, "y": 32 },
-		"tiles": [[6]]
+		"tiles": [[6]],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"star": {
 		"anims": [
@@ -224,7 +230,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 6, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 1 }
 	},
 	"ixrc": {
 		"anims": [
@@ -255,7 +262,8 @@
 			[6, 6, 6],
 			[6, 6, 6],
 			[4, 4, 4]
-		]
+		],
+		"repair_cost": { "base:credits": 2 }
 	},
 	"apala": {
 		"anims": [
@@ -286,7 +294,8 @@
 			[6, 6, 4],
 			[6, 6, 6],
 			[4, 6, 6]
-		]
+		],
+		"repair_cost": { "base:credits": 2 }
 	},
 	"hpala": {
 		"anims": [
@@ -316,7 +325,8 @@
 			[6, 6, 4],
 			[6, 6, 6],
 			[4, 6, 6]
-		]
+		],
+		"repair_cost": { "base:credits": 2 }
 	},
 	"opala": {
 		"anims": [
@@ -347,6 +357,7 @@
 			[6, 6, 4],
 			[6, 6, 6],
 			[4, 6, 6]
-		]
+		],
+		"repair_cost": { "base:credits": 2 }
 	}
 }
