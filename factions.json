@@ -11,18 +11,19 @@
 		"money": [ "base:credits" ],
 		"grid": { "x": 32, "y": 32 },
 		"starting_money": { "base:credits": 10000 },
-		"regress_tech": true
-	},
-	"atreides": {
+		"regress_tech": true,
+		"has_radar": false,
+		"radar_powered": true,
+		"primary_queue": "build",
+		"starting_objects": [
+			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
+		],
 		"objects": [
-			"buildings/a_buildings.json",
 			"buildings/concrete.json",
 			"buildings/buildings.json",
-			"units/a_units.json",
 			"units/units.json"
 		],
 		"animations": [
-			"buildings/a_animations.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -34,100 +35,40 @@
 			"units/rifle/anim.json",
 			"units/misl/anim.json",
 			"units/sonic/anim.json",
-			"units/raider/anim.json"
+			"units/raider/anim.json",
+			"cursor/repair.json"
 		],
-		"sounds": [
-			"units/a_sounds.json",
-			"sounds.json"
-		],
+		"sounds": [ "sounds.json" ],
+		"repairing_animation": { "anim": "repairing", "layer": 2, "delay": 90 }
+	},
+	"atreides": {
+		"objects": [ "buildings/a_buildings.json", "units/a_units.json" ],
+		"animations": [ "buildings/a_animations.json" ],
+		"sounds": [ "units/a_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
-		},
-		"has_radar": false,
-		"radar_powered": true,
-		"primary_queue": "build",
-		"starting_objects": [
-			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
-		]
+		}
 	},
 	"harkonnen": {
-		"objects": [
-			"buildings/h_buildings.json",
-			"buildings/concrete.json",
-			"buildings/buildings.json",
-			"units/h_units.json",
-			"units/units.json"
-		],
-		"animations": [
-			"buildings/h_animations.json",
-			"buildings/concrete_anim.json",
-			"buildings/animations_make.json",
-			"buildings/animations.json",
-			"buildings/animations_sell.json",
-			"units/mcv/anim.json",
-			"units/harv/anim.json",
-			"units/trike/anim.json",
-			"units/quad/anim.json",
-			"units/rifle/anim.json",
-			"units/misl/anim.json",
-			"units/sonic/anim.json",
-			"units/raider/anim.json"
-		],
-		"sounds": [
-			"units/a_sounds.json",
-			"sounds.json"
-		],
+		"objects": [ "buildings/h_buildings.json", "units/h_units.json" ],
+		"animations": [ "buildings/h_animations.json" ],
+		"sounds": [ "units/a_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
 			"eva_folder": "harkonen"
-		},
-		"has_radar": false,
-		"radar_powered": true,
-		"primary_queue": "build",
-		"starting_objects": [
-			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
-		]
+		}
 	},
 	"ordos": {
-		"objects": [
-			"buildings/o_buildings.json",
-			"buildings/concrete.json",
-			"buildings/buildings.json",
-			"units/o_units.json",
-			"units/units.json"
-		],
-		"animations": [
-			"buildings/o_animations.json",
-			"buildings/concrete_anim.json",
-			"buildings/animations_make.json",
-			"buildings/animations.json",
-			"buildings/animations_sell.json",
-			"units/mcv/anim.json",
-			"units/harv/anim.json",
-			"units/trike/anim.json",
-			"units/quad/anim.json",
-			"units/rifle/anim.json",
-			"units/misl/anim.json",
-			"units/sonic/anim.json",
-			"units/raider/anim.json"
-		],
-		"sounds": [
-			"units/a_sounds.json",
-			"sounds.json"
-		],
+		"objects": [ "buildings/o_buildings.json", "units/o_units.json" ],
+		"animations": [ "buildings/o_animations.json" ],
+		"sounds": [ "units/a_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"
-		},
-		"has_radar": false,
-		"radar_powered": true,
-		"primary_queue": "build",
-		"starting_objects": [
-			{ "name": "mcv", "offset": { "x": 0, "y": 0 }, "queue": "" }
-		]
+		}
 	}
 }

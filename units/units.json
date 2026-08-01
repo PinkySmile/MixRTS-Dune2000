@@ -149,6 +149,25 @@
 		"hp": 1000,
 		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
 	},
+	"srid": {
+		"anims": [
+			{ "anim": "raider", "layer": 1 }
+		],
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_speed": 0,
+		"directions": 32,
+		"queue": "light_vehicle",
+		"pass_flags": 2,
+		"requirements": ["o_lfac", "lfac.upgrade", "group.htec"],
+		"cost": { "base:credits": 400 },
+		"build_speed": 1106,
+		"speed": 1.75,
+		"size": { "x": 24, "y": 24 },
+		"sight": 3,
+		"hp": 1000,
+		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
+	},
 	"soni": {
 		"anims": [
 			{ "anim": "sonic", "layer": 1 }

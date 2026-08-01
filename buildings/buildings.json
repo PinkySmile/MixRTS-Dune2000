@@ -5,7 +5,9 @@
 		"selectable": true,
 		"sellable": true,
 		"repairable": true,
-		"requires_placement": true
+		"requires_placement": true,
+		"repair_heal": 12,
+		"repair_delay": 10
 	},
 	"wtra": {
 		"anims": [
@@ -118,6 +120,7 @@
 			"refund": { "base:credits": 575 }
 		},
 		"queue": "building",
+		"group": "htec",
 		"requirements": [["o_cony", "h_cony"], "outp"],
 		"cost": { "base:credits": 1150 },
 		"build_speed": 2305,
@@ -149,6 +152,7 @@
 			"refund": { "base:credits": 375 }
 		},
 		"queue": "building",
+		"group": "htec",
 		"requirements": ["a_cony", "outp"],
 		"cost": { "base:credits": 1150 },
 		"build_speed": 2305,

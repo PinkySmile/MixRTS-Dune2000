@@ -121,5 +121,31 @@
 	],
 	"no_deploy": [
 		{ "sprite": "cursor/deploy/MOUSE.R16.104-sprite.png", "center": { "x": 12, "y": 9 }, "duration": 999 }
+	],
+	"no_repair": [
+		{ "sprite": "cursor/repair/MOUSE.R16.064-sprite.png", "center": { "x": 9, "y": 9 }, "duration": 999 }
+	],
+	"repair": [
+		{ "sprite": "cursor/repair/repair0.png", "center": { "x": 9, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair1.png", "center": { "x": 9, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair2.png", "center": { "x": 8, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair3.png", "center": { "x": 8, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair4.png", "center": { "x": 7, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair5.png", "center": { "x": 8, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair6.png", "center": { "x": 9, "y": 9  }, "duration": 3 },
+		{ "sprite": "cursor/repair/repair7.png", "center": { "x": 9, "y": 9  }, "duration": 3 }
+	],
+	"no_sell": [
+		{ "sprite": "cursor/sell/MOUSE.R16.056-sprite.png", "center": { "x": 9, "y": 9 }, "duration": 999 }
+	],
+	"sell": [
+		{ "sprite": "cursor/sell/sell0.png", "center": { "x": 0, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell1.png", "center": { "x": 3, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell2.png", "center": { "x": 4, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell3.png", "center": { "x": 5, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell4.png", "center": { "x": 5, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell5.png", "center": { "x": 5, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell6.png", "center": { "x": 3, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/sell/sell7.png", "center": { "x": 1, "y": 10 }, "duration": 3 }
 	]
 }

@@ -5,7 +5,9 @@
 		"requires_placement": true,
 		"selectable": true,
 		"sellable": true,
-		"repairable": true
+		"repairable": true,
+		"repair_heal": 12,
+		"repair_delay": 10
 	},
 	"o_cony": {
 		"anims": [
