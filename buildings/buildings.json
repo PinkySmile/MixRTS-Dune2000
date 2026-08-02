@@ -17,7 +17,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "wtra_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 112 }
+			"refund": { "base:credits": 112 },
+			"units": { "rifl": 1 }
 		},
 		"queue": "building",
 		"requirements": [],
@@ -49,7 +50,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "refi_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 150 }
+			"refund": { "base:credits": 150 },
+			"units": { "rifl": 3 }
 		},
 		"queue": "building",
 		"requirements": ["wtra"],
@@ -89,7 +91,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "outp_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 750 }
+			"refund": { "base:credits": 750 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["group.barr"],
@@ -120,7 +123,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "htec_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 575 }
+			"refund": { "base:credits": 575 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"group": "htec",
@@ -153,7 +157,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "htec_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 375 }
+			"refund": { "base:credits": 375 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"group": "htec",
@@ -189,7 +194,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "silo_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 60 }
+			"refund": { "base:credits": 60 },
+			"units": {}
 		},
 		"storage": { "base:credits": 1500 },
 		"queue": "building",
@@ -212,7 +218,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "star_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 750 }
+			"refund": { "base:credits": 750 },
+			"units": { "rifl": 3 }
 		},
 		"queue": "building",
 		"requirements": ["group.hfac", "outp"],
@@ -231,7 +238,7 @@
 			[6, 6, 6],
 			[4, 6, 4]
 		],
-		"repair_cost": { "base:credits": 1 }
+		"repair_cost": { "base:credits": 2 }
 	},
 	"ixrc": {
 		"anims": [
@@ -241,7 +248,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "ixrc_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 500 }
+			"refund": { "base:credits": 500 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["group.hfac", "hfac.upgrade", "outp"],
@@ -272,7 +280,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 800 }
+			"refund": { "base:credits": 800 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["a_cony", "ixrc"],
@@ -304,7 +313,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 800 }
+			"refund": { "base:credits": 800 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["h_cony", "ixrc"],
@@ -335,7 +345,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "pala_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 800 }
+			"refund": { "base:credits": 800 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["o_cony", "ixrc"],

@@ -16,7 +16,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "cony_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 1000 }
+			"refund": { "base:credits": 1000 },
+			"units": { "rifl": 1 }
 		},
 		"central": true,
 		"group": "cony",
@@ -50,7 +51,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "lfac_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 750 }
+			"refund": { "base:credits": 750 },
+			"units": { "rifl": 3 }
 		},
 		"group": "lfac",
 		"queue": "building",
@@ -86,7 +88,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "hfac_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 500 }
+			"refund": { "base:credits": 500 },
+			"units": { "rifl": 4 }
 		},
 		"group": "hfac",
 		"queue": "building",
@@ -122,7 +125,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "a_barr_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 800 }
+			"refund": { "base:credits": 800 },
+			"units": { "rifl": 1 }
 		},
 		"group": "barr",
 		"queue": "building",
@@ -156,7 +160,8 @@
 		],
 		"sell": {
 			"anim": { "anim": "repr_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 800 }
+			"refund": { "base:credits": 800 },
+			"units": { "rifl": 4 }
 		},
 		"queue": "building",
 		"requirements": ["group.hfac", "hfac.upgrade"],
