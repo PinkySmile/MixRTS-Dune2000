@@ -1,13 +1,16 @@
 {
-	"build": {
-		"path": "sounds/BUILD1.ogg",
-		"volume": 60
-	},
-	"conc_build": {
-		"path": "sounds/CHUNG.ogg",
-		"volume": 60
-	},
-	"crush": {
-		"path": "sounds/CRUSH1.ogg"
-	}
+	"build": { "path": "sounds/BUILD1.ogg", "volume": 60 },
+	"conc_build": { "path": "sounds/CHUNG.ogg", "volume": 60 },
+	"crush": { "path": "sounds/CRUSH1.ogg" },
+	"killguy": [
+		{ "path": "sounds/KILLGUY1.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY2.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY3.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY4.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY5.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY6.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY7.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY8.ogg", "volume": 80 },
+		{ "path": "sounds/KILLGUY9.ogg", "volume": 80 }
+	]
 }

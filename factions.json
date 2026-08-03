@@ -38,7 +38,7 @@
 			"units/raider/anim.json",
 			"cursor/repair.json"
 		],
-		"sounds": [ "sounds.json" ],
+		"sounds": [ "sounds.json", "units/sounds.json" ],
 		"repairing_animation": { "anim": "repairing", "layer": 2, "delay": 90 }
 	},
 	"atreides": {

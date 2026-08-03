@@ -97,6 +97,7 @@
 		"anim_crawl":      { "anim": "rifle_crawl",       "layer": 1, "delay": 10 },
 		"anim_crawl_fire": { "anim": "rifle_crawl_shoot", "layer": 1, "delay": 10 },
 		"queue": "infantry",
+		"death_sound": "killguy",
 		"pass_flags": 1,
 		"requirements": ["group.barr"],
 		"cost": { "base:credits": 50 },
