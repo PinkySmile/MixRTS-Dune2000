@@ -54,7 +54,7 @@
 	"harkonnen": {
 		"objects": [ "buildings/h_buildings.json", "units/h_units.json" ],
 		"animations": [ "buildings/h_animations.json" ],
-		"sounds": [ "units/a_sounds.json" ],
+		"sounds": [ "units/h_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
@@ -64,7 +64,7 @@
 	"ordos": {
 		"objects": [ "buildings/o_buildings.json", "units/o_units.json" ],
 		"animations": [ "buildings/o_animations.json" ],
-		"sounds": [ "units/a_sounds.json" ],
+		"sounds": [ "units/o_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",

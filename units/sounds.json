@@ -1,0 +1,32 @@
+{
+	"sard_select": [
+		{ "path": "announcers/<locale>/global/sardaukar/sel1.ogg" },
+		{ "path": "announcers/<locale>/global/sardaukar/sel2.ogg" },
+		{ "path": "announcers/<locale>/global/sardaukar/sel3.ogg" }
+	],
+	"sard_confirm": [
+		{ "path": "announcers/<locale>/global/sardaukar/conf1.ogg" },
+		{ "path": "announcers/<locale>/global/sardaukar/conf2.ogg" },
+		{ "path": "announcers/<locale>/global/sardaukar/conf3.ogg" }
+	],
+	"sabo_select": [
+		{ "path": "announcers/<locale>/global/saboteur/sel1.ogg" },
+		{ "path": "announcers/<locale>/global/saboteur/sel2.ogg" },
+		{ "path": "announcers/<locale>/global/saboteur/sel3.ogg" }
+	],
+	"sabo_confirm": [
+		{ "path": "announcers/<locale>/global/saboteur/conf1.ogg" },
+		{ "path": "announcers/<locale>/global/saboteur/conf2.ogg" },
+		{ "path": "announcers/<locale>/global/saboteur/conf3.ogg" }
+	],
+	"f_select": [
+		{ "path": "announcers/<locale>/global/fremen/sel1.ogg" },
+		{ "path": "announcers/<locale>/global/fremen/sel2.ogg" },
+		{ "path": "announcers/<locale>/global/fremen/sel3.ogg" }
+	],
+	"f_confirm": [
+		{ "path": "announcers/<locale>/global/fremen/conf1.ogg" },
+		{ "path": "announcers/<locale>/global/fremen/conf2.ogg" },
+		{ "path": "announcers/<locale>/global/fremen/conf3.ogg" }
+	]
+}

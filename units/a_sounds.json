@@ -8,5 +8,25 @@
 		{ "path": "announcers/<locale>/atreides/vehicules/conf1.ogg" },
 		{ "path": "announcers/<locale>/atreides/vehicules/conf2.ogg" },
 		{ "path": "announcers/<locale>/atreides/vehicules/conf3.ogg" }
+	],
+	"i_select": [
+		{ "path": "announcers/<locale>/atreides/infantry/sel1.ogg" },
+		{ "path": "announcers/<locale>/atreides/infantry/sel2.ogg" },
+		{ "path": "announcers/<locale>/atreides/infantry/sel3.ogg" }
+	],
+	"i_confirm": [
+		{ "path": "announcers/<locale>/atreides/infantry/conf1.ogg" },
+		{ "path": "announcers/<locale>/atreides/infantry/conf2.ogg" },
+		{ "path": "announcers/<locale>/atreides/infantry/conf3.ogg" }
+	],
+	"e_select": [
+		{ "path": "announcers/<locale>/atreides/engineer/sel1.ogg" },
+		{ "path": "announcers/<locale>/atreides/engineer/sel2.ogg" },
+		{ "path": "announcers/<locale>/atreides/engineer/sel3.ogg" }
+	],
+	"e_confirm": [
+		{ "path": "announcers/<locale>/atreides/engineer/conf1.ogg" },
+		{ "path": "announcers/<locale>/atreides/engineer/conf2.ogg" },
+		{ "path": "announcers/<locale>/atreides/engineer/conf3.ogg" }
 	]
 }

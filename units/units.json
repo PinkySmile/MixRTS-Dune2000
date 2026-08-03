@@ -82,8 +82,8 @@
 		"anims": [
 			{ "anim": "rifle", "layer": 1 }
 		],
-		"select_sound": "v_select",
-		"do_sound": "v_confirm",
+		"select_sound": "i_select",
+		"do_sound": "i_confirm",
 		"turn_speed": 0,
 		"directions": 8,
 		"idle_time": [0, 900],
