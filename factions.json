@@ -7,6 +7,50 @@
 			"bad":  [ "cursor/tile_bad.png"  ],
 			"best": [ "cursor/tile_best.png" ]
 		},
+		"queues": {
+			"upgrade": {
+				"requires_producer": false,
+				"behavior": "single_queue"
+			},
+			"building": {
+				"requires_producer": true,
+				"behavior": "single_queue",
+				"unit_spawn": "inside"
+			},
+			"infantry":  {
+				"requires_producer": true,
+				"behavior": "single_queue",
+				"unit_spawn": "inside"
+			},
+			"light_vehicle": {
+				"requires_producer": true,
+				"behavior": "single_queue",
+				"unit_spawn": "inside"
+			},
+			"heavy_vehicle":  {
+				"requires_producer": true,
+				"behavior": "single_queue",
+				"unit_spawn": "inside"
+			},
+			"starport": {
+				"requires_producer": true,
+				"behavior": "starport",
+				"stock_increase_delay": 1500,
+				"stock_increase_proba": 10,
+				"discount_min": 1,
+				"discount_max": 25,
+				"delivery_delay": 1500,
+				"units": [
+					"trik", "quad",
+					"harv", "tank",
+					"mcv",  "misl",
+					"sieg", "carr"
+				],
+				"unit_spawn": "delivery",
+				"carrier": "freg",
+				"pos": { "x": 32, "y": 32 }
+			}
+		},
 		"upgrades": [ "buildings/upgrades.json" ],
 		"money": [ "base:credits" ],
 		"grid": { "x": 32, "y": 32 },

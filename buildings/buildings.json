@@ -68,6 +68,7 @@
 		"hp": 3000,
 		"spawn": {
 			"unit": "harv",
+			"delivery": "carr",
 			"pos": { "x": 64, "y": 32 }
 		},
 		"point": { "x": 64, "y": 32 },
