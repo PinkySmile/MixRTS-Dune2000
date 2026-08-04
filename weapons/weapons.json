@@ -1,0 +1,22 @@
+{
+	"weapon.lmg": {
+		"type": "hitscan",
+		"effect": null,
+		"sound": "mg_gun",
+		"hit_effect": "effect.mg",
+		"damage": 125,
+		"range": 80,
+		"warhead": "bullet",
+		"can_hit_tags": ["bio", "mech", "naval"]
+	},
+	"weapon.hmg": {
+		"type": "hitscan",
+		"effect": null,
+		"sound": "mg_gun",
+		"hit_effect": "effect.mg",
+		"damage": 180,
+		"range": 96,
+		"warhead": "bullet",
+		"can_hit_tags": ["bio", "mech", "naval"]
+	}
+}

@@ -12,6 +12,7 @@
 		"requirements": ["group.cony"],
 		"anims": [{ "anim": "conc", "layer": -1 }],
 		"cost": {},
+		"tags": ["concrete"],
 		"build_speed": 461,
 		"hp": 500,
 		"tiles": [[1]],
@@ -23,6 +24,7 @@
 		"anims": [],
 		"queue": "building",
 		"cost": { "base:credits": 20 },
+		"tags": [],
 		"build_speed": 307,
 		"hp": 500,
 		"tiles": [
@@ -38,6 +40,7 @@
 		"anims": [],
 		"queue": "building",
 		"cost": { "base:credits": 50 },
+		"tags": [],
 		"build_speed": 461,
 		"hp": 500,
 		"tiles": [

@@ -13,6 +13,7 @@
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"pass_flags": 2,
+		"tags": ["tracked", "mech"],
 		"requirements": ["hfac.upgrade", "repr"],
 		"cost": { "base:credits": 2000 },
 		"build_speed": 3688,

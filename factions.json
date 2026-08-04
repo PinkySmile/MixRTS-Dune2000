@@ -67,7 +67,10 @@
 			"buildings/buildings.json",
 			"units/units.json"
 		],
+		"weapons": [ "weapons/weapons.json" ],
+		"effects": [ "weapons/effects/effects.json" ],
 		"animations": [
+			"weapons/effects/anim.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -82,7 +85,7 @@
 			"units/raider/anim.json",
 			"cursor/repair.json"
 		],
-		"sounds": [ "sounds.json", "units/sounds.json" ],
+		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],
 		"repairing_animation": { "anim": "repairing", "layer": 2, "delay": 90 }
 	},
 	"atreides": {

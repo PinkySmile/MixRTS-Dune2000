@@ -1,0 +1,7 @@
+{
+	"mg_gun":       { "path": "weapons/sounds/MGUN2.ogg" },
+	"20mm_gun":     { "path": "weapons/sounds/20MMGUN1.ogg" },
+	"tank_gun":     { "path": "weapons/sounds/MEDTANK1.ogg" },
+	"rocket_gun":   { "path": "weapons/sounds/ROCKET1.ogg" },
+	"mortar_shoot": { "path": "weapons/sounds/MORTAR1.ogg" }
+}

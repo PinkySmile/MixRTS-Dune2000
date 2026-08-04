@@ -1,0 +1,28 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"effect.mg": [
+		{
+			"sprite": "weapons/effects/mg_0.png",
+			"offset": { "x": -5, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mg_1.png",
+			"offset": { "x": 0, "y": -3 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mg_2.png",
+			"offset": { "x": -7, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mg_3.png",
+			"offset": { "x": -7, "y": -5 },
+			"blending": "add"
+		}
+	]
+}

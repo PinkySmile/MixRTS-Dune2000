@@ -1,0 +1,6 @@
+{
+	"effect.mg": {
+		"anim": { "anim": "effect.mg", "layer": 2, "delay": 6 },
+		"sound": null
+	}
+}
