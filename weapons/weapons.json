@@ -7,7 +7,9 @@
 		"damage": 125,
 		"range": 80,
 		"warhead": "bullet",
-		"can_hit_tags": ["bio", "mech", "naval"]
+		"can_hit_tags": ["bio", "any_ground", "any_naval"],
+		"ground": true,
+		"air": false
 	},
 	"weapon.hmg": {
 		"type": "hitscan",
@@ -17,6 +19,8 @@
 		"damage": 180,
 		"range": 96,
 		"warhead": "bullet",
-		"can_hit_tags": ["bio", "mech", "naval"]
+		"can_hit_tags": ["bio", "any_ground", "any_naval"],
+		"ground": true,
+		"air": false
 	}
 }

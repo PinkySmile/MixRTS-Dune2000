@@ -51,7 +51,7 @@
 		"directions": 32,
 		"queue": "light_vehicle",
 		"weapons": [
-			{ "name": "weapon.hmg", "priority": 1 }
+			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 40 }
 		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
@@ -105,7 +105,7 @@
 		"queue": "infantry",
 		"death_sound": "killguy",
 		"weapons": [
-			{ "name": "weapon.lmg", "priority": 1 }
+			{ "name": "weapon.lmg", "priority": 1, "barrel": 0, "cooldown": 60 }
 		],
 		"pass_flags": 1,
 		"tags": ["wheeled", "mech"],
@@ -151,6 +151,9 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"weapons": [
+			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 36 }
+		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
 		"requirements": ["o_lfac"],
@@ -171,6 +174,9 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"weapons": [
+			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 36 }
+		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
 		"requirements": ["o_lfac", "lfac.upgrade", "group.htec"],
