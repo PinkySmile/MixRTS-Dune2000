@@ -50,8 +50,11 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
-		"weapons": [
-			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 40 }
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.hmg", "cooldown": 40 }],
+				"priority": 1
+			}
 		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
@@ -104,8 +107,11 @@
 		"anim_crawl_fire": { "anim": "rifle_crawl_shoot", "layer": 1, "delay": 10 },
 		"queue": "infantry",
 		"death_sound": "killguy",
-		"weapons": [
-			{ "name": "weapon.lmg", "priority": 1, "barrel": 0, "cooldown": 60 }
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.lmg", "cooldown": 60 }],
+				"priority": 1
+			}
 		],
 		"pass_flags": 1,
 		"tags": ["wheeled", "mech"],
@@ -151,8 +157,11 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
-		"weapons": [
-			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 36 }
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.hmg", "cooldown": 36 }],
+				"priority": 1
+			}
 		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
@@ -174,8 +183,11 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
-		"weapons": [
-			{ "name": "weapon.hmg", "priority": 1, "barrel": 0, "cooldown": 36 }
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.hmg", "cooldown": 36 }],
+				"priority": 1
+			}
 		],
 		"pass_flags": 2,
 		"tags": ["wheeled", "mech"],
