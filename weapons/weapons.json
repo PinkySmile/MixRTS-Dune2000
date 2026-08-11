@@ -1,4 +1,7 @@
 {
+	"_general": {
+		"inaccuracy_dist": 0.125
+	},
 	"weapon.lmg": {
 		"type": "hitscan",
 		"effect": null,
@@ -14,7 +17,7 @@
 	"weapon.hmg": {
 		"type": "hitscan",
 		"effect": null,
-		"sound": "mg_gun",
+		"sound": "20mm_gun",
 		"hit_effect": "effect.mg",
 		"damage": 180,
 		"range": 96,
