@@ -5,7 +5,8 @@
 		"selectable": false,
 		"sellable": false,
 		"repairable": false,
-		"requires_placement": true
+		"requires_placement": true,
+		"armor": "concrete"
 	},
 	"conc": {
 		"cameo": "cameos/b_3con.png",

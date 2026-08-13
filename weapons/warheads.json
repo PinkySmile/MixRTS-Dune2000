@@ -1,0 +1,50 @@
+{
+	"fire": {
+		"radius": 64,
+		"dmg_type": "fire"
+	},
+	"deviate": {
+		"radius": 15,
+		"dmg_type": "fire"
+	},
+	"special": {
+		"radius": 64,
+		"dmg_type": "fire"
+	},
+	"bullet": {
+		"radius": 32,
+		"dmg_type": "bullet"
+	},
+	"at": {
+		"radius": 32,
+		"dmg_type": "explosion"
+	},
+	"gt_at": {
+		"radius": 32,
+		"dmg_type": "explosion"
+	},
+	"at_mis": {
+		"radius": 32,
+		"dmg_type": "explosion"
+	},
+	"bazooka": {
+		"radius": 32,
+		"dmg_type": "explosion"
+	},
+	"plasma": {
+		"radius": 32,
+		"dmg_type": "explosion"
+	},
+	"plasma_death": {
+		"radius": 96,
+		"dmg_type": "explosion"
+	},
+	"sonic": {
+		"radius": 64,
+		"dmg_type": "sonic"
+	},
+	"he": {
+		"radius": 64,
+		"dmg_type": "sonic"
+	}
+}
