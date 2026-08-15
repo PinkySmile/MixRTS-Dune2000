@@ -1,15 +1,15 @@
 {
 	"fire": {
 		"radius": 64,
-		"dmg_type": "fire"
+		"dmg_type": "blast"
 	},
 	"deviate": {
 		"radius": 15,
-		"dmg_type": "fire"
+		"dmg_type": "blast"
 	},
 	"special": {
 		"radius": 64,
-		"dmg_type": "fire"
+		"dmg_type": "blast"
 	},
 	"bullet": {
 		"radius": 32,
@@ -17,27 +17,27 @@
 	},
 	"at": {
 		"radius": 32,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"gt_at": {
 		"radius": 32,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"at_mis": {
 		"radius": 32,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"bazooka": {
 		"radius": 32,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"plasma": {
 		"radius": 32,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"plasma_death": {
 		"radius": 96,
-		"dmg_type": "explosion"
+		"dmg_type": "missile"
 	},
 	"sonic": {
 		"radius": 64,
@@ -46,5 +46,9 @@
 	"he": {
 		"radius": 64,
 		"dmg_type": "sonic"
+	},
+	"worm": {
+		"radius": 0,
+		"dmg_type": "void"
 	}
 }

@@ -2,6 +2,10 @@
 	"build": { "path": "sounds/BUILD1.ogg", "volume": 60 },
 	"conc_build": { "path": "sounds/CHUNG.ogg", "volume": 60 },
 	"crush": { "path": "sounds/CRUSH1.ogg" },
+	"explsml1": { "path": "sounds/EXPLSML1.ogg" },
+	"explsml2": { "path": "sounds/EXPLSML2.ogg" },
+	"explsml3": { "path": "sounds/EXPLSML3.ogg" },
+	"explsml4": { "path": "sounds/EXPLSML4.ogg" },
 	"killguy": [
 		{ "path": "sounds/KILLGUY1.ogg", "volume": 80 },
 		{ "path": "sounds/KILLGUY2.ogg", "volume": 80 },

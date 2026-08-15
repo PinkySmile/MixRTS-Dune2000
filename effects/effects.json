@@ -1,0 +1,14 @@
+{
+	"effect.bang11": {
+		"anim": { "anim": "effect.bang11", "layer": 2, "delay": 6 },
+		"sound": "explsml1"
+	},
+	"effect.bang13": {
+		"anim": { "anim": "effect.bang13", "layer": 2, "delay": 6 },
+		"sound": "explsml3"
+	},
+	"effect.bang14": {
+		"anim": { "anim": "effect.bang13", "layer": 2, "delay": 6 },
+		"sound": "explsml4"
+	}
+}

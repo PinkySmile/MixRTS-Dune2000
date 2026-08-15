@@ -11,6 +11,9 @@
 		"turn_speed": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
+		"death": {
+			"generic": { "effect": "effect.bang14", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "harvester",
 		"tags": ["tracked", "mech"],
@@ -57,6 +60,9 @@
 				"priority": 1
 			}
 		],
+		"death": {
+			"generic": { "effect": "effect.bang11", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "wood",
 		"tags": ["wheeled", "mech"],
@@ -78,6 +84,9 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"death": {
+			"generic": { "effect": "effect.bang11", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "wood",
 		"tags": ["wheeled", "mech"],
@@ -116,6 +125,15 @@
 				"priority": 1
 			}
 		],
+		"death": {
+			"blast":    { "anim": { "anim": "rifle_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "rifle_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "rifle_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "rifle_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } }
+		},
 		"pass_flags": 1,
 		"armor": "none",
 		"tags": ["wheeled", "mech"],
@@ -127,7 +145,7 @@
 		"sight": 2,
 		"hp": 600,
 		"stackable": true,
-		"crush_anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 },
+		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
 		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	},
@@ -140,6 +158,9 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "heavy_vehicle",
+		"death": {
+			"generic": { "effect": "effect.bang14", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "wood",
 		"tags": ["tracked", "mech"],
@@ -168,6 +189,9 @@
 				"priority": 1
 			}
 		],
+		"death": {
+			"generic": { "effect": "effect.bang11", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "wood",
 		"tags": ["wheeled", "mech"],
@@ -195,6 +219,9 @@
 				"priority": 1
 			}
 		],
+		"death": {
+			"generic": { "effect": "effect.bang11", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "wood",
 		"tags": ["wheeled", "mech"],
@@ -216,6 +243,9 @@
 		"turn_speed": 2,
 		"directions": 32,
 		"queue": "heavy_vehicle",
+		"death": {
+			"generic": { "effect": "effect.bang14", "stay": 30 }
+		},
 		"pass_flags": 2,
 		"armor": "light",
 		"tags": ["tracked", "mech"],

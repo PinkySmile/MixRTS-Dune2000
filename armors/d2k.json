@@ -130,5 +130,16 @@
 		"concrete": 1,
 		"cy": 0.2,
 		"harvester": 0.25
+	},
+	"worm": {
+		"none": 0,
+		"wall": 0,
+		"building": 0,
+		"wood": 1,
+		"light": 1,
+		"heavy": 1,
+		"concrete": 0,
+		"cy": 0,
+		"harvester": 1
 	}
 }
