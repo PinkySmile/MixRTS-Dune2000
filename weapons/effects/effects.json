@@ -1,6 +1,21 @@
 {
 	"effect.mg": {
-		"anim": { "anim": "effect.mg", "layer": 2, "delay": 6 },
-		"sound": null
+		"anim": { "anim": "effect.mg", "layer": 2, "delay": 6 }
+	},
+	"effect.bazooka": {
+		"anim": { "anim": "effect.bazooka", "layer": 2, "delay": 6 }
+	},
+	"effect.rocket": {
+		"anim": { "anim": "effect.rocket", "layer": 2, "delay": 6 }
+	},
+	"effect.rocket2": {
+		"anim": { "anim": "effect.rocket2", "layer": 2, "delay": 6 }
+	},
+	"effect.trail": {
+		"anim": { "anim": "effect.trail", "layer": 2, "delay": 6 }
+	},
+	"effect.trail2": {
+		"anim": { "anim": "effect.trail2", "layer": 2, "delay": 6 },
+		"opacity": 0.5
 	}
 }

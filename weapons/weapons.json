@@ -4,25 +4,416 @@
 	},
 	"weapon.lmg": {
 		"type": "hitscan",
-		"effect": null,
 		"sound": "mg_gun",
 		"hit_effect": "effect.mg",
 		"damage": 125,
 		"range": 80,
 		"warhead": "bullet",
-		"can_hit_tags": ["bio", "any_ground", "any_naval"],
+		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
 	},
 	"weapon.hmg": {
 		"type": "hitscan",
-		"effect": null,
 		"sound": "20mm_gun",
 		"hit_effect": "effect.mg",
 		"damage": 180,
 		"range": 96,
 		"warhead": "bullet",
-		"can_hit_tags": ["bio", "any_ground", "any_naval"],
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
+	},
+	"weapon.bazooka": {
+		"type": "projectile",
+		"sound": "rocket_gun",
+		"projectile": {
+			"directions": 32,
+			"anim": { "anim": "proj.rocket1", "layer": 2 },
+			"trail": "effect.trail2",
+			"speed": 12
+		},
+		"hit_effect": "effect.bazooka",
+		"damage": 300,
+		"range": 96,
+		"warhead": "bazooka",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"weapon.rocket": {
+		"type": "projectile",
+		"sound": "rocket_gun",
+		"projectile": {
+			"directions": 32,
+			"anim": { "anim": "proj.rocket1", "layer": 2 },
+			"trail": "effect.trail2",
+			"speed": 15
+		},
+		"hit_effect": "effect.rocket",
+		"damage": 250,
+		"range": 112,
+		"warhead": "gt_at",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.80mm": {
+		"type": "projectile",
+		"sound": "tank_gun",
+		"projectile": {
+			"anim": { "anim": "proj.pellet", "layer": 2 },
+			"speed": 24,
+			"blocked_by_wall": true
+		},
+		"hit_effect": "effect.tankgun",
+		"damage": 270,
+		"range": 128,
+		"warhead": "at",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.155mm": {
+		"type": "projectile",
+		"sound": "mortar_gun",
+		"projectile": {
+			"anim": { "anim": "proj.mortar", "layer": 2 },
+			"speed": 7.68,
+			"arc": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.155mm",
+		"damage": 450,
+		"range": 176,
+		"warhead": "he",
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.sound": {
+		"type": "projectile",
+		"sound": "sonic_gun",
+		"projectile": {
+			"anim": { "anim": "proj.sonic", "layer": 2 },
+			"speed": 7.68,
+			"damage_ramp": 20,
+			"hit_travel": true,
+			"range": 192
+		},
+		"send_forward": true,
+		"damage": 80,
+		"range": 160,
+		"warhead": "sonic",
+		"can_hit_tags": ["any_ground", "any_naval"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.110mm": {
+		"type": "projectile",
+		"sound": "tank_gun",
+		"projectile": {
+			"anim": { "anim": "proj.pellet", "layer": 2 },
+			"speed": 36
+		},
+		"hit_effect": "effect.tankgun",
+		"damage": 290,
+		"range": 160,
+		"warhead": "at",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.fremen_s": {
+		"type": "hitscan",
+		"sound": "fremen_gun",
+		"hit_effect": "effect.rocket",
+		"damage": 125,
+		"range": 80,
+		"warhead": "bullet",
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.fremen_l": {
+		"type": "hitscan",
+		"sound": "fremen_gun",
+		"hit_effect": "effect.rocket",
+		"damage": 250,
+		"range": 112,
+		"warhead": "gt_at",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.rocket2": {
+		"type": "projectile",
+		"sound": "rocket_gun",
+		"projectile": {
+			"directions": 32,
+			"anim": { "anim": "proj.rocket2", "layer": 2 },
+			"trail": "effect.trail",
+			"speed": 12,
+			"homing": true
+		},
+		"hit_effect": "effect.rocket2",
+		"damage": 480,
+		"range": 176,
+		"warhead": "at_mis",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": true
+	},
+	"weapon.missile": {
+		"type": "projectile",
+		"sound": "rocket_gun",
+		"projectile": {
+			"directions": 32,
+			"anim": { "anim": "proj.rocket2", "layer": 2 },
+			"trail": "effect.trail",
+			"speed": 12,
+			"homing": true
+		},
+		"hit_effect": "effect.rocket2",
+		"damage": 600,
+		"range": 192,
+		"warhead": "at_mis",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": true
+	},
+	"_weapon.deviator": {
+		"type": "projectile",
+		"sound": "missile_gun",
+		"projectile": {
+			"directions": 32,
+			"anim": { "anim": "proj.deviate", "layer": 2 },
+			"trail": "effect.green_trail",
+			"speed": 11.52,
+			"take_control": {
+				"targets": ["mech"],
+				"base_time": 1500,
+				"time_loss_hit": 50
+			}
+		},
+		"hit_effect": "effect.deviate",
+		"damage": 500,
+		"range": 160,
+		"warhead": "at_mis",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.devastator": {
+		"type": "projectile",
+		"sound": "devastator_gun",
+		"projectile": {
+			"directions": 16,
+			"anim": { "anim": "proj.devastator", "layer": 2 },
+			"speed": 12,
+			"blocked_by_wall": true
+		},
+		"hit_effect": "effect.devastator",
+		"damage": 650,
+		"range": 128,
+		"warhead": "plasma",
+		"can_hit_tags": ["mech", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.self_destruct": {
+		"type": "hitscan",
+		"effect": "effect.devastator_charge",
+		"sound": "devastator_gun",
+		"hit_effect": "effect.devastator",
+		"damage": 5000,
+		"range": 96,
+		"warhead": "plasma_death",
+		"self_destruct": true,
+		"charge_time": 300,
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.ornibomb": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.ornibomb", "layer": 2 },
+			"fall_time": 50,
+			"falling": true
+		},
+		"hit_effect": "effect.bang14",
+		"damage": 400,
+		"range": 32,
+		"warhead": "special",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.dhbomb": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.death_hand_piece", "layer": 2 },
+			"fall_time": 50,
+			"falling": true
+		},
+		"hit_effect": "effect.bang14",
+		"damage": 225,
+		"range": 32,
+		"warhead": "special",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.spice_explosion": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.spice_explosion", "layer": 2 },
+			"trail": "effect.trail",
+			"speed": 7.68,
+			"arc": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.tankgun",
+		"damage": 75,
+		"range": 128,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.worm": {
+		"type": "hitscan",
+		"hit_effect": "effect.worm_swallow",
+		"inaccuracy_dist": 0,
+		"damage": 4294967295,
+		"range": 32,
+		"warhead": "worm",
+		"can_hit_tags": ["mech"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.debrit": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.debrit1", "layer": 2 },
+			"speed": 3.84,
+			"fall_time": 100,
+			"falling": true,
+			"shadow": true,
+			"bounce": 1
+		},
+		"hit_effect": "effect.bazooka",
+		"damage": 150,
+		"range": 32,
+		"warhead": "at",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.debrit2": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.debrit2", "layer": 2 },
+			"trail": "effect.smoke",
+			"speed": 3.84,
+			"fall_time": 100,
+			"falling": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.tank_gun",
+		"damage": 250,
+		"range": 32,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.debrit3": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.debrit3", "layer": 2 },
+			"trail": "effect.smoke",
+			"speed": 3.84,
+			"fall_time": 100,
+			"falling": true,
+			"shadow": true,
+			"bounce": 2
+		},
+		"hit_effect": "effect.bazooka",
+		"damage": 150,
+		"range": 32,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.debrit4": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.debrit4", "layer": 2 },
+			"trail": "effect.trail",
+			"speed": 3.84,
+			"fall_time": 100,
+			"falling": true,
+			"shadow": true,
+			"bounce": 2
+		},
+		"hit_effect": "effect.bazooka",
+		"damage": 250,
+		"range": 32,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.sardaukar_death": {
+		"type": "hitscan",
+		"hit_effect": "effect.tankgun",
+		"damage": 300,
+		"range": 32,
+		"warhead": "at_mis",
+		"on_death": true,
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.sard_hmg": {
+		"type": "hitscan",
+		"sound": "20mm_gun",
+		"hit_effect": "effect.mg",
+		"damage": 250,
+		"range": 112,
+		"warhead": "gt_at",
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.155mm": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.mortar", "layer": 2 },
+			"speed": 7.68,
+			"arc": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.155mm",
+		"damage": 150,
+		"range": 128,
+		"warhead": "he",
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
+	},
+	"_weapon.grenadeer_death": {
+		"type": "hitscan",
+		"sound": "explosion_small",
+		"hit_effect": "effect.bang11",
+		"damage": 150,
+		"range": 32,
+		"warhead": "he",
+		"on_death": true,
+		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
 	}

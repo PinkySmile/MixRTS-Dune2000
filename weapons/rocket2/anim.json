@@ -1,0 +1,197 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
+	},
+	"proj.rocket2_0": [
+		{
+			"sprite": "weapons/rocket2/art_0.png",
+			"offset": { "x": -1, "y": -4 }
+		}
+	],
+	"proj.rocket2_1": [
+		{
+			"sprite": "weapons/rocket2/art_1.png",
+			"offset": { "x": -2, "y": -4 }
+		}
+	],
+	"proj.rocket2_2": [
+		{
+			"sprite": "weapons/rocket2/art_2.png",
+			"offset": { "x": -2, "y": -4 }
+		}
+	],
+	"proj.rocket2_3": [
+		{
+			"sprite": "weapons/rocket2/art_3.png",
+			"offset": { "x": -2, "y": -3 }
+		}
+	],
+	"proj.rocket2_4": [
+		{
+			"sprite": "weapons/rocket2/art_4.png",
+			"offset": { "x": -2, "y": -3 }
+		}
+	],
+	"proj.rocket2_5": [
+		{
+			"sprite": "weapons/rocket2/art_5.png",
+			"offset": { "x": -2, "y": -2 }
+		}
+	],
+	"proj.rocket2_6": [
+		{
+			"sprite": "weapons/rocket2/art_6.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_7": [
+		{
+			"sprite": "weapons/rocket2/art_7.png",
+			"offset": { "x": -3, "y": 0 }
+		}
+	],
+	"proj.rocket2_8": [
+		{
+			"sprite": "weapons/rocket2/art_8.png",
+			"offset": { "x": -3, "y": 0 }
+		}
+	],
+	"proj.rocket2_9": [
+		{
+			"sprite": "weapons/rocket2/art_9.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_10": [
+		{
+			"sprite": "weapons/rocket2/art_10.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_11": [
+		{
+			"sprite": "weapons/rocket2/art_11.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_12": [
+		{
+			"sprite": "weapons/rocket2/art_12.png",
+			"offset": { "x": -3, "y": -2 }
+		}
+	],
+	"proj.rocket2_13": [
+		{
+			"sprite": "weapons/rocket2/art_13.png",
+			"offset": { "x": -1, "y": -2 }
+		}
+	],
+	"proj.rocket2_14": [
+		{
+			"sprite": "weapons/rocket2/art_14.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_15": [
+		{
+			"sprite": "weapons/rocket2/art_15.png",
+			"offset": { "x": -1, "y": -2 }
+		}
+	],
+	"proj.rocket2_16": [
+		{
+			"sprite": "weapons/rocket2/art_16.png",
+			"offset": { "x": -2, "y": -2 }
+		}
+	],
+	"proj.rocket2_17": [
+		{
+			"sprite": "weapons/rocket2/art_17.png",
+			"offset": { "x": -3, "y": -1 }
+		}
+	],
+	"proj.rocket2_18": [
+		{
+			"sprite": "weapons/rocket2/art_18.png",
+			"offset": { "x": -2, "y": -1 }
+		}
+	],
+	"proj.rocket2_19": [
+		{
+			"sprite": "weapons/rocket2/art_19.png",
+			"offset": { "x": -4, "y": -1 }
+		}
+	],
+	"proj.rocket2_20": [
+		{
+			"sprite": "weapons/rocket2/art_20.png",
+			"offset": { "x": -5, "y": -2 }
+		}
+	],
+	"proj.rocket2_21": [
+		{
+			"sprite": "weapons/rocket2/art_21.png",
+			"offset": { "x": -6, "y": -1 }
+		}
+	],
+	"proj.rocket2_22": [
+		{
+			"sprite": "weapons/rocket2/art_22.png",
+			"offset": { "x": -7, "y": -1 }
+		}
+	],
+	"proj.rocket2_23": [
+		{
+			"sprite": "weapons/rocket2/art_23.png",
+			"offset": { "x": -7, "y": 0 }
+		}
+	],
+	"proj.rocket2_24": [
+		{
+			"sprite": "weapons/rocket2/art_24.png",
+			"offset": { "x": -7, "y": -1 }
+		}
+	],
+	"proj.rocket2_25": [
+		{
+			"sprite": "weapons/rocket2/art_25.png",
+			"offset": { "x": -6, "y": -2 }
+		}
+	],
+	"proj.rocket2_26": [
+		{
+			"sprite": "weapons/rocket2/art_26.png",
+			"offset": { "x": -6, "y": -2 }
+		}
+	],
+	"proj.rocket2_27": [
+		{
+			"sprite": "weapons/rocket2/art_27.png",
+			"offset": { "x": -5, "y": -3 }
+		}
+	],
+	"proj.rocket2_28": [
+		{
+			"sprite": "weapons/rocket2/art_28.png",
+			"offset": { "x": -5, "y": -4 }
+		}
+	],
+	"proj.rocket2_29": [
+		{
+			"sprite": "weapons/rocket2/art_29.png",
+			"offset": { "x": -3, "y": -4 }
+		}
+	],
+	"proj.rocket2_30": [
+		{
+			"sprite": "weapons/rocket2/art_30.png",
+			"offset": { "x": -3, "y": -4 }
+		}
+	],
+	"proj.rocket2_31": [
+		{
+			"sprite": "weapons/rocket2/art_31.png",
+			"offset": { "x": -2, "y": -5 }
+		}
+	]
+}

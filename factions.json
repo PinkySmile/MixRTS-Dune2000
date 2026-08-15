@@ -73,6 +73,8 @@
 		"animations": [
 			"effects/anim.json",
 			"weapons/effects/anim.json",
+			"weapons/rocket1/anim.json",
+			"weapons/rocket2/anim.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",

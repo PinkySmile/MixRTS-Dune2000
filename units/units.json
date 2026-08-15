@@ -84,11 +84,18 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.rocket", "cooldown": 60 }],
+				"offset": 3,
+				"priority": 1
+			}
+		],
 		"death": {
 			"generic": { "effect": "effect.bang11", "stay": 30 }
 		},
 		"pass_flags": 2,
-		"armor": "wood",
+		"armor": "light",
 		"tags": ["wheeled", "mech"],
 		"requirements": ["group.lfac", "lfac.upgrade"],
 		"cost": { "base:credits": 400 },
@@ -158,6 +165,13 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "heavy_vehicle",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.missile", "cooldown": 230 }],
+				"offset": 3,
+				"priority": 1
+			}
+		],
 		"death": {
 			"generic": { "effect": "effect.bang14", "stay": 30 }
 		},

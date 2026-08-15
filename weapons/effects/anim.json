@@ -1,7 +1,6 @@
 {
 	"_general": {
-		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
-		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
 	},
 	"effect.mg": [
 		{
@@ -25,7 +24,7 @@
 			"blending": "add"
 		}
 	],
-	"effect.trail3": [
+	"effect.trail2": [
 		{
 			"sprite": "weapons/effects/trail3_0.png",
 			"offset": { "x": -3, "y": -1 }
@@ -71,6 +70,127 @@
 		{
 			"sprite": "weapons/effects/bazooka_4.png",
 			"offset": { "x": -1, "y": -1 },
+			"blending": "add"
+		}
+	],
+	"effect.rocket": [
+		{
+			"sprite": "weapons/effects/rocket_0.png",
+			"offset": { "x": -1, "y": -2 }
+		},
+		{
+			"sprite": "weapons/effects/rocket_1.png",
+			"offset": { "x": -4, "y": -4 }
+		},
+		{
+			"sprite": "weapons/effects/rocket_2.png",
+			"offset": { "x": -4, "y": -5 }
+		},
+		{
+			"sprite": "weapons/effects/rocket_3.png",
+			"offset": { "x": -5, "y": -6 }
+		},
+		{
+			"sprite": "weapons/effects/rocket_4.png",
+			"offset": { "x": -5, "y": -6 }
+		}
+	],
+	"effect.rocket2": [
+		{
+			"sprite": "weapons/effects/missile_0.png",
+			"offset": { "x": -3, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_1.png",
+			"offset": { "x": -8, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_2.png",
+			"offset": { "x": -7, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_3.png",
+			"offset": { "x": -7, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_4.png",
+			"offset": { "x": -7, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_5.png",
+			"offset": { "x": -5, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_6.png",
+			"offset": { "x": -6, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_7.png",
+			"offset": { "x": -6, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_8.png",
+			"offset": { "x": -5, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_9.png",
+			"offset": { "x": -5, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_10.png",
+			"offset": { "x": -4, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_11.png",
+			"offset": { "x": -4, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_12.png",
+			"offset": { "x": -4, "y": -6 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_13.png",
+			"offset": { "x": -4, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/missile_14.png",
+			"offset": { "x": 0, "y": -3 },
+			"blending": "add"
+		}
+	],
+	"effect.trail": [
+		{
+			"sprite": "weapons/effects/trail_0.png",
+			"offset": { "x": -4, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/trail_0.png",
+			"offset": { "x": -4, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/trail_1.png",
+			"offset": { "x": -3, "y": -3 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/trail_2.png",
+			"offset": { "x": -2, "y": -2 },
 			"blending": "add"
 		}
 	]
