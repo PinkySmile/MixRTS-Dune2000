@@ -193,5 +193,11 @@
 			"offset": { "x": -2, "y": -2 },
 			"blending": "add"
 		}
+	],
+	"proj.sonic": [
+		{
+			"sprite": "weapons/effects/Image_3980.png",
+			"offset": { "x": -8, "y": -8 }
+		}
 	]
 }

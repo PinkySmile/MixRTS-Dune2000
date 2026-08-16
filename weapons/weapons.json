@@ -48,7 +48,7 @@
 			"directions": 32,
 			"anim": { "anim": "proj.rocket1", "layer": 2 },
 			"trail": "effect.trail2",
-			"speed": 15
+			"speed": 7.5
 		},
 		"hit_effect": "effect.rocket",
 		"damage": 250,
@@ -63,7 +63,7 @@
 		"sound": "tank_gun",
 		"projectile": {
 			"anim": { "anim": "proj.pellet", "layer": 2 },
-			"speed": 24,
+			"speed": 12,
 			"blocked_by_wall": true
 		},
 		"hit_effect": "effect.tankgun",
@@ -79,7 +79,7 @@
 		"sound": "mortar_gun",
 		"projectile": {
 			"anim": { "anim": "proj.mortar", "layer": 2 },
-			"speed": 7.68,
+			"speed": 3.84,
 			"arc": true,
 			"shadow": true
 		},
@@ -91,18 +91,17 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.sound": {
+	"weapon.sound": {
 		"type": "projectile",
 		"sound": "sonic_gun",
 		"projectile": {
-			"anim": { "anim": "proj.sonic", "layer": 2 },
-			"speed": 7.68,
-			"damage_ramp": 20,
+			"anim": { "anim": "proj.sonic", "layer": 2, "shader": "weapons/effects/sound.frag" },
+			"speed": 3.84,
+			"damage_ramp": 1,
 			"hit_travel": true,
-			"range": 192
+			"range": 160
 		},
-		"send_forward": true,
-		"damage": 80,
+		"damage": 0,
 		"range": 160,
 		"warhead": "sonic",
 		"can_hit_tags": ["any_ground", "any_naval"],
@@ -114,7 +113,7 @@
 		"sound": "tank_gun",
 		"projectile": {
 			"anim": { "anim": "proj.pellet", "layer": 2 },
-			"speed": 36
+			"speed": 18
 		},
 		"hit_effect": "effect.tankgun",
 		"damage": 290,
@@ -153,7 +152,7 @@
 			"directions": 32,
 			"anim": { "anim": "proj.rocket2", "layer": 2 },
 			"trail": "effect.trail",
-			"speed": 12,
+			"speed": 6,
 			"homing": true
 		},
 		"hit_effect": "effect.rocket2",
@@ -171,7 +170,7 @@
 			"directions": 32,
 			"anim": { "anim": "proj.rocket2", "layer": 2 },
 			"trail": "effect.trail",
-			"speed": 12,
+			"speed": 6,
 			"homing": true
 		},
 		"hit_effect": "effect.rocket2",
@@ -189,7 +188,7 @@
 			"directions": 32,
 			"anim": { "anim": "proj.deviate", "layer": 2 },
 			"trail": "effect.green_trail",
-			"speed": 11.52,
+			"speed": 5.76,
 			"take_control": {
 				"targets": ["mech"],
 				"base_time": 1500,
@@ -210,7 +209,7 @@
 		"projectile": {
 			"directions": 16,
 			"anim": { "anim": "proj.devastator", "layer": 2 },
-			"speed": 12,
+			"speed": 6,
 			"blocked_by_wall": true
 		},
 		"hit_effect": "effect.devastator",
@@ -270,7 +269,7 @@
 		"projectile": {
 			"anim": { "anim": "proj.spice_explosion", "layer": 2 },
 			"trail": "effect.trail",
-			"speed": 7.68,
+			"speed": 3.84,
 			"arc": true,
 			"shadow": true
 		},
@@ -297,7 +296,7 @@
 		"type": "projectile",
 		"projectile": {
 			"anim": { "anim": "proj.debrit1", "layer": 2 },
-			"speed": 3.84,
+			"speed": 1.92,
 			"fall_time": 100,
 			"falling": true,
 			"shadow": true,
@@ -316,7 +315,7 @@
 		"projectile": {
 			"anim": { "anim": "proj.debrit2", "layer": 2 },
 			"trail": "effect.smoke",
-			"speed": 3.84,
+			"speed": 1.92,
 			"fall_time": 100,
 			"falling": true,
 			"shadow": true
@@ -334,7 +333,7 @@
 		"projectile": {
 			"anim": { "anim": "proj.debrit3", "layer": 2 },
 			"trail": "effect.smoke",
-			"speed": 3.84,
+			"speed": 1.92,
 			"fall_time": 100,
 			"falling": true,
 			"shadow": true,
@@ -353,7 +352,7 @@
 		"projectile": {
 			"anim": { "anim": "proj.debrit4", "layer": 2 },
 			"trail": "effect.trail",
-			"speed": 3.84,
+			"speed": 1.92,
 			"fall_time": 100,
 			"falling": true,
 			"shadow": true,
@@ -393,7 +392,7 @@
 		"type": "projectile",
 		"projectile": {
 			"anim": { "anim": "proj.mortar", "layer": 2 },
-			"speed": 7.68,
+			"speed": 3.84,
 			"arc": true,
 			"shadow": true
 		},
