@@ -188,12 +188,12 @@
 			"directions": 32,
 			"anim": { "anim": "proj.rocket2", "layer": 2 },
 			"trail": "effect.green_trail",
-			"speed": 5.76,
-			"take_control": {
-				"targets": ["mech"],
-				"base_time": 1500,
-				"time_loss_hit": 50
-			}
+			"speed": 5.76
+		},
+		"take_control": {
+			"targets": ["mech"],
+			"base_time": 1500,
+			"time_loss_hit": 50
 		},
 		"hit_effect": "effect.deviate",
 		"damage": 500,
@@ -384,22 +384,6 @@
 		"damage": 250,
 		"range": 112,
 		"warhead": "gt_at",
-		"can_hit_tags": ["bio", "any"],
-		"ground": true,
-		"air": false
-	},
-	"_weapon.155mm": {
-		"type": "projectile",
-		"projectile": {
-			"anim": { "anim": "proj.mortar", "layer": 2 },
-			"speed": 3.84,
-			"arc": true,
-			"shadow": true
-		},
-		"hit_effect": "effect.155mm",
-		"damage": 150,
-		"range": 128,
-		"warhead": "he",
 		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
