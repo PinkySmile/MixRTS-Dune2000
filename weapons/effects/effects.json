@@ -17,5 +17,13 @@
 	"effect.trail2": {
 		"anim": { "anim": "effect.trail2", "layer": 2, "delay": 6 },
 		"opacity": 0.5
+	},
+	"effect.green_trail": {
+		"anim": { "anim": "effect.deviator_trail", "layer": 2, "delay": 6 },
+		"opacity": 0.5
+	},
+	"effect.deviate" : {
+		"anim": { "anim": "effect.deviate", "layer": 2, "delay": 6 },
+		"opacity": 0.5
 	}
 }

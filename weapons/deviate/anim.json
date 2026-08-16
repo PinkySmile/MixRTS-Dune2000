@@ -1,0 +1,100 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"effect.deviate": [
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": -18, "y": 12 }
+		},
+		{
+			"sprite": "weapons/deviate/art_1.png",
+			"offset": { "x": -20, "y": 7 }
+		},
+		{
+			"sprite": "weapons/deviate/art_2.png",
+			"offset": { "x": -23, "y": 2 }
+		},
+		{
+			"sprite": "weapons/deviate/art_3.png",
+			"offset": { "x": -25, "y": -1 }
+		},
+		{
+			"sprite": "weapons/deviate/art_4.png",
+			"offset": { "x": -28, "y": -3 }
+		},
+		{
+			"sprite": "weapons/deviate/art_5.png",
+			"offset": { "x": -29, "y": -5 }
+		},
+		{
+			"sprite": "weapons/deviate/art_6.png",
+			"offset": { "x": -29, "y": -4 }
+		},
+		{
+			"sprite": "weapons/deviate/art_7.png",
+			"offset": { "x": -29, "y": -5 }
+		},
+		{
+			"sprite": "weapons/deviate/art_8.png",
+			"offset": { "x": -28, "y": -9 }
+		},
+		{
+			"sprite": "weapons/deviate/art_9.png",
+			"offset": { "x": -25, "y": -7 }
+		},
+		{
+			"sprite": "weapons/deviate/art_10.png",
+			"offset": { "x": -26, "y": -8 }
+		},
+		{
+			"sprite": "weapons/deviate/art_11.png",
+			"offset": { "x": -22, "y": -6 }
+		},
+		{
+			"sprite": "weapons/deviate/art_12.png",
+			"offset": { "x": -23, "y": -7 }
+		},
+		{
+			"sprite": "weapons/deviate/art_13.png",
+			"offset": { "x": -25, "y": -9 }
+		},
+		{
+			"sprite": "weapons/deviate/art_14.png",
+			"offset": { "x": -25, "y": -10 }
+		},
+		{
+			"sprite": "weapons/deviate/art_15.png",
+			"offset": { "x": -23, "y": -11 }
+		},
+		{
+			"sprite": "weapons/deviate/art_16.png",
+			"offset": { "x": -23, "y": -11 }
+		},
+		{
+			"sprite": "weapons/deviate/art_17.png",
+			"offset": { "x": -22, "y": -11 }
+		},
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": -19, "y": -15 }
+		},
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": 6, "y": 5 }
+		},
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": 9, "y": 4 }
+		},
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": 10, "y": 5 }
+		},
+		{
+			"sprite": "weapons/deviate/art_0.png",
+			"offset": { "x": 11, "y": 4 }
+		}
+	]
+}

@@ -75,6 +75,7 @@
 			"weapons/effects/anim.json",
 			"weapons/rocket1/anim.json",
 			"weapons/rocket2/anim.json",
+			"weapons/deviate/anim.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -87,6 +88,10 @@
 			"units/misl/anim.json",
 			"units/sonic/anim.json",
 			"units/raider/anim.json",
+			"units/devastator/anim.json",
+			"units/deviator/anim.json",
+			"units/engi/anim.json",
+			"units/sardaukar/anim.json",
 			"cursor/repair.json"
 		],
 		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],

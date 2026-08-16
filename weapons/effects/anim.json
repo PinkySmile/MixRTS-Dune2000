@@ -199,5 +199,32 @@
 			"sprite": "weapons/effects/Image_3980.png",
 			"offset": { "x": -8, "y": -8 }
 		}
+	],
+	"effect.deviator_trail": [
+		{
+			"sprite": "weapons/effects/deviator_trail_0.png",
+			"offset": { "x": -3, "y": -3 },
+			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		},
+		{
+			"sprite": "weapons/effects/deviator_trail_1.png",
+			"offset": { "x": -4, "y": -4 },
+			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		},
+		{
+			"sprite": "weapons/effects/deviator_trail_0.png",
+			"offset": { "x": -3, "y": -3 },
+			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		},
+		{
+			"sprite": "weapons/effects/deviator_trail_2.png",
+			"offset": { "x": -2, "y": -2 },
+			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		},
+		{
+			"sprite": "weapons/effects/deviator_trail_3.png",
+			"offset": { "x": -1, "y": -1 },
+			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		}
 	]
 }

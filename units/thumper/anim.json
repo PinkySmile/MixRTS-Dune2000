@@ -1,0 +1,696 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"thumper_0": [
+		{
+			"sprite": "units/thumper/art_0.png",
+			"offset": { "x": 2, "y": 0 }
+		}
+	],
+	"thumper_1": [
+		{
+			"sprite": "units/thumper/art_1.png",
+			"offset": { "x": 3, "y": 0 }
+		}
+	],
+	"thumper_2": [
+		{
+			"sprite": "units/thumper/art_2.png",
+			"offset": { "x": 3, "y": 0 }
+		}
+	],
+	"thumper_3": [
+		{
+			"sprite": "units/thumper/art_3.png",
+			"offset": { "x": 3, "y": 0 }
+		}
+	],
+	"thumper_4": [
+		{
+			"sprite": "units/thumper/art_4.png",
+			"offset": { "x": -1, "y": 0 }
+		}
+	],
+	"thumper_5": [
+		{
+			"sprite": "units/thumper/art_5.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"thumper_6": [
+		{
+			"sprite": "units/thumper/art_6.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"thumper_7": [
+		{
+			"sprite": "units/thumper/art_7.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"thumper_walk_0": [
+		{
+			"sprite": "units/thumper/art_8.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_16.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_24.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_32.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_40.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_48.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"thumper_walk_1": [
+		{
+			"sprite": "units/thumper/art_9.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_17.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_25.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_33.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_41.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_49.png",
+			"offset": { "x": 7, "y": -1 }
+		}
+	],
+	"thumper_walk_2": [
+		{
+			"sprite": "units/thumper/art_10.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_18.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_26.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_34.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_42.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_50.png",
+			"offset": { "x": 7, "y": -1 }
+		}
+	],
+	"thumper_walk_3": [
+		{
+			"sprite": "units/thumper/art_11.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_19.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_27.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_35.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_43.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_51.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"thumper_walk_4": [
+		{
+			"sprite": "units/thumper/art_12.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_20.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_28.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_36.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_44.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_52.png",
+			"offset": { "x": 6, "y": -1 }
+		}
+	],
+	"thumper_walk_5": [
+		{
+			"sprite": "units/thumper/art_13.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_21.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_29.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_37.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_45.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_53.png",
+			"offset": { "x": 6, "y": -2 }
+		}
+	],
+	"thumper_walk_6": [
+		{
+			"sprite": "units/thumper/art_14.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_22.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_30.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_38.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_46.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_54.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"thumper_walk_7": [
+		{
+			"sprite": "units/thumper/art_15.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_23.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_31.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_39.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_47.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_55.png",
+			"offset": { "x": 6, "y": -1 }
+		}
+	],
+	"thumper_crawl_idle_0": [
+		{
+			"sprite": "units/thumper/art_96.png",
+			"offset": { "x": 5, "y": 3 }
+		}
+	],
+	"thumper_crawl_idle_1": [
+		{
+			"sprite": "units/thumper/art_97.png",
+			"offset": { "x": 9, "y": 5 }
+		}
+	],
+	"thumper_crawl_idle_2": [
+		{
+			"sprite": "units/thumper/art_98.png",
+			"offset": { "x": 6, "y": 5 }
+		}
+	],
+	"thumper_crawl_idle_3": [
+		{
+			"sprite": "units/thumper/art_99.png",
+			"offset": { "x": 6, "y": 5 }
+		}
+	],
+	"thumper_crawl_idle_4": [
+		{
+			"sprite": "units/thumper/art_100.png",
+			"offset": { "x": 4, "y": 4 }
+		}
+	],
+	"thumper_crawl_idle_5": [
+		{
+			"sprite": "units/thumper/art_101.png",
+			"offset": { "x": 6, "y": 4 }
+		}
+	],
+	"thumper_crawl_idle_6": [
+		{
+			"sprite": "units/thumper/art_102.png",
+			"offset": { "x": 5, "y": 5 }
+		}
+	],
+	"thumper_crawl_idle_7": [
+		{
+			"sprite": "units/thumper/art_103.png",
+			"offset": { "x": 6, "y": 5 }
+		}
+	],
+	"thumper_crawl_0": [
+		{
+			"sprite": "units/thumper/art_104.png",
+			"offset": { "x": 5, "y": 3 }
+		},
+		{
+			"sprite": "units/thumper/art_112.png",
+			"offset": { "x": 6, "y": 4 }
+		},
+		{
+			"sprite": "units/thumper/art_120.png",
+			"offset": { "x": 6, "y": 4 }
+		},
+		{
+			"sprite": "units/thumper/art_128.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"thumper_crawl_1": [
+		{
+			"sprite": "units/thumper/art_105.png",
+			"offset": { "x": 7, "y": 8 }
+		},
+		{
+			"sprite": "units/thumper/art_113.png",
+			"offset": { "x": 9, "y": 8}
+		},
+		{
+			"sprite": "units/thumper/art_121.png",
+			"offset": { "x": 9, "y": 8 }
+		},
+		{
+			"sprite": "units/thumper/art_129.png",
+			"offset": { "x": 8, "y": 8 }
+		}
+	],
+	"thumper_crawl_2": [
+		{
+			"sprite": "units/thumper/art_106.png",
+			"offset": { "x": 3, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_114.png",
+			"offset": { "x": 7, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_122.png",
+			"offset": { "x": 4, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_130.png",
+			"offset": { "x": 5, "y": 10 }
+		}
+	],
+	"thumper_crawl_3": [
+		{
+			"sprite": "units/thumper/art_107.png",
+			"offset": { "x": 5, "y": 12 }
+		},
+		{
+			"sprite": "units/thumper/art_115.png",
+			"offset": { "x": 6, "y": 12 }
+		},
+		{
+			"sprite": "units/thumper/art_123.png",
+			"offset": { "x": 4, "y": 12 }
+		},
+		{
+			"sprite": "units/thumper/art_131.png",
+			"offset": { "x": 4, "y": 12 }
+		}
+	],
+	"thumper_crawl_4": [
+		{
+			"sprite": "units/thumper/art_108.png",
+			"offset": { "x": 5, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_116.png",
+			"offset": { "x": 6, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_124.png",
+			"offset": { "x": 5, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_132.png",
+			"offset": { "x": 6, "y": 11 }
+		}
+	],
+	"thumper_crawl_5": [
+		{
+			"sprite": "units/thumper/art_109.png",
+			"offset": { "x": 5, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_117.png",
+			"offset": { "x": 4, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_125.png",
+			"offset": { "x": 3, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_133.png",
+			"offset": { "x": 5, "y": 11 }
+		}
+	],
+	"thumper_crawl_6": [
+		{
+			"sprite": "units/thumper/art_110.png",
+			"offset": { "x": 2, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_118.png",
+			"offset": { "x": 2, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_126.png",
+			"offset": { "x": 1, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_134.png",
+			"offset": { "x": 2, "y": 10 }
+		}
+	],
+	"thumper_crawl_7": [
+		{
+			"sprite": "units/thumper/art_111.png",
+			"offset": { "x": 3, "y": 9 }
+		},
+		{
+			"sprite": "units/thumper/art_119.png",
+			"offset": { "x": 4, "y": 9 }
+		},
+		{
+			"sprite": "units/thumper/art_127.png",
+			"offset": { "x": 5, "y": 9 }
+		},
+		{
+			"sprite": "units/thumper/art_135.png",
+			"offset": { "x": 4, "y": 9 }
+		}
+	],
+	"thumper_death_0": [
+		{
+			"sprite": "units/thumper/art_176.png",
+			"offset": { "x": 2, "y": -4 }
+		},
+		{
+			"sprite": "units/thumper/art_184.png",
+			"offset": { "x": 0, "y": -4 }
+		},
+		{
+			"sprite": "units/thumper/art_192.png",
+			"offset": { "x": -4, "y": -5 }
+		},
+		{
+			"sprite": "units/thumper/art_200.png",
+			"offset": { "x": -6, "y": -4 }
+		},
+		{
+			"sprite": "units/thumper/art_208.png",
+			"offset": { "x": -9, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_216.png",
+			"offset": { "x": -9, "y": 7 }
+		},
+		{
+			"sprite": "units/thumper/art_224.png",
+			"offset": { "x": -12, "y": 6 }
+		},
+		{
+			"sprite": "units/thumper/art_232.png",
+			"offset": { "x": -13, "y": 9 }
+		},
+		{
+			"sprite": "units/thumper/art_240.png",
+			"offset": { "x": -13, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_248.png",
+			"offset": { "x": -13, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_256.png",
+			"offset": { "x": -13, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_264.png",
+			"offset": { "x": -16, "y": 11 }
+		}
+	],
+	"thumper_death_1": [
+		{
+			"sprite": "units/thumper/art_177.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_185.png",
+			"offset": { "x": 4, "y": -4 }
+		},
+		{
+			"sprite": "units/thumper/art_193.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_201.png",
+			"offset": { "x": 5, "y": 4 }
+		},
+		{
+			"sprite": "units/thumper/art_209.png",
+			"offset": { "x": 5, "y": 4 }
+		},
+		{
+			"sprite": "units/thumper/art_217.png",
+			"offset": { "x": 3, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_225.png",
+			"offset": { "x": 3, "y": 11 }
+		},
+		{
+			"sprite": "units/thumper/art_233.png",
+			"offset": { "x": 1, "y": 11 },
+			"repeat": 8
+		}
+	],
+	"thumper_death_2": [
+		{
+			"sprite": "units/thumper/art_178.png",
+			"offset": { "x": 2, "y": -3 }
+		},
+		{
+			"sprite": "units/thumper/art_186.png",
+			"offset": { "x": 2, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_194.png",
+			"offset": { "x": -5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_202.png",
+			"offset": { "x": -6, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_210.png",
+			"offset": { "x": -7, "y": 3 }
+		},
+		{
+			"sprite": "units/thumper/art_218.png",
+			"offset": { "x": -7, "y": 5 }
+		},
+		{
+			"sprite": "units/thumper/art_226.png",
+			"offset": { "x": -8, "y": 5 }
+		},
+		{
+			"sprite": "units/thumper/art_234.png",
+			"offset": { "x": -8, "y": 5 },
+			"repeat": 5
+		}
+	],
+	"thumper_death_3": [
+		{
+			"sprite": "units/thumper/art_179.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_187.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/thumper/art_195.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/thumper/art_203.png",
+			"offset": { "x": 7, "y": 7 }
+		},
+		{
+			"sprite": "units/thumper/art_211.png",
+			"offset": { "x": 6, "y": 7 }
+		},
+		{
+			"sprite": "units/thumper/art_219.png",
+			"offset": { "x": 5, "y": 7 }
+		},
+		{
+			"sprite": "units/thumper/art_227.png",
+			"offset": { "x": 4, "y": 7 }
+		},
+		{
+			"sprite": "units/thumper/art_235.png",
+			"offset": { "x": 2, "y": 7 },
+			"repeat": 5
+		}
+	],
+	"thumper_scrounch": [
+		{
+			"sprite": "units/thumper/art_180.png",
+			"offset": { "x": -5, "y": 10 }
+		},
+		{
+			"sprite": "units/thumper/art_188.png",
+			"offset": { "x": -5, "y": 9 }
+		},
+		{
+			"sprite": "units/thumper/art_196.png",
+			"offset": { "x": -8, "y": 8 }
+		},
+		{
+			"sprite": "units/thumper/art_204.png",
+			"offset": { "x": -8, "y": 8 },
+			"repeat": 5
+		}
+	],
+	"thumper_idle_1": [
+		{
+			"sprite": "units/thumper/art_181.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_189.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_197.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_205.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_213.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_221.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_229.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_237.png",
+			"offset": { "x": 6, "y": -2 }
+		}
+	],
+	"thumper_idle_2": [
+		{
+			"sprite": "units/thumper/art_182.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/thumper/art_190.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_198.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/thumper/art_206.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/thumper/art_214.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/thumper/art_222.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/thumper/art_230.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/thumper/art_238.png",
+			"offset": { "x": 5, "y": -2 }
+		}
+	]
+}

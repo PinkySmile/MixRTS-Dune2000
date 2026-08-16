@@ -181,12 +181,12 @@
 		"ground": true,
 		"air": true
 	},
-	"_weapon.deviator": {
+	"weapon.deviator": {
 		"type": "projectile",
 		"sound": "missile_gun",
 		"projectile": {
 			"directions": 32,
-			"anim": { "anim": "proj.deviate", "layer": 2 },
+			"anim": { "anim": "proj.rocket2", "layer": 2 },
 			"trail": "effect.green_trail",
 			"speed": 5.76,
 			"take_control": {
@@ -198,7 +198,7 @@
 		"hit_effect": "effect.deviate",
 		"damage": 500,
 		"range": 160,
-		"warhead": "at_mis",
+		"warhead": "deviate",
 		"can_hit_tags": ["mech", "any"],
 		"ground": true,
 		"air": false
