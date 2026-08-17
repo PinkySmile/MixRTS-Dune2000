@@ -399,5 +399,16 @@
 		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
+	},
+	"weapon.capture": {
+		"type": "enter",
+		"needs": "capture",
+		"take_control": { "targets": ["building"] },
+		"damage": 0,
+		"range": 0,
+		"warhead": "he",
+		"can_hit_tags": ["capturable_building"],
+		"ground": true,
+		"air": false
 	}
 }

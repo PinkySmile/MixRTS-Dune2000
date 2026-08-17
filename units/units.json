@@ -354,6 +354,12 @@
 		"anim_crawl":      { "anim": "engi_crawl",       "layer": 1, "delay": 10 },
 		"queue": "infantry",
 		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.capture", "cooldown": 36 }],
+				"priority": 1
+			}
+		],
 		"death": {
 			"blast":    { "anim": { "anim": "engi_death_0", "layer": 1, "delay": 10 } },
 			"bullet":   { "anim": { "anim": "engi_death_1", "layer": 1, "delay": 10 } },
