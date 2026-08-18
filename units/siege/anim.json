@@ -1,0 +1,392 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"siege_0": [
+		{
+			"sprite": "units/siege/art_0.png",
+			"offset": { "x": 7, "y": 8 }
+		}
+	],
+	"siege_1": [
+		{
+			"sprite": "units/siege/art_1.png",
+			"offset": { "x": 5, "y": 7 }
+		}
+	],
+	"siege_2": [
+		{
+			"sprite": "units/siege/art_2.png",
+			"offset": { "x": 3, "y": 6 }
+		}
+	],
+	"siege_3": [
+		{
+			"sprite": "units/siege/art_3.png",
+			"offset": { "x": 2, "y": 6 }
+		}
+	],
+	"siege_4": [
+		{
+			"sprite": "units/siege/art_4.png",
+			"offset": { "x": 1, "y": 6 }
+		}
+	],
+	"siege_5": [
+		{
+			"sprite": "units/siege/art_5.png",
+			"offset": { "x": 1, "y": 6 }
+		}
+	],
+	"siege_6": [
+		{
+			"sprite": "units/siege/art_6.png",
+			"offset": { "x": 1, "y": 7 }
+		}
+	],
+	"siege_7": [
+		{
+			"sprite": "units/siege/art_7.png",
+			"offset": { "x": 2, "y": 8 }
+		}
+	],
+	"siege_8": [
+		{
+			"sprite": "units/siege/art_8.png",
+			"offset": { "x": 4, "y": 8 }
+		}
+	],
+	"siege_9": [
+		{
+			"sprite": "units/siege/art_9.png",
+			"offset": { "x": 2, "y": 7 }
+		}
+	],
+	"siege_10": [
+		{
+			"sprite": "units/siege/art_10.png",
+			"offset": { "x": 1, "y": 6 }
+		}
+	],
+	"siege_11": [
+		{
+			"sprite": "units/siege/art_11.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"siege_12": [
+		{
+			"sprite": "units/siege/art_12.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"siege_13": [
+		{
+			"sprite": "units/siege/art_13.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	],
+	"siege_14": [
+		{
+			"sprite": "units/siege/art_14.png",
+			"offset": { "x": 3, "y": 4 }
+		}
+	],
+	"siege_15": [
+		{
+			"sprite": "units/siege/art_15.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"siege_16": [
+		{
+			"sprite": "units/siege/art_16.png",
+			"offset": { "x": 7, "y": 4 }
+		}
+	],
+	"siege_17": [
+		{
+			"sprite": "units/siege/art_17.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"siege_18": [
+		{
+			"sprite": "units/siege/art_18.png",
+			"offset": { "x": 4, "y": 4 }
+		}
+	],
+	"siege_19": [
+		{
+			"sprite": "units/siege/art_19.png",
+			"offset": { "x": 3, "y": 5 }
+		}
+	],
+	"siege_20": [
+		{
+			"sprite": "units/siege/art_20.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	],
+	"siege_21": [
+		{
+			"sprite": "units/siege/art_21.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	],
+	"siege_22": [
+		{
+			"sprite": "units/siege/art_22.png",
+			"offset": { "x": 2, "y": 6 }
+		}
+	],
+	"siege_23": [
+		{
+			"sprite": "units/siege/art_23.png",
+			"offset": { "x": 3, "y": 7 }
+		}
+	],
+	"siege_24": [
+		{
+			"sprite": "units/siege/art_24.png",
+			"offset": { "x": 4, "y": 8 }
+		}
+	],
+	"siege_25": [
+		{
+			"sprite": "units/siege/art_25.png",
+			"offset": { "x": 3, "y": 8 }
+		}
+	],
+	"siege_26": [
+		{
+			"sprite": "units/siege/art_26.png",
+			"offset": { "x": 2, "y": 7 }
+		}
+	],
+	"siege_27": [
+		{
+			"sprite": "units/siege/art_27.png",
+			"offset": { "x": 2, "y": 7 }
+		}
+	],
+	"siege_28": [
+		{
+			"sprite": "units/siege/art_28.png",
+			"offset": { "x": 2, "y": 6 }
+		}
+	],
+	"siege_29": [
+		{
+			"sprite": "units/siege/art_29.png",
+			"offset": { "x": 3, "y": 6 }
+		}
+	],
+	"siege_30": [
+		{
+			"sprite": "units/siege/art_30.png",
+			"offset": { "x": 4, "y": 6 }
+		}
+	],
+	"siege_31": [
+		{
+			"sprite": "units/siege/art_31.png",
+			"offset": { "x": 5, "y": 7 }
+		}
+	],
+
+
+	"siege_barrel_0": [
+		{
+			"sprite": "units/siege/barrel_0.png",
+			"offset": { "x": 12, "y": -1 }
+		}
+	],
+	"siege_barrel_1": [
+		{
+			"sprite": "units/siege/barrel_1.png",
+			"offset": { "x": 10, "y": -1 }
+		}
+	],
+	"siege_barrel_2": [
+		{
+			"sprite": "units/siege/barrel_2.png",
+			"offset": { "x": 8, "y": -1 }
+		}
+	],
+	"siege_barrel_3": [
+		{
+			"sprite": "units/siege/barrel_3.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"siege_barrel_4": [
+		{
+			"sprite": "units/siege/barrel_4.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"siege_barrel_5": [
+		{
+			"sprite": "units/siege/barrel_5.png",
+			"offset": { "x": 3, "y": 1 }
+		}
+	],
+	"siege_barrel_6": [
+		{
+			"sprite": "units/siege/barrel_6.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"siege_barrel_7": [
+		{
+			"sprite": "units/siege/barrel_7.png",
+			"offset": { "x": 1, "y": 4 }
+		}
+	],
+	"siege_barrel_8": [
+		{
+			"sprite": "units/siege/barrel_8.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"siege_barrel_9": [
+		{
+			"sprite": "units/siege/barrel_9.png",
+			"offset": { "x": 1, "y": 6 }
+		}
+	],
+	"siege_barrel_10": [
+		{
+			"sprite": "units/siege/barrel_10.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	],
+	"siege_barrel_11": [
+		{
+			"sprite": "units/siege/barrel_11.png",
+			"offset": { "x": 3, "y": 4 }
+		}
+	],
+	"siege_barrel_12": [
+		{
+			"sprite": "units/siege/barrel_12.png",
+			"offset": { "x": 5, "y": 3 }
+		}
+	],
+	"siege_barrel_13": [
+		{
+			"sprite": "units/siege/barrel_13.png",
+			"offset": { "x": 7, "y": 3 }
+		}
+	],
+	"siege_barrel_14": [
+		{
+			"sprite": "units/siege/barrel_14.png",
+			"offset": { "x": 8, "y": 2 }
+		}
+	],
+	"siege_barrel_15": [
+		{
+			"sprite": "units/siege/barrel_15.png",
+			"offset": { "x": 10, "y": 1 }
+		}
+	],
+	"siege_barrel_16": [
+		{
+			"sprite": "units/siege/barrel_16.png",
+			"offset": { "x": 12, "y": 1 }
+		}
+	],
+	"siege_barrel_17": [
+		{
+			"sprite": "units/siege/barrel_17.png",
+			"offset": { "x": 12, "y": 1 }
+		}
+	],
+	"siege_barrel_18": [
+		{
+			"sprite": "units/siege/barrel_18.png",
+			"offset": { "x": 10, "y": 2 }
+		}
+	],
+	"siege_barrel_19": [
+		{
+			"sprite": "units/siege/barrel_19.png",
+			"offset": { "x": 8, "y": 3 }
+		}
+	],
+	"siege_barrel_20": [
+		{
+			"sprite": "units/siege/barrel_20.png",
+			"offset": { "x": 7, "y": 3 }
+		}
+	],
+	"siege_barrel_21": [
+		{
+			"sprite": "units/siege/barrel_21.png",
+			"offset": { "x": 6, "y": 4 }
+		}
+	],
+	"siege_barrel_22": [
+		{
+			"sprite": "units/siege/barrel_22.png",
+			"offset": { "x": 5, "y": 5 }
+		}
+	],
+	"siege_barrel_23": [
+		{
+			"sprite": "units/siege/barrel_23.png",
+			"offset": { "x": 5, "y": 6 }
+		}
+	],
+	"siege_barrel_24": [
+		{
+			"sprite": "units/siege/barrel_24.png",
+			"offset": { "x": 5, "y": 5 }
+		}
+	],
+	"siege_barrel_25": [
+		{
+			"sprite": "units/siege/barrel_25.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"siege_barrel_26": [
+		{
+			"sprite": "units/siege/barrel_26.png",
+			"offset": { "x": 5, "y": 3 }
+		}
+	],
+	"siege_barrel_27": [
+		{
+			"sprite": "units/siege/barrel_27.png",
+			"offset": { "x": 6, "y": 1 }
+		}
+	],
+	"siege_barrel_28": [
+		{
+			"sprite": "units/siege/barrel_28.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"siege_barrel_29": [
+		{
+			"sprite": "units/siege/barrel_29.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"siege_barrel_30": [
+		{
+			"sprite": "units/siege/barrel_30.png",
+			"offset": { "x": 10, "y": -1 }
+		}
+	],
+	"siege_barrel_31": [
+		{
+			"sprite": "units/siege/barrel_31.png",
+			"offset": { "x": 12, "y": -1 }
+		}
+	]
+}

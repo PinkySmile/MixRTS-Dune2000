@@ -5,5 +5,6 @@
 	"rocket_gun":   { "path": "weapons/sounds/ROCKET1.ogg" },
 	"mortar_shoot": { "path": "weapons/sounds/MORTAR1.ogg" },
 	"sonic_gun":    { "path": "weapons/sounds/SONIC1.ogg" },
-	"missile_gun":  { "path": "weapons/sounds/MISSLE1.ogg" }
+	"missile_gun":  { "path": "weapons/sounds/MISSLE1.ogg" },
+	"mortar_gun":   { "path": "weapons/sounds/MORTAR1.ogg" }
 }

@@ -194,12 +194,6 @@
 			"blending": "add"
 		}
 	],
-	"proj.sonic": [
-		{
-			"sprite": "weapons/effects/Image_3980.png",
-			"offset": { "x": -8, "y": -8 }
-		}
-	],
 	"effect.deviator_trail": [
 		{
 			"sprite": "weapons/effects/deviator_trail_0.png",
@@ -225,6 +219,80 @@
 			"sprite": "weapons/effects/deviator_trail_3.png",
 			"offset": { "x": -1, "y": -1 },
 			"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		}
+	],
+	"effect.mortar": [
+		{
+			"sprite": "weapons/effects/mortar_ex_0.png",
+			"offset": { "x": -6, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_1.png",
+			"offset": { "x": -7, "y": -6 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_2.png",
+			"offset": { "x": -8, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_3.png",
+			"offset": { "x": -8, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_4.png",
+			"offset": { "x": -8, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_5.png",
+			"offset": { "x": -8, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_6.png",
+			"offset": { "x": -8, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_7.png",
+			"offset": { "x": -8, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_8.png",
+			"offset": { "x": -7, "y": -8 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_9.png",
+			"offset": { "x": -5, "y": -7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_10.png",
+			"offset": { "x": -3, "y": -3 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/mortar_ex_11.png",
+			"offset": { "x": -4, "y": -2 },
+			"blending": "add"
+		}
+	],
+	"proj.sonic": [
+		{
+			"sprite": "weapons/effects/Image_3980.png",
+			"offset": { "x": -8, "y": -8 }
+		}
+	],
+	"proj.mortar": [
+		{
+			"sprite": "weapons/effects/mortar.png",
+			"offset": { "x": -2, "y": -2 }
 		}
 	]
 }

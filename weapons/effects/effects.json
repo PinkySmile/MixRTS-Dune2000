@@ -14,6 +14,9 @@
 	"effect.trail": {
 		"anim": { "anim": "effect.trail", "layer": 2, "delay": 6 }
 	},
+	"effect.155mm": {
+		"anim": { "anim": "effect.mortar", "layer": 2, "delay": 6 }
+	},
 	"effect.trail2": {
 		"anim": { "anim": "effect.trail2", "layer": 2, "delay": 6 },
 		"opacity": 0.5

@@ -74,7 +74,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.155mm": {
+	"weapon.155mm": {
 		"type": "projectile",
 		"sound": "mortar_gun",
 		"projectile": {
