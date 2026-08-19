@@ -54,6 +54,7 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"muzzle": "effect.trike_muzzle",
 		"barrels": [
 			{
 				"weapons": [{ "name": "weapon.hmg", "cooldown": 40 }],
@@ -197,6 +198,7 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"muzzle": "effect.trike_muzzle",
 		"barrels": [
 			{
 				"weapons": [{ "name": "weapon.hmg", "cooldown": 36 }],
@@ -227,6 +229,7 @@
 		"turn_speed": 0,
 		"directions": 32,
 		"queue": "light_vehicle",
+		"muzzle": "effect.trike_muzzle",
 		"barrels": [
 			{
 				"weapons": [{ "name": "weapon.hmg", "cooldown": 36 }],

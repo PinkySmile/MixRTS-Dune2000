@@ -69,7 +69,11 @@
 		],
 		"weapons": [ "weapons/weapons.json" ],
 		"warheads": [ "weapons/warheads.json" ],
-		"effects": [ "weapons/effects/effects.json", "effects/effects.json" ],
+		"effects": [
+			"weapons/effects/effects.json",
+			"effects/effects.json",
+			"units/trike/effects.json"
+		],
 		"animations": [
 			"effects/anim.json",
 			"weapons/effects/anim.json",
