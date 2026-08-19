@@ -6,6 +6,7 @@
 	"explsml2": { "path": "sounds/EXPLSML2.ogg" },
 	"explsml3": { "path": "sounds/EXPLSML3.ogg" },
 	"explsml4": { "path": "sounds/EXPLSML4.ogg" },
+	"explmd2": { "path": "sounds/EXPLMD2.ogg" },
 	"killguy": [
 		{ "path": "sounds/KILLGUY1.ogg", "volume": 80 },
 		{ "path": "sounds/KILLGUY2.ogg", "volume": 80 },
