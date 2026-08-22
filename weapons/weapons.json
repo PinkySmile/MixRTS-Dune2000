@@ -58,7 +58,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.80mm": {
+	"weapon.80mm": {
 		"type": "projectile",
 		"sound": "tank_gun",
 		"projectile": {

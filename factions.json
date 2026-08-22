@@ -124,7 +124,7 @@
 	},
 	"ordos": {
 		"objects": [ "buildings/o_buildings.json", "units/o_units.json" ],
-		"animations": [ "buildings/o_animations.json" ],
+		"animations": [ "buildings/o_animations.json", "units/otank/anim.json" ],
 		"sounds": [ "units/o_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_o.png",

@@ -283,6 +283,48 @@
 			"blending": "add"
 		}
 	],
+	"effect.tankgun": [
+		{
+			"sprite": "weapons/effects/tankgun_0.png",
+			"offset": { "x": -6, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_1.png",
+			"offset": { "x": -6, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_2.png",
+			"offset": { "x": -7, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_3.png",
+			"offset": { "x": -5, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_4.png",
+			"offset": { "x": -4, "y": -2 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_5.png",
+			"offset": { "x": -3, "y": -1 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_6.png",
+			"offset": { "x": -3, "y": -1 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/tankgun_7.png",
+			"offset": { "x": -2, "y": 0 },
+			"blending": "add"
+		}
+	],
 	"proj.sonic": [
 		{
 			"sprite": "weapons/effects/Image_3980.png",
@@ -292,6 +334,12 @@
 	"proj.mortar": [
 		{
 			"sprite": "weapons/effects/mortar.png",
+			"offset": { "x": -2, "y": -2 }
+		}
+	],
+	"proj.pellet": [
+		{
+			"sprite": "weapons/effects/pellet.png",
 			"offset": { "x": -2, "y": -2 }
 		}
 	]

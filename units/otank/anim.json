@@ -1,0 +1,392 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"ctank_0": [
+		{
+			"sprite": "units/otank/art_0.png",
+			"offset": { "x": 2, "y": 3 }
+		}
+	],
+	"ctank_1": [
+		{
+			"sprite": "units/otank/art_1.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"ctank_2": [
+		{
+			"sprite": "units/otank/art_2.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"ctank_3": [
+		{
+			"sprite": "units/otank/art_3.png",
+			"offset": { "x": -2, "y": 2 }
+		}
+	],
+	"ctank_4": [
+		{
+			"sprite": "units/otank/art_4.png",
+			"offset": { "x": -3, "y": 2 }
+		}
+	],
+	"ctank_5": [
+		{
+			"sprite": "units/otank/art_5.png",
+			"offset": { "x": -4, "y": 2 }
+		}
+	],
+	"ctank_6": [
+		{
+			"sprite": "units/otank/art_6.png",
+			"offset": { "x": -3, "y": 3 }
+		}
+	],
+	"ctank_7": [
+		{
+			"sprite": "units/otank/art_7.png",
+			"offset": { "x": -3, "y": 4 }
+		}
+	],
+	"ctank_8": [
+		{
+			"sprite": "units/otank/art_8.png",
+			"offset": { "x": -2, "y": 5 }
+		}
+	],
+	"ctank_9": [
+		{
+			"sprite": "units/otank/art_9.png",
+			"offset": { "x": -4, "y": 4 }
+		}
+	],
+	"ctank_10": [
+		{
+			"sprite": "units/otank/art_10.png",
+			"offset": { "x": -4, "y": 3 }
+		}
+	],
+	"ctank_11": [
+		{
+			"sprite": "units/otank/art_11.png",
+			"offset": { "x": -4, "y": 2 }
+		}
+	],
+	"ctank_12": [
+		{
+			"sprite": "units/otank/art_12.png",
+			"offset": { "x": -3, "y": 1 }
+		}
+	],
+	"ctank_13": [
+		{
+			"sprite": "units/otank/art_13.png",
+			"offset": { "x": -2, "y": 1 }
+		}
+	],
+	"ctank_14": [
+		{
+			"sprite": "units/otank/art_14.png",
+			"offset": { "x": 0, "y": 1 }
+		}
+	],
+	"ctank_15": [
+		{
+			"sprite": "units/otank/art_15.png",
+			"offset": { "x": 1, "y": 2 }
+		}
+	],
+	"ctank_16": [
+		{
+			"sprite": "units/otank/art_16.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"ctank_17": [
+		{
+			"sprite": "units/otank/art_17.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+	"ctank_18": [
+		{
+			"sprite": "units/otank/art_18.png",
+			"offset": { "x": 0, "y": 1 }
+		}
+	],
+	"ctank_19": [
+		{
+			"sprite": "units/otank/art_19.png",
+			"offset": { "x": -2, "y": 1 }
+		}
+	],
+	"ctank_20": [
+		{
+			"sprite": "units/otank/art_20.png",
+			"offset": { "x": -3, "y": 1 }
+		}
+	],
+	"ctank_21": [
+		{
+			"sprite": "units/otank/art_21.png",
+			"offset": { "x": -3, "y": 2 }
+		}
+	],
+	"ctank_22": [
+		{
+			"sprite": "units/otank/art_22.png",
+			"offset": { "x": -4, "y": 3 }
+		}
+	],
+	"ctank_23": [
+		{
+			"sprite": "units/otank/art_23.png",
+			"offset": { "x": -2, "y": 4 }
+		}
+	],
+	"ctank_24": [
+		{
+			"sprite": "units/otank/art_24.png",
+			"offset": { "x": -1, "y": 4 }
+		}
+	],
+	"ctank_25": [
+		{
+			"sprite": "units/otank/art_25.png",
+			"offset": { "x": -2, "y": 4 }
+		}
+	],
+	"ctank_26": [
+		{
+			"sprite": "units/otank/art_26.png",
+			"offset": { "x": -3, "y": 3 }
+		}
+	],
+	"ctank_27": [
+		{
+			"sprite": "units/otank/art_27.png",
+			"offset": { "x": -3, "y": 2 }
+		}
+	],
+	"ctank_28": [
+		{
+			"sprite": "units/otank/art_28.png",
+			"offset": { "x": -2, "y": 2 }
+		}
+	],
+	"ctank_29": [
+		{
+			"sprite": "units/otank/art_29.png",
+			"offset": { "x": -1, "y": 1 }
+		}
+	],
+	"ctank_30": [
+		{
+			"sprite": "units/otank/art_30.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"ctank_31": [
+		{
+			"sprite": "units/otank/art_31.png",
+			"offset": { "x": 2, "y": 2 }
+		}
+	],
+
+
+	"ctank_barrel_0": [
+		{
+			"sprite": "units/otank/barrel_0.png",
+			"offset": { "x": 6, "y": -3 }
+		}
+	],
+	"ctank_barrel_1": [
+		{
+			"sprite": "units/otank/barrel_1.png",
+			"offset": { "x": 5, "y": -3 }
+		}
+	],
+	"ctank_barrel_2": [
+		{
+			"sprite": "units/otank/barrel_2.png",
+			"offset": { "x": 5, "y": -2 }
+		}
+	],
+	"ctank_barrel_3": [
+		{
+			"sprite": "units/otank/barrel_3.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"ctank_barrel_4": [
+		{
+			"sprite": "units/otank/barrel_4.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"ctank_barrel_5": [
+		{
+			"sprite": "units/otank/barrel_5.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"ctank_barrel_6": [
+		{
+			"sprite": "units/otank/barrel_6.png",
+			"offset": { "x": 4, "y": 4 }
+		}
+	],
+	"ctank_barrel_7": [
+		{
+			"sprite": "units/otank/barrel_7.png",
+			"offset": { "x": 4, "y": 5 }
+		}
+	],
+	"ctank_barrel_8": [
+		{
+			"sprite": "units/otank/barrel_8.png",
+			"offset": { "x": 4, "y": 4 }
+		}
+	],
+	"ctank_barrel_9": [
+		{
+			"sprite": "units/otank/barrel_9.png",
+			"offset": { "x": 4, "y": 4 }
+		}
+	],
+	"ctank_barrel_10": [
+		{
+			"sprite": "units/otank/barrel_10.png",
+			"offset": { "x": 4, "y": 3 }
+		}
+	],
+	"ctank_barrel_11": [
+		{
+			"sprite": "units/otank/barrel_11.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"ctank_barrel_12": [
+		{
+			"sprite": "units/otank/barrel_12.png",
+			"offset": { "x": 5, "y": 2 }
+		}
+	],
+	"ctank_barrel_13": [
+		{
+			"sprite": "units/otank/barrel_13.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"ctank_barrel_14": [
+		{
+			"sprite": "units/otank/barrel_14.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"ctank_barrel_15": [
+		{
+			"sprite": "units/otank/barrel_15.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"ctank_barrel_16": [
+		{
+			"sprite": "units/otank/barrel_16.png",
+			"offset": { "x": 6, "y": 1 }
+		}
+	],
+	"ctank_barrel_17": [
+		{
+			"sprite": "units/otank/barrel_17.png",
+			"offset": { "x": 6, "y": 1 }
+		}
+	],
+	"ctank_barrel_18": [
+		{
+			"sprite": "units/otank/barrel_18.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"ctank_barrel_19": [
+		{
+			"sprite": "units/otank/barrel_19.png",
+			"offset": { "x": 2, "y": 1 }
+		}
+	],
+	"ctank_barrel_20": [
+		{
+			"sprite": "units/otank/barrel_20.png",
+			"offset": { "x": 0, "y": 2 }
+		}
+	],
+	"ctank_barrel_21": [
+		{
+			"sprite": "units/otank/barrel_21.png",
+			"offset": { "x": -2, "y": 3 }
+		}
+	],
+	"ctank_barrel_22": [
+		{
+			"sprite": "units/otank/barrel_22.png",
+			"offset": { "x": -3, "y": 3 }
+		}
+	],
+	"ctank_barrel_23": [
+		{
+			"sprite": "units/otank/barrel_23.png",
+			"offset": { "x": -4, "y": 4 }
+		}
+	],
+	"ctank_barrel_24": [
+		{
+			"sprite": "units/otank/barrel_24.png",
+			"offset": { "x": -4, "y": 4 }
+		}
+	],
+	"ctank_barrel_25": [
+		{
+			"sprite": "units/otank/barrel_25.png",
+			"offset": { "x": -4, "y": 5 }
+		}
+	],
+	"ctank_barrel_26": [
+		{
+			"sprite": "units/otank/barrel_26.png",
+			"offset": { "x": -3, "y": 4 }
+		}
+	],
+	"ctank_barrel_27": [
+		{
+			"sprite": "units/otank/barrel_27.png",
+			"offset": { "x": -2, "y": 2 }
+		}
+	],
+	"ctank_barrel_28": [
+		{
+			"sprite": "units/otank/barrel_28.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"ctank_barrel_29": [
+		{
+			"sprite": "units/otank/barrel_29.png",
+			"offset": { "x": 2, "y": -1 }
+		}
+	],
+	"ctank_barrel_30": [
+		{
+			"sprite": "units/otank/barrel_30.png",
+			"offset": { "x": 5, "y": -2 }
+		}
+	],
+	"ctank_barrel_31": [
+		{
+			"sprite": "units/otank/barrel_31.png",
+			"offset": { "x": 6, "y": -3 }
+		}
+	]
+}

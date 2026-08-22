@@ -9,7 +9,7 @@
 		"central": true,
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 4,
+		"turn_delay": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"death": {

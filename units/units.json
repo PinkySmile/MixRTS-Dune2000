@@ -8,7 +8,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 4,
+		"turn_delay": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"death": {
@@ -51,7 +51,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -82,7 +82,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"barrels": [
@@ -113,7 +113,7 @@
 		],
 		"select_sound": "i_select",
 		"do_sound": "i_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -163,7 +163,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 2,
+		"turn_delay": 2,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -195,7 +195,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -226,7 +226,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -257,7 +257,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 4,
+		"turn_delay": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -288,7 +288,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 4,
+		"turn_delay": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"pass_flags": 2,
@@ -313,7 +313,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 4,
+		"turn_delay": 4,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -345,7 +345,7 @@
 		],
 		"select_sound": "e_select",
 		"do_sound": "e_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -393,7 +393,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 1,
+		"turn_delay": 1,
 		"directions": 8,
 		"queue": "infantry",
 		"death": {
@@ -426,7 +426,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_speed": 2,
+		"turn_delay": 2,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -443,6 +443,7 @@
 		"turrets": [
 			{
 				"fixed": true,
+				"independent": false,
 				"anim": { "anim": "siege_barrel", "layer": 1, "delay" : 10 },
 				"offset": { "x": 0, "y": 0 },
 				"barrel": 0

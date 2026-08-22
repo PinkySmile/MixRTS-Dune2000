@@ -14,6 +14,9 @@
 	"effect.trail": {
 		"anim": { "anim": "effect.trail", "layer": 2, "delay": 6 }
 	},
+	"effect.tankgun": {
+		"anim": { "anim": "effect.tankgun", "layer": 2, "delay": 6 }
+	},
 	"effect.155mm": {
 		"anim": { "anim": "effect.mortar", "layer": 2, "delay": 6 },
 		"sound": "explmd2"
