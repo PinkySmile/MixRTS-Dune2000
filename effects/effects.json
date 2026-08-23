@@ -10,5 +10,8 @@
 	"effect.bang14": {
 		"anim": { "anim": "effect.bang13", "layer": 2, "delay": 6 },
 		"sound": "explsml4"
+	},
+	"effect.bang_building": {
+		"anim": { "anim": "effect.bang13", "layer": 2, "delay": 6 }
 	}
 }
