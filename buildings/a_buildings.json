@@ -7,7 +7,23 @@
 		"repairable": true,
 		"requires_placement": true,
 		"repair_heal": 12,
-		"repair_delay": 16
+		"repair_delay": 16,
+		"death_sound": "explhg1",
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-160, 160], "y": [-160, 160] },
+					"count": [7, 12]
+				}
+			}
+		}
 	},
 	"a_cony": {
 		"anims": [
@@ -22,17 +38,6 @@
 		"central": true,
 		"group": "cony",
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "cy",
 		"requirements": [false],
 		"cost": { "base:credits": -1 },
@@ -69,17 +74,6 @@
 		},
 		"group": "lfac",
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "building",
 		"requirements": ["refi"],
 		"gives_queue": "light_vehicle",
@@ -120,17 +114,6 @@
 		},
 		"group": "hfac",
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "building",
 		"requirements": ["refi"],
 		"gives_queue": "heavy_vehicle",
@@ -170,17 +153,6 @@
 		},
 		"group": "barr",
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "building",
 		"requirements": ["wtra"],
 		"gives_queue": "infantry",
@@ -217,17 +189,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "building",
 		"requirements": ["group.hfac", "hfac.upgrade"],
 		"cost": { "base:credits": 800 },

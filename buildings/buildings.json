@@ -7,7 +7,23 @@
 		"repairable": true,
 		"requires_placement": true,
 		"repair_heal": 12,
-		"repair_delay": 16
+		"repair_delay": 16,
+		"death_sound": "explhg1",
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [7, 12]
+				}
+			}
+		}
 	},
 	"wtra": {
 		"anims": [
@@ -29,16 +45,6 @@
 		"power": -200,
 		"lower_power_when_damaged": true,
 		"show_after_build": 11,
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"armor": "building",
 		"tags": ["capturable_building", "building"],
 		"build_anim": { "anim": "wtra_make", "layer": 1, "delay": 6 },
@@ -67,17 +73,6 @@
 			"units": { "rifl": 3 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["wtra"],
 		"storage": { "base:credits": 2000 },
 		"upgrades": [],
@@ -122,17 +117,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["group.barr"],
 		"cost": { "base:credits": 1500 },
 		"build_speed": 2561,
@@ -167,17 +151,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"group": "htec",
 		"requirements": [["o_cony", "h_cony"], "outp"],
 		"cost": { "base:credits": 1150 },
@@ -214,17 +187,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"group": "htec",
 		"requirements": ["a_cony", "outp"],
 		"cost": { "base:credits": 1150 },
@@ -272,7 +234,12 @@
 				"stay": 50,
 				"count": 2,
 				"per_tile": true,
-				"variance": { "x": 16, "y": 16 }
+				"variance": { "x": 16, "y": 16 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [4, 6]
+				}
 			}
 		},
 		"requirements": ["refi"],
@@ -300,17 +267,6 @@
 			"units": { "rifl": 3 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["group.hfac", "outp"],
 		"gives_queue": "starport",
 		"cost": { "base:credits": 1500 },
@@ -343,17 +299,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["group.hfac", "hfac.upgrade", "outp"],
 		"cost": { "base:credits": 1000 },
 		"build_speed": 1281,
@@ -388,17 +333,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["a_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},
 		"exit_offset": {"x": 0, "y": 64},
@@ -434,17 +368,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["h_cony", "ixrc"],
 		"cost": { "base:credits": 1600 },
 		"build_speed": 3842,
@@ -479,17 +402,6 @@
 			"units": { "rifl": 4 }
 		},
 		"queue": "building",
-		"death_sound": "explhg1",
-		"death": {
-			"generic": {
-				"effect": "effect.bang_building",
-				"stay": 50,
-				"count": 2,
-				"per_tile": true,
-				"variance": { "x": 16, "y": 16 },
-				"shake": { "time": 4, "power": 4, "interval": 2 }
-			}
-		},
 		"requirements": ["o_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},
 		"exit_offset": {"x": 0, "y": 64},

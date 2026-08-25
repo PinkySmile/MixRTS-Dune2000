@@ -292,15 +292,16 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.debrit": {
+	"weapon.debris": {
 		"type": "projectile",
 		"projectile": {
-			"anim": { "anim": "proj.debrit1", "layer": 2 },
-			"speed": 1.92,
-			"fall_time": 100,
+			"anim": { "anim": "proj.debris1", "layer": 2, "delay": 4 },
+			"speed": 0.01,
 			"falling": true,
+			"v": 0.5,
+			"g": 0.01,
 			"shadow": true,
-			"bounce": 1
+			"bounce": [0, 1]
 		},
 		"hit_effect": "effect.bazooka",
 		"damage": 150,
@@ -310,17 +311,18 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.debrit2": {
+	"weapon.debris2": {
 		"type": "projectile",
 		"projectile": {
-			"anim": { "anim": "proj.debrit2", "layer": 2 },
+			"anim": { "anim": "proj.debris2", "layer": 2, "delay": 4 },
 			"trail": "effect.smoke",
-			"speed": 1.92,
-			"fall_time": 100,
+			"speed": 0.01,
 			"falling": true,
+			"v": 0.5,
+			"g": 0.01,
 			"shadow": true
 		},
-		"hit_effect": "effect.tank_gun",
+		"hit_effect": "effect.tankgun",
 		"damage": 250,
 		"range": 32,
 		"warhead": "fire",
@@ -328,16 +330,17 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.debrit3": {
+	"weapon.debris3": {
 		"type": "projectile",
 		"projectile": {
-			"anim": { "anim": "proj.debrit3", "layer": 2 },
+			"anim": { "anim": "proj.debris3", "layer": 2, "delay": 4 },
 			"trail": "effect.smoke",
-			"speed": 1.92,
-			"fall_time": 100,
+			"speed": 0.01,
 			"falling": true,
+			"v": 0.5,
+			"g": 0.01,
 			"shadow": true,
-			"bounce": 2
+			"bounce": [0, 2]
 		},
 		"hit_effect": "effect.bazooka",
 		"damage": 150,
@@ -347,16 +350,17 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.debrit4": {
+	"weapon.debris4": {
 		"type": "projectile",
 		"projectile": {
-			"anim": { "anim": "proj.debrit4", "layer": 2 },
+			"anim": { "anim": "proj.debris3", "layer": 2, "delay": 4 },
 			"trail": "effect.trail",
-			"speed": 1.92,
-			"fall_time": 100,
+			"speed": 0.01,
 			"falling": true,
+			"v": 0.5,
+			"g": 0.01,
 			"shadow": true,
-			"bounce": 2
+			"bounce": [0, 2]
 		},
 		"hit_effect": "effect.bazooka",
 		"damage": 250,

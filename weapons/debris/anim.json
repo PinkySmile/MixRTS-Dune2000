@@ -1,0 +1,48 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"proj.debris1": [
+		{
+			"sprite": "weapons/debris/debris_0.png",
+			"offset": { "x": -1, "y": -2 }
+		},
+		{
+			"sprite": "weapons/debris/debris_1.png",
+			"offset": { "x": -2, "y": -3 }
+		},
+		{
+			"sprite": "weapons/debris/debris_2.png",
+			"offset": { "x": -2, "y": -3 }
+		},
+		{
+			"sprite": "weapons/debris/debris_3.png",
+			"offset": { "x": -2, "y": -3 }
+		}
+	],
+	"proj.debris2": [
+		{
+			"sprite": "weapons/debris/debris2.png",
+			"offset": { "x": -3, "y": -4 }
+		}
+	],
+	"proj.debris3": [
+		{
+			"sprite": "weapons/debris/debris3_0.png",
+			"offset": { "x": -3, "y": -1 }
+		},
+		{
+			"sprite": "weapons/debris/debris3_1.png",
+			"offset": { "x": -4, "y": -2 }
+		},
+		{
+			"sprite": "weapons/debris/debris3_2.png",
+			"offset": { "x": -3, "y": -3 }
+		},
+		{
+			"sprite": "weapons/debris/debris3_3.png",
+			"offset": { "x": -3, "y": -2 }
+		}
+	]
+}

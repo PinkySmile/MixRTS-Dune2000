@@ -76,6 +76,7 @@
 		],
 		"animations": [
 			"effects/anim.json",
+			"weapons/debris/anim.json",
 			"weapons/effects/anim.json",
 			"weapons/rocket1/anim.json",
 			"weapons/rocket2/anim.json",

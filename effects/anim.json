@@ -181,5 +181,27 @@
 			"offset": { "x": -9, "y": -28 },
 			"blending": "add"
 		}
+	],
+	"effect.smoke": [
+		{
+			"sprite": "effects/smoke_0.png",
+			"offset": { "x": -6, "y": -5 },
+			"blending": "sub"
+		},
+		{
+			"sprite": "effects/smoke_1.png",
+			"offset": { "x": -5, "y": -5 },
+			"blending": "sub"
+		},
+		{
+			"sprite": "effects/smoke_2.png",
+			"offset": { "x": -5, "y": -4 },
+			"blending": "sub"
+		},
+		{
+			"sprite": "effects/smoke_3.png",
+			"offset": { "x": -4, "y": -3 },
+			"blending": "sub"
+		}
 	]
 }
