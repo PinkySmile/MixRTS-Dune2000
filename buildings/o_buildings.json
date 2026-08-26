@@ -8,7 +8,18 @@
 		"requires_placement": true,
 		"repair_heal": 12,
 		"repair_delay": 16,
-		"death_sound": "explhg1",
+		"death_sound": "explhg1"
+	},
+	"o_cony": {
+		"anims": [
+			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 },
+			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
+		],
+		"sell": {
+			"anim": { "anim": "cony_sell", "layer": 1, "delay": 6 },
+			"refund": { "base:credits": 1000 },
+			"units": { "rifl": 3 }
+		},
 		"death": {
 			"generic": {
 				"effect": "effect.bang_building",
@@ -21,19 +32,9 @@
 					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
 					"target": { "x": [-96, 96], "y": [-96, 96] },
 					"count": [7, 12]
-				}
+				},
+				"units": { "rifl": 3 }
 			}
-		}
-	},
-	"o_cony": {
-		"anims": [
-			{ "anim": "cony",    "when_hp_bigger": 50, "layer": 1 },
-			{ "anim": "cony_br", "when_hp_lower": 50,  "layer": 1 }
-		],
-		"sell": {
-			"anim": { "anim": "cony_sell", "layer": 1, "delay": 6 },
-			"refund": { "base:credits": 1000 },
-			"units": { "rifl": 1 }
 		},
 		"central": true,
 		"group": "cony",
@@ -71,6 +72,22 @@
 			"anim": { "anim": "lfac_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 750 },
 			"units": { "rifl": 3 }
+		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [7, 12]
+				},
+				"units": { "rifl": 3 }
+			}
 		},
 		"group": "lfac",
 		"queue": "building",
@@ -112,6 +129,22 @@
 			"refund": { "base:credits": 500 },
 			"units": { "rifl": 4 }
 		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [7, 12]
+				},
+				"units": { "rifl": 4 }
+			}
+		},
 		"group": "hfac",
 		"queue": "building",
 		"armor": "building",
@@ -151,6 +184,22 @@
 			"refund": { "base:credits": 800 },
 			"units": { "rifl": 1 }
 		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [7, 12]
+				},
+				"units": { "rifl": 1 }
+			}
+		},
 		"group": "barr",
 		"queue": "building",
 		"requirements": ["wtra"],
@@ -187,6 +236,22 @@
 			"anim": { "anim": "repr_sell", "layer": 1, "delay": 6 },
 			"refund": { "base:credits": 800 },
 			"units": { "rifl": 4 }
+		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"count": 2,
+				"per_tile": true,
+				"variance": { "x": 16, "y": 16 },
+				"shake": { "time": 4, "power": 4, "interval": 2 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [7, 12]
+				},
+				"units": { "rifl": 4 }
+			}
 		},
 		"queue": "building",
 		"armor": "building",
