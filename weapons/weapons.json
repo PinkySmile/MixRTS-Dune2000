@@ -203,16 +203,16 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.devastator": {
+	"weapon.plasma": {
 		"type": "projectile",
-		"sound": "devastator_gun",
+		"sound": "plasma_gun",
 		"projectile": {
 			"directions": 16,
-			"anim": { "anim": "proj.devastator", "layer": 2 },
+			"anim": { "anim": "proj.plasma", "layer": 2 },
 			"speed": 6,
 			"blocked_by_wall": true
 		},
-		"hit_effect": "effect.devastator",
+		"hit_effect": "effect.plasma",
 		"damage": 650,
 		"range": 128,
 		"warhead": "plasma",

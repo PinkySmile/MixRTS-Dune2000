@@ -1,0 +1,12 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"fregate": [
+		{
+			"sprite": "units/fregate/art_0.png",
+			"offset": { "x": 2, "y": 5 }
+		}
+	]
+}

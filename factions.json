@@ -72,6 +72,7 @@
 		"effects": [
 			"weapons/effects/effects.json",
 			"effects/effects.json",
+			"units/devastator/effects.json",
 			"units/trike/effects.json"
 		],
 		"animations": [
@@ -81,6 +82,7 @@
 			"weapons/rocket1/anim.json",
 			"weapons/rocket2/anim.json",
 			"weapons/deviate/anim.json",
+			"weapons/plasma/anim.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -91,6 +93,7 @@
 			"units/quad/anim.json",
 			"units/rifle/anim.json",
 			"units/siege/anim.json",
+			"units/carrier/anim.json",
 			"units/misl/anim.json",
 			"units/sonic/anim.json",
 			"units/raider/anim.json",

@@ -1,0 +1,98 @@
+{
+	"effect.devastator_muzzle_0": {
+		"anim": { "anim": "effect.devastator_muzzle_0", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_1": {
+		"anim": { "anim": "effect.devastator_muzzle_1", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_2": {
+		"anim": { "anim": "effect.devastator_muzzle_2", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_3": {
+		"anim": { "anim": "effect.devastator_muzzle_3", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_4": {
+		"anim": { "anim": "effect.devastator_muzzle_4", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_5": {
+		"anim": { "anim": "effect.devastator_muzzle_5", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_6": {
+		"anim": { "anim": "effect.devastator_muzzle_6", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_7": {
+		"anim": { "anim": "effect.devastator_muzzle_7", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_8": {
+		"anim": { "anim": "effect.devastator_muzzle_8", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_9": {
+		"anim": { "anim": "effect.devastator_muzzle_9", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_10": {
+		"anim": { "anim": "effect.devastator_muzzle_10", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_11": {
+		"anim": { "anim": "effect.devastator_muzzle_11", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_12": {
+		"anim": { "anim": "effect.devastator_muzzle_12", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_13": {
+		"anim": { "anim": "effect.devastator_muzzle_13", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_14": {
+		"anim": { "anim": "effect.devastator_muzzle_14", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_15": {
+		"anim": { "anim": "effect.devastator_muzzle_15", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_16": {
+		"anim": { "anim": "effect.devastator_muzzle_16", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_17": {
+		"anim": { "anim": "effect.devastator_muzzle_17", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_18": {
+		"anim": { "anim": "effect.devastator_muzzle_18", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_19": {
+		"anim": { "anim": "effect.devastator_muzzle_19", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_20": {
+		"anim": { "anim": "effect.devastator_muzzle_20", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_21": {
+		"anim": { "anim": "effect.devastator_muzzle_21", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_22": {
+		"anim": { "anim": "effect.devastator_muzzle_22", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_23": {
+		"anim": { "anim": "effect.devastator_muzzle_23", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_24": {
+		"anim": { "anim": "effect.devastator_muzzle_24", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_25": {
+		"anim": { "anim": "effect.devastator_muzzle_25", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_26": {
+		"anim": { "anim": "effect.devastator_muzzle_26", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_27": {
+		"anim": { "anim": "effect.devastator_muzzle_27", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_28": {
+		"anim": { "anim": "effect.devastator_muzzle_28", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_29": {
+		"anim": { "anim": "effect.devastator_muzzle_29", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_30": {
+		"anim": { "anim": "effect.devastator_muzzle_30", "layer": 2, "delay": 10 }
+	},
+	"effect.devastator_muzzle_31": {
+		"anim": { "anim": "effect.devastator_muzzle_31", "layer": 2, "delay": 10 }
+	}
+}

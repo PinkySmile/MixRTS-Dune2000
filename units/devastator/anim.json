@@ -195,5 +195,229 @@
 			"sprite": "units/devastator/art_31.png",
 			"offset": { "x": 0, "y": 1 }
 		}
+	],
+	"effect.devastator_muzzle_0": [
+		{
+			"sprite": "units/devastator/muzzle_0.png",
+			"offset": { "x": -13, "y": -24 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_1": [
+		{
+			"sprite": "units/devastator/muzzle_1.png",
+			"offset": { "x": -9, "y": -24 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_2": [
+		{
+			"sprite": "units/devastator/muzzle_2.png",
+			"offset": { "x": -6, "y": -23 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_3": [
+		{
+			"sprite": "units/devastator/muzzle_3.png",
+			"offset": { "x": -2, "y": -21 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_4": [
+		{
+			"sprite": "units/devastator/muzzle_4.png",
+			"offset": { "x": 2, "y": -21 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_5": [
+		{
+			"sprite": "units/devastator/muzzle_5.png",
+			"offset": { "x": -24, "y": -18 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_6": [
+		{
+			"sprite": "units/devastator/muzzle_6.png",
+			"offset": { "x": -24, "y": -18 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_7": [
+		{
+			"sprite": "units/devastator/muzzle_7.png",
+			"offset": { "x": -24, "y": -16 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_8": [
+		{
+			"sprite": "units/devastator/muzzle_8.png",
+			"offset": { "x": -24, "y": -14 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_9": [
+		{
+			"sprite": "units/devastator/muzzle_9.png",
+			"offset": { "x": -24, "y": -11 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_10": [
+		{
+			"sprite": "units/devastator/muzzle_10.png",
+			"offset": { "x": -24, "y": -9 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_11": [
+		{
+			"sprite": "units/devastator/muzzle_11.png",
+			"offset": { "x": -24, "y": -6 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_12": [
+		{
+			"sprite": "units/devastator/muzzle_12.png",
+			"offset": { "x": -24, "y": -5 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_13": [
+		{
+			"sprite": "units/devastator/muzzle_13.png",
+			"offset": { "x": -4, "y": -4 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_14": [
+		{
+			"sprite": "units/devastator/muzzle_14.png",
+			"offset": { "x": -7, "y": -3 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_15": [
+		{
+			"sprite": "units/devastator/muzzle_15.png",
+			"offset": { "x": -11, "y": -3 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_16": [
+		{
+			"sprite": "units/devastator/muzzle_16.png",
+			"offset": { "x": -14, "y": -3 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_17": [
+		{
+			"sprite": "units/devastator/muzzle_17.png",
+			"offset": { "x": -16, "y": -3 },
+			"blending": "add"
+		}
+	],
+		"effect.devastator_muzzle_18": [
+		{
+			"sprite": "units/devastator/muzzle_18.png",
+			"offset": { "x": -18, "y": -3 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_19": [
+		{
+			"sprite": "units/devastator/muzzle_19.png",
+			"offset": { "x": -21, "y": -4 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_20": [
+		{
+			"sprite": "units/devastator/muzzle_20.png",
+			"offset": { "x": -22, "y": -6 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_21": [
+		{
+			"sprite": "units/devastator/muzzle_21.png",
+			"offset": { "x": -24, "y": -7 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_22": [
+		{
+			"sprite": "units/devastator/muzzle_22.png",
+			"offset": { "x": -24, "y": -9 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_23": [
+		{
+			"sprite": "units/devastator/muzzle_23.png",
+			"offset": { "x": -24, "y": -12 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_24": [
+		{
+			"sprite": "units/devastator/muzzle_24.png",
+			"offset": { "x": -24, "y": -13 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_25": [
+		{
+			"sprite": "units/devastator/muzzle_25.png",
+			"offset": { "x": -24, "y": -16 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_26": [
+		{
+			"sprite": "units/devastator/muzzle_26.png",
+			"offset": { "x": -24, "y": -17 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_27": [
+		{
+			"sprite": "units/devastator/muzzle_27.png",
+			"offset": { "x": -23, "y": -19 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_28": [
+		{
+			"sprite": "units/devastator/muzzle_28.png",
+			"offset": { "x": -23, "y": -22 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_29": [
+		{
+			"sprite": "units/devastator/muzzle_29.png",
+			"offset": { "x": -20, "y": -21 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_30": [
+		{
+			"sprite": "units/devastator/muzzle_30.png",
+			"offset": { "x": -19, "y": -22 },
+			"blending": "add"
+		}
+	],
+	"effect.devastator_muzzle_31": [
+		{
+			"sprite": "units/devastator/muzzle_31.png",
+			"offset": { "x": -15, "y": -22 },
+			"blending": "add"
+		}
 	]
 }

@@ -1,0 +1,102 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"blending": "add"
+		},
+	"proj.plasma_0": [
+		{
+			"sprite": "weapons/plasma/art_0.png",
+			"offset": { "x": -9, "y": -6 }
+		}
+	],
+	"proj.plasma_1": [
+		{
+			"sprite": "weapons/plasma/art_1.png",
+			"offset": { "x": -8, "y": -7 }
+		}
+	],
+	"proj.plasma_2": [
+		{
+			"sprite": "weapons/plasma/art_2.png",
+			"offset": { "x": -7, "y": -8 }
+		}
+	],
+	"proj.plasma_3": [
+		{
+			"sprite": "weapons/plasma/art_3.png",
+			"offset": { "x": -5, "y": -9 }
+		}
+	],
+	"proj.plasma_4": [
+		{
+			"sprite": "weapons/plasma/art_4.png",
+			"offset": { "x": -4, "y": -7 }
+		}
+	],
+	"proj.plasma_5": [
+		{
+			"sprite": "weapons/plasma/art_5.png",
+			"offset": { "x": -5, "y": -9 }
+		}
+	],
+	"proj.plasma_6": [
+		{
+			"sprite": "weapons/plasma/art_6.png",
+			"offset": { "x": -6, "y": -8 }
+		}
+	],
+	"proj.plasma_7": [
+		{
+			"sprite": "weapons/plasma/art_7.png",
+			"offset": { "x": -7, "y": 7 }
+		}
+	],
+	"proj.plasma_8": [
+		{
+			"sprite": "weapons/plasma/art_8.png",
+			"offset": { "x": -8, "y": -6 }
+		}
+	],
+	"proj.plasma_9": [
+		{
+			"sprite": "weapons/plasma/art_9.png",
+			"offset": { "x": -8, "y": -7 }
+		}
+	],
+	"proj.plasma_10": [
+		{
+			"sprite": "weapons/plasma/art_10.png",
+			"offset": { "x": -6, "y": -8 }
+		}
+	],
+	"proj.plasma_11": [
+		{
+			"sprite": "weapons/plasma/art_11.png",
+			"offset": { "x": -5, "y": -9 }
+		}
+	],
+	"proj.plasma_12": [
+		{
+			"sprite": "weapons/plasma/art_12.png",
+			"offset": { "x": -4, "y": -7 }
+		}
+	],
+	"proj.plasma_13": [
+		{
+			"sprite": "weapons/plasma/art_13.png",
+			"offset": { "x": -5, "y": -9 }
+		}
+	],
+	"proj.plasma_14": [
+		{
+			"sprite": "weapons/plasma/art_14.png",
+			"offset": { "x": -6, "y": -8 }
+		}
+	],
+	"proj.plasma_15": [
+		{
+			"sprite": "weapons/plasma/art_15.png",
+			"offset": { "x": -7, "y": -7 }
+		}
+	]
+}

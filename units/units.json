@@ -292,6 +292,13 @@
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"pass_flags": 2,
+		"muzzle": "effect.devastator_muzzle",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.plasma", "cooldown": 150 }],
+				"priority": 1
+			}
+		],
 		"death": {
 			"generic": { "effect": "effect.bang14", "stay": 30 }
 		},
@@ -460,5 +467,31 @@
 		"hp": 1200,
 		"can_crush": true,
 		"select": { "x": 0, "y": -4, "h": 32, "w": 32 }
+	},
+	"carr": {
+		"anims": [
+			{ "anim": "carr", "layer": 1 }
+		],
+		"grid_bound": false,
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_delay": 2,
+		"directions": 32,
+		"queue": "aircraft",
+		"ignore_terrain": true,
+		"selectable": false,
+		"death": {
+			"generic": { "effect": "effect.bang14", "stay": 30 }
+		},
+		"armor": "light",
+		"tags": ["air", "plane"],
+		"requirements": ["group.htec"],
+		"cost": { "base:credits": 1100 },
+		"build_speed": 3073,
+		"speed": 2,
+		"size": { "x": 64, "y": 64 },
+		"sight": 0,
+		"hp": 4800,
+		"select": { "x": 0, "y": -4, "h": 64, "w": 64 }
 	}
 }

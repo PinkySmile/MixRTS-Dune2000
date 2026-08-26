@@ -32,5 +32,9 @@
 	"effect.deviate" : {
 		"anim": { "anim": "effect.deviate", "layer": 2, "delay": 6 },
 		"opacity": 0.5
+	},
+	"effect.plasma": {
+		"anim": { "anim": "effect.plasma", "layer": 2, "delay": 6 },
+		"sound": "expllg2"
 	}
 }

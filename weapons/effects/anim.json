@@ -342,5 +342,42 @@
 			"sprite": "weapons/effects/pellet.png",
 			"offset": { "x": -2, "y": -2 }
 		}
+	],
+	"effect.plasma": [
+		{
+			"sprite": "weapons/effects/plasma_0.png",
+			"offset": { "x": -24, "y": -23 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_1.png",
+			"offset": { "x": -24, "y": -23 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_2.png",
+			"offset": { "x": -24, "y": -22 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_3.png",
+			"offset": { "x": -23, "y": -23 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_4.png",
+			"offset": { "x": -19, "y": -17 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_5.png",
+			"offset": { "x": -13, "y": -12 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/plasma_6.png",
+			"offset": { "x": -10, "y": -11 },
+			"blending": "add"
+		}
 	]
 }
