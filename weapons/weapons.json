@@ -381,7 +381,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.sard_hmg": {
+	"weapon.sard_hmg": {
 		"type": "hitscan",
 		"sound": "20mm_gun",
 		"hit_effect": "effect.mg",
