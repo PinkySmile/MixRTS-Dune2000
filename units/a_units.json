@@ -35,5 +35,45 @@
 				"offset": { "x": -32, "y": -32 }
 			}
 		}
+	},
+	"tank": {
+		"anims": [
+			{ "anim": "ctank", "layer": 1 }
+		],
+		"select_sound": "v_select",
+		"do_sound": "v_confirm",
+		"turn_delay": 2,
+		"directions": 32,
+		"queue": "heavy_vehicle",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.80mm", "cooldown": 100 }],
+				"offset": 5,
+				"priority": 1
+			}
+		],
+		"pass_flags": 2,
+		"death": {
+			"generic": { "effect": "effect.bang13", "stay": 30 }
+		},
+		"turrets": [
+			{
+				"turn_delay": 1,
+				"anim": { "anim": "ctank_barrel", "layer": 1, "delay" : 10 },
+				"offset": { "x": 0, "y": 0 },
+				"barrel": 0
+			}
+		],
+		"armor": "heavy",
+		"tags": ["tracked", "mech"],
+		"requirements": ["group.hfac"],
+		"cost": { "base:credits": 700 },
+		"build_speed": 1773,
+		"speed": 0.875,
+		"size": { "x": 24, "y": 24 },
+		"sight": 4,
+		"hp": 2100,
+		"can_crush": true,
+		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
 	}
 }

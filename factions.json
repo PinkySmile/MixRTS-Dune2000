@@ -108,7 +108,7 @@
 	},
 	"atreides": {
 		"objects": [ "buildings/a_buildings.json", "units/a_units.json" ],
-		"animations": [ "buildings/a_animations.json" ],
+		"animations": [ "buildings/a_animations.json", "units/atank/anim.json"],
 		"sounds": [ "units/a_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_a.png",
@@ -118,7 +118,7 @@
 	},
 	"harkonnen": {
 		"objects": [ "buildings/h_buildings.json", "units/h_units.json" ],
-		"animations": [ "buildings/h_animations.json" ],
+		"animations": [ "buildings/h_animations.json", "units/htank/anim.json"],
 		"sounds": [ "units/h_sounds.json" ],
 		"ui": {
 			"blazon": "ui/common/blazon_h.png",
