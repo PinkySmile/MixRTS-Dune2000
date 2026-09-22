@@ -534,5 +534,105 @@
 		"sight": 0,
 		"hp": 4800,
 		"select": { "x": 0, "y": -4, "h": 64, "w": 64 }
+	},
+	"gren": {
+		"anims": [
+			{ "anim": "grenadier", "layer": 1, "delay": 10 }
+		],
+		"select_sound": "i_select",
+		"do_sound": "i_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "grenadier_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "grenadier_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "grenadier_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "grenadier_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "grenadier_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "grenadier_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "grenadier_crawl_shoot", "layer": 1, "delay": 10 },
+		"queue": "infantry",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.grenade", "cooldown": 100 }],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "rifle_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"tags": ["infantry", "bio"],
+		"requirements": ["group.barr", "barr.upgrade","group.htec"],
+		"cost": { "base:credits": 80 },
+		"build_speed": 384,
+		"speed": 0.5,
+		"size": { "x": 16, "y": 16 },
+		"sight": 2,
+		"hp": 600,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "grenadier_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+	},
+	"trop": {
+		"anims": [
+			{ "anim": "trooper", "layer": 1, "delay": 10 }
+		],
+		"select_sound": "i_select",
+		"do_sound": "i_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "trooper_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "trooper_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "trooper_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "trooper_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "trooper_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "trooper_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "trooper_crawl_shoot", "layer": 1, "delay": 10 },
+		"queue": "infantry",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.bazooka", "cooldown": 100 }],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "trooper_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "trooper_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "trooper_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "trooper_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "rifle_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "trooper_death_2", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"tags": ["infantry", "bio"],
+		"requirements": ["group.barr", "barr.upgrade"],
+		"cost": { "base:credits": 90 },
+		"build_speed": 349,
+		"speed": 0.375,
+		"size": { "x": 16, "y": 16 },
+		"sight": 3,
+		"hp": 700,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "trooper_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	}
 }

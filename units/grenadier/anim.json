@@ -1,0 +1,943 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"grenadier_0": [
+		{
+			"sprite": "units/grenadier/art_0.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_1": [
+		{
+			"sprite": "units/grenadier/art_1.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_2": [
+		{
+			"sprite": "units/grenadier/art_2.png",
+			"offset": { "x": 2, "y": 0 }
+		}
+	],
+	"grenadier_3": [
+		{
+			"sprite": "units/grenadier/art_3.png",
+			"offset": { "x": 3, "y": -1 }
+		}
+	],
+	"grenadier_4": [
+		{
+			"sprite": "units/grenadier/art_4.png",
+			"offset": { "x": 3, "y": -1 }
+		}
+	],
+	"grenadier_5": [
+		{
+			"sprite": "units/grenadier/art_5.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"grenadier_6": [
+		{
+			"sprite": "units/grenadier/art_6.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"grenadier_7": [
+		{
+			"sprite": "units/grenadier/art_7.png",
+			"offset": { "x": 6, "y": 0 }
+		}
+	],
+	"grenadier_walk_0": [
+		{
+			"sprite": "units/grenadier/art_8.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_16.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_24.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_32.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_40.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_48.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"grenadier_walk_1": [
+		{
+			"sprite": "units/grenadier/art_9.png",
+			"offset": { "x": 9, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_17.png",
+			"offset": { "x": 8, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_25.png",
+			"offset": { "x": 9, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_33.png",
+			"offset": { "x": 9, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_41.png",
+			"offset": { "x": 9, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_49.png",
+			"offset": { "x": 9, "y": -2 }
+		}
+	],
+	"grenadier_walk_2": [
+		{
+			"sprite": "units/grenadier/art_10.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_18.png",
+			"offset": { "x": 8, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_26.png",
+			"offset": { "x": 8, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_34.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_42.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_50.png",
+			"offset": { "x": 8, "y": -1 }
+		}
+	],
+	"grenadier_walk_3": [
+{
+			"sprite": "units/grenadier/art_11.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_19.png",
+			"offset": { "x": 7, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_27.png",
+			"offset": { "x": 7, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_35.png",
+			"offset": { "x": 7, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_43.png",
+			"offset": { "x": 7, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_51.png",
+			"offset": { "x": 7, "y": 1 }
+		}
+	],
+	"grenadier_walk_4": [
+		{
+			"sprite": "units/grenadier/art_12.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_20.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_28.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_36.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_44.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_52.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"grenadier_walk_5": [
+		{
+			"sprite": "units/grenadier/art_13.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_21.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_29.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_37.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_45.png",
+			"offset": { "x": 7, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_53.png",
+			"offset": { "x": 7, "y": -1 }
+		}
+	],
+	"grenadier_walk_6": [
+		{
+			"sprite": "units/grenadier/art_14.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_22.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_30.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_38.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_46.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_54.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"grenadier_walk_7": [
+		{
+			"sprite": "units/grenadier/art_15.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_23.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_31.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_39.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_47.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_55.png",
+			"offset": { "x": 6, "y": -1 }
+		}
+	],
+	"grenadier_shoot_0": [
+		{
+			"sprite": "units/grenadier/art_56.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_64.png",
+			"offset": { "x": 4, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_72.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_80.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_88.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_shoot_1": [
+		{
+			"sprite": "units/grenadier/art_57.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_65.png",
+			"offset": { "x": 5, "y": 0}
+		},
+		{
+			"sprite": "units/grenadier/art_73.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_81.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_89.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_shoot_2": [
+		{
+			"sprite": "units/grenadier/art_58.png",
+			"offset": { "x": 6, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_66.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_74.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_82.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_90.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_shoot_3": [
+		{
+			"sprite": "units/grenadier/art_59.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_67.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_75.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_83.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_91.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"grenadier_shoot_4": [
+		{
+			"sprite": "units/grenadier/art_60.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_68.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_76.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_84.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_92.png",
+			"offset": { "x": 6, "y": -1 }
+		}
+	],
+	"grenadier_shoot_5": [
+		{
+			"sprite": "units/grenadier/art_61.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_69.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_77.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_85.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_93.png",
+			"offset": { "x": 7, "y": -1 }
+		}
+	],
+	"grenadier_shoot_6": [
+		{
+			"sprite": "units/grenadier/art_62.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_70.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_78.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_86.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_94.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"grenadier_shoot_7": [
+		{
+			"sprite": "units/grenadier/art_63.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_71.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_79.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_87.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/grenadier/art_95.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"grenadier_crawl_idle_0": [
+		{
+			"sprite": "units/grenadier/art_96.png",
+			"offset": { "x": 6, "y": 2 }
+		}
+	],
+	"grenadier_crawl_idle_1": [
+		{
+			"sprite": "units/grenadier/art_97.png",
+			"offset": { "x": 6, "y": 2 }
+		}
+	],
+	"grenadier_crawl_idle_2": [
+		{
+			"sprite": "units/grenadier/art_98.png",
+			"offset": { "x": 8, "y": 3 }
+		}
+	],
+	"grenadier_crawl_idle_3": [
+		{
+			"sprite": "units/grenadier/art_99.png",
+			"offset": { "x": 6, "y": 4 }
+		}
+	],
+	"grenadier_crawl_idle_4": [
+		{
+			"sprite": "units/grenadier/art_100.png",
+			"offset": { "x": 6, "y": 1 }
+		}
+	],
+	"grenadier_crawl_idle_5": [
+		{
+			"sprite": "units/grenadier/art_101.png",
+			"offset": { "x": 6, "y": 3 }
+		}
+	],
+	"grenadier_crawl_idle_6": [
+		{
+			"sprite": "units/grenadier/art_102.png",
+			"offset": { "x": 5, "y": 1 }
+		}
+	],
+	"grenadier_crawl_idle_7": [
+		{
+			"sprite": "units/grenadier/art_103.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"grenadier_crawl_0": [
+		{
+			"sprite": "units/grenadier/art_104.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/grenadier/art_112.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/grenadier/art_120.png",
+			"offset": { "x": 6, "y": 2 }
+		},
+		{
+			"sprite": "units/grenadier/art_128.png",
+			"offset": { "x": 6, "y": 2 }
+		}
+	],
+	"grenadier_crawl_1": [
+		{
+			"sprite": "units/grenadier/art_105.png",
+			"offset": { "x": 6, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_113.png",
+			"offset": { "x": 8, "y": 5}
+		},
+		{
+			"sprite": "units/grenadier/art_121.png",
+			"offset": { "x": 8, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_129.png",
+			"offset": { "x": 8, "y": 4 }
+		}
+	],
+	"grenadier_crawl_2": [
+		{
+			"sprite": "units/grenadier/art_106.png",
+			"offset": { "x": 3, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_114.png",
+			"offset": { "x": 8, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_122.png",
+			"offset": { "x": 3, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_130.png",
+			"offset": { "x": 8, "y": 6 }
+		}
+	],
+	"grenadier_crawl_3": [
+		{
+			"sprite": "units/grenadier/art_107.png",
+			"offset": { "x": 6, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_115.png",
+			"offset": { "x": 6, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_123.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_131.png",
+			"offset": { "x": 5, "y": 7 }
+		}
+	],
+	"grenadier_crawl_4": [
+		{
+			"sprite": "units/grenadier/art_108.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_116.png",
+			"offset": { "x": 3, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_124.png",
+			"offset": { "x": 3, "y": 7 }
+		},
+		{
+			"sprite": "units/grenadier/art_132.png",
+			"offset": { "x": 3, "y": 8 }
+		}
+	],
+	"grenadier_crawl_5": [
+		{
+			"sprite": "units/grenadier/art_109.png",
+			"offset": { "x": 6, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_117.png",
+			"offset": { "x": 5, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_125.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_133.png",
+			"offset": { "x": 4, "y": 9 }
+		}
+	],
+	"grenadier_crawl_6": [
+		{
+			"sprite": "units/grenadier/art_110.png",
+			"offset": { "x": 3, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_118.png",
+			"offset": { "x": 2, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_126.png",
+			"offset": { "x": 2, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_134.png",
+			"offset": { "x": 3, "y": 5 }
+		}
+	],
+	"grenadier_crawl_7": [
+		{
+			"sprite": "units/grenadier/art_111.png",
+			"offset": { "x": 0, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_119.png",
+			"offset": { "x": 1, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_127.png",
+			"offset": { "x": 1, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_135.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"grenadier_crawl_shoot_0": [
+		{
+			"sprite": "units/grenadier/art_136.png",
+			"offset": { "x": 4, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_144.png",
+			"offset": { "x": 4, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_152.png",
+			"offset": { "x": 4, "y": 3 }
+		},
+		{
+			"sprite": "units/grenadier/art_160.png",
+			"offset": { "x": 4, "y": 3 }
+		},
+		{
+			"sprite": "units/grenadier/art_168.png",
+			"offset": { "x": 4, "y": 3 }
+		}
+	],
+	"grenadier_crawl_shoot_1": [
+		{
+			"sprite": "units/grenadier/art_137.png",
+			"offset": { "x": 6, "y": 2 }
+		},
+		{
+			"sprite": "units/grenadier/art_145.png",
+			"offset": { "x": 6, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_153.png",
+			"offset": { "x": 6, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_161.png",
+			"offset": { "x": 6, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_169.png",
+			"offset": { "x": 6, "y": 4 }
+		}
+	],
+	"grenadier_crawl_shoot_2": [
+		{
+			"sprite": "units/grenadier/art_138.png",
+			"offset": { "x": 2, "y": 4 }
+		},
+		{
+			"sprite": "units/grenadier/art_146.png",
+			"offset": { "x": 2, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_154.png",
+			"offset": { "x": 2, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_162.png",
+			"offset": { "x": 2, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_170.png",
+			"offset": { "x": 2, "y": 6 }
+		}
+	],
+	"grenadier_crawl_shoot_3": [
+		{
+			"sprite": "units/grenadier/art_139.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_147.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_155.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_163.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_171.png",
+			"offset": { "x": 5, "y": 8 }
+		}
+	],
+	"grenadier_crawl_shoot_4": [
+		{
+			"sprite": "units/grenadier/art_140.png",
+			"offset": { "x": 5, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_148.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_156.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_164.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/grenadier/art_172.png",
+			"offset": { "x": 5, "y": 8 }
+		}
+	],
+	"grenadier_crawl_shoot_5": [
+		{
+			"sprite": "units/grenadier/art_141.png",
+			"offset": { "x": 5, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_149.png",
+			"offset": { "x": 4, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_157.png",
+			"offset": { "x": 4, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_165.png",
+			"offset": { "x": 5, "y": 9 }
+		},
+		{
+			"sprite": "units/grenadier/art_173.png",
+			"offset": { "x": 6, "y": 9 }
+		}
+	],
+	"grenadier_crawl_shoot_6": [
+		{
+			"sprite": "units/grenadier/art_142.png",
+			"offset": { "x": 2, "y": 3 }
+		},
+		{
+			"sprite": "units/grenadier/art_150.png",
+			"offset": { "x": 0, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_158.png",
+			"offset": { "x": 1, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_166.png",
+			"offset": { "x": 2, "y": 6 }
+		},
+		{
+			"sprite": "units/grenadier/art_174.png",
+			"offset": { "x": 2, "y": 6 }
+		}
+	],
+	"grenadier_crawl_shoot_7": [
+		{
+			"sprite": "units/grenadier/art_143.png",
+			"offset": { "x": 1, "y": 2 }
+		},
+		{
+			"sprite": "units/grenadier/art_151.png",
+			"offset": { "x": 1, "y": 3 }
+		},
+		{
+			"sprite": "units/grenadier/art_159.png",
+			"offset": { "x": 1, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_167.png",
+			"offset": { "x": 1, "y": 5 }
+		},
+		{
+			"sprite": "units/grenadier/art_175.png",
+			"offset": { "x": 1, "y": 5 }
+		}
+	],
+	"grenadier_death": [
+		{
+			"sprite": "units/grenadier/art_176.png",
+			"offset": { "x": 3, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_184.png",
+			"offset": { "x": -1, "y": -3 }
+		},
+		{
+			"sprite": "units/grenadier/art_192.png",
+			"offset": { "x": -6, "y": -5 }
+		},
+		{
+			"sprite": "units/grenadier/art_200.png",
+			"offset": { "x": -11, "y": -5 }
+		},
+		{
+			"sprite": "units/grenadier/art_208.png",
+			"offset": { "x": -13, "y": -2 }
+		},
+		{
+			"sprite": "units/grenadier/art_216.png",
+			"offset": { "x": -12, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_224.png",
+			"offset": { "x": -12, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_232.png",
+			"offset": { "x": -12, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_240.png",
+			"offset": { "x": -12, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_248.png",
+			"offset": { "x": -12, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_256.png",
+			"offset": { "x": -11, "y": 1 }
+		},
+		{
+			"sprite": "units/grenadier/art_264.png",
+			"offset": { "x": -11, "y": 1 }
+		}
+	],
+	"grenadier_scrounch": [
+		{
+			"sprite": "units/grenadier/art_180.png",
+			"offset": { "x": -3, "y": 12 }
+		},
+		{
+			"sprite": "units/grenadier/art_188.png",
+			"offset": { "x": -3, "y": 11 }
+		},
+		{
+			"sprite": "units/grenadier/art_196.png",
+			"offset": { "x": -6, "y": 10 }
+		},
+		{
+			"sprite": "units/grenadier/art_204.png",
+			"offset": { "x": -6, "y": 10 },
+			"repeat": 5
+		}
+	],
+	"grenadier_idle_1": [
+		{
+			"sprite": "units/grenadier/art_181.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_189.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_197.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_205.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_213.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_221.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_229.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_237.png",
+			"offset": { "x": 4, "y": -1 }
+		}
+	],
+	"grenadier_idle_2": [
+		{
+			"sprite": "units/grenadier/art_182.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_190.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_198.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_206.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_214.png",
+			"offset": { "x": 4, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_222.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_230.png",
+			"offset": { "x": 6, "y": -1 }
+		},
+		{
+			"sprite": "units/grenadier/art_238.png",
+			"offset": { "x": 6, "y": -1 }
+		}
+	]
+}

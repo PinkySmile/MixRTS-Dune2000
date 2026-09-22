@@ -414,5 +414,22 @@
 		"can_hit_tags": ["capturable_building"],
 		"ground": true,
 		"air": false
+	},
+	"weapon.grenade": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.grenade", "layer": 2 },
+			"speed": 1.92,
+			"arc": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.155mm",
+		"damage": 150,
+		"range": 128,
+		"warhead": "he",
+		"on_death": true,
+		"can_hit_tags": ["bio", "any"],
+		"ground": true,
+		"air": false
 	}
 }

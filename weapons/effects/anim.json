@@ -325,24 +325,6 @@
 			"blending": "add"
 		}
 	],
-	"proj.sonic": [
-		{
-			"sprite": "weapons/effects/Image_3980.png",
-			"offset": { "x": -8, "y": -8 }
-		}
-	],
-	"proj.mortar": [
-		{
-			"sprite": "weapons/effects/mortar.png",
-			"offset": { "x": -2, "y": -2 }
-		}
-	],
-	"proj.pellet": [
-		{
-			"sprite": "weapons/effects/pellet.png",
-			"offset": { "x": -2, "y": -2 }
-		}
-	],
 	"effect.plasma": [
 		{
 			"sprite": "weapons/effects/plasma_0.png",
@@ -378,6 +360,42 @@
 			"sprite": "weapons/effects/plasma_6.png",
 			"offset": { "x": -10, "y": -11 },
 			"blending": "add"
+		}
+	],
+	"proj.sonic": [
+		{
+			"sprite": "weapons/effects/Image_3980.png",
+			"offset": { "x": -8, "y": -8 }
+		}
+	],
+	"proj.mortar": [
+		{
+			"sprite": "weapons/effects/mortar.png",
+			"offset": { "x": -2, "y": -2 }
+		}
+	],
+	"proj.pellet": [
+		{
+			"sprite": "weapons/effects/pellet.png",
+			"offset": { "x": -2, "y": -2 }
+		}
+	],
+	"proj.grenade": [
+		{
+			"sprite": "weapons/effects/grenade_0.png",
+			"offset": { "x": -1, "y": -1 }
+		},
+		{
+			"sprite": "weapons/effects/grenade_1.png",
+			"offset": { "x": -1, "y": -1 }
+		},
+		{
+			"sprite": "weapons/effects/grenade_2.png",
+			"offset": { "x": -1, "y": -1 }
+		},
+		{
+			"sprite": "weapons/effects/grenade_3.png",
+			"offset": { "x": -1, "y": -1 }
 		}
 	]
 }

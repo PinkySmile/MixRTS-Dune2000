@@ -105,9 +105,17 @@
 		"accept_resources": [ "base:credits" ],
 		"hp": 3000,
 		"spawn": {
-			"unit": "harv",
-			"delivery": "carr",
-			"pos": { "x": 64, "y": 32 }
+			"unit": "carr",
+			"dest": { "x": 64, "y": 32 },
+			"pos": { "x": "close_border", "y": 32 },
+			"out": { "x": "close_border", "y": 32 },
+			"invincible": true,
+			"carry": [
+				{
+					"unit": "harv",
+					"pos": { "x": 0, "y": 0 }
+				}
+			]
 		},
 		"point": { "x": 64, "y": 32 },
 		"size": { "x": 96, "y": 96 },

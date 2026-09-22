@@ -101,6 +101,8 @@
 			"units/deviator/anim.json",
 			"units/engi/anim.json",
 			"units/sardaukar/anim.json",
+			"units/grenadier/anim.json",
+			"units/trooper/anim.json",
 			"cursor/repair.json"
 		],
 		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],

@@ -1,0 +1,1048 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"trooper_0": [
+		{
+			"sprite": "units/trooper/art_0.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"trooper_1": [
+		{
+			"sprite": "units/trooper/art_1.png",
+			"offset": { "x": 6, "y": 0 }
+		}
+	],
+	"trooper_2": [
+		{
+			"sprite": "units/trooper/art_2.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_3": [
+		{
+			"sprite": "units/trooper/art_3.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_4": [
+		{
+			"sprite": "units/trooper/art_4.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"trooper_5": [
+		{
+			"sprite": "units/trooper/art_5.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"trooper_6": [
+		{
+			"sprite": "units/trooper/art_6.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"trooper_7": [
+		{
+			"sprite": "units/trooper/art_7.png",
+			"offset": { "x": 2, "y": 0 }
+		}
+	],
+	"trooper_walk_0": [
+		{
+			"sprite": "units/trooper/art_8.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_16.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_24.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_32.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_40.png",
+			"offset": { "x": 5, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_48.png",
+			"offset": { "x": 5, "y": -1 }
+		}
+	],
+	"trooper_walk_1": [
+		{
+			"sprite": "units/trooper/art_9.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_17.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_25.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_33.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_41.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_49.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_walk_2": [
+		{
+			"sprite": "units/trooper/art_10.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_18.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_26.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_34.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_42.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_50.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_walk_3": [
+		{
+			"sprite": "units/trooper/art_11.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_19.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_27.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_35.png",
+			"offset": { "x": 4, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_43.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_51.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_walk_4": [
+		{
+			"sprite": "units/trooper/art_12.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_20.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_28.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_36.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_44.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_52.png",
+			"offset": { "x": 3, "y": 0 }
+		}
+	],
+	"trooper_walk_5": [
+		{
+			"sprite": "units/trooper/art_13.png",
+			"offset": { "x": 3, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_21.png",
+			"offset": { "x": 2, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_29.png",
+			"offset": { "x": 3, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_37.png",
+			"offset": { "x": 3, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_45.png",
+			"offset": { "x": 3, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_53.png",
+			"offset": { "x": 3, "y": 1 }
+		}
+	],
+	"trooper_walk_6": [
+		{
+			"sprite": "units/trooper/art_14.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_22.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_30.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_38.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_46.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_54.png",
+			"offset": { "x": 1, "y": 0 }
+		}
+	],
+	"trooper_walk_7": [
+		{
+			"sprite": "units/trooper/art_15.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_23.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_31.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_39.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_47.png",
+			"offset": { "x": 1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_55.png",
+			"offset": { "x": 2, "y": 0 }
+		}
+	],
+	"trooper_shoot_0": [
+		{
+			"sprite": "units/trooper/art_56.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_64.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_72.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_80.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_88.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_shoot_1": [
+		{
+			"sprite": "units/trooper/art_57.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_65.png",
+			"offset": { "x": 1, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_73.png",
+			"offset": { "x": 0, "y": -5 }
+		},
+		{
+			"sprite": "units/trooper/art_81.png",
+			"offset": { "x": 2, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_89.png",
+			"offset": { "x": 3, "y": -2 }
+		}
+	],
+	"trooper_shoot_2": [
+		{
+			"sprite": "units/trooper/art_58.png",
+			"offset": { "x": 6, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_66.png",
+			"offset": { "x": 3, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_74.png",
+			"offset": { "x": -1, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_82.png",
+			"offset": { "x": 2, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_90.png",
+			"offset": { "x": 4, "y": 0 }
+		}
+	],
+	"trooper_shoot_3": [
+		{
+			"sprite": "units/trooper/art_59.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_67.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_75.png",
+			"offset": { "x": 3, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_83.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_91.png",
+			"offset": { "x": 4, "y": -1 }
+		}
+	],
+	"trooper_shoot_4": [
+		{
+			"sprite": "units/trooper/art_60.png",
+			"offset": { "x": 6, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_68.png",
+			"offset": { "x": 6, "y": -3 }
+		},
+		{
+			"sprite": "units/trooper/art_76.png",
+			"offset": { "x": 6, "y": -4 }
+		},
+		{
+			"sprite": "units/trooper/art_84.png",
+			"offset": { "x": 6, "y": -5 }
+		},
+		{
+			"sprite": "units/trooper/art_92.png",
+			"offset": { "x": 6, "y": -5 }
+		}
+	],
+	"trooper_shoot_5": [
+		{
+			"sprite": "units/trooper/art_61.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_69.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_77.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_85.png",
+			"offset": { "x": 4, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_93.png",
+			"offset": { "x": 5, "y": -2 }
+		}
+	],
+	"trooper_shoot_6": [
+		{
+			"sprite": "units/trooper/art_62.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_70.png",
+			"offset": { "x": 2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_78.png",
+			"offset": { "x": -2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_86.png",
+			"offset": { "x": -2, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_94.png",
+			"offset": { "x": 1, "y": -2 }
+		}
+	],
+	"trooper_shoot_7": [
+		{
+			"sprite": "units/trooper/art_63.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_71.png",
+			"offset": { "x": 3, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_79.png",
+			"offset": { "x": 0, "y": -4 }
+		},
+		{
+			"sprite": "units/trooper/art_87.png",
+			"offset": { "x": 0, "y": -3 }
+		},
+		{
+			"sprite": "units/trooper/art_95.png",
+			"offset": { "x": 3, "y": -2 }
+		}
+	],
+	"trooper_crawl_idle_0": [
+		{
+			"sprite": "units/trooper/art_96.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"trooper_crawl_idle_1": [
+		{
+			"sprite": "units/trooper/art_97.png",
+			"offset": { "x": 7, "y": 2 }
+		}
+	],
+	"trooper_crawl_idle_2": [
+		{
+			"sprite": "units/trooper/art_98.png",
+			"offset": { "x": 8, "y": 4 }
+		}
+	],
+	"trooper_crawl_idle_3": [
+		{
+			"sprite": "units/trooper/art_99.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"trooper_crawl_idle_4": [
+		{
+			"sprite": "units/trooper/art_100.png",
+			"offset": { "x": 3, "y": 1 }
+		}
+	],
+	"trooper_crawl_idle_5": [
+		{
+			"sprite": "units/trooper/art_101.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"trooper_crawl_idle_6": [
+		{
+			"sprite": "units/trooper/art_102.png",
+			"offset": { "x": 7, "y": 2 }
+		}
+	],
+	"trooper_crawl_idle_7": [
+		{
+			"sprite": "units/trooper/art_103.png",
+			"offset": { "x": 6, "y": 1 }
+		}
+	],
+	"trooper_crawl_0": [
+		{
+			"sprite": "units/trooper/art_104.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_112.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_120.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_128.png",
+			"offset": { "x": 4, "y": 6 }
+		}
+	],
+	"trooper_crawl_1": [
+		{
+			"sprite": "units/trooper/art_105.png",
+			"offset": { "x": 6, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_113.png",
+			"offset": { "x": 7, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_121.png",
+			"offset": { "x": 7, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_129.png",
+			"offset": { "x": 7, "y": 6 }
+		}
+	],
+	"trooper_crawl_2": [
+		{
+			"sprite": "units/trooper/art_106.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_114.png",
+			"offset": { "x": 9, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_122.png",
+			"offset": { "x": 4, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_130.png",
+			"offset": { "x": 9, "y": 7 }
+		}
+	],
+	"trooper_crawl_3": [
+		{
+			"sprite": "units/trooper/art_107.png",
+			"offset": { "x": 4, "y": 9 }
+		},
+		{
+			"sprite": "units/trooper/art_115.png",
+			"offset": { "x": 5, "y": 9 }
+		},
+		{
+			"sprite": "units/trooper/art_123.png",
+			"offset": { "x": 2, "y": 9 }
+		},
+		{
+			"sprite": "units/trooper/art_131.png",
+			"offset": { "x": 2, "y": 9 }
+		}
+	],
+	"trooper_crawl_4": [
+		{
+			"sprite": "units/trooper/art_108.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_116.png",
+			"offset": { "x": 5, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_124.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_132.png",
+			"offset": { "x": 5, "y": 8 }
+		}
+	],
+	"trooper_crawl_5": [
+		{
+			"sprite": "units/trooper/art_109.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_117.png",
+			"offset": { "x": 3, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_125.png",
+			"offset": { "x": 4, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_133.png",
+			"offset": { "x": 4, "y": 8 }
+		}
+	],
+	"trooper_crawl_6": [
+		{
+			"sprite": "units/trooper/art_110.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_118.png",
+			"offset": { "x": 5, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_126.png",
+			"offset": { "x": 5, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_134.png",
+			"offset": { "x": 5, "y": 6 }
+		}
+	],
+	"trooper_crawl_7": [
+		{
+			"sprite": "units/trooper/art_111.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_119.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_127.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_135.png",
+			"offset": { "x": 4, "y": 8 }
+		}
+	],
+	"trooper_crawl_shoot_0": [
+		{
+			"sprite": "units/trooper/art_136.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_144.png",
+			"offset": { "x": 5, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_152.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_160.png",
+			"offset": { "x": 5, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_168.png",
+			"offset": { "x": 5, "y": 0 }
+		}
+	],
+	"trooper_crawl_shoot_1": [
+		{
+			"sprite": "units/trooper/art_137.png",
+			"offset": { "x": 7, "y": 4 }
+		},
+		{
+			"sprite": "units/trooper/art_145.png",
+			"offset": { "x": 7, "y": 4 }
+		},
+		{
+			"sprite": "units/trooper/art_153.png",
+			"offset": { "x": 7, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_161.png",
+			"offset": { "x": 7, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_169.png",
+			"offset": { "x": 7, "y": 2 }
+		}
+	],
+	"trooper_crawl_shoot_2": [
+		{
+			"sprite": "units/trooper/art_138.png",
+			"offset": { "x": 3, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_146.png",
+			"offset": { "x": 3, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_154.png",
+			"offset": { "x": 3, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_162.png",
+			"offset": { "x": 3, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_170.png",
+			"offset": { "x": 3, "y": 6 }
+		}
+	],
+	"trooper_crawl_shoot_3": [
+		{
+			"sprite": "units/trooper/art_139.png",
+			"offset": { "x": 1, "y": 9 }
+		},
+		{
+			"sprite": "units/trooper/art_147.png",
+			"offset": { "x": 1, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_155.png",
+			"offset": { "x": 1, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_163.png",
+			"offset": { "x": 1, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_171.png",
+			"offset": { "x": 1, "y": 6 }
+		}
+	],
+	"trooper_crawl_shoot_4": [
+		{
+			"sprite": "units/trooper/art_140.png",
+			"offset": { "x": 5, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_148.png",
+			"offset": { "x": 5, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_156.png",
+			"offset": { "x": 5, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_164.png",
+			"offset": { "x": 5, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_172.png",
+			"offset": { "x": 5, "y": 4 }
+		}
+	],
+	"trooper_crawl_shoot_5": [
+		{
+			"sprite": "units/trooper/art_141.png",
+			"offset": { "x": 4, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_149.png",
+			"offset": { "x": 4, "y": 7 }
+		},
+		{
+			"sprite": "units/trooper/art_157.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_165.png",
+			"offset": { "x": 4, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_173.png",
+			"offset": { "x": 4, "y": 6 }
+		}
+	],
+	"trooper_crawl_shoot_6": [
+		{
+			"sprite": "units/trooper/art_142.png",
+			"offset": { "x": -2, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_150.png",
+			"offset": { "x": -2, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_158.png",
+			"offset": { "x": -7, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_166.png",
+			"offset": { "x": -7, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_174.png",
+			"offset": { "x": -3, "y": 5 }
+		}
+	],
+	"trooper_crawl_shoot_7": [
+		{
+			"sprite": "units/trooper/art_143.png",
+			"offset": { "x": 4, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_151.png",
+			"offset": { "x": 4, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_159.png",
+			"offset": { "x": 3, "y": 4 }
+		},
+		{
+			"sprite": "units/trooper/art_167.png",
+			"offset": { "x": 2, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_175.png",
+			"offset": { "x": 4, "y": 2 }
+		}
+	],
+	"trooper_death_0": [
+		{
+			"sprite": "units/trooper/art_176.png",
+			"offset": { "x": 1, "y": -2 }
+		},
+		{
+			"sprite": "units/trooper/art_184.png",
+			"offset": { "x": -1, "y": -4 }
+		},
+		{
+			"sprite": "units/trooper/art_192.png",
+			"offset": { "x": -4, "y": -4 }
+		},
+		{
+			"sprite": "units/trooper/art_200.png",
+			"offset": { "x": -7, "y": -5 }
+		},
+		{
+			"sprite": "units/trooper/art_208.png",
+			"offset": { "x": -6, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_216.png",
+			"offset": { "x": -7, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_224.png",
+			"offset": { "x": -8, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_232.png",
+			"offset": { "x": -9, "y": 5 }
+		},
+		{
+			"sprite": "units/trooper/art_240.png",
+			"offset": { "x": -13, "y": 8 }
+		},
+		{
+			"sprite": "units/trooper/art_248.png",
+			"offset": { "x": -12, "y": 11 }
+		},
+		{
+			"sprite": "units/trooper/art_256.png",
+			"offset": { "x": -12, "y": 11 }
+		},
+		{
+			"sprite": "units/trooper/art_264.png",
+			"offset": { "x": -12, "y": 11 }
+		}
+	],
+	"trooper_death_1": [
+		{
+			"sprite": "units/trooper/art_177.png",
+			"offset": { "x": 4, "y": -3 }
+		},
+		{
+			"sprite": "units/trooper/art_185.png",
+			"offset": { "x": 5, "y": -1 }
+		},
+		{
+			"sprite": "units/trooper/art_193.png",
+			"offset": { "x": 7, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_201.png",
+			"offset": { "x": 7, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_209.png",
+			"offset": { "x": 7, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_217.png",
+			"offset": { "x": 5, "y": 13 }
+		},
+		{
+			"sprite": "units/trooper/art_225.png",
+			"offset": { "x": 5, "y": 13 }
+		},
+		{
+			"sprite": "units/trooper/art_233.png",
+			"offset": { "x": 3, "y": 13 },
+			"repeat": 8
+		}
+	],
+	"trooper_death_2": [
+		{
+			"sprite": "units/trooper/art_178.png",
+			"offset": { "x": 0, "y": -4 }
+		},
+		{
+			"sprite": "units/trooper/art_186.png",
+			"offset": { "x": 2, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_194.png",
+			"offset": { "x": -3, "y": -3 }
+		},
+		{
+			"sprite": "units/trooper/art_202.png",
+			"offset": { "x": -3, "y": 1 }
+		},
+		{
+			"sprite": "units/trooper/art_210.png",
+			"offset": { "x": -5, "y": 4 }
+		},
+		{
+			"sprite": "units/trooper/art_218.png",
+			"offset": { "x": -5, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_226.png",
+			"offset": { "x": -5, "y": 6 }
+		},
+		{
+			"sprite": "units/trooper/art_234.png",
+			"offset": { "x": -5, "y": 6 },
+			"repeat": 5
+		}
+	],
+	"trooper_death_3": [
+		{
+			"sprite": "units/trooper/art_179.png",
+			"offset": { "x": -1, "y": -3 }
+		},
+		{
+			"sprite": "units/trooper/art_187.png",
+			"offset": { "x": -2, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_195.png",
+			"offset": { "x": -5, "y": 4 }
+		},
+		{
+			"sprite": "units/trooper/art_203.png",
+			"offset": { "x": -4, "y": 10 }
+		},
+		{
+			"sprite": "units/trooper/art_211.png",
+			"offset": { "x": -4, "y": 10 }
+		},
+		{
+			"sprite": "units/trooper/art_219.png",
+			"offset": { "x": -4, "y": 10 }
+		},
+		{
+			"sprite": "units/trooper/art_227.png",
+			"offset": { "x": -4, "y": 10 }
+		},
+		{
+			"sprite": "units/trooper/art_235.png",
+			"offset": { "x": -4, "y": 10 },
+			"repeat": 5
+		}
+	],
+	"trooper_scrounch": [
+		{
+			"sprite": "units/trooper/art_180.png",
+			"offset": { "x": -4, "y": 12 }
+		},
+		{
+			"sprite": "units/trooper/art_188.png",
+			"offset": { "x": -4, "y": 11 }
+		},
+		{
+			"sprite": "units/trooper/art_196.png",
+			"offset": { "x": -7, "y": 10 }
+		},
+		{
+			"sprite": "units/trooper/art_204.png",
+			"offset": { "x": -7, "y": 10 },
+			"repeat": 5
+		}
+	],
+	"trooper_idle_1": [
+		{
+			"sprite": "units/trooper/art_181.png",
+			"offset": { "x": 7, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_189.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_197.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_205.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_213.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_221.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_229.png",
+			"offset": { "x": 5, "y": 0 }
+		},
+		{
+			"sprite": "units/trooper/art_237.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"trooper_idle_2": [
+		{
+			"sprite": "units/trooper/art_182.png",
+			"offset": { "x": 7, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_190.png",
+			"offset": { "x": 7, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_198.png",
+			"offset": { "x": 7, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_206.png",
+			"offset": { "x": 7, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_214.png",
+			"offset": { "x": 7, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_222.png",
+			"offset": { "x": 7, "y": 3 }
+		},
+		{
+			"sprite": "units/trooper/art_230.png",
+			"offset": { "x": 7, "y": 2 }
+		},
+		{
+			"sprite": "units/trooper/art_238.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	]
+}
