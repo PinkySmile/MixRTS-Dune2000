@@ -607,7 +607,7 @@
 		"death_sound": "killguy",
 		"barrels": [
 			{
-				"weapons": [{ "name": "weapon.bazooka", "cooldown": 100 }],
+				"weapons": [{ "name": "weapon.bazooka", "cooldown": 80 }],
 				"priority": 1
 			}
 		],
