@@ -37,7 +37,7 @@
 		"damage": 300,
 		"range": 96,
 		"warhead": "bazooka",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
@@ -54,7 +54,7 @@
 		"damage": 250,
 		"range": 112,
 		"warhead": "gt_at",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
@@ -70,7 +70,7 @@
 		"damage": 270,
 		"range": 128,
 		"warhead": "at",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
@@ -119,7 +119,7 @@
 		"damage": 290,
 		"range": 160,
 		"warhead": "at",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
@@ -141,7 +141,7 @@
 		"damage": 250,
 		"range": 112,
 		"warhead": "gt_at",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
@@ -159,7 +159,7 @@
 		"damage": 480,
 		"range": 176,
 		"warhead": "at_mis",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": true
 	},
@@ -177,7 +177,7 @@
 		"damage": 600,
 		"range": 192,
 		"warhead": "at_mis",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": true
 	},
@@ -216,7 +216,7 @@
 		"damage": 650,
 		"range": 128,
 		"warhead": "plasma",
-		"can_hit_tags": ["mech", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},
