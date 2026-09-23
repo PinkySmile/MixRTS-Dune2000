@@ -388,7 +388,7 @@
 		"damage": 250,
 		"range": 112,
 		"warhead": "gt_at",
-		"can_hit_tags": ["bio", "any"],
+		"can_hit_tags": ["mech", "building", "any"],
 		"ground": true,
 		"air": false
 	},

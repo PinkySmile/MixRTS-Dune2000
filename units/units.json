@@ -416,11 +416,10 @@
 		"death_sound": "killguy",
 		"barrels": [
 			{
-				"weapons": [{ "name": "weapon.lmg", "cooldown": 100 }],
-				"priority": 1
-			},
-			{
-				"weapons": [{ "name": "weapon.sard_hmg", "cooldown": 100 }],
+				"weapons": [
+					{ "name": "weapon.lmg", "cooldown": 100 },
+					{ "name": "weapon.sard_hmg", "cooldown": 100 }
+				],
 				"priority": 1
 			}
 		],
