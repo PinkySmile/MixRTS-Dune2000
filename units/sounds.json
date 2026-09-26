@@ -1,4 +1,7 @@
 {
+	"_general": {
+		"localized": false
+	},
 	"sard_select": [
 		{ "path": "announcers/<locale>/global/sardaukar/sel1.ogg" },
 		{ "path": "announcers/<locale>/global/sardaukar/sel2.ogg" },

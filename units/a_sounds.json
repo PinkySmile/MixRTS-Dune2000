@@ -1,4 +1,7 @@
 {
+	"_general": {
+		"localized": false
+	},
 	"v_select": [
 		{ "path": "announcers/<locale>/atreides/vehicules/sel1.ogg" },
 		{ "path": "announcers/<locale>/atreides/vehicules/sel2.ogg" },
