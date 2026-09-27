@@ -10,12 +10,13 @@
 		"queues": {
 			"upgrade": {
 				"requires_producer": false,
-				"behavior": "single_queue"
+				"behavior": "single_queue",
+				"unit_spawn": "none"
 			},
 			"building": {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "inside"
+				"unit_spawn": "placement"
 			},
 			"infantry":  {
 				"requires_producer": true,
@@ -37,9 +38,12 @@
 				"behavior": "starport",
 				"stock_increase_delay": 1500,
 				"stock_increase_proba": 10,
+				"stock_max": 5,
 				"discount_min": 1,
 				"discount_max": 25,
 				"delivery_delay": 1500,
+				"delivery_max": 6,
+				"single_max": 5,
 				"units": [
 					"trik", "quad",
 					"harv", "tank",
@@ -47,8 +51,11 @@
 					"sieg", "carr"
 				],
 				"unit_spawn": "delivery",
-				"carrier": "freg",
-				"pos": { "x": 32, "y": 32 }
+				"unit": "frig",
+				"dest": { "x": 32, "y": 32 },
+				"pos": { "x": "close_border_close", "y": 32 },
+				"out": { "x": "max_border", "y": 32 },
+				"invincible": true
 			}
 		},
 		"upgrades": [ "buildings/upgrades.json" ],
@@ -94,6 +101,7 @@
 			"units/rifle/anim.json",
 			"units/siege/anim.json",
 			"units/carrier/anim.json",
+			"units/frigate/anim.json",
 			"units/misl/anim.json",
 			"units/sonic/anim.json",
 			"units/raider/anim.json",
