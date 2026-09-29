@@ -542,10 +542,11 @@
 		"turn_delay": 2,
 		"ignore_terrain": true,
 		"move_while_turn": true,
+		"dodge_obstacle": false,
 		"altitude": 64,
 		"decel": {
-			"dist": 96,
-			"min": 0.5,
+			"dist": 128,
+			"min": 0.25,
 			"step": 0.025
 		},
 		"requirements": ["base:invalid"],

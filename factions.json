@@ -33,16 +33,22 @@
 				"behavior": "single_queue",
 				"unit_spawn": "inside"
 			},
+			"aircraft":  {
+				"requires_producer": true,
+				"behavior": "single_queue",
+				"unit_spawn": "inside"
+			},
 			"starport": {
 				"requires_producer": true,
 				"behavior": "starport",
-				"stock_increase_delay": 1500,
+				"stock_increase_delay": 3000,
 				"stock_increase_proba": 10,
 				"stock_max": 5,
 				"discount_min": 1,
 				"discount_max": 25,
-				"delivery_delay": 1500,
+				"delivery_delay": 3000,
 				"delivery_max": 6,
+				"delivery_eva_times": 5,
 				"single_max": 5,
 				"units": [
 					"trik", "quad",

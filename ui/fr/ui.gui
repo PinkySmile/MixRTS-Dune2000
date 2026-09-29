@@ -587,6 +587,36 @@ Button.Main2 {
     }
 }
 
+Button.Buy {
+    Position = ((&.w - w) - 16, &.h - h);
+    Size = (122, 26);
+    TextSize = 13;
+
+    Renderer {
+        BackgroundColor = None;
+        BackgroundColorDisabled = None;
+        BackgroundColorDown = None;
+        BackgroundColorHover = None;
+        BorderColor = None;
+        BorderColorDisabled = None;
+        BorderColorDown = None;
+        BorderColorFocused = None;
+        BorderColorHover = None;
+        Borders = (0, 0, 0, 0);
+        TextColor = None;
+        TextColorDisabled = None;
+        TextColorDown = None;
+        TextColorHover = None;
+        Texture = "buy.png" Smooth;
+        TextureDisabled = "buy.png" Smooth;
+        TextureDown = "buy_down.png" Smooth;
+        TextureDownFocused = "buy_down.png" Smooth;
+        TextureDownHover = "buy_down.png" Smooth;
+        TextureFocused = "buy.png" Smooth;
+        TextureHover = "buy.png" Smooth;
+    }
+}
+
 ScrollablePanel.BuildingQueue {
     ContentSize = (0, 0);
     HorizontalScrollbarPolicy = Never;

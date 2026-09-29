@@ -2,6 +2,16 @@
 	"normal": [
 		{ "sprite": "cursor/standard/MOUSE.R16.000-sprite.png", "center": { "x": 0, "y": 0 }, "duration": 999 }
 	],
+	"attack_move": [
+		{ "sprite": "cursor/attack_move/MOUSE.R16.008-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.009-sprite.png", "center": { "x": 14, "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.010-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.011-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.012-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.013-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.014-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
+		{ "sprite": "cursor/attack_move/MOUSE.R16.015-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 }
+	],
 	"move": [
 		{ "sprite": "cursor/move/MOUSE.R16.008-sprite.png", "center": { "x": 15, "y": 12 }, "duration": 3 },
 		{ "sprite": "cursor/move/MOUSE.R16.009-sprite.png", "center": { "x": 14, "y": 11 }, "duration": 3 },
