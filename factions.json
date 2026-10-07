@@ -120,13 +120,14 @@
 			"cursor/repair.json"
 		],
 		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],
-		"repairing_animation": { "anim": "repairing", "layer": 2, "delay": 90 }
+		"repairing_animation": { "anim": "repairing", "layer": 2, "delay": 90 },
+		"ui_path": "ui/ui.ui"
 	},
 	"atreides": {
 		"objects": [ "buildings/a_buildings.json", "units/a_units.json" ],
 		"animations": [ "buildings/a_animations.json", "units/atank/anim.json"],
 		"sounds": [ "units/a_sounds.json" ],
-		"ui": {
+		"ui_params": {
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a",
 			"eva_folder": "atreides"
@@ -136,7 +137,7 @@
 		"objects": [ "buildings/h_buildings.json", "units/h_units.json" ],
 		"animations": [ "buildings/h_animations.json", "units/htank/anim.json"],
 		"sounds": [ "units/h_sounds.json" ],
-		"ui": {
+		"ui_params": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
 			"eva_folder": "harkonnen"
@@ -146,7 +147,7 @@
 		"objects": [ "buildings/o_buildings.json", "units/o_units.json" ],
 		"animations": [ "buildings/o_animations.json", "units/otank/anim.json" ],
 		"sounds": [ "units/o_sounds.json" ],
-		"ui": {
+		"ui_params": {
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",
 			"eva_folder": "ordos"

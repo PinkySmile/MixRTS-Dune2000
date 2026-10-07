@@ -1,0 +1,56 @@
+cmake_minimum_required(VERSION 4.1)
+project(MixRTS)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_library(
+	d2k_ui MODULE
+	ui/src/D2KCameo.cpp
+	ui/src/D2KCameo.hpp
+	ui/src/D2KUI.cpp
+	ui/src/D2KUI.hpp
+	ui/src/main.cpp
+)
+target_link_libraries(
+	d2k_ui
+	MixRTS_Core
+)
+
+set(D2K_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+message(STATUS "Scanning ${D2K_SOURCE_DIR}")
+file(GLOB_RECURSE D2K_ASSET_FILES
+	"${D2K_SOURCE_DIR}/*.png"
+	"${D2K_SOURCE_DIR}/*.ogg"
+	"${D2K_SOURCE_DIR}/*.json"
+	"${D2K_SOURCE_DIR}/*.dat"
+	"${D2K_SOURCE_DIR}/*.gui"
+	"${D2K_SOURCE_DIR}/*.BMP"
+)
+
+set(COPIED_FILES "")
+message(STATUS "Install in ${MOD_DEST_PATH}")
+foreach(D2K_ASSET_PATH ${D2K_ASSET_FILES})
+	get_filename_component(FILE_NAME ${D2K_ASSET_PATH} NAME)
+	cmake_path(RELATIVE_PATH D2K_ASSET_PATH BASE_DIRECTORY ${D2K_SOURCE_DIR} OUTPUT_VARIABLE D2K_ASSET_PATH_REL)
+
+	add_custom_command(
+		OUTPUT "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+		COMMAND ${CMAKE_COMMAND} -E copy_if_different "${D2K_ASSET_PATH}" "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+		DEPENDS "${D2K_ASSET_PATH}"
+		COMMENT "Copy ${D2K_ASSET_PATH_REL}"
+	)
+	list(APPEND COPIED_FILES "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}")
+endforeach()
+
+# Target that drives the build dependencies
+add_custom_target(d2k_assets ALL DEPENDS ${COPIED_FILES})
+add_dependencies(d2k_ui d2k_assets)
+
+add_custom_command(
+	OUTPUT "${MOD_DEST_PATH}/ui/ui.ui"
+	COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_ui> "${MOD_DEST_PATH}/ui/ui.ui"
+	DEPENDS $<TARGET_FILE:d2k_ui>
+	COMMENT "Copy ui/ui.ui"
+)
+add_custom_target(dune2000 ALL DEPENDS "${MOD_DEST_PATH}/ui/ui.ui")
+add_dependencies(dune2000 d2k_ui)
