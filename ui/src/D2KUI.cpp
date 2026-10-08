@@ -724,6 +724,31 @@ void D2KUI::update()
 		this->_closeStarportMenu();
 }
 
+void D2KUI::render()
+{
+	UI::render();
+	if (this->_dragging) {
+		sf::VertexArray array{sf::PrimitiveType::LineStrip, 5};
+
+		array[0].position.x = this->_startDrag->x;
+		array[0].position.y = this->_startDrag->y;
+		array[1].position.x = this->_startDrag->x;
+		array[1].position.y = this->_placementPos.y;
+		array[2].position.x = this->_placementPos.x;
+		array[2].position.y = this->_placementPos.y;
+		array[3].position.x = this->_placementPos.x;
+		array[3].position.y = this->_startDrag->y;
+		array[4].position.x = this->_startDrag->x;
+		array[4].position.y = this->_startDrag->y;
+		array[0].color = sf::Color{0xC5, 0xB6, 0xA4};
+		array[1].color = sf::Color{0xC5, 0xB6, 0xA4};
+		array[2].color = sf::Color{0xC5, 0xB6, 0xA4};
+		array[3].color = sf::Color{0xC5, 0xB6, 0xA4};
+		array[4].color = sf::Color{0xC5, 0xB6, 0xA4};
+		game->screen->draw(array);
+	}
+}
+
 void D2KUI::playEVA(EVASound sound, unsigned int expireIn, unsigned int priority, unsigned int cooldown, const std::string &args)
 {
 	EVASound ignore[] = {

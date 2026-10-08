@@ -67,13 +67,13 @@ private:
 	Sound _soundMove;
 	sf::Texture _primary;
 
-	PlayerQueue *_starportQ;
-	PlayerQueue *_buildingQ;
-	PlayerQueue *_upgradeQ;
-	PlayerQueue *_infantryQ;
-	PlayerQueue *_aircraftQ;
-	PlayerQueue *_lightVehicleQ;
-	PlayerQueue *_heavyVehicleQ;
+	PlayerQueue *_starportQ = nullptr;
+	PlayerQueue *_buildingQ = nullptr;
+	PlayerQueue *_upgradeQ  = nullptr;
+	PlayerQueue *_infantryQ = nullptr;
+	PlayerQueue *_aircraftQ = nullptr;
+	PlayerQueue *_lightVehicleQ = nullptr;
+	PlayerQueue *_heavyVehicleQ = nullptr;
 	std::vector<PlayerQueueEntry *> _buildingQueueEntries;
 	std::vector<PlayerQueueEntry *> _upgradeQueueEntries;
 	std::vector<PlayerQueueEntry *> _unitsQueueEntries;
@@ -119,6 +119,7 @@ public:
 	);
 	~D2KUI() noexcept override;
 	void update() override;
+	void render() override;
 	void playEVA(EVASound sound, unsigned int expireIn, unsigned int priority, unsigned int cooldown, const std::string &args) override;
 };
 
