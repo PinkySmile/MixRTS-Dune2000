@@ -153,7 +153,8 @@
 			]
 		},
 		"point": { "x": 64, "y": 32 },
-		"size": { "x": 96, "y": 96 },
+		"size": { "x": 96, "y": 64 },
+		"select": { "h": 96, "w": 96 },
 		"skirt": {
 			"x": 0, "y": 32,
 			"w": 3, "h": 2
@@ -203,7 +204,8 @@
 		"build_anim": { "anim": "outp_make", "layer": 1, "delay": 6 },
 		"hp": 3000,
 		"radar": true,
-		"size": { "x": 96, "y": 96 },
+		"size": { "x": 96, "y": 64 },
+		"select": { "h": 96, "w": 96 },
 		"skirt": {
 			"x": 0, "y": 32,
 			"w": 3, "h": 2
@@ -607,5 +609,60 @@
 			[4, 6, 6]
 		],
 		"repair_cost": { "base:credits": 2 }
+	},
+	"gunt": {
+		"anims": [
+			{ "anim": "base", "layer": 1 }
+		],
+		"connected": {
+			"valid": [8, 4, 6, 2],
+			"type": "wall"
+		},
+		"wall": true,
+		"sell": {
+			"anim": { "anim": "silo_sell", "layer": 1, "delay": 6 },
+			"refund": { "base:credits": 275 },
+			"units": {}
+		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"variance": { "x": 0, "y": 0 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [1, 4]
+				}
+			}
+		},
+		"turrets": [
+			{
+				"turn_delay": 1,
+				"directions": 32,
+				"anim": { "anim": "gturret", "layer": 1, "delay" : 10 },
+				"offset": { "x": 0, "y": 0 },
+				"barrel": 0
+			}
+		],
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.110mm", "cooldown": 70 }],
+				"offset": 0,
+				"priority": 1
+			}
+		],
+		"requirements": ["barr"],
+		"cost": { "base:credits": 550 },
+		"show_after_build": 8,
+		"build_speed": 1098,
+		"sight": 5,
+		"power": 50,
+		"armor": "heavy",
+		"tags": ["building"],
+		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
+		"hp": 2700,
+		"size": { "x": 32, "y": 32 },
+		"tiles": [[6]]
 	}
 }

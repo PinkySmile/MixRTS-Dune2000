@@ -101,6 +101,8 @@
 			"buildings/animations.json",
 			"buildings/animations_sell.json",
 			"buildings/wall/anim.json",
+			"buildings/gun_turr/anim.json",
+			"buildings/base/anim.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json",
 			"units/trike/anim.json",
@@ -118,6 +120,7 @@
 			"units/sardaukar/anim.json",
 			"units/grenadier/anim.json",
 			"units/trooper/anim.json",
+			"units/thumper/anim.json",
 			"cursor/repair.json"
 		],
 		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],

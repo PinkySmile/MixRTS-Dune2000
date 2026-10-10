@@ -50,7 +50,8 @@
 		"produced_anim": { "anim": "cony_b", "when_hp_bigger": 50, "layer": 1, "delay": 6 },
 		"hp": 3000,
 		"gives_queue": "building",
-		"size": { "x": 96, "y": 96 },
+		"size": { "x": 96, "y": 64 },
+		"select": { "h": 96, "w": 96 },
 		"skirt": {
 			"x": 0, "y": 32,
 			"w": 3, "h": 2
@@ -105,7 +106,8 @@
 		"build_anim": { "anim": "lfac_make", "layer": 1, "delay": 6 },
 		"producing_anim": { "anim": "lfac_anim", "when_hp_bigger": 50, "layer": 1, "delay": 20 },
 		"hp": 3300,
-		"size": { "x": 96, "y": 96 },
+		"size": { "x": 96, "y": 64 },
+		"select": { "h": 96, "w": 96 },
 		"skirt": {
 			"x": 0, "y": 32,
 			"w": 3, "h": 2
@@ -115,8 +117,7 @@
 			[6, 6, 6],
 			[4, 4, 4]
 		],
-		"repair_cost": { "base:credits": 1 },
-		"select": { "x": 0, "y": -4, "h": 96, "w": 96 }
+		"repair_cost": { "base:credits": 1 }
 	},
 	"o_hfac": {
 		"anims": [

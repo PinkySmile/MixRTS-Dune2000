@@ -609,88 +609,88 @@
 	"thumper_scrounch": [
 		{
 			"sprite": "units/thumper/art_180.png",
-			"offset": { "x": -5, "y": 10 }
+			"offset": { "x": -8, "y": 11 }
 		},
 		{
 			"sprite": "units/thumper/art_188.png",
-			"offset": { "x": -5, "y": 9 }
+			"offset": { "x": -8, "y": 10 }
 		},
 		{
 			"sprite": "units/thumper/art_196.png",
-			"offset": { "x": -8, "y": 8 }
+			"offset": { "x": -11, "y": 9 }
 		},
 		{
 			"sprite": "units/thumper/art_204.png",
-			"offset": { "x": -8, "y": 8 },
+			"offset": { "x": -11, "y": 9 },
 			"repeat": 5
 		}
 	],
 	"thumper_idle_1": [
 		{
 			"sprite": "units/thumper/art_181.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_189.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_197.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 1 }
 		},
 		{
 			"sprite": "units/thumper/art_205.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_213.png",
-			"offset": { "x": 4, "y": -2 }
+			"offset": { "x": -1, "y": 2 }
 		},
 		{
 			"sprite": "units/thumper/art_221.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 2 }
 		},
 		{
 			"sprite": "units/thumper/art_229.png",
-			"offset": { "x": 6, "y": -2 }
+			"offset": { "x": -1, "y": 1 }
 		},
 		{
 			"sprite": "units/thumper/art_237.png",
-			"offset": { "x": 6, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		}
 	],
 	"thumper_idle_2": [
 		{
 			"sprite": "units/thumper/art_182.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_190.png",
-			"offset": { "x": 5, "y": -1 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_198.png",
-			"offset": { "x": 5, "y": 2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_206.png",
-			"offset": { "x": 5, "y": 2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_214.png",
-			"offset": { "x": 5, "y": 2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_222.png",
-			"offset": { "x": 5, "y": 2 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_230.png",
-			"offset": { "x": 5, "y": -1 }
+			"offset": { "x": -1, "y": 0 }
 		},
 		{
 			"sprite": "units/thumper/art_238.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": -1, "y": 0 }
 		}
 	]
 }

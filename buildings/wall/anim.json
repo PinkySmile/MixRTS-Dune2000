@@ -99,7 +99,6 @@
 			"offset": { "x": 10, "y": 4 }
 		}
 	],
-
 	"wall_br_0":  [
 		{
 			"sprite": "buildings/wall/wall_17.png",

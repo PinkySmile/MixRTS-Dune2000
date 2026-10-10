@@ -61,7 +61,8 @@
 				"turn_delay": 1,
 				"anim": { "anim": "ctank_barrel", "layer": 1, "delay" : 10 },
 				"offset": { "x": 0, "y": 0 },
-				"barrel": 0
+				"barrel": 0,
+				"recoil": 30
 			}
 		],
 		"armor": "heavy",

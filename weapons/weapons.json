@@ -108,7 +108,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.110mm": {
+	"weapon.110mm": {
 		"type": "projectile",
 		"sound": "tank_gun",
 		"projectile": {
