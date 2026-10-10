@@ -50,5 +50,9 @@
 	"worm": {
 		"radius": 0,
 		"dmg_type": "void"
+	},
+	"true": {
+		"radius": 0,
+		"dmg_type": "generic"
 	}
 }

@@ -71,6 +71,12 @@
 		{ "sprite": "cursor/enter/MOUSE.R16.034-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
 		{ "sprite": "cursor/enter/MOUSE.R16.035-sprite.png", "center": { "x": 8, "y": 15 }, "duration": 3 }
 	],
+	"enter_fail": [
+		{ "sprite": "cursor/enter/enter-fail0.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/enter-fail1.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/enter-fail2.png", "center": { "x": 8, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/enter/enter-fail3.png", "center": { "x": 8, "y": 15 }, "duration": 3 }
+	],
 	"scroll_t": [
 		{ "sprite": "cursor/scroll/MOUSE.R16.112-sprite.png", "center": { "x": 8, "y": 0 }, "duration": 999 }
 	],
@@ -157,5 +163,15 @@
 		{ "sprite": "cursor/sell/sell5.png", "center": { "x": 5, "y": 10 }, "duration": 3 },
 		{ "sprite": "cursor/sell/sell6.png", "center": { "x": 3, "y": 10 }, "duration": 3 },
 		{ "sprite": "cursor/sell/sell7.png", "center": { "x": 1, "y": 10 }, "duration": 3 }
+	],
+	"c4": [
+		{ "sprite": "cursor/sabo/MOUSE.R16.248-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.249-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.250-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.251-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.248-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.251-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.248-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 },
+		{ "sprite": "cursor/sabo/MOUSE.R16.251-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 }
 	]
 }

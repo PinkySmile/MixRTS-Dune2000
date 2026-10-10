@@ -407,11 +407,22 @@
 	"weapon.capture": {
 		"type": "enter",
 		"needs": "capture",
+		"cursor": "enter",
 		"take_control": { "targets": ["building"] },
 		"damage": 0,
 		"range": 0,
 		"warhead": "he",
 		"can_hit_tags": ["capturable_building"],
+		"ground": true,
+		"air": false
+	},
+	"weapon.destroy": {
+		"type": "enter",
+		"cursor": "c4",
+		"damage": 999999,
+		"range": 0,
+		"warhead": "true",
+		"can_hit_tags": ["building"],
 		"ground": true,
 		"air": false
 	},

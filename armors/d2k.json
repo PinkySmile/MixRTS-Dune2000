@@ -141,5 +141,16 @@
 		"concrete": 0,
 		"cy": 0,
 		"harvester": 1
+	},
+	"true": {
+		"none": 1,
+		"wall": 1,
+		"building": 1,
+		"wood": 1,
+		"light": 1,
+		"heavy": 1,
+		"concrete": 1,
+		"cy": 1,
+		"harvester": 1
 	}
 }
