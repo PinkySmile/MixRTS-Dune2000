@@ -655,9 +655,12 @@ void D2KUI::_updateQueueCameos()
 			} else if (entry->buildProgress == 0) {
 				w->setFill(1);
 				w->setReady(false);
+			} else if (entry->buildProgress >= entry->buildTime) {
+				w->setFill(1);
+				w->setReady(true);
 			} else {
 				w->setFill(entry->buildProgress / static_cast<float>(entry->buildTime));
-				w->setReady(entry->buildProgress == entry->buildTime);
+				w->setReady(false);
 			}
 		}
 	for (size_t i = 0; i < this->_starportQ->params->starportParams->units.size(); i++) {

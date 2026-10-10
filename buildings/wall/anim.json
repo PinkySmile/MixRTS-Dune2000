@@ -1,0 +1,199 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
+	},
+
+	"wall_0":  [
+		{
+			"sprite": "buildings/wall/wall_1.png",
+			"offset": { "x": 1, "y": 7 }
+		}
+	],
+	"wall_3":  [
+		{
+			"sprite": "buildings/wall/wall_2.png",
+			"offset": { "x": 1, "y": 7 }
+		}
+	],
+	"wall_2":  [
+		{
+			"sprite": "buildings/wall/wall_3.png",
+			"offset": { "x": 0, "y": 7 }
+		}
+	],
+	"wall_1":  [
+		{
+			"sprite": "buildings/wall/wall_4.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_4":  [
+		{
+			"sprite": "buildings/wall/wall_5.png",
+			"offset": { "x": 7, "y": 1 }
+		}
+	],
+	"wall_14":  [
+		{
+			"sprite": "buildings/wall/wall_6.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_23":  [
+		{
+			"sprite": "buildings/wall/wall_7.png",
+			"offset": { "x": 0, "y": 7 }
+		}
+	],
+	"wall_123":  [
+		{
+			"sprite": "buildings/wall/wall_8.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_134":  [
+		{
+			"sprite": "buildings/wall/wall_9.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"wall_124":  [
+		{
+			"sprite": "buildings/wall/wall_10.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_234":  [
+		{
+			"sprite": "buildings/wall/wall_11.png",
+			"offset": { "x": 0, "y": 7 }
+		}
+	],
+	"wall_13":  [
+		{
+			"sprite": "buildings/wall/wall_12.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_12":  [
+		{
+			"sprite": "buildings/wall/wall_13.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_24":  [
+		{
+			"sprite": "buildings/wall/wall_14.png",
+			"offset": { "x": 0, "y": 1 }
+		}
+	],
+	"wall_1234":  [
+		{
+			"sprite": "buildings/wall/wall_15.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_34":  [
+		{
+			"sprite": "buildings/wall/wall_16.png",
+			"offset": { "x": 10, "y": 4 }
+		}
+	],
+
+	"wall_br_0":  [
+		{
+			"sprite": "buildings/wall/wall_17.png",
+			"offset": { "x": 1, "y": 7 }
+		}
+	],
+	"wall_br_3":  [
+		{
+			"sprite": "buildings/wall/wall_18.png",
+			"offset": { "x": 1, "y": 7 }
+		}
+	],
+	"wall_br_2":  [
+		{
+			"sprite": "buildings/wall/wall_19.png",
+			"offset": { "x": 0, "y": 6 }
+		}
+	],
+	"wall_br_1":  [
+		{
+			"sprite": "buildings/wall/wall_20.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_br_4":  [
+		{
+			"sprite": "buildings/wall/wall_21.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"wall_br_14":  [
+		{
+			"sprite": "buildings/wall/wall_22.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_br_23":  [
+		{
+			"sprite": "buildings/wall/wall_23.png",
+			"offset": { "x": 0, "y": 7 }
+		}
+	],
+	"wall_br_123":  [
+		{
+			"sprite": "buildings/wall/wall_24.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_br_134":  [
+		{
+			"sprite": "buildings/wall/wall_25.png",
+			"offset": { "x": 7, "y": 0 }
+		}
+	],
+	"wall_br_124":  [
+		{
+			"sprite": "buildings/wall/wall_26.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_br_234":  [
+		{
+			"sprite": "buildings/wall/wall_27.png",
+			"offset": { "x": 0, "y": 7 }
+		}
+	],
+	"wall_br_13":  [
+		{
+			"sprite": "buildings/wall/wall_28.png",
+			"offset": { "x": 8, "y": 0 }
+		}
+	],
+	"wall_br_12":  [
+		{
+			"sprite": "buildings/wall/wall_29.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_br_24":  [
+		{
+			"sprite": "buildings/wall/wall_30.png",
+			"offset": { "x": 0, "y": 5 }
+		}
+	],
+	"wall_br_1234":  [
+		{
+			"sprite": "buildings/wall/wall_31.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"wall_br_34":  [
+		{
+			"sprite": "buildings/wall/wall_32.png",
+			"offset": { "x": 5, "y": 6 }
+		}
+	]
+}

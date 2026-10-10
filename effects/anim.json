@@ -3,6 +3,40 @@
 		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
 		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
 	},
+	"effect.bang_wall": [
+		{
+			"sprite": "effects/wall_0.png",
+			"offset": { "x": -19, "y": -17 }
+		},
+		{
+			"sprite": "effects/wall_1.png",
+			"offset": { "x": -20, "y": -16 }
+		},
+		{
+			"sprite": "effects/wall_2.png",
+			"offset": { "x": -21, "y": -19 }
+		},
+		{
+			"sprite": "effects/wall_3.png",
+			"offset": { "x": -22, "y": -17 }
+		},
+		{
+			"sprite": "effects/wall_4.png",
+			"offset": { "x": -22, "y": -16 }
+		},
+		{
+			"sprite": "effects/wall_5.png",
+			"offset": { "x": -23, "y": -16 }
+		},
+		{
+			"sprite": "effects/wall_6.png",
+			"offset": { "x": -23, "y": -15 }
+		},
+		{
+			"sprite": "effects/wall_7.png",
+			"offset": { "x": -17, "y": -9 }
+		}
+	],
 	"effect.bang11": [
 		{
 			"sprite": "effects/bang11_0.png",

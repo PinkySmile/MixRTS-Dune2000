@@ -14,6 +14,9 @@
 	"effect.bang_building": {
 		"anim": { "anim": "effect.bang13", "layer": 2, "delay": 6 }
 	},
+	"effect.bang_wall": {
+		"anim": { "anim": "effect.bang_wall", "layer": 2, "delay": 6 }
+	},
 	"effect.smoke": {
 		"anim": { "anim": "effect.smoke", "layer": 2, "delay": 6 },
 		"speed": { "x": 0, "y": -1 }

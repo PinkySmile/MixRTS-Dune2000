@@ -8,7 +8,45 @@
 		"requires_placement": true,
 		"repair_heal": 12,
 		"repair_delay": 16,
-		"death_sound": "explhg1"
+		"death_sound": "explhg1",
+		"queue": "building"
+	},
+	"wall": {
+		"anims": [
+			{ "anim": "wall_br", "when_hp_lower": 50,  "layer": 1 },
+			{ "anim": "wall",    "when_hp_bigger": 50, "layer": 1 }
+		],
+		"connected": {
+			"valid": [8, 4, 6, 2],
+			"type": "wall"
+		},
+		"wall": true,
+		"selectable": false,
+		"repairable": false,
+		"sell": { "refund": { "base:credits": 10 } },
+		"death": {
+			"generic": {
+				"effect": "effect.bang_wall",
+				"stay": 50,
+				"variance": { "x": 0, "y": 0 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [1, 4]
+				}
+			}
+		},
+		"death_sound": "expllg3",
+		"requirements": ["wtra"],
+		"cost": { "base:credits": 20 },
+		"build_speed": 256,
+		"sight": 0,
+		"power": 0,
+		"armor": "wall",
+		"tags": ["building"],
+		"hp": 2000,
+		"size": { "x": 32, "y": 32 },
+		"tiles": [[6]]
 	},
 	"wtra": {
 		"anims": [
@@ -37,8 +75,6 @@
 				"units": { "rifl": 1 }
 			}
 		},
-		"queue": "building",
-		"death_sound": "explhg1",
 		"requirements": [],
 		"cost": { "base:credits": 225 },
 		"build_speed": 854,
@@ -89,7 +125,6 @@
 				"units": { "rifl": 3 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["wtra"],
 		"storage": { "base:credits": 2000 },
 		"upgrades": [],
@@ -157,7 +192,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["group.barr"],
 		"cost": { "base:credits": 1500 },
 		"build_speed": 2561,
@@ -207,7 +241,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"group": "htec",
 		"requirements": [["o_cony", "h_cony"], "outp"],
 		"cost": { "base:credits": 1150 },
@@ -261,7 +294,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"group": "htec",
 		"requirements": ["a_cony", "outp"],
 		"cost": { "base:credits": 1150 },
@@ -303,8 +335,6 @@
 			"units": {}
 		},
 		"storage": { "base:credits": 1500 },
-		"queue": "building",
-		"death_sound": "explhg1",
 		"death": {
 			"generic": {
 				"effect": "effect.bang_building",
@@ -359,7 +389,6 @@
 				"units": { "rifl": 3 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["group.hfac", "outp"],
 		"gives_queue": "starport",
 		"cost": { "base:credits": 1500 },
@@ -407,7 +436,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["group.hfac", "hfac.upgrade", "outp"],
 		"cost": { "base:credits": 1000 },
 		"build_speed": 1281,
@@ -457,7 +485,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["a_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},
 		"exit_offset": {"x": 0, "y": 64},
@@ -508,7 +535,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["h_cony", "ixrc"],
 		"cost": { "base:credits": 1600 },
 		"build_speed": 3842,
@@ -558,7 +584,6 @@
 				"units": { "rifl": 4 }
 			}
 		},
-		"queue": "building",
 		"requirements": ["o_cony", "ixrc"],
 		"spawn_offset": {"x": 32, "y": 32},
 		"exit_offset": {"x": 0, "y": 64},
