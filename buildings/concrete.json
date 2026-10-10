@@ -11,7 +11,7 @@
 	"conc": {
 		"cameo": "cameos/b_3con.png",
 		"requirements": ["group.cony"],
-		"anims": [{ "anim": "conc", "layer": -1 }],
+		"anims": [{ "anim": "conc", "layer": -2 }],
 		"cost": {},
 		"tags": ["concrete"],
 		"build_speed": 461,
