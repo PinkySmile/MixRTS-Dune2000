@@ -72,6 +72,7 @@ private:
 	PlayerQueue *_upgradeQ  = nullptr;
 	PlayerQueue *_infantryQ = nullptr;
 	PlayerQueue *_aircraftQ = nullptr;
+	PlayerQueue *_supportQ  = nullptr;
 	PlayerQueue *_lightVehicleQ = nullptr;
 	PlayerQueue *_heavyVehicleQ = nullptr;
 	std::vector<PlayerQueueEntry *> _buildingQueueEntries;

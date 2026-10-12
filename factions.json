@@ -8,6 +8,21 @@
 			"best": [ "cursor/tile_best.png" ]
 		},
 		"queues": {
+			"apalace": {
+				"requires_producer": false,
+				"behavior": "single_queue",
+				"unit_spawn": "none"
+			},
+			"hpalace": {
+				"requires_producer": false,
+				"behavior": "single_queue",
+				"unit_spawn": "none"
+			},
+			"opalace": {
+				"requires_producer": false,
+				"behavior": "single_queue",
+				"unit_spawn": "none"
+			},
 			"upgrade": {
 				"requires_producer": false,
 				"behavior": "single_queue",
@@ -16,27 +31,44 @@
 			"building": {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "placement"
+				"unit_spawn": "placement",
+				"power_mul": [[1, 1], [0.5, 0.5], [0, 0.25]],
+				"producer_mul": [[1, 1], [2, 1.5], [3, 2]]
 			},
 			"infantry":  {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "inside"
+				"unit_spawn": "inside",
+				"power_mul": [[1, 1], [0.5, 0.5], [0, 0.25]],
+				"producer_mul": [[1, 1], [2, 1.5], [3, 2]]
 			},
 			"light_vehicle": {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "inside"
+				"unit_spawn": "inside",
+				"power_mul": [[1, 1], [0.5, 0.5], [0, 0.25]],
+				"producer_mul": [[1, 1], [2, 1.5], [3, 2]]
 			},
 			"heavy_vehicle":  {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "inside"
+				"unit_spawn": "inside",
+				"power_mul": [[1, 1], [0.5, 0.5], [0, 0.25]],
+				"producer_mul": [[1, 1], [2, 1.5], [3, 2]]
 			},
 			"aircraft":  {
 				"requires_producer": true,
 				"behavior": "single_queue",
-				"unit_spawn": "inside"
+				"unit_spawn": "inside",
+				"power_mul": [[1, 1], [0.5, 0.5], [0, 0.25]],
+				"producer_mul": [[1, 1], [2, 1.5], [3, 2]]
+			},
+			"support_power":  {
+				"requires_producer": false,
+				"behavior": "auto_tick",
+				"unit_spawn": "placement",
+				"power_mul": [[1, 1], [0, 0]],
+				"loader": "support.dl"
 			},
 			"starport": {
 				"requires_producer": true,

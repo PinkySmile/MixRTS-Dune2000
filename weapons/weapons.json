@@ -123,7 +123,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.fremen_s": {
+	"weapon.fremen_s": {
 		"type": "hitscan",
 		"sound": "fremen_gun",
 		"hit_effect": "effect.rocket",
@@ -134,7 +134,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.fremen_l": {
+	"weapon.fremen_l": {
 		"type": "hitscan",
 		"sound": "fremen_gun",
 		"hit_effect": "effect.rocket",

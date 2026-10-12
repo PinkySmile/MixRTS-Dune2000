@@ -4,13 +4,9 @@
 
 #include "D2KUI.hpp"
 
-#ifdef _WIN32
-#define EXPORT extern "C" __declspec(dllexport)
-#else
-#define EXPORT extern "C"
-#endif
+SL_DECLARE_VERSION;
 
-EXPORT UI *createUiFor(
+SL_EXPORT UI *createUiFor(
 	const Faction &faction,
 	UIState *state,
 	GameManager *manager,

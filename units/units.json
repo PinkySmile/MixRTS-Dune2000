@@ -479,7 +479,7 @@
 		],
 		"armor": "light",
 		"tags": ["tracked", "mech"],
-		"requirements": ["h_hfac", "ixrc"],
+		"requirements": ["group.hfac", "hfac.upgrade"],
 		"cost": { "base:credits": 1200 },
 		"build_speed": 1537,
 		"speed": 0.5,
@@ -702,7 +702,6 @@
 		"crush_sound": "crush",
 		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	},
-
 	"sabo": {
 		"anims": [
 			{ "anim": "sabo", "layer": 1, "delay" : 10 }
@@ -716,10 +715,10 @@
 			{ "anim": "sabo_idle_1", "layer": 1, "delay": 10 },
 			{ "anim": "sabo_idle_2", "layer": 1, "delay": 10 }
 		],
-		"anim_move":       { "anim": "sabo_walk",        "layer": 1, "delay": 10 },
-		"anim_crouch":     { "anim": "sabo_crawl_idle",  "layer": 1 },
-		"anim_crawl":      { "anim": "sabo_crawl",       "layer": 1, "delay": 10 },
-		"queue": "infantry",
+		"anim_move":   { "anim": "sabo_walk",       "layer": 1, "delay": 10 },
+		"anim_crouch": { "anim": "sabo_crawl_idle", "layer": 1 },
+		"anim_crawl":  { "anim": "sabo_crawl",      "layer": 1, "delay": 10 },
+		"queue": "support_power",
 		"death_sound": "killguy",
 		"barrels": [
 			{
@@ -741,13 +740,66 @@
 		"tags": ["infantry", "bio"],
 		"requirements": ["opala"],
 		"cost": { "base:credits": 400 },
-		"build_speed": 512,
+		"build_speed": 9220,
 		"speed": 0.5,
 		"size": { "x": 16, "y": 16 },
 		"sight": 2,
 		"hp": 400,
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+	},
+	"frem": {
+		"anims": [
+			{ "anim": "sardaukar", "layer": 1, "delay" : 10 }
+		],
+		"select_sound": "f_select",
+		"do_sound": "f_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "sardaukar_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "sardaukar_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "sardaukar_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "sardaukar_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "sardaukar_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "sardaukar_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "sardaukar_crawl_shoot", "layer": 1, "delay": 10 },
+		"queue": "support_power",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [
+					{ "name": "weapon.fremen_s", "cooldown": 80 },
+					{ "name": "weapon.fremen_l", "cooldown": 80 }
+				],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "sardaukar_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "sardaukar_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "sardaukar_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"tags": ["infantry", "bio"],
+		"requirements": ["apala"],
+		"cost": { "base:credits": 200 },
+		"build_speed": 9220,
+		"speed": 0.5,
+		"size": { "x": 16, "y": 16 },
+		"sight": 3,
+		"hp": 700,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "sardaukar_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
 		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
 	}

@@ -6,5 +6,6 @@
 	"sonic_gun":    { "path": "weapons/sounds/SONIC1.ogg" },
 	"missile_gun":  { "path": "weapons/sounds/MISSLE1.ogg" },
 	"mortar_gun":   { "path": "weapons/sounds/MORTAR1.ogg" },
-	"plasma_gun":   { "path": "weapons/sounds/TANKHVY1.ogg" }
+	"plasma_gun":   { "path": "weapons/sounds/TANKHVY1.ogg" },
+	"fremen_gun":   { "path": "weapons/sounds/FREMODD1.ogg" }
 }

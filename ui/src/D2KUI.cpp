@@ -329,18 +329,20 @@ void D2KUI::_loadCameos()
 
 void D2KUI::_setupQueues()
 {
+	assert_msg(this->ownerState->queues.contains(this->_modName + ":upgrade"), this->_modName + ":upgrade");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":starport"), this->_modName + ":starport");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":building"), this->_modName + ":building");
-	assert_msg(this->ownerState->queues.contains(this->_modName + ":upgrade"), this->_modName + ":upgrade");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":infantry"), this->_modName + ":infantry");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":aircraft"), this->_modName + ":aircraft");
+	assert_msg(this->ownerState->queues.contains(this->_modName + ":support_power"), this->_modName + ":support_power");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":light_vehicle"), this->_modName + ":light_vehicle");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":heavy_vehicle"), this->_modName + ":heavy_vehicle");
 
+	this->_upgradeQ = &this->ownerState->queues.at(this->_modName + ":upgrade");
+	this->_supportQ = &this->ownerState->queues.at(this->_modName + ":support_power");
 	this->_starportQ = &this->ownerState->queues.at(this->_modName + ":starport");
 	assert_exp(this->_starportQ->params->behavior == FactionQueue::TYPE_STARPORT);
 	this->_buildingQ = &this->ownerState->queues.at(this->_modName + ":building");
-	this->_upgradeQ = &this->ownerState->queues.at(this->_modName + ":upgrade");
 	this->_infantryQ = &this->ownerState->queues.at(this->_modName + ":infantry");
 	this->_aircraftQ = &this->ownerState->queues.at(this->_modName + ":aircraft");
 	this->_lightVehicleQ = &this->ownerState->queues.at(this->_modName + ":light_vehicle");
@@ -375,7 +377,9 @@ void D2KUI::_setupQueues()
 			it = this->_lightVehicleQ->entries.find(u);
 		if (it == this->_lightVehicleQ->entries.end())
 			it = this->_heavyVehicleQ->entries.find(u);
-		if (it != this->_heavyVehicleQ->entries.end())
+		if (it == this->_heavyVehicleQ->entries.end())
+			it = this->_supportQ->entries.find(u);
+		if (it != this->_supportQ->entries.end())
 			this->_unitsQueueEntries.push_back(&it->second);
 		else
 			this->_unitsQueueEntries.push_back(nullptr);
@@ -780,8 +784,16 @@ void D2KUI::playEVA(EVASound sound, unsigned int expireIn, unsigned int priority
 		if (args == this->_modName + ":upgrade")
 			// No built sound for upgrade queue
 			return;
-		else if (args != this->_modName + ":building")
+		if (args != this->_modName + ":building")
 			sound = EVA_UNIT_READY;
+		if (args == this->_modName + ":sabo")
+			return;
+		else if (args == this->_modName + ":frem")
+			return;
+		else if (args == this->_modName + ":orni")
+			return;
+		else if (args == this->_modName + ":dhmi")
+			return;
 	}
 	UI::playEVA(sound, expireIn, priority, cooldown, args);
 }

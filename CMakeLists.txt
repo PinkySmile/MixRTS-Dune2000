@@ -16,6 +16,15 @@ target_link_libraries(
 	MixRTS_Core
 )
 
+add_library(
+	d2k_support_powers MODULE
+	src/main.cpp
+)
+target_link_libraries(
+	d2k_support_powers
+	MixRTS_Core
+)
+
 set(D2K_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 message(STATUS "Scanning ${D2K_SOURCE_DIR}")
 file(GLOB_RECURSE D2K_ASSET_FILES CONFIGURE_DEPENDS
@@ -45,6 +54,7 @@ endforeach()
 # Target that drives the build dependencies
 add_custom_target(d2k_assets ALL DEPENDS ${COPIED_FILES})
 add_dependencies(d2k_ui d2k_assets)
+add_dependencies(d2k_support_powers d2k_assets)
 
 add_custom_command(
 	OUTPUT "${MOD_DEST_PATH}/ui/ui.ui"
@@ -52,5 +62,13 @@ add_custom_command(
 	DEPENDS $<TARGET_FILE:d2k_ui>
 	COMMENT "Copy ui/ui.ui"
 )
-add_custom_target(dune2000 ALL DEPENDS "${MOD_DEST_PATH}/ui/ui.ui")
+add_custom_command(
+	OUTPUT "${MOD_DEST_PATH}/support.dl"
+	COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_support_powers> "${MOD_DEST_PATH}/support.dl"
+	DEPENDS $<TARGET_FILE:d2k_support_powers>
+	COMMENT "Copy support.dl"
+)
+
+add_custom_target(dune2000 ALL DEPENDS "${MOD_DEST_PATH}/ui/ui.ui" "${MOD_DEST_PATH}/support.dl")
 add_dependencies(dune2000 d2k_ui)
+add_dependencies(dune2000 d2k_support_powers)
