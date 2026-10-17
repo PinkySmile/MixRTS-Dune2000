@@ -516,9 +516,9 @@
 			"y": 0
 		},
 		"decel": {
-			"dist": 96,
+			"dist": 32,
 			"min": 0.5,
-			"step": 0.025
+			"step": 0.25
 		},
 		"selectable": false,
 		"death": {
