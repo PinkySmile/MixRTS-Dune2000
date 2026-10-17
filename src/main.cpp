@@ -9,15 +9,15 @@
 
 SL_DECLARE_VERSION;
 
-SL_EXPORT bool update(CustomQueue &b, PlayerQueue &entry)
+/*SL_EXPORT bool update(CustomQueue &b, PlayerQueue &entry)
 {
 	return true;
-}
+}*/
 
-SL_EXPORT bool updateEntry(CustomQueue &b, PlayerQueueEntry *entry)
+/*SL_EXPORT bool updateEntry(CustomQueue &b, PlayerQueueEntry *entry)
 {
 	return true;
-}
+}*/
 
 SL_EXPORT bool tryEndBuild(CustomQueue &b, PlayerQueueEntry *entry)
 {
@@ -55,12 +55,12 @@ SL_EXPORT bool handleStartBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 	return false;
 }
 
-SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &, PlayerQueueEntry *, const UI::PlaceBuildEvent &)
+/*SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &, PlayerQueueEntry *, const UI::PlaceBuildEvent &)
 {
 	return false;
-}
+}*/
 
-SL_EXPORT bool handleCancelBuildEvent(CustomQueue &, PlayerQueueEntry *, const UI::CancelBuildEvent &)
+/*SL_EXPORT bool handleCancelBuildEvent(CustomQueue &, PlayerQueueEntry *, const UI::CancelBuildEvent &)
 {
 	return false;
-}
+}*/
