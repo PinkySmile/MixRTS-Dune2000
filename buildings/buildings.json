@@ -655,7 +655,7 @@
 				"priority": 1
 			}
 		],
-		"requirements": ["barr"],
+		"requirements": ["group.barr"],
 		"cost": { "base:credits": 550 },
 		"show_after_build": 8,
 		"build_speed": 1098,
@@ -665,6 +665,61 @@
 		"tags": ["building"],
 		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
 		"hp": 2700,
+		"size": { "x": 32, "y": 32 },
+		"tiles": [[14]]
+	},
+	"roct": {
+		"anims": [
+			{ "anim": "base", "layer": 1 }
+		],
+		"connected": {
+			"valid": [8, 4, 6, 2],
+			"type": "wall"
+		},
+		"wall": true,
+		"sell": {
+			"anim": { "anim": "silo_sell", "layer": 1, "delay": 6 },
+			"refund": { "base:credits": 375 },
+			"units": {}
+		},
+		"death": {
+			"generic": {
+				"effect": "effect.bang_building",
+				"stay": 50,
+				"variance": { "x": 0, "y": 0 },
+				"projectiles": {
+					"pool": [ "weapon.debris", "weapon.debris2", "weapon.debris3", "weapon.debris4" ],
+					"target": { "x": [-96, 96], "y": [-96, 96] },
+					"count": [1, 4]
+				}
+			}
+		},
+		"turrets": [
+			{
+				"turn_delay": 1,
+				"directions": 32,
+				"anim": { "anim": "rturret", "layer": 1, "delay" : 10 },
+				"offset": { "x": 0, "y": 0 },
+				"barrel": 0
+			}
+		],
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.rocket2", "cooldown": 120 }],
+				"offset": 0,
+				"priority": 1
+			}
+		],
+		"requirements": ["outp", "cony.upgrade"],
+		"cost": { "base:credits": 750 },
+		"show_after_build": 8,
+		"build_speed": 1281,
+		"sight": 6,
+		"power": 60,
+		"armor": "heavy",
+		"tags": ["building"],
+		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
+		"hp": 3000,
 		"size": { "x": 32, "y": 32 },
 		"tiles": [[14]]
 	}

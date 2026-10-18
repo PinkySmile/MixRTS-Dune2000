@@ -134,6 +134,7 @@
 			"buildings/animations_sell.json",
 			"buildings/wall/anim.json",
 			"buildings/gun_turr/anim.json",
+			"buildings/rock_turr/anim.json",
 			"buildings/base/anim.json",
 			"units/mcv/anim.json",
 			"units/harv/anim.json",

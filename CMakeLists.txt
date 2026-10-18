@@ -72,3 +72,67 @@ add_custom_command(
 add_custom_target(dune2000 ALL DEPENDS "${MOD_DEST_PATH}/ui/ui.ui" "${MOD_DEST_PATH}/support.dl")
 add_dependencies(dune2000 d2k_ui)
 add_dependencies(dune2000 d2k_support_powers)
+
+if (NOT NO_TEST)
+	add_library(
+		d2k_ui_test MODULE
+		ui/src/D2KCameo.cpp
+		ui/src/D2KCameo.hpp
+		ui/src/D2KUI.cpp
+		ui/src/D2KUI.hpp
+		ui/src/main.cpp
+	)
+	target_link_libraries(
+		d2k_ui_test
+		MixRTS_Core_Mock
+	)
+
+	add_library(
+		d2k_support_powers_test MODULE
+		src/main.cpp
+	)
+	target_link_libraries(
+		d2k_support_powers_test
+		MixRTS_Core_Mock
+	)
+
+	set(COPIED_FILES "")
+	message(STATUS "Install in ${TEST_MOD_DEST_PATH}")
+	foreach(D2K_ASSET_PATH ${D2K_ASSET_FILES})
+		get_filename_component(FILE_NAME ${D2K_ASSET_PATH} NAME)
+		cmake_path(RELATIVE_PATH D2K_ASSET_PATH BASE_DIRECTORY ${D2K_SOURCE_DIR} OUTPUT_VARIABLE D2K_ASSET_PATH_REL)
+
+		add_custom_command(
+			OUTPUT "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+			COMMAND ${CMAKE_COMMAND} -E copy_if_different "${D2K_ASSET_PATH}" "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+			DEPENDS "${D2K_ASSET_PATH}"
+			COMMENT "Copy ${D2K_ASSET_PATH_REL}"
+		)
+		list(APPEND COPIED_FILES "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}")
+	endforeach()
+
+	# Target that drives the build dependencies
+	add_custom_target(d2k_assets_test ALL DEPENDS ${COPIED_FILES})
+	add_dependencies(d2k_ui_test d2k_assets_test)
+	add_dependencies(d2k_support_powers_test d2k_assets_test)
+
+	add_custom_command(
+		OUTPUT "${TEST_MOD_DEST_PATH}/ui/ui.ui"
+		COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_ui> "${TEST_MOD_DEST_PATH}/ui/ui.ui"
+		DEPENDS $<TARGET_FILE:d2k_ui>
+		COMMENT "Copy ui/ui.ui"
+	)
+	add_custom_command(
+		OUTPUT "${TEST_MOD_DEST_PATH}/support.dl"
+		COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_support_powers> "${TEST_MOD_DEST_PATH}/support.dl"
+		DEPENDS $<TARGET_FILE:d2k_support_powers>
+		COMMENT "Copy support.dl"
+	)
+
+	add_custom_target(
+		dune2000_test ALL DEPENDS
+		"${TEST_MOD_DEST_PATH}/ui/ui.ui"
+		"${TEST_MOD_DEST_PATH}/support.dl"
+	)
+	add_dependencies(dune2000_test d2k_ui_test d2k_support_powers_test)
+endif ()

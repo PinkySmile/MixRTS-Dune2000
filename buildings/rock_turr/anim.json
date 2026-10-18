@@ -1,0 +1,198 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+	},
+	"rturret_0": [
+		{
+			"sprite": "buildings/rock_turr/top_1.png",
+			"offset": { "x": 2, "y": -9 }
+		}
+	],
+	"rturret_1": [
+		{
+			"sprite": "buildings/rock_turr/top_2.png",
+			"offset": { "x": 2, "y": -11 }
+		}
+	],
+	"rturret_2": [
+		{
+			"sprite": "buildings/rock_turr/top_3.png",
+			"offset": { "x": 0, "y": -12 }
+		}
+	],
+	"rturret_3": [
+		{
+			"sprite": "buildings/rock_turr/top_4.png",
+			"offset": { "x": 0, "y": -13 }
+		}
+	],
+	"rturret_4": [
+		{
+			"sprite": "buildings/rock_turr/top_5.png",
+			"offset": { "x": 0, "y": -14 }
+		}
+	],
+	"rturret_5": [
+		{
+			"sprite": "buildings/rock_turr/top_6.png",
+			"offset": { "x": 0, "y": -15 }
+		}
+	],
+	"rturret_6": [
+		{
+			"sprite": "buildings/rock_turr/top_7.png",
+			"offset": { "x": 1, "y": -16 }
+		}
+	],
+	"rturret_7": [
+		{
+			"sprite": "buildings/rock_turr/top_8.png",
+			"offset": { "x": 3, "y": -16 }
+		}
+	],
+	"rturret_8": [
+		{
+			"sprite": "buildings/rock_turr/top_9.png",
+			"offset": { "x": 5, "y": -16 }
+		}
+	],
+	"rturret_9": [
+		{
+			"sprite": "buildings/rock_turr/top_10.png",
+			"offset": { "x": 3, "y": -15 }
+		}
+	],
+	"rturret_10": [
+		{
+			"sprite": "buildings/rock_turr/top_11.png",
+			"offset": { "x": 1, "y": -15 }
+		}
+	],
+	"rturret_11": [
+		{
+			"sprite": "buildings/rock_turr/top_12.png",
+			"offset": { "x": 0, "y": -14 }
+		}
+	],
+	"rturret_12": [
+		{
+			"sprite": "buildings/rock_turr/top_13.png",
+			"offset": { "x": -1, "y": -13 }
+		}
+	],
+	"rturret_13": [
+		{
+			"sprite": "buildings/rock_turr/top_14.png",
+			"offset": { "x": 0, "y": -13 }
+		}
+	],
+	"rturret_14": [
+		{
+			"sprite": "buildings/rock_turr/top_15.png",
+			"offset": { "x": 0, "y": -14 }
+		}
+	],
+	"rturret_15": [
+		{
+			"sprite": "buildings/rock_turr/top_16.png",
+			"offset": { "x": 1, "y": -14 }
+		}
+	],
+	"rturret_16": [
+		{
+			"sprite": "buildings/rock_turr/top_17.png",
+			"offset": { "x": 2, "y": -14 }
+		}
+	],
+	"rturret_17": [
+		{
+			"sprite": "buildings/rock_turr/top_18.png",
+			"offset": { "x": 2, "y": -14 }
+		}
+	],
+	"rturret_18": [
+		{
+			"sprite": "buildings/rock_turr/top_19.png",
+			"offset": { "x": 2, "y": -13 }
+		}
+	],
+	"rturret_19": [
+		{
+			"sprite": "buildings/rock_turr/top_20.png",
+			"offset": { "x": 2, "y": -13 }
+		}
+	],
+	"rturret_20": [
+		{
+			"sprite": "buildings/rock_turr/top_21.png",
+			"offset": { "x": 2, "y": -13 }
+		}
+	],
+	"rturret_21": [
+		{
+			"sprite": "buildings/rock_turr/top_22.png",
+			"offset": { "x": 4, "y": -14 }
+		}
+	],
+	"rturret_22": [
+		{
+			"sprite": "buildings/rock_turr/top_23.png",
+			"offset": { "x": 5, "y": -15 }
+		}
+	],
+	"rturret_23": [
+		{
+			"sprite": "buildings/rock_turr/top_24.png",
+			"offset": { "x": 7, "y": -16 }
+		}
+	],
+	"rturret_24": [
+		{
+			"sprite": "buildings/rock_turr/top_25.png",
+			"offset": { "x": 8, "y": -16 }
+		}
+	],
+	"rturret_25": [
+		{
+			"sprite": "buildings/rock_turr/top_26.png",
+			"offset": { "x": 7, "y": -16 }
+		}
+	],
+	"rturret_26": [
+		{
+			"sprite": "buildings/rock_turr/top_27.png",
+			"offset": { "x": 5, "y": -16 }
+		}
+	],
+	"rturret_27": [
+		{
+			"sprite": "buildings/rock_turr/top_28.png",
+			"offset": { "x": 4, "y": -15 }
+		}
+	],
+	"rturret_28": [
+		{
+			"sprite": "buildings/rock_turr/top_29.png",
+			"offset": { "x": 3, "y": -14 }
+		}
+	],
+	"rturret_29": [
+		{
+			"sprite": "buildings/rock_turr/top_30.png",
+			"offset": { "x": 2, "y": -14 }
+		}
+	],
+	"rturret_30": [
+		{
+			"sprite": "buildings/rock_turr/top_31.png",
+			"offset": { "x": 2, "y": -12 }
+		}
+	],
+	"rturret_31": [
+		{
+			"sprite": "buildings/rock_turr/top_32.png",
+			"offset": { "x": 2, "y": -11 }
+		}
+	]
+}

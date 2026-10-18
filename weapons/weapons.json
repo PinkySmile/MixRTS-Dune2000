@@ -145,7 +145,7 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.rocket2": {
+	"weapon.rocket2": {
 		"type": "projectile",
 		"sound": "rocket_gun",
 		"projectile": {
