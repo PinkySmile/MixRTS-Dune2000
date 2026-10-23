@@ -1,10 +1,10 @@
 Renderer.1 {
-    Texture = "../../numbers/credit_empty.png" Smooth;
+    Texture = "../numbers/credit_empty.png" Smooth;
     TransparentTexture = false;
 }
 
 Renderer.2 {
-    Texture = "../../numbers/credit_empty.png" Smooth;
+    Texture = "../numbers/credit_empty.png" Smooth;
     TransparentTexture = false;
 }
 
@@ -147,7 +147,7 @@ Picture.Credit7 {
     Size = (10, 14);
 
     Renderer {
-        Texture = "../../numbers/credit_empty.png" Smooth;
+        Texture = "../numbers/credit_empty.png" Smooth;
         TransparentTexture = false;
     }
 }
@@ -157,7 +157,7 @@ Picture.Credit6 {
     Size = (10, 14);
 
     Renderer {
-        Texture = "../../numbers/credit_empty.png" Smooth;
+        Texture = "../numbers/credit_empty.png" Smooth;
         TransparentTexture = false;
     }
 }

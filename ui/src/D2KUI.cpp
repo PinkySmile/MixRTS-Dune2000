@@ -117,6 +117,7 @@ void D2KUI::_loadEvaSounds(const std::filesystem::path &base, const std::string 
 void D2KUI::_setupCursorMapping()
 {
 	this->_cursorMapping[CURSOR_NORMAL]                 = "normal";
+	this->_cursorMapping[CURSOR_START_SELECT]           = "normal";
 	this->_cursorMapping[CURSOR_MOVE]                   = "move";
 	this->_cursorMapping[CURSOR_MOVE_RESTRICT]          = "move_inf";
 	this->_cursorMapping[CURSOR_NO_MOVE]                = "no_move";
@@ -278,17 +279,17 @@ void D2KUI::_placeUiEvents()
 
 void D2KUI::_loadExtraAssets()
 {
-	this->_creditRawDigits[0] = tgui::Texture{(this->_base / "numbers/credit_0.png").native()};
-	this->_creditRawDigits[1] = tgui::Texture{(this->_base / "numbers/credit_1.png").native()};
-	this->_creditRawDigits[2] = tgui::Texture{(this->_base / "numbers/credit_2.png").native()};
-	this->_creditRawDigits[3] = tgui::Texture{(this->_base / "numbers/credit_3.png").native()};
-	this->_creditRawDigits[4] = tgui::Texture{(this->_base / "numbers/credit_4.png").native()};
-	this->_creditRawDigits[5] = tgui::Texture{(this->_base / "numbers/credit_5.png").native()};
-	this->_creditRawDigits[6] = tgui::Texture{(this->_base / "numbers/credit_6.png").native()};
-	this->_creditRawDigits[7] = tgui::Texture{(this->_base / "numbers/credit_7.png").native()};
-	this->_creditRawDigits[8] = tgui::Texture{(this->_base / "numbers/credit_8.png").native()};
-	this->_creditRawDigits[9] = tgui::Texture{(this->_base / "numbers/credit_9.png").native()};
-	this->_creditRawDigits[10]= tgui::Texture{(this->_base / "numbers/credit_empty.png").native()};
+	this->_creditRawDigits[0] = tgui::Texture{(this->_base / "ui/numbers/credit_0.png").native()};
+	this->_creditRawDigits[1] = tgui::Texture{(this->_base / "ui/numbers/credit_1.png").native()};
+	this->_creditRawDigits[2] = tgui::Texture{(this->_base / "ui/numbers/credit_2.png").native()};
+	this->_creditRawDigits[3] = tgui::Texture{(this->_base / "ui/numbers/credit_3.png").native()};
+	this->_creditRawDigits[4] = tgui::Texture{(this->_base / "ui/numbers/credit_4.png").native()};
+	this->_creditRawDigits[5] = tgui::Texture{(this->_base / "ui/numbers/credit_5.png").native()};
+	this->_creditRawDigits[6] = tgui::Texture{(this->_base / "ui/numbers/credit_6.png").native()};
+	this->_creditRawDigits[7] = tgui::Texture{(this->_base / "ui/numbers/credit_7.png").native()};
+	this->_creditRawDigits[8] = tgui::Texture{(this->_base / "ui/numbers/credit_8.png").native()};
+	this->_creditRawDigits[9] = tgui::Texture{(this->_base / "ui/numbers/credit_9.png").native()};
+	this->_creditRawDigits[10]= tgui::Texture{(this->_base / "ui/numbers/credit_empty.png").native()};
 	for (size_t i = 0; i < this->_selectCorners.size(); i++)
 		assert_exp(this->_selectCorners[i].loadFromFile(this->_base / ("cursor/select_" + std::to_string(i) + ".png")));
 

@@ -1,0 +1,86 @@
+{
+	"fire": {
+		"scbw:su": 0.9,
+		"scbw:mu": 0.5,
+		"scbw:lu": 0.25,
+		"scbw:building": 0.25
+	},
+	"deviate": {
+		"scbw:su": 0.2,
+		"scbw:mu": 0.2,
+		"scbw:lu": 0.2,
+		"scbw:building": 0.2
+	},
+	"special": {
+		"scbw:su": 0.9,
+		"scbw:mu": 0.6,
+		"scbw:lu": 0.6,
+		"scbw:building": 0.6
+	},
+	"bullet": {
+		"scbw:su": 1,
+		"scbw:mu": 0.75,
+		"scbw:lu": 0.2,
+		"scbw:building": 0.2
+	},
+	"at": {
+		"scbw:su": 0.2,
+		"scbw:mu": 0.6,
+		"scbw:lu": 0.75,
+		"scbw:building": 0.75
+	},
+	"gt_at": {
+		"scbw:su": 0.25,
+		"scbw:mu": 0.65,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"at_mis": {
+		"scbw:su": 0.15,
+		"scbw:mu": 0.65,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"bazooka": {
+		"scbw:su": 0.08,
+		"scbw:mu": 0.45,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"plasma": {
+		"scbw:su": 0.5,
+		"scbw:mu": 0.6,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"plasma_death": {
+		"scbw:su": 1,
+		"scbw:mu": 0.6,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"sonic": {
+		"scbw:su": 1,
+		"scbw:mu": 1,
+		"scbw:lu": 0.6,
+		"scbw:building": 0.6
+	},
+	"he": {
+		"scbw:su": 1.25,
+		"scbw:mu": 0.7,
+		"scbw:lu": 0.2,
+		"scbw:building": 1
+	},
+	"worm": {
+		"scbw:su": 1,
+		"scbw:mu": 1,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	},
+	"true": {
+		"scbw:su": 1,
+		"scbw:mu": 1,
+		"scbw:lu": 1,
+		"scbw:building": 1
+	}
+}
