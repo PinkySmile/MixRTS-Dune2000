@@ -6,7 +6,9 @@
 		"sellable": false,
 		"repairable": false,
 		"requires_placement": true,
-		"armor": "concrete"
+		"armor": "concrete",
+		"counts_for_game": false,
+		"counts_for_short_game": false
 	},
 	"conc": {
 		"cameo": "cameos/b_3con.png",

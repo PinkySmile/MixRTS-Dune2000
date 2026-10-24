@@ -1,11 +1,14 @@
 {
 	"_general": {
-		"grid_bound": true
+		"grid_bound": true,
+		"counts_for_game": true,
+		"counts_for_short_game": false
 	},
 	"mcv": {
 		"anims": [
 			{ "anim": "mcv", "layer": 1 }
 		],
+		"counts_for_short_game": true,
 		"central": true,
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",

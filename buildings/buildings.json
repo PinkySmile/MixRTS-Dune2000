@@ -9,7 +9,9 @@
 		"repair_heal": 12,
 		"repair_delay": 16,
 		"death_sound": "explhg1",
-		"queue": "building"
+		"queue": "building",
+		"counts_for_game": true,
+		"counts_for_short_game": true
 	},
 	"wall": {
 		"anims": [

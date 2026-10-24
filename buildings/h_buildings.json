@@ -8,7 +8,9 @@
 		"requires_placement": true,
 		"repair_heal": 12,
 		"repair_delay": 16,
-		"death_sound": "explhg1"
+		"death_sound": "explhg1",
+		"counts_for_game": true,
+		"counts_for_short_game": true
 	},
 	"h_cony": {
 		"anims": [

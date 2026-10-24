@@ -759,7 +759,7 @@ Panel.Settings {
         Size = (205, 250);
 
         Renderer {
-            Texture = "../settings_holder.png" Smooth;
+            Texture = "../holders/BOX2.png" Smooth;
             TransparentTexture = false;
         }
     }
@@ -786,13 +786,13 @@ Panel.Settings {
             TextColorDisabled = transparent;
             TextColorDown = transparent;
             TextColorHover = transparent;
-            Texture = "../buttons/BUT1_UP.BMP" Smooth;
-            TextureDisabled = "../buttons/BUT1_UP.BMP" Smooth;
-            TextureDown = "../buttons/BUT1_DN.BMP" Smooth;
-            TextureDownFocused = "../buttons/BUT1_DN.BMP" Smooth;
-            TextureDownHover = "../buttons/BUT1_DN.BMP" Smooth;
-            TextureFocused = "../buttons/BUT1_UP.BMP" Smooth;
-            TextureHover = "../buttons/BUT1_UP.BMP" Smooth;
+            Texture = "../buttons/BUT1_UP.png" Smooth;
+            TextureDisabled = "../buttons/BUT1_UP.png" Smooth;
+            TextureDown = "../buttons/BUT1_DN.png" Smooth;
+            TextureDownFocused = "../buttons/BUT1_DN.png" Smooth;
+            TextureDownHover = "../buttons/BUT1_DN.png" Smooth;
+            TextureFocused = "../buttons/BUT1_UP.png" Smooth;
+            TextureHover = "../buttons/BUT1_UP.png" Smooth;
         }
     }
 
@@ -815,5 +815,27 @@ Panel.Settings {
             Texture = "options_text.png" Smooth;
             TransparentTexture = false;
         }
+    }
+}
+
+Picture.WonMsg {
+    IgnoreMouseEvents = true;
+    Position = ((&.w / 2) - (w / 2), (&.h / 2) - (h / 2));
+    Size = (133, 31);
+
+    Renderer {
+        Texture = "win_msg.png" Smooth;
+        TransparentTexture = false;
+    }
+}
+
+Picture.LostMsg {
+    IgnoreMouseEvents = true;
+    Position = ((&.w / 2) - (w / 2), (&.h / 2) - (h / 2));
+    Size = (67, 31);
+
+    Renderer {
+        Texture = "lose_msg.png" Smooth;
+        TransparentTexture = false;
     }
 }

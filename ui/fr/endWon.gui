@@ -1,0 +1,92 @@
+Panel.Panel1 {
+    Position = ((&.w - w) / 2, (&.h - h) / 2);
+    Size = (328, 80);
+
+    Renderer {
+        BackgroundColor = white;
+        BorderColor = black;
+        TextureBackground = "../holders/BARBTTON.png" Smooth;
+    }
+
+    Button.Title {
+        Position = ((((&.w / 2) - w) / 2) + 10, (&.h - h) / 2);
+        Size = (80, 21);
+        TextSize = 13;
+
+        Renderer {
+            BackgroundColor = #F5F5F5;
+            BackgroundColorDisabled = #E6E6E6;
+            BackgroundColorDown = #EBEBEB;
+            BackgroundColorHover = white;
+            BorderColor = #3C3C3C;
+            BorderColorDisabled = #7D7D7D;
+            BorderColorDown = black;
+            BorderColorFocused = #1E1EB4;
+            BorderColorHover = black;
+            Borders = (0, 0, 0, 0);
+            TextColor = #3C3C3C;
+            TextColorDisabled = #7D7D7D;
+            TextColorDown = black;
+            TextColorHover = black;
+            Texture = "../buttons/BUT8_UP.png" Smooth;
+            TextureDisabled = "../buttons/BUT8_UP.png" Smooth;
+            TextureDown = "../buttons/BUT8_DN.png" Smooth;
+            TextureDownFocused = "../buttons/BUT8_DN.png" Smooth;
+            TextureDownHover = "../buttons/BUT8_DN.png" Smooth;
+            TextureFocused = "../buttons/BUT8_UP.png" Smooth;
+            TextureHover = "../buttons/BUT8_UP.png" Smooth;
+        }
+    }
+
+    Button.Continue {
+        Position = (((((&.w * 3) / 2) - w) / 2) - 10, (&.h - h) / 2);
+        Size = (80, 21);
+        TextSize = 13;
+
+        Renderer {
+            BackgroundColor = #F5F5F5;
+            BackgroundColorDisabled = #E6E6E6;
+            BackgroundColorDown = #EBEBEB;
+            BackgroundColorHover = white;
+            BorderColor = #3C3C3C;
+            BorderColorDisabled = #7D7D7D;
+            BorderColorDown = black;
+            BorderColorFocused = #1E1EB4;
+            BorderColorHover = black;
+            Borders = (0, 0, 0, 0);
+            TextColor = #3C3C3C;
+            TextColorDisabled = #7D7D7D;
+            TextColorDown = black;
+            TextColorHover = black;
+            Texture = "../buttons/BUT8_UP.png" Smooth;
+            TextureDisabled = "../buttons/BUT8_UP.png" Smooth;
+            TextureDown = "../buttons/BUT8_DN.png" Smooth;
+            TextureDownFocused = "../buttons/BUT8_DN.png" Smooth;
+            TextureDownHover = "../buttons/BUT8_DN.png" Smooth;
+            TextureFocused = "../buttons/BUT8_UP.png" Smooth;
+            TextureHover = "../buttons/BUT8_UP.png" Smooth;
+        }
+    }
+
+    Picture.Picture1 {
+        IgnoreMouseEvents = true;
+        Position = (((Title.w - w) / 2) + Title.x, ((Title.h - h) / 2) + Title.y);
+        Size = (73, 13);
+
+        Renderer {
+            Texture = "title.png" Smooth;
+            TransparentTexture = false;
+        }
+    }
+
+    Picture.Picture2 {
+        IgnoreMouseEvents = true;
+        Position = (((Continue.w - w) / 2) + Continue.x, ((Continue.h - h) / 2) + Continue.y);
+        Size = (50, 13);
+
+        Renderer {
+            Texture = "play.png" Smooth;
+            TransparentTexture = false;
+        }
+    }
+}

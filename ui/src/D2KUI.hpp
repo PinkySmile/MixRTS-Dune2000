@@ -22,8 +22,28 @@
 
 
 class D2KUI : public UI {
+public:
+	D2KUI(
+		const Faction &faction,
+		UIState *state,
+		GameManager *manager,
+		PlayerState *ownerState,
+		MapState *map,
+		const std::filesystem::path &base,
+		const nlohmann::json &params
+	);
+	~D2KUI() noexcept override;
+	void update() override;
+	void render() override;
+	void updateRender() override;
+	void playEVA(EVASound sound, unsigned int expireIn, unsigned int priority, unsigned int cooldown, const std::string &args) override;
+
+protected:
+	void _displaySelectedObjectUI(const GameObject &object) override;
+
 private:
 	bool _inMainMenu = true;
+	unsigned _msgTimer = 0;
 	std::string _prefix;
 	std::string _modName;
 	std::filesystem::path _base;
@@ -45,6 +65,8 @@ private:
 	tgui::Button::Ptr _buy;
 	tgui::Button::Ptr _upgrade;
 	tgui::Button::Ptr _starport;
+	tgui::Picture::Ptr _wonMsg;
+	tgui::Picture::Ptr _lostMsg;
 	tgui::Picture::Ptr _blazon;
 	tgui::Picture::Ptr _greenPower;
 	tgui::Picture::Ptr _yellowPower;
@@ -63,7 +85,6 @@ private:
 	std::array<tgui::Texture, 11> _creditRawDigits;
 
 	Sound _soundMoveBlocked;
-	Sound _soundButton;
 	Sound _soundMove;
 	sf::Texture _primary;
 
@@ -104,24 +125,6 @@ private:
 	void _closeUpgradeMenu();
 	void _closeStarportMenu();
 	void _updateQueueCameos();
-
-protected:
-	void _displaySelectedObjectUI(const GameObject &object) override;
-
-public:
-	D2KUI(
-		const Faction &faction,
-		UIState *state,
-		GameManager *manager,
-		PlayerState *ownerState,
-		MapState *map,
-		const std::filesystem::path &base,
-		const nlohmann::json &params
-	);
-	~D2KUI() noexcept override;
-	void update() override;
-	void render() override;
-	void playEVA(EVASound sound, unsigned int expireIn, unsigned int priority, unsigned int cooldown, const std::string &args) override;
 };
 
 

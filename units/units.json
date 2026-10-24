@@ -1,6 +1,8 @@
 {
 	"_general": {
-		"grid_bound": true
+		"grid_bound": true,
+		"counts_for_game": true,
+		"counts_for_short_game": false
 	},
 	"harv": {
 		"anims": [

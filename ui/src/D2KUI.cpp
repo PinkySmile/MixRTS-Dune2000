@@ -172,6 +172,8 @@ void D2KUI::_getPanelObjects(const std::filesystem::path &path)
 	this->_upgrade         = this->_panel->get<tgui::Button>("Upgrade");
 	this->_starport        = this->_panel->get<tgui::Button>("Starport");
 	this->_blazon          = this->_panel->get<tgui::Picture>("Blazon");
+	this->_wonMsg          = this->_panel->get<tgui::Picture>("WonMsg");
+	this->_lostMsg         = this->_panel->get<tgui::Picture>("LostMsg");
 	this->_power           = this->_panel->get<tgui::Panel>("Power");
 	this->_settings        = this->_panel->get<tgui::Panel>("Settings");
 	this->_greenPower      = this->_power->get<tgui::Picture>("GreenPower");
@@ -203,6 +205,8 @@ void D2KUI::_initPanel(const nlohmann::json &json)
 	this->_upgradeQueue->setVisible(false);
 	this->_starportQueue->setVisible(false);
 	this->_buy->setVisible(false);
+	this->_wonMsg->setVisible(false);
+	this->_lostMsg->setVisible(false);
 	this->_buildQueue->getVerticalScrollbar()->setScrollAmount(47);
 	this->_unitsQueue->getVerticalScrollbar()->setScrollAmount(47);
 }
@@ -730,6 +734,30 @@ void D2KUI::update()
 		this->_starport->setVisible(this->_starportQ->providers > 0);
 	} else if (this->_starportQ->providers == 0 && this->_starportQueue->isVisible())
 		this->_closeStarportMenu();
+}
+
+void D2KUI::updateRender()
+{
+	UI::updateRender();
+	if (!this->won && !this->lost) {
+		this->_wonMsg->setVisible(false);
+		this->_lostMsg->setVisible(false);
+		this->_msgTimer = 0;
+	} else if (this->_msgTimer == 150) {
+		this->_wonMsg->setVisible(false);
+		this->_lostMsg->setVisible(false);
+		if (this->won)
+			this->_openEndGameDialog(this->_base / "ui" / game->locale / "endWon.gui");
+		else
+			this->_openEndGameDialog(this->_base / "ui" / game->locale / "endLost.gui");
+		this->_msgTimer++;
+	} else if (this->_msgTimer < 150) {
+		this->_wonMsg->setVisible(this->won);
+		this->_lostMsg->setVisible(!this->won);
+		if (this->_msgTimer == 0)
+			this->playEVA(this->won ? EVA_WON : EVA_LOST, 50000, 500, 0, "");
+		this->_msgTimer++;
+	}
 }
 
 void D2KUI::render()
