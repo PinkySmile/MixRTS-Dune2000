@@ -552,7 +552,7 @@
 			"min": 0.25,
 			"step": 0.025
 		},
-		"requirements": ["base:invalid"],
+		"requirements": [false],
 		"accel": 0.025,
 		"selectable": false,
 		"armor": "light",
@@ -754,7 +754,7 @@
 	},
 	"frem": {
 		"anims": [
-			{ "anim": "sardaukar", "layer": 1, "delay" : 10 }
+			{ "anim": "fremen", "layer": 1, "delay" : 10 }
 		],
 		"select_sound": "f_select",
 		"do_sound": "f_confirm",
@@ -762,14 +762,14 @@
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
-			{ "anim": "sardaukar_idle_1", "layer": 1, "delay": 10 },
-			{ "anim": "sardaukar_idle_2", "layer": 1, "delay": 10 }
+			{ "anim": "fremen_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "fremen_idle_2", "layer": 1, "delay": 10 }
 		],
-		"anim_move":       { "anim": "sardaukar_walk",        "layer": 1, "delay": 10 },
-		"anim_fire":       { "anim": "sardaukar_shoot",       "layer": 1, "delay": 10 },
-		"anim_crouch":     { "anim": "sardaukar_crawl_idle",  "layer": 1 },
-		"anim_crawl":      { "anim": "sardaukar_crawl",       "layer": 1, "delay": 10 },
-		"anim_crawl_fire": { "anim": "sardaukar_crawl_shoot", "layer": 1, "delay": 10 },
+		"anim_move":       { "anim": "fremen_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "fremen_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "fremen_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "fremen_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "fremen_crawl_shoot", "layer": 1, "delay": 10 },
 		"queue": "support_power",
 		"death_sound": "killguy",
 		"barrels": [
@@ -782,10 +782,10 @@
 			}
 		],
 		"death": {
-			"blast":    { "anim": { "anim": "sardaukar_death_0", "layer": 1, "delay": 10 } },
-			"bullet":   { "anim": { "anim": "sardaukar_death_1", "layer": 1, "delay": 10 } },
-			"missile":  { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } },
-			"sonic":    { "anim": { "anim": "sardaukar_death_3", "layer": 1, "delay": 10 } },
+			"blast":    { "anim": { "anim": "fremen_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "fremen_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "fremen_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "fremen_death_3", "layer": 1, "delay": 10 } },
 			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
 			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
 			"melee":    { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } }
@@ -801,8 +801,29 @@
 		"sight": 3,
 		"hp": 700,
 		"stackable": true,
-		"crush_anim": { "anim": { "anim": "sardaukar_scrounch", "layer": 0, "delay": 10 } },
+		"crush_anim": { "anim": { "anim": "fremen_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
 		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+	},
+	"orth": {
+		"anims": [
+			{ "anim": "orni", "layer": 1 }
+		],
+		"grid_bound": false,
+		"turn_delay": 6,
+		"directions": 32,
+		"ignore_terrain": true,
+		"move_while_turn": true,
+		"dodge_obstacle": false,
+		"altitude": 64,
+		"requirements": [false],
+		"accel": 3.375,
+		"selectable": false,
+		"armor": "light",
+		"tags": ["any"],
+		"cost": {},
+		"speed": 2,
+		"size": { "x": 64, "y": 64 },
+		"hp": 900
 	}
 }

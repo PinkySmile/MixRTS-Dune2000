@@ -155,6 +155,8 @@
 			"units/trooper/anim.json",
 			"units/sabo/anim.json",
 			"units/thumper/anim.json",
+			"units/fremen/anim.json",
+			"units/ornitopter/anim.json",
 			"cursor/repair.json"
 		],
 		"sounds": [ "sounds.json", "units/sounds.json", "weapons/sounds/sounds.json" ],
