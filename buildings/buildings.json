@@ -668,6 +668,7 @@
 		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
 		"hp": 2700,
 		"size": { "x": 32, "y": 32 },
+		"select": { "x": 0, "y": -16 },
 		"tiles": [[14]]
 	},
 	"roct": {
@@ -722,7 +723,9 @@
 		"tags": ["building"],
 		"build_anim": { "anim": "silo_make", "layer": 1, "delay": 6 },
 		"hp": 3000,
+		"requires_power": true,
 		"size": { "x": 32, "y": 32 },
+		"select": { "x": 0, "y": -12 },
 		"tiles": [[14]]
 	}
 }
