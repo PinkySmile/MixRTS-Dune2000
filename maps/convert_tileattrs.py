@@ -39,7 +39,7 @@ for i in range(800):
 		mask |= GRIDMASK_VEHICULES_CAN_PASS
 	mask |= GRIDMASK_IS_FREE
 	terrain_type = (a >> 29) & 7
-	mask |= terrain_type
+	mask |= terrain_type << 12
 	result[i * 4:i * 4 + 4] = mask.to_bytes(4, 'little')
 
 with open(name + "/tileattrs.dat", "wb") as fd:
