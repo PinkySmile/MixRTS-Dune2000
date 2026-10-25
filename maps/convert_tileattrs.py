@@ -46,10 +46,9 @@ with open(name + "/tileattrs.dat", "wb") as fd:
 	fd.write(result)
 with open(name + "/metadata.json", "w") as fd:
 	json.dump({
-		"animations": [
-		],
-		"generators": [
-		],
+		"map_colors": "colors.dat",
+		"animations": [],
+		"generators": [],
 		"resources": [
 			{
 				"strategy": "random",
@@ -76,7 +75,7 @@ with open(name + "/metadata.json", "w") as fd:
 				617, 618,
 				637, 638
 			],
-			"2x3": [
+			"3x2": [
 				611, 612, 613,
 				631, 632, 633
 			],
@@ -84,6 +83,21 @@ with open(name + "/metadata.json", "w") as fd:
 				614, 615, 616,
 				634, 635, 636,
 				654, 655, 656
+			]
+		},
+		"skirts_conc": {
+			"2x2": [
+				649, 650,
+				669, 670
+			],
+			"3x2": [
+				643, 644, 645,
+				663, 664, 665
+			],
+			"3x3": [
+				646, 647, 648,
+				666, 667, 668,
+				686, 687, 688
 			]
 		}
 	}, fd, indent='\t')
