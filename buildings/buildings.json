@@ -616,6 +616,7 @@
 		"repair_cost": { "base:credits": 2 }
 	},
 	"gunt": {
+		"triggers_auto_attack": true,
 		"anims": [
 			{ "anim": "base", "layer": 1 }
 		],
@@ -672,6 +673,7 @@
 		"tiles": [[14]]
 	},
 	"roct": {
+		"triggers_auto_attack": true,
 		"anims": [
 			{ "anim": "base", "layer": 1 }
 		],

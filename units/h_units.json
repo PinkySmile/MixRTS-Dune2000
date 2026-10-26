@@ -2,7 +2,8 @@
 	"_general": {
 		"grid_bound": true,
 		"counts_for_game": true,
-		"counts_for_short_game": false
+		"counts_for_short_game": false,
+		"triggers_auto_attack": true
 	},
 	"mcv": {
 		"anims": [
