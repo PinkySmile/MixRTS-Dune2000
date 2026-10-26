@@ -14,6 +14,7 @@
 	"expllg3": { "path": "sounds/EXPLLG3.ogg" },
 	"explhg1": { "path": "sounds/EXPLHG1.ogg" },
 	"explhg2": { "path": "sounds/EXPLHG2.ogg" },
+	"cloak": { "path": "sounds/STEALTH2.ogg" },
 	"killguy": [
 		{ "path": "sounds/KILLGUY1.ogg", "volume": 80 },
 		{ "path": "sounds/KILLGUY2.ogg", "volume": 80 },

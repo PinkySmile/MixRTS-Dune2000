@@ -617,6 +617,7 @@
 	},
 	"gunt": {
 		"triggers_auto_attack": true,
+		"reveal_stealth": 1,
 		"anims": [
 			{ "anim": "base", "layer": 1 }
 		],
@@ -674,6 +675,8 @@
 	},
 	"roct": {
 		"triggers_auto_attack": true,
+		"reveal_stealth": 1,
+		"detector": 6,
 		"anims": [
 			{ "anim": "base", "layer": 1 }
 		],

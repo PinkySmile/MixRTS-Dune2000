@@ -237,5 +237,67 @@
 			"offset": { "x": -4, "y": -3 },
 			"blending": "sub"
 		}
+	],
+	"effect.invis": [
+		{
+			"sprite": "effects/invis0.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis1.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis2.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis3.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis4.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis5.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis6.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis7.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis8.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis9.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis10.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		},
+		{
+			"sprite": "effects/invis11.png",
+			"offset": { "x": 0, "y": 0 },
+			"coloring": { "type": "none" }
+		}
 	]
 }
