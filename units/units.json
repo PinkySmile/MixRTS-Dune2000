@@ -110,57 +110,6 @@
 		"hp": 1100,
 		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
 	},
-	"rifl": {
-		"anims": [
-			{ "anim": "rifle", "layer": 1 }
-		],
-		"select_sound": "i_select",
-		"do_sound": "i_confirm",
-		"turn_delay": 1,
-		"directions": 8,
-		"idle_time": [0, 900],
-		"anim_idles": [
-			{ "anim": "rifle_idle_1", "layer": 1, "delay": 10 },
-			{ "anim": "rifle_idle_2", "layer": 1, "delay": 10 }
-		],
-		"anim_move":       { "anim": "rifle_walk",        "layer": 1, "delay": 10 },
-		"anim_fire":       { "anim": "rifle_shoot",       "layer": 1, "delay": 10 },
-		"anim_crouch":     { "anim": "rifle_crawl_idle",  "layer": 1 },
-		"anim_crawl":      { "anim": "rifle_crawl",       "layer": 1, "delay": 10 },
-		"anim_crawl_fire": { "anim": "rifle_crawl_shoot", "layer": 1, "delay": 10 },
-		"queue": "infantry",
-		"death_sound": "killguy",
-		"barrels": [
-			{
-				"weapons": [{ "name": "weapon.lmg", "cooldown": 60 }],
-				"priority": 1
-			}
-		],
-		"death": {
-			"blast":    { "anim": { "anim": "rifle_death_0", "layer": 1, "delay": 10 } },
-			"bullet":   { "anim": { "anim": "rifle_death_1", "layer": 1, "delay": 10 } },
-			"missile":  { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } },
-			"sonic":    { "anim": { "anim": "rifle_death_3", "layer": 1, "delay": 10 } },
-			"electric": { "anim": { "anim": "rifle_death_4", "layer": 1, "delay": 10 } },
-			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
-			"melee":    { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } }
-		},
-		"pass_flags": 1,
-		"armor": "none",
-		"reveal_stealth": 1,
-		"tags": ["infantry", "bio"],
-		"requirements": ["group.barr"],
-		"cost": { "base:credits": 50 },
-		"build_speed": 256,
-		"speed": 0.5,
-		"size": { "x": 16, "y": 16 },
-		"sight": 2,
-		"hp": 600,
-		"stackable": true,
-		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
-		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
-	},
 	"misl": {
 		"anims": [
 			{ "anim": "misl", "layer": 1 }
@@ -361,109 +310,6 @@
 		"can_crush": true,
 		"select": { "x": 0, "y": -4, "h": 24, "w": 24 }
 	},
-	"engi": {
-		"anims": [
-			{ "anim": "engi", "layer": 1, "delay" : 10 }
-		],
-		"select_sound": "e_select",
-		"do_sound": "e_confirm",
-		"turn_delay": 1,
-		"directions": 8,
-		"idle_time": [0, 900],
-		"anim_idles": [
-			{ "anim": "engi_idle_1", "layer": 1, "delay": 10 },
-			{ "anim": "engi_idle_2", "layer": 1, "delay": 10 }
-		],
-		"anim_move":       { "anim": "engi_walk",        "layer": 1, "delay": 10 },
-		"anim_crouch":     { "anim": "engi_crawl_idle",  "layer": 1 },
-		"anim_crawl":      { "anim": "engi_crawl",       "layer": 1, "delay": 10 },
-		"queue": "infantry",
-		"death_sound": "killguy",
-		"barrels": [
-			{
-				"weapons": [{ "name": "weapon.capture", "cooldown": 36 }],
-				"priority": 1
-			}
-		],
-		"death": {
-			"blast":    { "anim": { "anim": "engi_death_0", "layer": 1, "delay": 10 } },
-			"bullet":   { "anim": { "anim": "engi_death_1", "layer": 1, "delay": 10 } },
-			"missile":  { "anim": { "anim": "engi_death_2", "layer": 1, "delay": 10 } },
-			"sonic":    { "anim": { "anim": "engi_death_3", "layer": 1, "delay": 10 } },
-			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
-			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
-			"melee":    { "anim": { "anim": "engi_death_2", "layer": 1, "delay": 10 } }
-		},
-		"pass_flags": 1,
-		"armor": "none",
-		"reveal_stealth": 1,
-		"tags": ["infantry", "bio"],
-		"requirements": ["group.barr","barr.upgrade"],
-		"cost": { "base:credits": 400 },
-		"build_speed": 512,
-		"speed": 0.375,
-		"size": { "x": 16, "y": 16 },
-		"sight": 1,
-		"hp": 500,
-		"stackable": true,
-		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
-		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
-	},
-	"sard": {
-		"anims": [
-			{ "anim": "sardaukar", "layer": 1, "delay" : 10 }
-		],
-		"select_sound": "sard_select",
-		"do_sound": "sard_confirm",
-		"turn_delay": 1,
-		"directions": 8,
-		"idle_time": [0, 900],
-		"anim_idles": [
-			{ "anim": "sardaukar_idle_1", "layer": 1, "delay": 10 },
-			{ "anim": "sardaukar_idle_2", "layer": 1, "delay": 10 }
-		],
-		"anim_move":       { "anim": "sardaukar_walk",        "layer": 1, "delay": 10 },
-		"anim_fire":       { "anim": "sardaukar_shoot",       "layer": 1, "delay": 10 },
-		"anim_crouch":     { "anim": "sardaukar_crawl_idle",  "layer": 1 },
-		"anim_crawl":      { "anim": "sardaukar_crawl",       "layer": 1, "delay": 10 },
-		"anim_crawl_fire": { "anim": "sardaukar_crawl_shoot", "layer": 1, "delay": 10 },
-		"queue": "infantry",
-		"death_sound": "killguy",
-		"barrels": [
-			{
-				"weapons": [
-					{ "name": "weapon.lmg", "cooldown": 100 },
-					{ "name": "weapon.sard_hmg", "cooldown": 100 }
-				],
-				"priority": 1
-			}
-		],
-		"death": {
-			"blast":    { "anim": { "anim": "sardaukar_death_0", "layer": 1, "delay": 10 } },
-			"bullet":   { "anim": { "anim": "sardaukar_death_1", "layer": 1, "delay": 10 } },
-			"missile":  { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } },
-			"sonic":    { "anim": { "anim": "sardaukar_death_3", "layer": 1, "delay": 10 } },
-			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
-			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
-			"melee":    { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } }
-		},
-		"pass_flags": 1,
-		"armor": "none",
-		"reveal_stealth": 1,
-		"tags": ["infantry", "bio"],
-		"requirements": ["h_barr","barr.upgrade","group.htec"],
-		"cost": { "base:credits": 200 },
-		"build_speed": 659,
-		"speed": 0.375,
-		"size": { "x": 16, "y": 16 },
-		"sight": 3,
-		"hp": 1000,
-		"stackable": true,
-		"crush_anim": { "anim": { "anim": "sardaukar_scrounch", "layer": 0, "delay": 10 } },
-		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
-	},
 	"sieg": {
 		"anims": [
 			{ "anim": "siege", "layer": 1 }
@@ -506,6 +352,8 @@
 		"can_crush": true,
 		"select": { "x": 0, "y": -4, "h": 32, "w": 32 }
 	},
+
+
 	"carr": {
 		"anims": [
 			{ "anim": "carr", "layer": 1 }
@@ -577,6 +425,183 @@
 		"size": { "x": 64, "y": 64 },
 		"hp": 999999
 	},
+	"orth": {
+		"anims": [
+			{ "anim": "orni", "layer": 1 }
+		],
+		"grid_bound": false,
+		"turn_delay": 6,
+		"directions": 32,
+		"ignore_terrain": true,
+		"move_while_turn": true,
+		"dodge_obstacle": false,
+		"altitude": 64,
+		"requirements": [false],
+		"accel": 3.375,
+		"selectable": false,
+		"armor": "light",
+		"tags": ["any"],
+		"cost": {},
+		"speed": 2,
+		"size": { "x": 64, "y": 64 },
+		"hp": 900
+	},
+
+
+	"rifl": {
+		"anims": [
+			{ "anim": "rifle", "layer": 1 }
+		],
+		"select_sound": "i_select",
+		"do_sound": "i_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "rifle_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "rifle_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "rifle_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "rifle_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "rifle_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "rifle_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "rifle_crawl_shoot", "layer": 1, "delay": 10 },
+		"queue": "infantry",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.lmg", "cooldown": 60 }],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "rifle_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "rifle_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "rifle_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "rifle_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "rifle_death_2", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"reveal_stealth": 1,
+		"tags": ["infantry", "bio"],
+		"requirements": ["group.barr"],
+		"cost": { "base:credits": 50 },
+		"build_speed": 256,
+		"speed": 0.5,
+		"size": { "x": 16, "y": 16 },
+		"sight": 2,
+		"hp": 600,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
+	},
+	"engi": {
+		"anims": [
+			{ "anim": "engi", "layer": 1, "delay" : 10 }
+		],
+		"select_sound": "e_select",
+		"do_sound": "e_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "engi_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "engi_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "engi_walk",        "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "engi_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "engi_crawl",       "layer": 1, "delay": 10 },
+		"queue": "infantry",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [{ "name": "weapon.capture", "cooldown": 36 }],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "engi_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "engi_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "engi_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "engi_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "engi_death_2", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"reveal_stealth": 1,
+		"tags": ["infantry", "bio"],
+		"requirements": ["group.barr","barr.upgrade"],
+		"cost": { "base:credits": 400 },
+		"build_speed": 512,
+		"speed": 0.375,
+		"size": { "x": 16, "y": 16 },
+		"sight": 1,
+		"hp": 500,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
+	},
+	"sard": {
+		"anims": [
+			{ "anim": "sardaukar", "layer": 1, "delay" : 10 }
+		],
+		"select_sound": "sard_select",
+		"do_sound": "sard_confirm",
+		"turn_delay": 1,
+		"directions": 8,
+		"idle_time": [0, 900],
+		"anim_idles": [
+			{ "anim": "sardaukar_idle_1", "layer": 1, "delay": 10 },
+			{ "anim": "sardaukar_idle_2", "layer": 1, "delay": 10 }
+		],
+		"anim_move":       { "anim": "sardaukar_walk",        "layer": 1, "delay": 10 },
+		"anim_fire":       { "anim": "sardaukar_shoot",       "layer": 1, "delay": 10 },
+		"anim_crouch":     { "anim": "sardaukar_crawl_idle",  "layer": 1 },
+		"anim_crawl":      { "anim": "sardaukar_crawl",       "layer": 1, "delay": 10 },
+		"anim_crawl_fire": { "anim": "sardaukar_crawl_shoot", "layer": 1, "delay": 10 },
+		"queue": "infantry",
+		"death_sound": "killguy",
+		"barrels": [
+			{
+				"weapons": [
+					{ "name": "weapon.lmg", "cooldown": 100 },
+					{ "name": "weapon.sard_hmg", "cooldown": 100 }
+				],
+				"priority": 1
+			}
+		],
+		"death": {
+			"blast":    { "anim": { "anim": "sardaukar_death_0", "layer": 1, "delay": 10 } },
+			"bullet":   { "anim": { "anim": "sardaukar_death_1", "layer": 1, "delay": 10 } },
+			"missile":  { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } },
+			"sonic":    { "anim": { "anim": "sardaukar_death_3", "layer": 1, "delay": 10 } },
+			"electric": { "anim": { "anim": "engi_death_4", "layer": 1, "delay": 10 } },
+			"fire":     { "anim": { "anim": "engi_death_5", "layer": 1, "delay": 10 } },
+			"melee":    { "anim": { "anim": "sardaukar_death_2", "layer": 1, "delay": 10 } }
+		},
+		"pass_flags": 1,
+		"armor": "none",
+		"reveal_stealth": 1,
+		"tags": ["infantry", "bio"],
+		"requirements": ["h_barr","barr.upgrade","group.htec"],
+		"cost": { "base:credits": 200 },
+		"build_speed": 659,
+		"speed": 0.375,
+		"size": { "x": 16, "y": 16 },
+		"sight": 3,
+		"hp": 1000,
+		"stackable": true,
+		"crush_anim": { "anim": { "anim": "sardaukar_scrounch", "layer": 0, "delay": 10 } },
+		"crush_sound": "crush",
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
+	},
 	"gren": {
 		"anims": [
 			{ "anim": "grenadier", "layer": 1, "delay": 10 }
@@ -626,7 +651,7 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "grenadier_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	},
 	"trop": {
 		"anims": [
@@ -677,7 +702,7 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "trooper_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	},
 	"thump": {
 		"anims": [
@@ -720,7 +745,7 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "thumper_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	},
 	"sabo": {
 		"anims": [
@@ -762,7 +787,7 @@
 		"max_energy": 5,
 		"spawn_energy": 0,
 		"energy_gain": 1,
-		"energy_gain_delay": 1500,
+		"energy_gain_delay": 1050,
 		"stealth": {
 			"type": "stealth",
 			"permanent": false,
@@ -788,7 +813,7 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "rifle_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	},
 	"frem": {
 		"anims": [
@@ -853,27 +878,6 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "fremen_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
-		"select": { "x": 0, "y": -4, "h": 16, "w": 16 }
-	},
-	"orth": {
-		"anims": [
-			{ "anim": "orni", "layer": 1 }
-		],
-		"grid_bound": false,
-		"turn_delay": 6,
-		"directions": 32,
-		"ignore_terrain": true,
-		"move_while_turn": true,
-		"dodge_obstacle": false,
-		"altitude": 64,
-		"requirements": [false],
-		"accel": 3.375,
-		"selectable": false,
-		"armor": "light",
-		"tags": ["any"],
-		"cost": {},
-		"speed": 2,
-		"size": { "x": 64, "y": 64 },
-		"hp": 900
+		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	}
 }

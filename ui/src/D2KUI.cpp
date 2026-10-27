@@ -834,6 +834,7 @@ void D2KUI::_displaySelectedObjectUI(const GameObject &object)
 	Vector2i top = select.position;
 	sf::Sprite sprite{this->_selectCorners[0]};
 	sf::RectangleShape rect;
+	bool isMyTeam = this->manager->getPlayers()[this->manager->getControlledPlayer()].state.team == object.owner->state.team;
 
 	top += object.getPosition();
 	rect.setPosition({top.x + 1.f, top.y + 1.f});
@@ -856,7 +857,7 @@ void D2KUI::_displaySelectedObjectUI(const GameObject &object)
 
 	auto percent = object.getStorageDisplay();
 
-	if (percent) {
+	if (isMyTeam && percent) {
 		sf::Vector2f pos = {top.x + 2.f, top.y + size.y - 5.f};
 		unsigned count = 7;
 
@@ -873,10 +874,26 @@ void D2KUI::_displaySelectedObjectUI(const GameObject &object)
 			pos.x += 3;
 		}
 	}
-	if (object.isPrimary()) {
+	if (isMyTeam && object.isPrimary()) {
 		sf::Sprite s{this->_primary};
 
 		s.setPosition(top + Vector2i{2, size.y - 5 - 5});
 		game->screen->draw(s);
+	}
+	if (isMyTeam && object.getMaxEnergy() != 0) {
+		sf::Vector2f pos = {top.x + 1.f, top.y + 2.f};
+		unsigned max = object.getMaxEnergy();
+		unsigned current = object.getEnergy();
+
+		rect.setSize({2, 2});
+		for (size_t i = 0; i < 5; i++) {
+			rect.setPosition(pos);
+			if (current * 5 / max > i)
+				rect.setFillColor(sf::Color{0, 255, 0, 255});
+			else
+				rect.setFillColor(sf::Color{0, 0, 0, 128});
+			game->screen->draw(rect);
+			pos.y += 3;
+		}
 	}
 }
