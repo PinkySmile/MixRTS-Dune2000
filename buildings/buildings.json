@@ -647,7 +647,7 @@
 		},
 		"turrets": [
 			{
-				"turn_delay": 1,
+				"turn_speed": 5.625,
 				"directions": 32,
 				"anim": { "anim": "gturret", "layer": 1, "delay" : 10 },
 				"offset": { "x": 0, "y": 0 },
@@ -706,7 +706,7 @@
 		},
 		"turrets": [
 			{
-				"turn_delay": 1,
+				"turn_speed": 5.625,
 				"directions": 32,
 				"anim": { "anim": "rturret", "layer": 1, "delay" : 10 },
 				"offset": { "x": 0, "y": 0 },

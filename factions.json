@@ -30,7 +30,7 @@
 				"requires_producer": false,
 				"behavior": "auto_tick",
 				"unit_spawn": "placement",
-				"cursor": "drop",
+				"cursor": "air_drop",
 				"power_mul": [[1, 1], [0, 0]],
 				"loader": "support.dl"
 			},

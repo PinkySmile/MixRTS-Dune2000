@@ -175,24 +175,14 @@
 		{ "sprite": "cursor/sabo/MOUSE.R16.251-sprite.png", "center": { "x": 6, "y": 15 }, "duration": 3 }
 	],
 	"atomb": [
-		{ "sprite": "cursor/death_hand/MOUSE.R16.240-sprite.png", "center": { "x": 14, "y": 14 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.241-sprite.png", "center": { "x": 15, "y": 14 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.242-sprite.png", "center": { "x": 18, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.243-sprite.png", "center": { "x": 21, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.244-sprite.png", "center": { "x": 22, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.245-sprite.png", "center": { "x": 19, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.246-sprite.png", "center": { "x": 15, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.247-sprite.png", "center": { "x": 13, "y": 14 }, "duration": 3 }
-	],
-	"nuke": [
-		{ "sprite": "cursor/death_hand/MOUSE.R16.240-sprite.png", "center": { "x": 14, "y": 14 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.241-sprite.png", "center": { "x": 15, "y": 14 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.242-sprite.png", "center": { "x": 18, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.243-sprite.png", "center": { "x": 21, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.244-sprite.png", "center": { "x": 22, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.245-sprite.png", "center": { "x": 19, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.246-sprite.png", "center": { "x": 15, "y": 13 }, "duration": 3 },
-		{ "sprite": "cursor/death_hand/MOUSE.R16.247-sprite.png", "center": { "x": 13, "y": 14 }, "duration": 3 }
+		{ "sprite": "cursor/death_hand/MOUSE.R16.240-sprite.png", "center": { "x": 10, "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.241-sprite.png", "center": { "x": 9,  "y": 10 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.242-sprite.png", "center": { "x": 6,  "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.243-sprite.png", "center": { "x": 3,  "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.244-sprite.png", "center": { "x": 2,  "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.245-sprite.png", "center": { "x": 5,  "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.246-sprite.png", "center": { "x": 9,  "y": 11 }, "duration": 3 },
+		{ "sprite": "cursor/death_hand/MOUSE.R16.247-sprite.png", "center": { "x": 11, "y": 10 }, "duration": 3 }
 	],
 	"drop": [
 		{ "sprite": "cursor/attack/MOUSE.R16.072-sprite.png", "center": { "x": 13, "y": 10 }, "duration": 3 },

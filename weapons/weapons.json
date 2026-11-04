@@ -421,7 +421,7 @@
 	},
 	"weapon.destroy": {
 		"type": "enter",
-		"cursor": "c4",
+		"cursor": "explode",
 		"damage": 999999,
 		"range": 0,
 		"warhead": "true",

@@ -156,6 +156,7 @@ void D2KUI::_setupCursorMapping()
 	this->_cursorMapping[CURSOR_SELL]                   = "sell";
 	this->_cursorMapping[CURSOR_NUKE]                   = "atomb";
 	this->_cursorMapping[CURSOR_AIR_DROP]               = "air_strike";
+	this->_cursorMapping[CURSOR_EXPLODE]                = "c4";
 }
 
 void D2KUI::_getPanelObjects(const std::filesystem::path &path)
@@ -428,9 +429,9 @@ void D2KUI::_createCameoBuildWidgets()
 
 		pic->setSize("&.w", size.y + 1);
 		pic->onMousePress([this, realName, i]{
-			if (this->_buildingQueueEntries[i]->buildProgress == this->_buildingQueueEntries[i]->buildTime) {
+			if (this->_buildingQueueEntries[i]->buildProgress == this->_buildingQueueEntries[i]->buildTime)
 				this->selectBuildingForPlacement(realName);
-			} else
+			else
 				this->_eventQueue.emplace_back(StartBuildEvent{
 					realName, this->_modName + ":building"
 				});
@@ -475,7 +476,7 @@ void D2KUI::_createCameoUnitsWidgets()
 			auto *entry = this->_unitsQueueEntries[i];
 
 			if (
-				entry &&
+				entry && !entry->paused &&
 				entry->buildProgress == entry->buildTime &&
 				entry->queue->params->unitSpawn == FactionQueue::SPAWN_PLACEMENT
 			)

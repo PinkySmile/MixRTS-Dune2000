@@ -13,7 +13,7 @@
 		"central": true,
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 4,
+		"turn_speed": 2.25,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"death": {
@@ -32,7 +32,7 @@
 		"can_crush": true,
 		"select": { "x": 0, "y": -4, "h": 32, "w": 32 },
 		"deploy": {
-			"direction": 29,
+			"direction": 326.25,
 			"spawn_building": {
 				"name": "a_cony",
 				"queue": "building",
@@ -46,7 +46,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 2,
+		"turn_speed": 3.75,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -62,7 +62,7 @@
 		},
 		"turrets": [
 			{
-				"turn_delay": 1,
+				"turn_speed": 5.625,
 				"anim": { "anim": "ctank_barrel", "layer": 1, "delay" : 10 },
 				"offset": { "x": 0, "y": 0 },
 				"barrel": 0,

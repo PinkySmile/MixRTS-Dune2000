@@ -11,7 +11,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 4,
+		"turn_speed": 2.25,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"death": {
@@ -28,7 +28,7 @@
 			"dirs": 8
 		},
 		"dump": {
-			"dir": 12,
+			"dir": 135,
 			"delay": 30,
 			"delay_after": 120,
 			"during":     { "anim": "harv_dumping",    "layer": 1 },
@@ -54,7 +54,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 1,
+		"turn_speed": 5.625,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -85,7 +85,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 1,
+		"turn_speed": 5.625,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"barrels": [
@@ -116,7 +116,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 2,
+		"turn_speed": 3.75,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -148,7 +148,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 1,
+		"turn_speed": 5.625,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -179,7 +179,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 1,
+		"turn_speed": 5.625,
 		"directions": 32,
 		"queue": "light_vehicle",
 		"muzzle": "effect.trike_muzzle",
@@ -221,7 +221,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 4,
+		"turn_speed": 2.25,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -252,7 +252,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 4,
+		"turn_speed": 2.25,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"pass_flags": 2,
@@ -284,7 +284,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 4,
+		"turn_speed": 2.25,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -316,7 +316,7 @@
 		],
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 2,
+		"turn_speed": 3.75,
 		"directions": 32,
 		"queue": "heavy_vehicle",
 		"barrels": [
@@ -361,7 +361,7 @@
 		"grid_bound": false,
 		"select_sound": "v_select",
 		"do_sound": "v_confirm",
-		"turn_delay": 2,
+		"turn_speed": 3.75,
 		"directions": 32,
 		"queue": "aircraft",
 		"ignore_terrain": true,
@@ -405,7 +405,7 @@
 			{ "anim": "frigate", "layer": 1 }
 		],
 		"grid_bound": false,
-		"turn_delay": 2,
+		"turn_speed": 1.6071428571428572,
 		"ignore_terrain": true,
 		"move_while_turn": true,
 		"dodge_obstacle": false,
@@ -433,7 +433,7 @@
 		],
 		"select_sound": "i_select",
 		"do_sound": "i_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -484,7 +484,7 @@
 		],
 		"select_sound": "e_select",
 		"do_sound": "e_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -533,7 +533,7 @@
 		],
 		"select_sound": "sard_select",
 		"do_sound": "sard_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -587,7 +587,7 @@
 		],
 		"select_sound": "i_select",
 		"do_sound": "i_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -638,7 +638,7 @@
 		],
 		"select_sound": "i_select",
 		"do_sound": "i_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -689,7 +689,7 @@
 		],
 		"select_sound": "i_select",
 		"do_sound": "i_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -732,7 +732,7 @@
 		],
 		"select_sound": "sabo_select",
 		"do_sound": "sabo_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -800,7 +800,7 @@
 		],
 		"select_sound": "f_select",
 		"do_sound": "f_confirm",
-		"turn_delay": 1,
+		"turn_speed": 22.5,
 		"directions": 8,
 		"idle_time": [0, 900],
 		"anim_idles": [
@@ -866,7 +866,7 @@
 		],
 		"queue": "ornithopter",
 		"grid_bound": false,
-		"turn_delay": 6,
+		"turn_speed": 1.6071428571428572,
 		"directions": 32,
 		"ignore_terrain": true,
 		"move_while_turn": true,
