@@ -14,14 +14,25 @@
 				"unit_spawn": "none"
 			},
 			"hpalace": {
-				"requires_producer": false,
-				"behavior": "single_queue",
-				"unit_spawn": "none"
+				"requires_producer": true,
+				"behavior": "auto_tick",
+				"unit_spawn": "placement",
+				"cursor": "nuke",
+				"power_mul": [[1, 1], [0, 0]],
+				"loader": "support.dl"
 			},
 			"opalace": {
 				"requires_producer": false,
 				"behavior": "single_queue",
 				"unit_spawn": "none"
+			},
+			"ornithopter": {
+				"requires_producer": false,
+				"behavior": "auto_tick",
+				"unit_spawn": "placement",
+				"cursor": "drop",
+				"power_mul": [[1, 1], [0, 0]],
+				"loader": "support.dl"
 			},
 			"upgrade": {
 				"requires_producer": false,
@@ -66,7 +77,7 @@
 			"support_power":  {
 				"requires_producer": false,
 				"behavior": "auto_tick",
-				"unit_spawn": "placement",
+				"unit_spawn": "none",
 				"power_mul": [[1, 1], [0, 0]],
 				"loader": "support.dl"
 			},
@@ -128,6 +139,7 @@
 			"weapons/rocket2/anim.json",
 			"weapons/deviate/anim.json",
 			"weapons/plasma/anim.json",
+			"weapons/dh_expl/anim.json",
 			"buildings/concrete_anim.json",
 			"buildings/animations_make.json",
 			"buildings/animations.json",
@@ -156,6 +168,7 @@
 			"units/sabo/anim.json",
 			"units/thumper/anim.json",
 			"units/fremen/anim.json",
+			"units/dhand/anim.json",
 			"units/ornitopter/anim.json",
 			"cursor/repair.json"
 		],

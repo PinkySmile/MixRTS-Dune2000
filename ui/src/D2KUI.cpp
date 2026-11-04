@@ -107,6 +107,9 @@ void D2KUI::_loadEvaSounds(const std::filesystem::path &base, const std::string 
 	this->_evaSounds[EVA_ORDER_IN_3]       .load(base / "announcers" / game->locale / folder / "3min_left.ogg", false);
 	this->_evaSounds[EVA_ORDER_IN_4]       .load(base / "announcers" / game->locale / folder / "4min_left.ogg", false);
 	this->_evaSounds[EVA_ORDER_IN_5]       .load(base / "announcers" / game->locale / folder / "5min_left.ogg", false);
+	this->_evaSounds[EVA_NUKE_PREP]        .load(base / "announcers" / game->locale / folder / "dh_prep.ogg", false);
+	this->_evaSounds[EVA_NUKE_LAUNCH]      .load(base / "announcers" / game->locale / folder / "dh_launch.ogg", false);
+	this->_evaSounds[EVA_NUKE_READY]       .load(base / "announcers" / game->locale / folder / "dh_ready.ogg", false);
 	this->_evaSounds[EVA_CASH_DOWN]        .load(base / "sounds/CASHTIK1.ogg", false);
 	this->_evaSounds[EVA_CASH_UP]          .load(base / "sounds/CASHTIK1.ogg", false);
 	this->_evaSounds[EVA_POWER_OFF]        .load(base / "sounds/POWRDN1.ogg", false);
@@ -151,6 +154,8 @@ void D2KUI::_setupCursorMapping()
 	this->_cursorMapping[CURSOR_REPAIR]                 = "repair";
 	this->_cursorMapping[CURSOR_NO_SELL]                = "no_sell";
 	this->_cursorMapping[CURSOR_SELL]                   = "sell";
+	this->_cursorMapping[CURSOR_NUKE]                   = "atomb";
+	this->_cursorMapping[CURSOR_AIR_DROP]               = "air_strike";
 }
 
 void D2KUI::_getPanelObjects(const std::filesystem::path &path)
@@ -334,17 +339,21 @@ void D2KUI::_loadCameos()
 
 void D2KUI::_setupQueues()
 {
+	assert_msg(this->ownerState->queues.contains(this->_modName + ":hpalace"), this->_modName + ":hpalace");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":upgrade"), this->_modName + ":upgrade");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":starport"), this->_modName + ":starport");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":building"), this->_modName + ":building");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":infantry"), this->_modName + ":infantry");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":aircraft"), this->_modName + ":aircraft");
+	assert_msg(this->ownerState->queues.contains(this->_modName + ":ornithopter"), this->_modName + ":ornithopter");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":support_power"), this->_modName + ":support_power");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":light_vehicle"), this->_modName + ":light_vehicle");
 	assert_msg(this->ownerState->queues.contains(this->_modName + ":heavy_vehicle"), this->_modName + ":heavy_vehicle");
 
 	this->_upgradeQ = &this->ownerState->queues.at(this->_modName + ":upgrade");
 	this->_supportQ = &this->ownerState->queues.at(this->_modName + ":support_power");
+	this->_h_palaceQ = &this->ownerState->queues.at(this->_modName + ":hpalace");
+	this->_ornithopterQ = &this->ownerState->queues.at(this->_modName + ":ornithopter");
 	this->_starportQ = &this->ownerState->queues.at(this->_modName + ":starport");
 	assert_exp(this->_starportQ->params->behavior == FactionQueue::TYPE_STARPORT);
 	this->_buildingQ = &this->ownerState->queues.at(this->_modName + ":building");
@@ -384,7 +393,11 @@ void D2KUI::_setupQueues()
 			it = this->_heavyVehicleQ->entries.find(u);
 		if (it == this->_heavyVehicleQ->entries.end())
 			it = this->_supportQ->entries.find(u);
-		if (it != this->_supportQ->entries.end())
+		if (it == this->_supportQ->entries.end())
+			it = this->_h_palaceQ->entries.find(u);
+		if (it == this->_h_palaceQ->entries.end())
+			it = this->_ornithopterQ->entries.find(u);
+		if (it != this->_ornithopterQ->entries.end())
 			this->_unitsQueueEntries.push_back(&it->second);
 		else
 			this->_unitsQueueEntries.push_back(nullptr);
@@ -459,7 +472,16 @@ void D2KUI::_createCameoUnitsWidgets()
 
 		pic->setSize("&.w", size.y + 1);
 		pic->onMousePress([this, b, i]{
-			this->_eventQueue.emplace_back(StartBuildEvent{b, *this->_unitsQueueEntries[i]->queueId});
+			auto *entry = this->_unitsQueueEntries[i];
+
+			if (
+				entry &&
+				entry->buildProgress == entry->buildTime &&
+				entry->queue->params->unitSpawn == FactionQueue::SPAWN_PLACEMENT
+			)
+				this->selectBuildingForPlacement(b);
+			else
+				this->_eventQueue.emplace_back(StartBuildEvent{b, *this->_unitsQueueEntries[i]->queueId});
 		});
 		pic->onRightMousePress([this, b, i]{
 			this->_eventQueue.emplace_back(CancelBuildEvent{b, *this->_unitsQueueEntries[i]->queueId});
@@ -819,7 +841,7 @@ void D2KUI::playEVA(EVASound sound, unsigned int expireIn, unsigned int priority
 			return;
 		else if (args == this->_modName + ":frem")
 			return;
-		else if (args == this->_modName + ":orni")
+		else if (args == this->_modName + ":orth")
 			return;
 		else if (args == this->_modName + ":dhmi")
 			return;

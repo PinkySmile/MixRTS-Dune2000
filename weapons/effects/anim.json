@@ -397,5 +397,27 @@
 			"sprite": "weapons/effects/grenade_3.png",
 			"offset": { "x": -1, "y": -1 }
 		}
+	],
+	"proj.death_hand_piece": [
+		{
+			"sprite": "weapons/effects/dh_0.png",
+			"offset": { "x": -1, "y": -6 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/dh_1.png",
+			"offset": { "x": -1, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/dh_2.png",
+			"offset": { "x": -1, "y": -4 },
+			"blending": "add"
+		},
+		{
+			"sprite": "weapons/effects/dh_3.png",
+			"offset": { "x": -1, "y": -6 },
+			"blending": "add"
+		}
 	]
 }

@@ -36,5 +36,9 @@
 	"effect.plasma": {
 		"anim": { "anim": "effect.plasma", "layer": 2, "delay": 6 },
 		"sound": "expllg2"
+	},
+	"effect.dh_expl": {
+		"anim": { "anim": "effect.dh_expl", "layer": 2, "delay": 6 },
+		"sound": "explsml4"
 	}
 }

@@ -540,6 +540,8 @@
 				"units": { "rifl": 4 }
 			}
 		},
+		"produced_anim": { "anim": "h_pala_anim", "layer": 1, "delay": 6 },
+		"spawn_offset": {"x": 55, "y": 58},
 		"requirements": ["h_cony", "ixrc"],
 		"cost": { "base:credits": 1600 },
 		"gives_queue": "hpalace",

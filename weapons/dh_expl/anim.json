@@ -1,0 +1,68 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
+		"blending": "add"
+	},
+	"effect.dh_expl": [
+		{
+			"sprite": "weapons/dh_expl/art_0.png",
+			"offset": { "x": -35, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_1.png",
+			"offset": { "x": -35, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_2.png",
+			"offset": { "x": -36, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_3.png",
+			"offset": { "x": -36, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_4.png",
+			"offset": { "x": -36, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_5.png",
+			"offset": { "x": -37, "y": -36 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_6.png",
+			"offset": { "x": -32, "y": -34 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_7.png",
+			"offset": { "x": -36, "y": -34 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_8.png",
+			"offset": { "x": -36, "y": -34 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_9.png",
+			"offset": { "x": -36, "y": -34 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_10.png",
+			"offset": { "x": -36, "y": -30 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_11.png",
+			"offset": { "x": -36, "y": -30 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_12.png",
+			"offset": { "x": -35, "y": -29 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_13.png",
+			"offset": { "x": -35, "y": -29 }
+		},
+		{
+			"sprite": "weapons/dh_expl/art_14.png",
+			"offset": { "x": -35, "y": -29 }
+		}
+	]
+}

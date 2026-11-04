@@ -249,12 +249,15 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.dhbomb": {
+	"weapon.dhbomb_piece": {
 		"type": "projectile",
 		"projectile": {
 			"anim": { "anim": "proj.death_hand_piece", "layer": 2 },
-			"fall_time": 50,
-			"falling": true
+			"speed": 0.01,
+			"falling": true,
+			"v": 0.5,
+			"g": 0.01,
+			"shadow": true
 		},
 		"hit_effect": "effect.bang14",
 		"damage": 225,

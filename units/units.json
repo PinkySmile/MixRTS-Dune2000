@@ -425,27 +425,6 @@
 		"size": { "x": 64, "y": 64 },
 		"hp": 999999
 	},
-	"orth": {
-		"anims": [
-			{ "anim": "orni", "layer": 1 }
-		],
-		"grid_bound": false,
-		"turn_delay": 6,
-		"directions": 32,
-		"ignore_terrain": true,
-		"move_while_turn": true,
-		"dodge_obstacle": false,
-		"altitude": 64,
-		"requirements": [false],
-		"accel": 3.375,
-		"selectable": false,
-		"armor": "light",
-		"tags": ["any"],
-		"cost": {},
-		"speed": 2,
-		"size": { "x": 64, "y": 64 },
-		"hp": 900
-	},
 
 
 	"rifl": {
@@ -869,7 +848,7 @@
 		},
 		"tags": ["infantry", "bio"],
 		"requirements": ["apala"],
-		"cost": { "base:credits": 200 },
+		"cost": {},
 		"build_speed": 9220,
 		"speed": 0.5,
 		"size": { "x": 16, "y": 16 },
@@ -879,5 +858,62 @@
 		"crush_anim": { "anim": { "anim": "fremen_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
 		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
+	},
+
+	"orth": {
+		"anims": [
+			{ "anim": "orni", "layer": 1 }
+		],
+		"queue": "ornithopter",
+		"grid_bound": false,
+		"turn_delay": 6,
+		"directions": 32,
+		"ignore_terrain": true,
+		"move_while_turn": true,
+		"dodge_obstacle": false,
+		"altitude": 64,
+		"selectable": false,
+		"armor": "light",
+		"tags": ["winged", "any_air"],
+		"requirements": ["ahtec.upgrade"],
+		"cost": {},
+		"speed": 3.375,
+		"size": { "x": 64, "y": 64 },
+		"hp": 900
+	},
+	"dhmi": {
+		"anims": [ { "anim": "dhbomb_up", "layer": 1, "delay" : 999 } ],
+		"anim_move": { "anim": "dhbomb_down", "layer": 1, "delay": 999 },
+		"queue": "hpalace",
+		"missile": true,
+		"barrels": [
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
+			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] }
+		],
+		"death": {
+			"generic": { "effect": "effect.dh_expl", "stay": 15 }
+		},
+		"grid_bound": false,
+		"spawn_delay": 146,
+		"inaccuracy": 48,
+		"shoot_rounds": 3,
+		"armor": "none",
+		"tags": [],
+		"requirements": ["hpala"],
+		"cost": {},
+		"build_speed": 23050,
+		"speed": 4,
+		"hp": 1,
+		"size": { "x": 0, "y": 0 },
+		"counts_for_game": false,
+		"counts_for_short_game": false
 	}
 }

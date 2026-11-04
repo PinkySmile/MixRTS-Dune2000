@@ -1,0 +1,17 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
+	},
+	"dhbomb_up": [
+		{
+			"sprite": "units/dhand/art_0.png",
+			"offset": { "x": -7, "y": -66 }
+		}
+	],
+	"dhbomb_down": [
+		{
+			"sprite": "units/dhand/art_1.png",
+			"offset": { "x": -5, "y": -66 }
+		}
+	]
+}

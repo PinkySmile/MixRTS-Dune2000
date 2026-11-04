@@ -1,7 +1,6 @@
 {
 	"_general": {
-		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 },
-		"coloring": { "type": "palette", "indices": [240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255] }
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
 	},
 	"effect.bang_wall": [
 		{
@@ -241,63 +240,51 @@
 	"effect.invis": [
 		{
 			"sprite": "effects/invis0.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis1.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis2.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis3.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis4.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis5.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis6.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis7.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis8.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis9.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis10.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		},
 		{
 			"sprite": "effects/invis11.png",
-			"offset": { "x": 0, "y": 0 },
-			"coloring": { "type": "none" }
+			"offset": { "x": 0, "y": 0 }
 		}
 	]
 }
