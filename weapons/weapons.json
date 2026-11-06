@@ -255,7 +255,7 @@
 			"anim": { "anim": "proj.death_hand_piece", "layer": 2 },
 			"speed": 0.01,
 			"falling": true,
-			"v": 0.5,
+			"y": 64,
 			"g": 0.01,
 			"shadow": true
 		},
