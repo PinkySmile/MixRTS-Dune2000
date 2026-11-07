@@ -865,16 +865,25 @@
 			{ "anim": "orni", "layer": 1 }
 		],
 		"queue": "ornithopter",
+		"barrels": [
+			{ "weapons": [ { "name": "weapon.ornibomb", "cooldown": 20 } ] }
+		],
+		"death": {
+			"generic": { "effect": "effect.bang14", "stay": 30 }
+		},
 		"grid_bound": false,
 		"turn_speed": 1.6071428571428572,
+		"build_speed": 23050,
 		"directions": 32,
+		"move_while_fire": true,
 		"ignore_terrain": true,
 		"move_while_turn": true,
+		"shoots_facing": false,
 		"dodge_obstacle": false,
 		"altitude": 64,
-		"selectable": false,
+		"selectable": true,
 		"armor": "light",
-		"tags": ["winged", "any_air"],
+		"tags": ["winged"],
 		"requirements": ["ahtec.upgrade"],
 		"cost": {},
 		"speed": 3.375,

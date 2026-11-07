@@ -419,5 +419,23 @@
 			"offset": { "x": -1, "y": -6 },
 			"blending": "add"
 		}
+	],
+	"proj.ornibomb": [
+		{
+			"sprite": "weapons/effects/ornibomb_0.png",
+			"offset": { "x": -3, "y": -1 }
+		},
+		{
+			"sprite": "weapons/effects/ornibomb_1.png",
+			"offset": { "x": -4, "y": -2 }
+		},
+		{
+			"sprite": "weapons/effects/ornibomb_2.png",
+			"offset": { "x": -2, "y": -5 }
+		},
+		{
+			"sprite": "weapons/effects/ornibomb_3.png",
+			"offset": { "x": -4, "y": -1 }
+		}
 	]
 }

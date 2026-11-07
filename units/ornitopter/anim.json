@@ -6,449 +6,449 @@
 	"orni_0": [
 		{
 			"sprite": "units/ornitopter/art_0.png",
-			"offset": { "x": 1, "y": -9 }
+			"offset": { "x": 21, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_32.png",
-			"offset": { "x": -8, "y": 4 }
+			"offset": { "x": 12, "y": 24 }
 		},
 		{
 			"sprite": "units/ornitopter/art_64.png",
-			"offset": { "x": -7, "y": 4 }
+			"offset": { "x": 13, "y": 24 }
 		}
 	],
 	"orni_1": [
 		{
 			"sprite": "units/ornitopter/art_1.png",
-			"offset": { "x": 3, "y": -10 }
+			"offset": { "x": 23, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_33.png",
-			"offset": { "x": -7, "y": 3 }
+			"offset": { "x": 13, "y": 23 }
 		},
 		{
 			"sprite": "units/ornitopter/art_65.png",
-			"offset": { "x": -7, "y": 4 }
+			"offset": { "x": 13, "y": 24 }
 		}
 	],
 	"orni_2": [
 		{
 			"sprite": "units/ornitopter/art_2.png",
-			"offset": { "x": 0, "y": -10 }
+			"offset": { "x": 20, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_34.png",
-			"offset": { "x": -6, "y": 1 }
+			"offset": { "x": 14, "y": 21 }
 		},
 		{
 			"sprite": "units/ornitopter/art_66.png",
-			"offset": { "x": -7, "y": 5 }
+			"offset": { "x": 13, "y": 25 }
 		}
 	],
 	"orni_3": [
 		{
 			"sprite": "units/ornitopter/art_3.png",
-			"offset": { "x": -4, "y": -11 }
+			"offset": { "x": 16, "y": 9 }
 		},
 		{
 			"sprite": "units/ornitopter/art_35.png",
-			"offset": { "x": -4, "y": -2 }
+			"offset": { "x": 16, "y": 18 }
 		},
 		{
 			"sprite": "units/ornitopter/art_67.png",
-			"offset": { "x": -6, "y": 5 }
+			"offset": { "x": 14, "y": 25 }
 		}
 	],
 	"orni_4": [
 		{
 			"sprite": "units/ornitopter/art_4.png",
-			"offset": { "x": -7, "y": -10 }
+			"offset": { "x": 13, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_36.png",
-			"offset": { "x": -7, "y": -3 }
+			"offset": { "x": 13, "y": 17 }
 		},
 		{
 			"sprite": "units/ornitopter/art_68.png",
-			"offset": { "x": -7, "y": 4 }
+			"offset": { "x": 13, "y": 24 }
 		}
 	],
 	"orni_5": [
 		{
 			"sprite": "units/ornitopter/art_5.png",
-			"offset": { "x": -9, "y": -10 }
+			"offset": { "x": 11, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_37.png",
-			"offset": { "x": -9, "y": -5 }
+			"offset": { "x": 11, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_69.png",
-			"offset": { "x": -9, "y": 2 }
+			"offset": { "x": 11, "y": 22 }
 		}
 	],
 	"orni_6": [
 		{
 			"sprite": "units/ornitopter/art_6.png",
-			"offset": { "x": -10, "y": -9 }
+			"offset": { "x": 10, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_38.png",
-			"offset": { "x": -10, "y": -6 }
+			"offset": { "x": 10, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_70.png",
-			"offset": { "x": -10, "y": 1 }
+			"offset": { "x": 10, "y": 21 }
 		}
 	],
 	"orni_7": [
 		{
 			"sprite": "units/ornitopter/art_7.png",
-			"offset": { "x": -11, "y": -7 }
+			"offset": { "x": 9, "y": 13 }
 		},
 		{
 			"sprite": "units/ornitopter/art_39.png",
-			"offset": { "x": -11, "y": -6 }
+			"offset": { "x": 9, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_71.png",
-			"offset": { "x": -11, "y": 0 }
+			"offset": { "x": 9, "y": 20 }
 		}
 	],
 	"orni_8": [
 		{
 			"sprite": "units/ornitopter/art_8.png",
-			"offset": { "x": -11, "y": -6 }
+			"offset": { "x": 9, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_40.png",
-			"offset": { "x": -11, "y": -6 }
+			"offset": { "x": 9, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_72.png",
-			"offset": { "x": -11, "y": -1 }
+			"offset": { "x": 9, "y": 19 }
 		}
 	],
 	"orni_9": [
 		{
 			"sprite": "units/ornitopter/art_9.png",
-			"offset": { "x": -10, "y": -4 }
+			"offset": { "x": 10, "y": 16 }
 		},
 		{
 			"sprite": "units/ornitopter/art_41.png",
-			"offset": { "x": -11, "y": -5 }
+			"offset": { "x": 9, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_73.png",
-			"offset": { "x": -10, "y": -2 }
+			"offset": { "x": 10, "y": 18 }
 		}
 	],
 	"orni_10": [
 		{
 			"sprite": "units/ornitopter/art_10.png",
-			"offset": { "x": -9, "y": -2 }
+			"offset": { "x": 11, "y": 18 }
 		},
 		{
 			"sprite": "units/ornitopter/art_42.png",
-			"offset": { "x": -10, "y": -5 }
+			"offset": { "x": 10, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_74.png",
-			"offset": { "x": -9, "y": -1 }
+			"offset": { "x": 11, "y": 19 }
 		}
 	],
 	"orni_11": [
 		{
 			"sprite": "units/ornitopter/art_11.png",
-			"offset": { "x": -8, "y": -3 }
+			"offset": { "x": 12, "y": 17 }
 		},
 		{
 			"sprite": "units/ornitopter/art_43.png",
-			"offset": { "x": -8, "y": -3 }
+			"offset": { "x": 12, "y": 17 }
 		},
 		{
 			"sprite": "units/ornitopter/art_75.png",
-			"offset": { "x": -8, "y": -3 }
+			"offset": { "x": 12, "y": 17 }
 		}
 	],
 	"orni_12": [
 		{
 			"sprite": "units/ornitopter/art_12.png",
-			"offset": { "x": -6, "y": -5 }
+			"offset": { "x": 14, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_44.png",
-			"offset": { "x": -6, "y": -5 }
+			"offset": { "x": 14, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_76.png",
-			"offset": { "x": -6, "y": -5 }
+			"offset": { "x": 14, "y": 15 }
 		}
 	],
 	"orni_13": [
 		{
 			"sprite": "units/ornitopter/art_13.png",
-			"offset": { "x": -3, "y": -7 }
+			"offset": { "x": 17, "y": 13 }
 		},
 		{
 			"sprite": "units/ornitopter/art_45.png",
-			"offset": { "x": -5, "y": -7 }
+			"offset": { "x": 15, "y": 13 }
 		},
 		{
 			"sprite": "units/ornitopter/art_77.png",
-			"offset": { "x": -7, "y": -7 }
+			"offset": { "x": 13, "y": 13 }
 		}
 	],
 	"orni_14": [
 		{
 			"sprite": "units/ornitopter/art_14.png",
-			"offset": { "x": 0, "y": -8 }
+			"offset": { "x": 20, "y": 12 }
 		},
 		{
 			"sprite": "units/ornitopter/art_46.png",
-			"offset": { "x": -7, "y": -8 }
+			"offset": { "x": 13, "y": 12 }
 		},
 		{
 			"sprite": "units/ornitopter/art_78.png",
-			"offset": { "x": -8, "y": -8 }
+			"offset": { "x": 12, "y": 12 }
 		}
 	],
 	"orni_15": [
 		{
 			"sprite": "units/ornitopter/art_15.png",
-			"offset": { "x": 3, "y": -9 }
+			"offset": { "x": 23, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_47.png",
-			"offset": { "x": -8, "y": -9 }
+			"offset": { "x": 12, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_79.png",
-			"offset": { "x": -8, "y": -9 }
+			"offset": { "x": 12, "y": 11 }
 		}
 	],
 	"orni_16": [
 		{
 			"sprite": "units/ornitopter/art_16.png",
-			"offset": { "x": 1, "y": -9 }
+			"offset": { "x": 21, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_48.png",
-			"offset": { "x": -9, "y": -10 }
+			"offset": { "x": 11, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_80.png",
-			"offset": { "x": -7, "y": -9 }
+			"offset": { "x": 13, "y": 11 }
 		}
 	],
 	"orni_17": [
 		{
 			"sprite": "units/ornitopter/art_17.png",
-			"offset": { "x": -2, "y": -9 }
+			"offset": { "x": 18, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_49.png",
-			"offset": { "x": -9, "y": -9 }
+			"offset": { "x": 11, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_81.png",
-			"offset": { "x": -6, "y": -9 }
+			"offset": { "x": 14, "y": 11 }
 		}
 	],
 	"orni_18": [
 		{
 			"sprite": "units/ornitopter/art_18.png",
-			"offset": { "x": -4, "y": -8 }
+			"offset": { "x": 16, "y": 12 }
 		},
 		{
 			"sprite": "units/ornitopter/art_50.png",
-			"offset": { "x": -8, "y": -9 }
+			"offset": { "x": 12, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_82.png",
-			"offset": { "x": -4, "y": -8 }
+			"offset": { "x": 16, "y": 12 }
 		}
 	],
 	"orni_19": [
 		{
 			"sprite": "units/ornitopter/art_19.png",
-			"offset": { "x": -5, "y": -7 }
+			"offset": { "x": 15, "y": 13 }
 		},
 		{
 			"sprite": "units/ornitopter/art_51.png",
-			"offset": { "x": -6, "y": -7 }
+			"offset": { "x": 14, "y": 13 }
 		},
 		{
 			"sprite": "units/ornitopter/art_83.png",
-			"offset": { "x": -1, "y": -7 }
+			"offset": { "x": 19, "y": 13 }
 		}
 	],
 	"orni_20": [
 		{
 			"sprite": "units/ornitopter/art_20.png",
-			"offset": { "x": -6, "y": -5 }
+			"offset": { "x": 14, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_52.png",
-			"offset": { "x": -4, "y": -5 }
+			"offset": { "x": 16, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_84.png",
-			"offset": { "x": 2, "y": -5 }
+			"offset": { "x": 22, "y": 15 }
 		}
 	],
 	"orni_21": [
 		{
 			"sprite": "units/ornitopter/art_21.png",
-			"offset": { "x": -6, "y": -3 }
+			"offset": { "x": 14, "y": 17 }
 		},
 		{
 			"sprite": "units/ornitopter/art_53.png",
-			"offset": { "x": -1, "y": -3 }
+			"offset": { "x": 19, "y": 17 }
 		},
 		{
 			"sprite": "units/ornitopter/art_85.png",
-			"offset": { "x": 5, "y": -3 }
+			"offset": { "x": 25, "y": 17 }
 		}
 	],
 	"orni_22": [
 		{
 			"sprite": "units/ornitopter/art_22.png",
-			"offset": { "x": -6, "y": -2 }
+			"offset": { "x": 14, "y": 18 }
 		},
 		{
 			"sprite": "units/ornitopter/art_54.png",
-			"offset": { "x": 2, "y": -5 }
+			"offset": { "x": 22, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_86.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": 25, "y": 18 }
 		}
 	],
 	"orni_23": [
 		{
 			"sprite": "units/ornitopter/art_23.png",
-			"offset": { "x": -5, "y": -4 }
+			"offset": { "x": 15, "y": 16 }
 		},
 		{
 			"sprite": "units/ornitopter/art_55.png",
-			"offset": { "x": 5, "y": -6 }
+			"offset": { "x": 25, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_87.png",
-			"offset": { "x": 5, "y": -2 }
+			"offset": { "x": 25, "y": 18 }
 		}
 	],
 	"orni_24": [
 		{
 			"sprite": "units/ornitopter/art_24.png",
-			"offset": { "x": -3, "y": -6 }
+			"offset": { "x": 17, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_56.png",
-			"offset": { "x": 5, "y": -6 }
+			"offset": { "x": 25, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_88.png",
-			"offset": { "x": 5, "y": -1 }
+			"offset": { "x": 25, "y": 19 }
 		}
 	],
 	"orni_25": [
 		{
 			"sprite": "units/ornitopter/art_25.png",
-			"offset": { "x": -5, "y": -8 }
+			"offset": { "x": 15, "y": 12 }
 		},
 		{
 			"sprite": "units/ornitopter/art_57.png",
-			"offset": { "x": 5, "y": -6 }
+			"offset": { "x": 25, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_89.png",
-			"offset": { "x": 5, "y": -1 }
+			"offset": { "x": 25, "y": 19 }
 		}
 	],
 	"orni_26": [
 		{
 			"sprite": "units/ornitopter/art_26.png",
-			"offset": { "x": -6, "y": -9 }
+			"offset": { "x": 14, "y": 11 }
 		},
 		{
 			"sprite": "units/ornitopter/art_58.png",
-			"offset": { "x": 2, "y": -6 }
+			"offset": { "x": 22, "y": 14 }
 		},
 		{
 			"sprite": "units/ornitopter/art_90.png",
-			"offset": { "x": 5, "y": 1 }
+			"offset": { "x": 25, "y": 21 }
 		}
 	],
 	"orni_27": [
 		{
 			"sprite": "units/ornitopter/art_27.png",
-			"offset": { "x": -6, "y": -10 }
+			"offset": { "x": 14, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_59.png",
-			"offset": { "x": -2, "y": -5 }
+			"offset": { "x": 18, "y": 15 }
 		},
 		{
 			"sprite": "units/ornitopter/art_91.png",
-			"offset": { "x": 4, "y": 2 }
+			"offset": { "x": 24, "y": 22 }
 		}
 	],
 	"orni_28": [
 		{
 			"sprite": "units/ornitopter/art_28.png",
-			"offset": { "x": -5, "y": -11 }
+			"offset": { "x": 15, "y": 9 }
 		},
 		{
 			"sprite": "units/ornitopter/art_60.png",
-			"offset": { "x": -4, "y": -4 }
+			"offset": { "x": 16, "y": 16 }
 		},
 		{
 			"sprite": "units/ornitopter/art_92.png",
-			"offset": { "x": 1, "y": 4 }
+			"offset": { "x": 21, "y": 24 }
 		}
 	],
 	"orni_29": [
 		{
 			"sprite": "units/ornitopter/art_29.png",
-			"offset": { "x": -4, "y": -11 }
+			"offset": { "x": 16, "y": 9 }
 		},
 		{
 			"sprite": "units/ornitopter/art_61.png",
-			"offset": { "x": -6, "y": 0 }
+			"offset": { "x": 14, "y": 18 }
 		},
 		{
 			"sprite": "units/ornitopter/art_93.png",
-			"offset": { "x": -2, "y": 5 }
+			"offset": { "x": 18, "y": 25 }
 		}
 	],
 	"orni_30": [
 		{
 			"sprite": "units/ornitopter/art_30.png",
-			"offset": { "x": -3, "y": -11 }
+			"offset": { "x": 17, "y": 9 }
 		},
 		{
 			"sprite": "units/ornitopter/art_62.png",
-			"offset": { "x": -8, "y": 0 }
+			"offset": { "x": 12, "y": 20 }
 		},
 		{
 			"sprite": "units/ornitopter/art_94.png",
-			"offset": { "x": -4, "y": 5 }
+			"offset": { "x": 16, "y": 25 }
 		}
 	],
 	"orni_31": [
 		{
 			"sprite": "units/ornitopter/art_31.png",
-			"offset": { "x": -1, "y": -10 }
+			"offset": { "x": 19, "y": 10 }
 		},
 		{
 			"sprite": "units/ornitopter/art_63.png",
-			"offset": { "x": -8, "y": 3 }
+			"offset": { "x": 12, "y": 23 }
 		},
 		{
 			"sprite": "units/ornitopter/art_95.png",
-			"offset": { "x": -8, "y": 3 }
+			"offset": { "x": 14, "y": 24 }
 		}
 	]
 }

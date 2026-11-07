@@ -5,24 +5,33 @@
 #include "Data/GameManager.hpp"
 #include "Data/Faction.hpp"
 #include "Data/Mod.hpp"
+#include "Data/ObjectSpawner.hpp"
 #include "Data/Player.hpp"
 #include "Resources/Game.hpp"
+
+#define MOD_NAME "d2k:"
 
 SL_DECLARE_VERSION;
 
 SL_EXPORT bool update(CustomQueue &b, PlayerQueue &queue)
 {
-	std::string modName = b.player->getPrimaryFaction().getBase().getName();
-
 	for (auto &[name, entry] : queue.entries) {
 		entry.paused = b.player->state.consumedPower > b.player->state.producedPower;
-		if (name == modName + ":dhmi") {
+		if (name == MOD_NAME "dhmi") {
 			if (entry.buildProgress == entry.buildTime)
 				;
 			else if (entry.buildProgress == 1)
 				b.player->playEVA(UI::EVA_NUKE_PREP, 300, 1, 0, *entry.elementId);
 			else if (entry.buildProgress == entry.buildTime - 1 && !entry.paused)
 				b.player->playEVA(UI::EVA_NUKE_READY, 300, 1, 0, *entry.elementId);
+		} else if (name == MOD_NAME "orth") {
+			if (entry.buildProgress > 0) {
+				for (auto obj : b.player->state.myObjects)
+					if (obj->getId() == MOD_NAME "ahtec") {
+						obj->producing(true);
+						break;
+					}
+			}
 		}
 	}
 	return true;
@@ -53,14 +62,12 @@ SL_EXPORT bool handleStartBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 	if (entry->buildProgress != entry->buildTime)
 		return false;
 
-	std::string modName = b.player->getPrimaryFaction().getBase().getName();
-
-	if (event.id == modName + ":frem") {
-		if (!b.player->parent.spawnObject(b.player->state.index, {-1, -1}, modName + ":apalace", *entry->elementId))
+	if (event.id == MOD_NAME "frem") {
+		if (!b.player->parent.spawnObject(b.player->state.index, {-1, -1}, MOD_NAME "apalace", *entry->elementId))
 			return false;
-		b.player->parent.spawnObject(b.player->state.index, {-1, -1}, modName + ":apalace", *entry->elementId);
-	} else if (event.id == modName + ":sabo") {
-		if (!b.player->parent.spawnObject(b.player->state.index, {-1, -1}, modName + ":opalace", *entry->elementId))
+		b.player->parent.spawnObject(b.player->state.index, {-1, -1}, MOD_NAME "apalace", *entry->elementId);
+	} else if (event.id == MOD_NAME "sabo") {
+		if (!b.player->parent.spawnObject(b.player->state.index, {-1, -1}, MOD_NAME "opalace", *entry->elementId))
 			return false;
 	}
 	entry->buildProgress = 0;
@@ -83,11 +90,9 @@ SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 	if (entry->buildProgress != entry->buildTime)
 		return false;
 
-	std::string modName = b.player->getPrimaryFaction().getBase().getName();
-
-	if (event.id == modName + ":dhmi") {
+	if (event.id == MOD_NAME "dhmi") {
 		Vector2f pos = event.position;
-		GameObject *dh = b.player->parent.spawnObject(b.player->state.index, {-1, -1}, modName + ":hpalace", event.id);
+		GameObject *dh = b.player->parent.spawnObject(b.player->state.index, {-1, -1}, MOD_NAME "hpalace", event.id);
 
 		if (!dh)
 			return false;
@@ -96,6 +101,42 @@ SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 		dh->attackPos(pos);
 		for (auto &p : b.player->parent.getPlayers())
 			p.playEVA(UI::EVA_NUKE_LAUNCH, 900, 4, 0, event.id);
+		entry->buildProgress = 0;
+	} else if (event.id == MOD_NAME "orth") {
+		Vector2i pos;
+		Vector2u target = event.position;
+		const LoadedMap &map = b.player->parent.getLoadedMap();
+		Vector2u size = {
+			map.grid.gridSize.x * map.grid.tileSize.x,
+			map.grid.gridSize.y * map.grid.tileSize.y
+		};
+
+		switch (random_distrib(game->gameRandom, 0, 3)) {
+		case 0:
+			pos.x = -64;
+			pos.y = random_distrib(game->gameRandom, -64, size.y + 64);
+			break;
+		case 1:
+			pos.x = size.x + 64;
+			pos.y = random_distrib(game->gameRandom, -64, size.y + 64);
+			break;
+		case 2:
+			pos.x = random_distrib(game->gameRandom, -64, size.x + 64);
+			pos.y = -64;
+			break;
+		default:
+			pos.x = random_distrib(game->gameRandom, -64, size.x + 64);
+			pos.y = size.y + 64;
+			break;
+		}
+		b.player->parent.spawnCustomObject(b.player->state.index, pos, new ObjectSpawner(MOD_NAME "orth", 3, 25, [target](GameObject *orth) {
+			orth->attackPos(target, 4);
+			orth->keepMoving(50);
+			orth->attackPos(target, 4);
+			orth->keepMoving(50);
+			orth->attackPos(target, 4);
+			orth->keepMovingAndDie();
+		}));
 		entry->buildProgress = 0;
 	}
 	return false;
