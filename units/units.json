@@ -881,7 +881,7 @@
 		"shoots_facing": false,
 		"dodge_obstacle": false,
 		"altitude": 64,
-		"selectable": true,
+		"selectable": false,
 		"armor": "light",
 		"tags": ["winged"],
 		"requirements": ["ahtec.upgrade"],
