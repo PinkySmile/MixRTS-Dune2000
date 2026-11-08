@@ -220,16 +220,13 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.self_destruct": {
+	"weapon.self_destruct": {
 		"type": "hitscan",
 		"effect": "effect.devastator_charge",
-		"sound": "devastator_gun",
-		"hit_effect": "effect.devastator",
+		"hit_effect": "effect.plasma_death",
 		"damage": 5000,
 		"range": 96,
 		"warhead": "plasma_death",
-		"self_destruct": true,
-		"charge_time": 300,
 		"can_hit_tags": ["any"],
 		"ground": true,
 		"air": false

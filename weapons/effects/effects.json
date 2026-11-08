@@ -40,5 +40,12 @@
 	"effect.dh_expl": {
 		"anim": { "anim": "effect.dh_expl", "layer": 2, "delay": 6 },
 		"sound": "explsml4"
+	},
+	"effect.plasma_death": {
+		"anim": { "anim": "effect.plasma_death", "layer": 2, "delay": 6 },
+		"sound": "expllg2"
+	},
+	"effect.devastator_charge": {
+		"anim": { "anim": "effect.devastator_charge", "layer": 2, "delay": 6 }
 	}
 }

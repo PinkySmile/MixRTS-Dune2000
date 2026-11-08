@@ -263,6 +263,7 @@
 				"priority": 1
 			}
 		],
+		"self_destruct": { "delay": 200, "weapon": "weapon.self_destruct" },
 		"death": {
 			"generic": { "effect": "effect.bang14", "stay": 30 }
 		},
