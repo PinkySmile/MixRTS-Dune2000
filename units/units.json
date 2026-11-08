@@ -580,6 +580,7 @@
 		"stackable": true,
 		"crush_anim": { "anim": { "anim": "sardaukar_scrounch", "layer": 0, "delay": 10 } },
 		"crush_sound": "crush",
+		"crush_weapon": "weapon.sardaukar_crush",
 		"select": { "x": 0, "y": -8, "h": 16, "w": 20 }
 	},
 	"gren": {
@@ -617,6 +618,7 @@
 			"fire":     { "anim": { "anim": "rifle_death_5", "layer": 1, "delay": 10 } },
 			"melee":    { "anim": { "anim": "grenadier_death", "layer": 1, "delay": 10 } }
 		},
+		"death_weapon": "weapon.grenadier_death",
 		"pass_flags": 1,
 		"armor": "none",
 		"reveal_stealth": 1,

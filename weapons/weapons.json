@@ -373,13 +373,12 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.sardaukar_death": {
+	"weapon.sardaukar_crush": {
 		"type": "hitscan",
 		"hit_effect": "effect.tankgun",
 		"damage": 300,
 		"range": 32,
 		"warhead": "at_mis",
-		"on_death": true,
 		"can_hit_tags": ["any"],
 		"ground": true,
 		"air": false
@@ -395,14 +394,11 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.grenadeer_death": {
+	"weapon.grenadier_death": {
 		"type": "hitscan",
-		"sound": "explosion_small",
-		"hit_effect": "effect.bang11",
 		"damage": 150,
 		"range": 32,
 		"warhead": "he",
-		"on_death": true,
 		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
@@ -441,7 +437,6 @@
 		"damage": 150,
 		"range": 128,
 		"warhead": "he",
-		"on_death": true,
 		"can_hit_tags": ["bio", "any"],
 		"ground": true,
 		"air": false
