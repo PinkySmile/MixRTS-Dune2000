@@ -75,41 +75,41 @@ static_assert(std::size(__unitsOrder)   == 23);
 
 void D2KUI::_loadEvaSounds(const std::filesystem::path &base, const std::string &folder)
 {
-	this->_evaSounds[EVA_BUILDING]         .load(base / "announcers" / game->locale / folder / "build.ogg", false);
-	this->_evaSounds[EVA_BUILDING_DONE]    .load(base / "announcers" / game->locale / folder / "building_done.ogg", false);
-	this->_evaSounds[EVA_BUILDING_LOST]    .load(base / "announcers" / game->locale / folder / "building_lost.ogg", false);
-	this->_evaSounds[EVA_CANCEL]           .load(base / "announcers" / game->locale / folder / "cancel.ogg", false);
-	this->_evaSounds[EVA_CANNOT_DEPLOY]    .load(base / "announcers" / game->locale / folder / "cannot_deploy.ogg", false);
-	this->_evaSounds[EVA_CANNOT_BUILD]     .load(base / "announcers" / game->locale / folder / "cannot_place.ogg", false);
-	this->_evaSounds[EVA_GUARDING]         .load(base / "announcers" / game->locale / folder / "guarding.ogg", false);
-	this->_evaSounds[EVA_HOLD_QUEUE]       .load(base / "announcers" / game->locale / folder / "hold.ogg", false);
-	this->_evaSounds[EVA_LOST]             .load(base / "announcers" / game->locale / folder / "lose.ogg", false);
-	this->_evaSounds[EVA_WON]              .load(base / "announcers" / game->locale / folder / "win.ogg", false);
-	this->_evaSounds[EVA_LOW_POWER]        .load(base / "announcers" / game->locale / folder / "low_power.ogg", false);
-	this->_evaSounds[EVA_UNLOCKED]         .load(base / "announcers" / game->locale / folder / "new_unlock.ogg", false);
-	this->_evaSounds[EVA_NO_CREDITS]       .load(base / "announcers" / game->locale / folder / "no_money.ogg", false);
-	this->_evaSounds[EVA_PRIMARY_SELECTED] .load(base / "announcers" / game->locale / folder / "primary.ogg", false);
-	this->_evaSounds[EVA_RETREAT]          .load(base / "announcers" / game->locale / folder / "retreat.ogg", false);
-	this->_evaSounds[EVA_SELL]             .load(base / "announcers" / game->locale / folder / "sell.ogg", false);
-	this->_evaSounds[EVA_TRAINING]         .load(base / "announcers" / game->locale / folder / "train.ogg", false);
-	this->_evaSounds[EVA_UNIT_READY]       .load(base / "announcers" / game->locale / folder / "unit_ready.ogg", false);
-	this->_evaSounds[EVA_UPGRADING]        .load(base / "announcers" / game->locale / folder / "upgrading.ogg", false);
-	this->_evaSounds[EVA_REQUIRE_STORAGE]  .load(base / "announcers" / game->locale / folder / "silo_needed.ogg", false);
-	this->_evaSounds[EVA_UNIT_LOST]        .load(base / "announcers" / game->locale / folder / "unit_lost.ogg", false);
-	this->_evaSounds[EVA_HARV_UNDER_ATTACK].load(base / "announcers" / game->locale / folder / "harvester_attacked.ogg", false);
-	this->_evaSounds[EVA_BUILDING_ATTACKED].load(base / "announcers" / game->locale / folder / "building_attacked.ogg", false);
-	this->_evaSounds[EVA_BUILDING_CAPTURED].load(base / "announcers" / game->locale / folder / "captured.ogg", false);
-	this->_evaSounds[EVA_HAZARD_SPAWNED]   .load(base / "announcers" / game->locale / folder / "worm_sign.ogg", false);
-	this->_evaSounds[EVA_HAZARD_ATTACKED]  .load(base / "announcers" / game->locale / folder / "worm_attack.ogg", false);
-	this->_evaSounds[EVA_ORDER_PLACED]     .load(base / "announcers" / game->locale / folder / "order_placed.ogg", false);
-	this->_evaSounds[EVA_ORDER_IN_1]       .load(base / "announcers" / game->locale / folder / "1min_left.ogg", false);
-	this->_evaSounds[EVA_ORDER_IN_2]       .load(base / "announcers" / game->locale / folder / "2min_left.ogg", false);
-	this->_evaSounds[EVA_ORDER_IN_3]       .load(base / "announcers" / game->locale / folder / "3min_left.ogg", false);
-	this->_evaSounds[EVA_ORDER_IN_4]       .load(base / "announcers" / game->locale / folder / "4min_left.ogg", false);
-	this->_evaSounds[EVA_ORDER_IN_5]       .load(base / "announcers" / game->locale / folder / "5min_left.ogg", false);
-	this->_evaSounds[EVA_NUKE_PREP]        .load(base / "announcers" / game->locale / folder / "dh_prep.ogg", false);
-	this->_evaSounds[EVA_NUKE_LAUNCH]      .load(base / "announcers" / game->locale / folder / "dh_launch.ogg", false);
-	this->_evaSounds[EVA_NUKE_READY]       .load(base / "announcers" / game->locale / folder / "dh_ready.ogg", false);
+	this->_evaSounds[EVA_BUILDING]         .load(base / "announcers" / game->settings.locale / folder / "build.ogg", false);
+	this->_evaSounds[EVA_BUILDING_DONE]    .load(base / "announcers" / game->settings.locale / folder / "building_done.ogg", false);
+	this->_evaSounds[EVA_BUILDING_LOST]    .load(base / "announcers" / game->settings.locale / folder / "building_lost.ogg", false);
+	this->_evaSounds[EVA_CANCEL]           .load(base / "announcers" / game->settings.locale / folder / "cancel.ogg", false);
+	this->_evaSounds[EVA_CANNOT_DEPLOY]    .load(base / "announcers" / game->settings.locale / folder / "cannot_deploy.ogg", false);
+	this->_evaSounds[EVA_CANNOT_BUILD]     .load(base / "announcers" / game->settings.locale / folder / "cannot_place.ogg", false);
+	this->_evaSounds[EVA_GUARDING]         .load(base / "announcers" / game->settings.locale / folder / "guarding.ogg", false);
+	this->_evaSounds[EVA_HOLD_QUEUE]       .load(base / "announcers" / game->settings.locale / folder / "hold.ogg", false);
+	this->_evaSounds[EVA_LOST]             .load(base / "announcers" / game->settings.locale / folder / "lose.ogg", false);
+	this->_evaSounds[EVA_WON]              .load(base / "announcers" / game->settings.locale / folder / "win.ogg", false);
+	this->_evaSounds[EVA_LOW_POWER]        .load(base / "announcers" / game->settings.locale / folder / "low_power.ogg", false);
+	this->_evaSounds[EVA_UNLOCKED]         .load(base / "announcers" / game->settings.locale / folder / "new_unlock.ogg", false);
+	this->_evaSounds[EVA_NO_CREDITS]       .load(base / "announcers" / game->settings.locale / folder / "no_money.ogg", false);
+	this->_evaSounds[EVA_PRIMARY_SELECTED] .load(base / "announcers" / game->settings.locale / folder / "primary.ogg", false);
+	this->_evaSounds[EVA_RETREAT]          .load(base / "announcers" / game->settings.locale / folder / "retreat.ogg", false);
+	this->_evaSounds[EVA_SELL]             .load(base / "announcers" / game->settings.locale / folder / "sell.ogg", false);
+	this->_evaSounds[EVA_TRAINING]         .load(base / "announcers" / game->settings.locale / folder / "train.ogg", false);
+	this->_evaSounds[EVA_UNIT_READY]       .load(base / "announcers" / game->settings.locale / folder / "unit_ready.ogg", false);
+	this->_evaSounds[EVA_UPGRADING]        .load(base / "announcers" / game->settings.locale / folder / "upgrading.ogg", false);
+	this->_evaSounds[EVA_REQUIRE_STORAGE]  .load(base / "announcers" / game->settings.locale / folder / "silo_needed.ogg", false);
+	this->_evaSounds[EVA_UNIT_LOST]        .load(base / "announcers" / game->settings.locale / folder / "unit_lost.ogg", false);
+	this->_evaSounds[EVA_HARV_UNDER_ATTACK].load(base / "announcers" / game->settings.locale / folder / "harvester_attacked.ogg", false);
+	this->_evaSounds[EVA_BUILDING_ATTACKED].load(base / "announcers" / game->settings.locale / folder / "building_attacked.ogg", false);
+	this->_evaSounds[EVA_BUILDING_CAPTURED].load(base / "announcers" / game->settings.locale / folder / "captured.ogg", false);
+	this->_evaSounds[EVA_HAZARD_SPAWNED]   .load(base / "announcers" / game->settings.locale / folder / "worm_sign.ogg", false);
+	this->_evaSounds[EVA_HAZARD_ATTACKED]  .load(base / "announcers" / game->settings.locale / folder / "worm_attack.ogg", false);
+	this->_evaSounds[EVA_ORDER_PLACED]     .load(base / "announcers" / game->settings.locale / folder / "order_placed.ogg", false);
+	this->_evaSounds[EVA_ORDER_IN_1]       .load(base / "announcers" / game->settings.locale / folder / "1min_left.ogg", false);
+	this->_evaSounds[EVA_ORDER_IN_2]       .load(base / "announcers" / game->settings.locale / folder / "2min_left.ogg", false);
+	this->_evaSounds[EVA_ORDER_IN_3]       .load(base / "announcers" / game->settings.locale / folder / "3min_left.ogg", false);
+	this->_evaSounds[EVA_ORDER_IN_4]       .load(base / "announcers" / game->settings.locale / folder / "4min_left.ogg", false);
+	this->_evaSounds[EVA_ORDER_IN_5]       .load(base / "announcers" / game->settings.locale / folder / "5min_left.ogg", false);
+	this->_evaSounds[EVA_NUKE_PREP]        .load(base / "announcers" / game->settings.locale / folder / "dh_prep.ogg", false);
+	this->_evaSounds[EVA_NUKE_LAUNCH]      .load(base / "announcers" / game->settings.locale / folder / "dh_launch.ogg", false);
+	this->_evaSounds[EVA_NUKE_READY]       .load(base / "announcers" / game->settings.locale / folder / "dh_ready.ogg", false);
 	this->_evaSounds[EVA_CASH_DOWN]        .load(base / "sounds/CASHTIK1.ogg", false);
 	this->_evaSounds[EVA_CASH_UP]          .load(base / "sounds/CASHTIK1.ogg", false);
 	this->_evaSounds[EVA_POWER_OFF]        .load(base / "sounds/POWRDN1.ogg", false);
@@ -568,7 +568,7 @@ D2KUI::D2KUI(const Faction &faction, UIState *state, GameManager *manager, Playe
 {
 	faction.getBase().loadCursors("cursors.json", this->_cursors);
 
-	this->_getPanelObjects(base / "ui" / game->locale / "ui.gui");
+	this->_getPanelObjects(base / "ui" / game->settings.locale / "ui.gui");
 	this->_initPanel(params);
 	this->_placeUiEvents();
 	this->_loadExtraAssets();
@@ -715,8 +715,6 @@ void D2KUI::_updateQueueCameos()
 void D2KUI::update()
 {
 	UI::update();
-	this->_minimapPos = this->_blazon->getPosition();
-	this->_minimapSize = this->_blazon->getSize();
 	if (this->ownerState->hasRadar) {
 		this->_blazon->getRenderer()->setOpacity(0);
 	} else {
@@ -727,9 +725,35 @@ void D2KUI::update()
 			opacity = 1;
 		this->_blazon->getRenderer()->setOpacity(opacity);
 	}
+}
+
+void D2KUI::updateRender()
+{
+	UI::updateRender();
+	if (!this->won && !this->lost) {
+		this->_wonMsg->setVisible(false);
+		this->_lostMsg->setVisible(false);
+		this->_msgTimer = 0;
+	} else if (this->_msgTimer == 150) {
+		this->_wonMsg->setVisible(false);
+		this->_lostMsg->setVisible(false);
+		if (this->won)
+			this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endWon.gui");
+		else
+			this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endLost.gui");
+		this->_msgTimer++;
+	} else if (this->_msgTimer < 150) {
+		this->_wonMsg->setVisible(this->won);
+		this->_lostMsg->setVisible(!this->won);
+		if (this->_msgTimer == 0)
+			this->playEVA(this->won ? EVA_WON : EVA_LOST, 50000, 500, 0, "");
+		this->_msgTimer++;
+	}
 
 	unsigned credits = std::min(99999999U, this->ownerState->getCombinedMoney("base:credits"));
 
+	this->_minimapPos = this->_blazon->getPosition();
+	this->_minimapSize = this->_blazon->getSize();
 	for (unsigned i = 0; i < 8; i++) {
 		char m;
 
@@ -757,30 +781,6 @@ void D2KUI::update()
 		this->_starport->setVisible(this->_starportQ->providers > 0);
 	} else if (this->_starportQ->providers == 0 && this->_starportQueue->isVisible())
 		this->_closeStarportMenu();
-}
-
-void D2KUI::updateRender()
-{
-	UI::updateRender();
-	if (!this->won && !this->lost) {
-		this->_wonMsg->setVisible(false);
-		this->_lostMsg->setVisible(false);
-		this->_msgTimer = 0;
-	} else if (this->_msgTimer == 150) {
-		this->_wonMsg->setVisible(false);
-		this->_lostMsg->setVisible(false);
-		if (this->won)
-			this->_openEndGameDialog(this->_base / "ui" / game->locale / "endWon.gui");
-		else
-			this->_openEndGameDialog(this->_base / "ui" / game->locale / "endLost.gui");
-		this->_msgTimer++;
-	} else if (this->_msgTimer < 150) {
-		this->_wonMsg->setVisible(this->won);
-		this->_lostMsg->setVisible(!this->won);
-		if (this->_msgTimer == 0)
-			this->playEVA(this->won ? EVA_WON : EVA_LOST, 50000, 500, 0, "");
-		this->_msgTimer++;
-	}
 }
 
 void D2KUI::render()

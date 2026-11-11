@@ -87,10 +87,6 @@
 			"y": 704
 		}
 	],
-	"grid": {
-		"x": 32,
-		"y": 32
-	},
 	"size": {
 		"x": 120,
 		"y": 36
@@ -98,5 +94,8 @@
 	"translate": {
 		"x": 0,
 		"y": 0
-	}
+	},
+	"author": "Intelligent Games",
+	"origin": "Dune 2000",
+	"preview": "preview.png"
 }

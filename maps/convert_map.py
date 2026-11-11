@@ -18,7 +18,7 @@ size = [
 
 starts = []
 objects = []
-indices = bytearray(size[0] * size[1] * 8)
+indices = bytearray(size[0] * size[1] * 4)
 for y in range(size[1]):
 	for x in range(size[0]):
 		offset_int = (size[0] * y + x) * 4 + 4
@@ -63,6 +63,8 @@ with open(name + "/tiles.dat", "wb") as fd:
 with open(name + "/map.json", "w") as fd:
 	json.dump({
 		"name": canon_name.strip(),
+		"author": "Intelligent Games",
+		"origin": "Dune 2000",
 		"tileset": f"../{tileset}",
 		"objects": objects,
 		"starts": starts,

@@ -5,25 +5,13 @@
 	"resources": [
 		{
 			"strategy": "random",
-			"tile_pool": [
-				300,
-				301,
-				320,
-				321
-			],
+			"tile_pool": [ 300, 301, 320, 321 ],
 			"lots": 2,
 			"storage": 1,
 			"id": 2,
 			"deplete": 1,
-			"value": {
-				"base:credit": 100
-			},
-			"only_adjacent_collectible": [
-				300,
-				301,
-				320,
-				321
-			]
+			"value": { "base:credit": 100 },
+			"only_adjacent_collectible": [ 300, 301, 320, 321 ]
 		},
 		{
 			"strategy": "connected",
@@ -32,9 +20,7 @@
 			"storage": 1,
 			"id": 1,
 			"deplete": 0,
-			"value": {
-				"base:credit": 100
-			}
+			"value": { "base:credit": 100 }
 		}
 	],
 	"skirts": {
@@ -71,5 +57,6 @@
 		"infantry": [1, 1, 0.8, 0.7, 0.5, 0.7, 1, 1],
 		"tracked":  [1, 1, 0.7, 0.5, 0.5, 0.5, 1, 1],
 		"wheeled":  [0.9, 1, 0.5, 0.5, 0.5, 0.5, 1, 1]
-	}
+	},
+	"size": { "x": 32, "y": 32 }
 }

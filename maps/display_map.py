@@ -218,4 +218,4 @@ if __name__ == '__main__':
 		result_mm.show()
 	else:
 		result.save(sys.argv[3])
-		result_mm.save("mini_" + sys.argv[3])
+		result_mm.save(sys.argv[4])
