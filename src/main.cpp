@@ -129,14 +129,15 @@ SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 			pos.y = size.y + 64;
 			break;
 		}
-		b.player->parent.spawnCustomObject(b.player->state.index, pos, new ObjectSpawner(MOD_NAME "orth", 3, 25, [target](GameObject *orth) {
-			orth->attackPos(target, 4);
-			orth->keepMoving(50);
-			orth->attackPos(target, 4);
-			orth->keepMoving(50);
-			orth->attackPos(target, 4);
-			orth->keepMovingAndDie();
-		}));
+		std::vector<Order> orders;
+
+		orders.emplace_back(AttackPosOrder{Vector2f(target), 4, false, false});
+		orders.emplace_back(KeepMovingOrder{50});
+		orders.emplace_back(AttackPosOrder{Vector2f(target), 4, false, false});
+		orders.emplace_back(KeepMovingOrder{50});
+		orders.emplace_back(AttackPosOrder{Vector2f(target), 4, false, false});
+		orders.emplace_back(KeepMovingAndDieOrder{});
+		b.player->parent.spawnCustomObject(b.player->state.index, pos, new ObjectSpawner(MOD_NAME "orth", 3, 25, std::move(orders)));
 		entry->buildProgress = 0;
 	}
 	return false;
