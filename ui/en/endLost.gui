@@ -74,7 +74,7 @@ Panel.Panel1 {
         Size = (62, 13);
 
         Renderer {
-            Texture = "title.png" Smooth;
+            Texture = "title.png" NoSmooth;
             TransparentTexture = false;
         }
     }
@@ -85,7 +85,7 @@ Panel.Panel1 {
         Size = (47, 13);
 
         Renderer {
-            Texture = "spec.png" Smooth;
+            Texture = "spec.png" NoSmooth;
             TransparentTexture = false;
         }
     }

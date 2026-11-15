@@ -812,7 +812,7 @@ Panel.Settings {
         Size = (47, 13);
 
         Renderer {
-            Texture = "options_text.png" Smooth;
+            Texture = "options_text.png" NoSmooth;
             TransparentTexture = false;
         }
     }

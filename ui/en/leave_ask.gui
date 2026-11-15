@@ -68,28 +68,6 @@ Panel.Panel1 {
         }
     }
 
-    Picture.Picture1 {
-        IgnoreMouseEvents = true;
-        Position = (((Title.w - w) / 2) + Title.x, ((Title.h - h) / 2) + Title.y);
-        Size = (31, 13);
-
-        Renderer {
-            Texture = "abort2.png" Smooth;
-            TransparentTexture = false;
-        }
-    }
-
-    Picture.Picture2 {
-        IgnoreMouseEvents = true;
-        Position = (((Continue.w - w) / 2) + Continue.x, ((Continue.h - h) / 2) + Continue.y);
-        Size = (33, 13);
-
-        Renderer {
-            Texture = "cancel.png" Smooth;
-            TransparentTexture = false;
-        }
-    }
-
     Button.Surrender {
         Position = ((&.w - w) / 2, ((&.h - h) / 2) + 10);
         Size = (80, 21);
@@ -120,13 +98,35 @@ Panel.Panel1 {
         }
     }
 
+    Picture.Picture1 {
+        IgnoreMouseEvents = true;
+        Position = (((Abort.w - w) / 2) + Abort.x, ((Abort.h - h) / 2) + Abort.y);
+        Size = (31, 13);
+
+        Renderer {
+            Texture = "abort2.png" NoSmooth;
+            TransparentTexture = false;
+        }
+    }
+
+    Picture.Picture2 {
+        IgnoreMouseEvents = true;
+        Position = (((Cancel.w - w) / 2) + Cancel.x, ((Cancel.h - h) / 2) + Cancel.y);
+        Size = (33, 13);
+
+        Renderer {
+            Texture = "cancel.png" NoSmooth;
+            TransparentTexture = false;
+        }
+    }
+
     Picture.Picture3 {
         IgnoreMouseEvents = true;
         Position = (((Surrender.w - w) / 2) + Surrender.x, ((Surrender.h - h) / 2) + Surrender.y);
         Size = (55, 13);
 
         Renderer {
-            Texture = "surrender.png" Smooth;
+            Texture = "surrender.png" NoSmooth;
             TransparentTexture = false;
         }
     }
@@ -137,7 +137,7 @@ Panel.Panel1 {
         Size = (85, 13);
 
         Renderer {
-            Texture = "certain.png" Smooth;
+            Texture = "certain.png" NoSmooth;
             TransparentTexture = false;
         }
     }

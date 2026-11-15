@@ -240,13 +240,20 @@ void D2KUI::_showAbortDialog()
 	});
 	cancel->onClick([this, panel = std::weak_ptr(panel)] {
 		this->_panel->remove(panel.lock());
+		this->_settings->setVisible(false);
+		game->paused = false;
 	});
 	surrender->onClick([this, panel = std::weak_ptr(panel)] {
 		this->_panel->remove(panel.lock());
+		this->_eventQueue.emplace_front(SurrenderEvent{false});
+		this->_settings->setVisible(false);
+		game->paused = false;
 	});
 	abort->onClick([this, panel = std::weak_ptr(panel)] {
 		this->_panel->remove(panel.lock());
-		this->manager->finished = true;
+		this->_eventQueue.emplace_front(SurrenderEvent{true});
+		this->_settings->setVisible(false);
+		game->paused = false;
 	});
 	this->_panel->add(panel);
 }
@@ -598,8 +605,8 @@ void D2KUI::_createCameoWidgets()
 	this->_createCameoStarportWidgets();
 }
 
-D2KUI::D2KUI(const Faction &faction, UIState *state, GameManager *manager, PlayerState *ownerState, MapState *map, const std::filesystem::path &base, const nlohmann::json &params) :
-	UI(faction, state, manager, ownerState, map),
+D2KUI::D2KUI(const Faction &faction, UIState *state, GameManager *manager, Player *owner, MapState *map, const std::filesystem::path &base, const nlohmann::json &params) :
+	UI(faction, state, manager, owner, map),
 	_prefix(params["cameo_prefix"]),
 	_modName(faction.getBase().getName()),
 	_base(base)
@@ -775,10 +782,12 @@ void D2KUI::updateRender()
 	} else if (this->_msgTimer == 150) {
 		this->_wonMsg->setVisible(false);
 		this->_lostMsg->setVisible(false);
-		if (this->won)
-			this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endWon.gui");
-		else
-			this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endLost.gui");
+		if (!this->owner->hasSurrendered()) {
+			if (this->won)
+				this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endWon.gui");
+			else
+				this->_openEndGameDialog(this->_base / "ui" / game->settings.locale / "endLost.gui");
+		}
 		this->_msgTimer++;
 	} else if (this->_msgTimer < 150) {
 		this->_wonMsg->setVisible(this->won);
