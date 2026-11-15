@@ -816,6 +816,49 @@ Panel.Settings {
             TransparentTexture = false;
         }
     }
+
+    BitmapButton.Abort {
+        Image = None;
+        ImageScaling = 0;
+        Position = (Picture8.x + 32, Picture8.y + 171);
+        Size = (140, 21);
+        TextSize = 13;
+
+        Renderer {
+            BackgroundColor = #F5F5F5;
+            BackgroundColorDisabled = #E6E6E6;
+            BackgroundColorDown = #EBEBEB;
+            BackgroundColorHover = white;
+            BorderColor = transparent;
+            BorderColorDisabled = transparent;
+            BorderColorDown = transparent;
+            BorderColorFocused = transparent;
+            BorderColorHover = transparent;
+            Borders = (0, 0, 0, 0);
+            TextColor = transparent;
+            TextColorDisabled = transparent;
+            TextColorDown = transparent;
+            TextColorHover = transparent;
+            Texture = "../buttons/BUT1_UP.png" Smooth;
+            TextureDisabled = "../buttons/BUT1_UP.png" Smooth;
+            TextureDown = "../buttons/BUT1_DN.png" Smooth;
+            TextureDownFocused = "../buttons/BUT1_DN.png" Smooth;
+            TextureDownHover = "../buttons/BUT1_DN.png" Smooth;
+            TextureFocused = "../buttons/BUT1_UP.png" Smooth;
+            TextureHover = "../buttons/BUT1_UP.png" Smooth;
+        }
+    }
+
+    Picture.Picture11 {
+        IgnoreMouseEvents = true;
+        Position = (Abort.x + ((Abort.w - w) / 2), Abort.y + ((Abort.h - h) / 2));
+        Size = (72, 13);
+
+        Renderer {
+            Texture = "abort.png" NoSmooth;
+            TransparentTexture = false;
+        }
+    }
 }
 
 Picture.WonMsg {

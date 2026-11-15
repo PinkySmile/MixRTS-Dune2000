@@ -198,6 +198,7 @@ void D2KUI::_getPanelObjects(const std::filesystem::path &path)
 	this->_creditDigits[6] = this->_panel->get<tgui::Picture>("Credit6");
 	this->_creditDigits[7] = this->_panel->get<tgui::Picture>("Credit7");
 	this->_resumeGame      = this->_settings->get<tgui::Button>("Resume");
+	this->_abortGame       = this->_settings->get<tgui::Button>("Abort");
 }
 
 void D2KUI::_initPanel(const nlohmann::json &json)
@@ -215,6 +216,39 @@ void D2KUI::_initPanel(const nlohmann::json &json)
 	this->_lostMsg->setVisible(false);
 	this->_buildQueue->getVerticalScrollbar()->setScrollAmount(47);
 	this->_unitsQueue->getVerticalScrollbar()->setScrollAmount(47);
+}
+
+void D2KUI::_showAbortDialog()
+{
+	auto panel = tgui::Panel::create({"100%", "100%"});
+
+	panel->loadWidgetsFromFile((this->_base / "ui" / game->settings.locale / "leave_ask.gui").native());
+	panel->getRenderer()->setBackgroundColor(tgui::Color::Transparent);
+
+	auto cancel    = panel->get<tgui::Button>("Cancel");
+	auto surrender = panel->get<tgui::Button>("Surrender");
+	auto abort     = panel->get<tgui::Button>("Abort");
+
+	cancel->onMousePress([this] {
+		this->_soundButton.play();
+	});
+	surrender->onMousePress([this] {
+		this->_soundButton.play();
+	});
+	abort->onMousePress([this] {
+		this->_soundButton.play();
+	});
+	cancel->onClick([this, panel = std::weak_ptr(panel)] {
+		this->_panel->remove(panel.lock());
+	});
+	surrender->onClick([this, panel = std::weak_ptr(panel)] {
+		this->_panel->remove(panel.lock());
+	});
+	abort->onClick([this, panel = std::weak_ptr(panel)] {
+		this->_panel->remove(panel.lock());
+		this->manager->finished = true;
+	});
+	this->_panel->add(panel);
 }
 
 void D2KUI::_placeUiEvents()
@@ -284,6 +318,10 @@ void D2KUI::_placeUiEvents()
 	});
 	this->_resumeGame->onClick([]{
 		game->paused = false;
+	});
+	this->_abortGame->onClick([this]{
+		this->_soundButton.play();
+		this->_showAbortDialog();
 	});
 }
 

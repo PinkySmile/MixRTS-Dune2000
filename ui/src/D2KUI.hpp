@@ -48,6 +48,7 @@ private:
 	std::string _modName;
 	std::filesystem::path _base;
 
+	tgui::Button::Ptr _abortGame;
 	tgui::Button::Ptr _resumeGame;
 	tgui::Panel::Ptr _power;
 	tgui::Button::Ptr _sell;
@@ -109,6 +110,7 @@ private:
 
 	void _loadCameos();
 	void _setupQueues();
+	void _showAbortDialog();
 	void _initPanel(const nlohmann::json &json);
 	void _placeUiEvents();
 	void _loadExtraAssets();
