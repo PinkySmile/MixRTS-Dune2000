@@ -1,7 +1,6 @@
 {
 	"map_colors": "colors.dat",
-	"animations": [],
-	"generators": [],
+	"faction": "neutral",
 	"resources": [
 		{
 			"strategy": "random",

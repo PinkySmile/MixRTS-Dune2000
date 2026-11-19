@@ -1,0 +1,46 @@
+{
+	"_general": {
+		"counts_for_game": false,
+		"counts_for_short_game": false,
+		"requirements": [],
+		"cost": {},
+		"tags": []
+	},
+	"bloom": {
+		"type": "bloom",
+		"anims": [
+			{ "anim": "spice_bloom_0", "layer": 1 },
+			{ "anim": "spice_bloom_1", "layer": 1 },
+			{ "anim": "spice_bloom_2", "layer": 1 },
+			{ "anim": "spice_bloom_3", "layer": 1 }
+		],
+		"armor": "none",
+		"size": { "x": 32, "y": 32 },
+		"hp": 1,
+		"bloom_time": 1500,
+		"bloom_effect": "effect.spice_bloom",
+		"explode": {
+			"projectile": "weapon.spice_projectile",
+			"instant": "weapon.spice_explosion",
+			"count": [15, 30, 45]
+		},
+		"solid": false
+	},
+	"worm": {
+		"type": "worm",
+		"anims": [
+			{ "anim": "spice_bloom_0", "layer": 1 }
+		],
+		"armor": "none",
+		"size": { "x": 32, "y": 32 },
+		"hp": 1,
+		"bloom_time": 1500,
+		"bloom_effect": "effect.spice_bloom",
+		"explode": {
+			"projectile": "weapon.spice_projectile",
+			"instant": "weapon.spice_explosion",
+			"count": [15, 30, 45]
+		},
+		"solid": false
+	}
+}

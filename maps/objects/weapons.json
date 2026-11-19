@@ -1,0 +1,29 @@
+{
+	"weapon.spice_projectile": {
+		"type": "projectile",
+		"projectile": {
+			"anim": { "anim": "proj.pellet", "layer": 2 },
+			"trail": "effect.trail",
+			"speed": 3.84,
+			"arc": true,
+			"shadow": true
+		},
+		"hit_effect": "effect.tankgun",
+		"damage": 75,
+		"range": 32,
+		"increase_resource": 1,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	},
+	"weapon.spice_explosion": {
+		"type": "hitscan",
+		"damage": 75,
+		"range": 32,
+		"warhead": "fire",
+		"can_hit_tags": ["any"],
+		"ground": true,
+		"air": false
+	}
+}

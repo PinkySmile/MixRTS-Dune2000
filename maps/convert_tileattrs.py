@@ -47,8 +47,7 @@ with open(name + "/tileattrs.dat", "wb") as fd:
 with open(name + "/metadata.json", "w") as fd:
 	json.dump({
 		"map_colors": "colors.dat",
-		"animations": [],
-		"generators": [],
+		"faction": [ "maps/objects/factions.json" ],
 		"resources": [
 			{
 				"strategy": "random",

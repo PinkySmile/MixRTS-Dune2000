@@ -1,3 +1,4 @@
 {
-	"name": "d2k"
+	"name": "d2k",
+	"factions": [ "factions.json", "maps/objects/factions.json" ]
 }

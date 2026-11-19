@@ -267,23 +267,6 @@
 		"ground": true,
 		"air": false
 	},
-	"_weapon.spice_explosion": {
-		"type": "projectile",
-		"projectile": {
-			"anim": { "anim": "proj.spice_explosion", "layer": 2 },
-			"trail": "effect.trail",
-			"speed": 3.84,
-			"arc": true,
-			"shadow": true
-		},
-		"hit_effect": "effect.tankgun",
-		"damage": 75,
-		"range": 128,
-		"warhead": "fire",
-		"can_hit_tags": ["any"],
-		"ground": true,
-		"air": false
-	},
 	"_weapon.worm": {
 		"type": "hitscan",
 		"hit_effect": "effect.worm_swallow",

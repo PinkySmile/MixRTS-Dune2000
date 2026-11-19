@@ -5,8 +5,9 @@
 #include "Data/GameManager.hpp"
 #include "Data/Faction.hpp"
 #include "Data/Mod.hpp"
-#include "Data/ObjectSpawner.hpp"
+#include "../../../src/Engine/Data/Objects/ObjectSpawner.hpp"
 #include "Data/Player.hpp"
+#include "Data/Objects/ObjectFactory.hpp"
 #include "Resources/Game.hpp"
 
 #define MOD_NAME "d2k:"
@@ -147,3 +148,9 @@ SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 {
 	return false;
 }*/
+
+SL_EXPORT void registerFactory(ObjectFactory &factory)
+{
+	factory.push<GameObject>("bloom");
+	factory.push<GameObject>("worm");
+}

@@ -1,0 +1,39 @@
+{
+	"neutral": {
+		"selectable": false,
+		"can_sell": false,
+		"can_repair": false,
+		"place": {
+			"ok":   [ "cursor/tile_ok.png"   ],
+			"bad":  [ "cursor/tile_bad.png"  ],
+			"best": [ "cursor/tile_best.png" ]
+		},
+		"queues": {
+			"dummy": {
+				"requires_producer": false,
+				"behavior": "single_queue",
+				"unit_spawn": "none"
+			}
+		},
+		"starting_money": {},
+		"grid": { "x": 32, "y": 32 },
+		"regress_tech": false,
+		"has_radar": true,
+		"radar_powered": false,
+		"starting_objects": [],
+		"upgrades": [],
+		"warheads": [ "weapons/warheads.json" ],
+		"weapons": [ "maps/objects/weapons.json" ],
+		"objects": [ "maps/objects/objects.json"],
+		"effects": [ "maps/objects/effects.json", "weapons/effects/effects.json" ],
+		"animations": [
+			"maps/objects/animations.json",
+			"weapons/effects/anim.json",
+			"weapons/deviate/anim.json",
+			"weapons/plasma/anim.json",
+			"weapons/dh_expl/anim.json"
+		],
+		"sounds": [ "sounds.json" ],
+		"object_factory": "support.dl"
+	}
+}

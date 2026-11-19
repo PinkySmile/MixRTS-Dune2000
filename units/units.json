@@ -894,10 +894,10 @@
 		"hp": 900
 	},
 	"dhmi": {
-		"anims": [ { "anim": "dhbomb_up", "layer": 1, "delay" : 999 } ],
-		"anim_move": { "anim": "dhbomb_down", "layer": 1, "delay": 999 },
+		"type": "missile",
+		"anims": [ { "anim": "dhbomb_up", "layer": 2, "delay" : 999 } ],
+		"anim_move": { "anim": "dhbomb_down", "layer": 2, "delay": 999 },
 		"queue": "hpalace",
-		"missile": true,
 		"barrels": [
 			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },
 			{ "weapons": [ { "name": "weapon.dhbomb_piece", "cooldown": 1 } ] },

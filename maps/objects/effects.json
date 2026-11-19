@@ -1,0 +1,6 @@
+{
+	"effect.spice_bloom": {
+		"anim": { "anim": "spice_puff", "layer": 2, "delay": 6 },
+		"sound": "explmd1"
+	}
+}

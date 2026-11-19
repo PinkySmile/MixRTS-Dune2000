@@ -1,0 +1,71 @@
+{
+	"_general": {
+		"bounds": { "x": 0, "y": 0, "w": 0, "h": 0 }
+	},
+	"spice_bloom_0": [
+		{
+			"sprite": "maps/objects/spice_bloom_0.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"spice_bloom_1": [
+		{
+			"sprite": "maps/objects/spice_bloom_1.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"spice_bloom_2": [
+		{
+			"sprite": "maps/objects/spice_bloom_2.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"spice_bloom_3": [
+		{
+			"sprite": "maps/objects/spice_bloom_3.png",
+			"offset": { "x": 0, "y": 0 }
+		}
+	],
+	"spice_puff": [
+		{
+			"sprite": "maps/objects/spice_puff_0.png",
+			"offset": { "x": -4, "y": 7 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_1.png",
+			"offset": { "x": -8, "y": -5 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_2.png",
+			"offset": { "x": -13, "y": -9 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_3.png",
+			"offset": { "x": -13, "y": -16 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_4.png",
+			"offset": { "x": -15, "y": -16 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_5.png",
+			"offset": { "x": -16, "y": -16 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_6.png",
+			"offset": { "x": -16, "y": -16 },
+			"blending": "add"
+		},
+		{
+			"sprite": "maps/objects/spice_puff_7.png",
+			"offset": { "x": -15, "y": -10 },
+			"blending": "add"
+		}
+	]
+}
