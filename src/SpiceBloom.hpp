@@ -10,7 +10,6 @@
 
 class SpiceBloom : public GameObject {
 private:
-	unsigned _bloomTimer = 0;
 	unsigned _bloomTime;
 	const Effect *_bloomEffect;
 	const MultiSound *_explodeSound;
@@ -32,8 +31,6 @@ public:
 	GameObject *copy() const override;
 	void update() override;
 	void render(int layer) override;
-	void saveState(StateSaveContext &ctx) const override;
-	void loadState(StateLoadContext &ctx) override;
 	void damage(unsigned amount, DamageType type) override;
 };
 

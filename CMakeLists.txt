@@ -46,7 +46,7 @@ foreach(D2K_ASSET_PATH ${D2K_ASSET_FILES})
 
 	add_custom_command(
 		OUTPUT "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different "${D2K_ASSET_PATH}" "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+		COMMAND ${CMAKE_COMMAND} -E copy "${D2K_ASSET_PATH}" "${MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
 		DEPENDS "${D2K_ASSET_PATH}"
 		COMMENT "Copy D2K:${D2K_ASSET_PATH_REL}"
 	)
@@ -60,13 +60,13 @@ add_dependencies(d2k_support_powers d2k_assets)
 
 add_custom_command(
 	OUTPUT "${MOD_DEST_PATH}/ui/ui.ui"
-	COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_ui> "${MOD_DEST_PATH}/ui/ui.ui"
+	COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:d2k_ui> "${MOD_DEST_PATH}/ui/ui.ui"
 	DEPENDS $<TARGET_FILE:d2k_ui>
 	COMMENT "Copy D2K:ui/ui.ui"
 )
 add_custom_command(
 	OUTPUT "${MOD_DEST_PATH}/support.dl"
-	COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_support_powers> "${MOD_DEST_PATH}/support.dl"
+	COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:d2k_support_powers> "${MOD_DEST_PATH}/support.dl"
 	DEPENDS $<TARGET_FILE:d2k_support_powers>
 	COMMENT "Copy D2K:support.dl"
 )
@@ -108,7 +108,7 @@ if (NOT NO_TEST)
 
 		add_custom_command(
 			OUTPUT "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
-			COMMAND ${CMAKE_COMMAND} -E copy_if_different "${D2K_ASSET_PATH}" "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
+			COMMAND ${CMAKE_COMMAND} -E copy "${D2K_ASSET_PATH}" "${TEST_MOD_DEST_PATH}/${D2K_ASSET_PATH_REL}"
 			DEPENDS "${D2K_ASSET_PATH}"
 			COMMENT "Copy TEST_D2K:${D2K_ASSET_PATH_REL}"
 		)
@@ -122,13 +122,13 @@ if (NOT NO_TEST)
 
 	add_custom_command(
 		OUTPUT "${TEST_MOD_DEST_PATH}/ui/ui.ui"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_ui> "${TEST_MOD_DEST_PATH}/ui/ui.ui"
+		COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:d2k_ui> "${TEST_MOD_DEST_PATH}/ui/ui.ui"
 		DEPENDS $<TARGET_FILE:d2k_ui>
 		COMMENT "Copy TEST_D2K:ui/ui.ui"
 	)
 	add_custom_command(
 		OUTPUT "${TEST_MOD_DEST_PATH}/support.dl"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:d2k_support_powers> "${TEST_MOD_DEST_PATH}/support.dl"
+		COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:d2k_support_powers> "${TEST_MOD_DEST_PATH}/support.dl"
 		DEPENDS $<TARGET_FILE:d2k_support_powers>
 		COMMENT "Copy TEST_D2K:support.dl"
 	)

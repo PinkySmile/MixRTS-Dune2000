@@ -10,6 +10,9 @@
 #include "Data/Weapon.hpp"
 #include "Resources/Game.hpp"
 
+#define _bloomTimer _gpTimerU[15]
+#define _bloomIndex _gpTimerU[14]
+
 SpiceBloom::SpiceBloom(
 	const Faction &base,
 	const std::string &id,
@@ -60,36 +63,50 @@ SpiceBloom::SpiceBloom(
 
 GameObject *SpiceBloom::copy() const
 {
-	return new SpiceBloom(*this);
+	auto obj = new SpiceBloom(*this);
+
+	for (size_t i = 0; i < obj->_anims.front().size(); i++)
+		obj->_gpTimerU[i] = random_distrib(game->gameRandom, 0, 1000) + this->_bloomTime;
+	return obj;
 }
 
 void SpiceBloom::update()
 {
-	unsigned index = this->_gridPos.x + this->_gridPos.y;
 	auto &lmap = this->manager->getLoadedMap();
+	unsigned index = this->_gridPos.x + this->_gridPos.y * lmap.grid.gridSize.x;
+	assert_exp(lmap.grid.gridSize.x == this->map->gridSize.x);
 	uint32_t attrs = lmap.grid.grid[index];
+	//uint32_t attrs2 = this->map->grid[index];
 	unsigned res = GRID_RESOURCE_TYPE(attrs);
- 
+
 	if (res == 0)
 		this->_bloomTimer++;
-	if (this->_bloomTimer / this->_bloomTime >= this->_anims.front().size()) {
-		this->_bloomTimer = this->_bloomTime * this->_anims.front().size() - 1;
+	if (this->_bloomTimer >= this->_gpTimerU[this->_bloomIndex]) {
+		this->_bloomIndex++;
+		this->_bloomTimer = 0;
+		this->manager->spawnEffect(*this->_bloomEffect, this->_position + this->_size / 2, this->owner);
+	}
+
+	if (this->_bloomIndex >= this->_anims.front().size()) {
+		this->_bloomIndex = this->_anims.front().size() - 1;
 		this->_hp = 0;
-	} else if ((attrs & GRIDMASK_IS_FREE) == 0)
+	//} else if ((attrs2 & GRIDMASK_IS_FREE) == 0)
+	} else if (!this->manager->isAreaFree(this->_position, this->_size, {this->index}, false, true))
 		this->_hp = 0;
+
 	if (this->_hp == 0) {
 		this->_hp = 1;
-		if (this->_bloomTimer >= this->_bloomTime) {
-			this->_explodeSound->play();
+		if (this->_bloomIndex != 0) {
+			this->_explodeSound->play(this->_position + this->_size / 2);
 			this->manager->weaponUsedAt(
 				this->_explodeInstant->getDamage(),
 				this->_explodeInstant,
 				this->_position + this->_size / 2,
 				this->owner->state.index
 			);
-			for (size_t i = this->_explodeProjectiles[this->_bloomTimer / this->_bloomTime]; i; i--) {
+			for (size_t i = this->_explodeProjectiles[this->_bloomIndex]; i; i--) {
 				float angle = random_distrib(game->gameRandom, 0, 360) * M_PI / 180;
-				unsigned distance = random_distrib(game->gameRandom, 0, this->_explodeInstant->getRange());
+				unsigned distance = random_distrib(game->gameRandom, 0, 96);
 				Vector2f vec = {
 					distance * std::cos(angle),
 					distance * std::sin(angle)
@@ -103,38 +120,25 @@ void SpiceBloom::update()
 					this->_position + this->_size / 2 + vec
 				);
 			}
+			this->_bloomIndex = 0;
 			this->_bloomTimer = 0;
+			for (size_t i = 0; i < this->_anims.front().size(); i++)
+				this->_gpTimerU[i] = random_distrib(game->gameRandom, 0, 1000) + this->_bloomTime;
 		}
-	} else if (this->_bloomTimer % this->_bloomTime == 0 && this->_bloomTimer)
-		this->manager->spawnEffect(*this->_bloomEffect, this->_position + this->_size / 2, this->owner);
+	}
 
-	auto &anim = this->_anims.front()[this->_bloomTimer / this->_bloomTime];
+	auto &anim = this->_anims.front()[this->_bloomIndex];
 
-	anim() && anim.update();
+	if (anim())
+		anim.update();
 }
 
 void SpiceBloom::render(int layer)
 {
-	auto &anim = this->_anims.front()[this->_bloomTimer / this->_bloomTime];
+	auto &anim = this->_anims.front()[this->_bloomIndex];
 
 	if (anim() && anim.getLayer() == layer)
 		this->_displayAnim(anim.getAnim());
-}
-
-void SpiceBloom::saveState(StateSaveContext &ctx) const
-{
-	auto &out = ctx.out;
-
-	GameObject::saveState(ctx);
-	out.u32(this->_bloomTimer);
-}
-
-void SpiceBloom::loadState(StateLoadContext &ctx)
-{
-	auto &in = ctx.in;
-
-	GameObject::loadState(ctx);
-	this->_bloomTimer = in.u32();
 }
 
 void SpiceBloom::damage(unsigned, DamageType)

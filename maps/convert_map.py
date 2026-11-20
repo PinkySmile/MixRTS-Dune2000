@@ -29,26 +29,25 @@ for y in range(size[1]):
 		px = x * 32
 		py = y * 32
 		if flags in [1, 2]:
-			index |= flags << 24
+			index |= flags << 24 | 1 << 29
 		elif flags == 23:
 			starts.append({ "x": px, "y": py })
 		elif flags == 20:
-			index |= 1 << 24
 			objects.append({ "type": "worm", "x": px, "y": py })
 		elif flags == 41:
-			index |= 1 << 24
+			index |= 1 << 24 | 1 << 29
 			objects.append({ "type": "bloom", "x": px, "y": py, "limit": 5 })
 		elif flags == 42:
-			index |= 1 << 24
+			index |= 1 << 24 | 1 << 29
 			objects.append({ "type": "bloom", "x": px, "y": py, "limit": 10 })
 		elif flags == 43:
-			index |= 1 << 24
+			index |= 1 << 24 | 1 << 29
 			objects.append({ "type": "bloom", "x": px, "y": py, "limit": 25 })
 		elif flags == 44:
-			index |= 1 << 24
+			index |= 1 << 24 | 1 << 29
 			objects.append({ "type": "bloom", "x": px, "y": py, "limit": 50 })
 		elif flags == 45:
-			index |= 1 << 24
+			index |= 1 << 24 | 1 << 29
 			objects.append({ "type": "bloom", "x": px, "y": py })
 		elif flags != 0:
 			print(f"{source}: WARNING: Unknown flag {flags} at {x},{y}")
@@ -65,6 +64,7 @@ with open(name + "/map.json", "w") as fd:
 		"name": canon_name.strip(),
 		"author": "Intelligent Games",
 		"origin": "Dune 2000",
+		"preview": "preview.png",
 		"tileset": f"../{tileset}",
 		"objects": objects,
 		"starts": starts,

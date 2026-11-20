@@ -17,7 +17,7 @@
 		"armor": "none",
 		"size": { "x": 32, "y": 32 },
 		"hp": 1,
-		"bloom_time": 1500,
+		"bloom_time": 2000,
 		"bloom_effect": "effect.spice_bloom",
 		"explode": {
 			"projectile": "weapon.spice_projectile",
@@ -34,13 +34,6 @@
 		"armor": "none",
 		"size": { "x": 32, "y": 32 },
 		"hp": 1,
-		"bloom_time": 1500,
-		"bloom_effect": "effect.spice_bloom",
-		"explode": {
-			"projectile": "weapon.spice_projectile",
-			"instant": "weapon.spice_explosion",
-			"count": [15, 30, 45]
-		},
 		"solid": false
 	}
 }

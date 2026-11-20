@@ -10,7 +10,7 @@
 			"id": 2,
 			"deplete": 1,
 			"value": { "base:credit": 100 },
-			"only_adjacent_collectible": [ 300, 301, 320, 321 ]
+			"must_be_surrounded": true
 		},
 		{
 			"strategy": "connected",

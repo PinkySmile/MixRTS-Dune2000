@@ -29,42 +29,42 @@
 	"spice_puff": [
 		{
 			"sprite": "maps/objects/spice_puff_0.png",
-			"offset": { "x": -4, "y": 7 },
+			"offset": { "x": -4, "y": -9 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_1.png",
-			"offset": { "x": -8, "y": -5 },
+			"offset": { "x": -8, "y": -21 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_2.png",
-			"offset": { "x": -13, "y": -9 },
+			"offset": { "x": -13, "y": -25 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_3.png",
-			"offset": { "x": -13, "y": -16 },
+			"offset": { "x": -13, "y": -32 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_4.png",
-			"offset": { "x": -15, "y": -16 },
+			"offset": { "x": -15, "y": -32 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_5.png",
-			"offset": { "x": -16, "y": -16 },
+			"offset": { "x": -16, "y": -32 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_6.png",
-			"offset": { "x": -16, "y": -16 },
+			"offset": { "x": -16, "y": -32 },
 			"blending": "add"
 		},
 		{
 			"sprite": "maps/objects/spice_puff_7.png",
-			"offset": { "x": -15, "y": -10 },
+			"offset": { "x": -15, "y": -26 },
 			"blending": "add"
 		}
 	]
