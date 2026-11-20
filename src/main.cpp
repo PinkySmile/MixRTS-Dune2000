@@ -2,6 +2,7 @@
 // Created by PinkySmile on 11/10/2026.
 //
 
+#include "SpiceBloom.hpp"
 #include "Data/GameManager.hpp"
 #include "Data/Faction.hpp"
 #include "Data/Mod.hpp"
@@ -151,6 +152,6 @@ SL_EXPORT bool handlePlaceBuildEvent(CustomQueue &b, PlayerQueueEntry *entry, co
 
 SL_EXPORT void registerFactory(ObjectFactory &factory)
 {
-	factory.push<GameObject>("bloom");
+	factory.push<SpiceBloom>("bloom");
 	factory.push<GameObject>("worm");
 }

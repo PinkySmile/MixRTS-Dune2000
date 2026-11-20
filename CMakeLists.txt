@@ -19,6 +19,8 @@ target_link_libraries(
 add_library(
 	d2k_support_powers MODULE
 	src/main.cpp
+	src/SpiceBloom.cpp
+	src/SpiceBloom.hpp
 )
 target_link_libraries(
 	d2k_support_powers
@@ -90,6 +92,8 @@ if (NOT NO_TEST)
 	add_library(
 		d2k_support_powers_test MODULE
 		src/main.cpp
+		src/SpiceBloom.cpp
+		src/SpiceBloom.hpp
 	)
 	target_link_libraries(
 		d2k_support_powers_test

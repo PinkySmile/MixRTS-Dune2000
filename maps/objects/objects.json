@@ -22,9 +22,9 @@
 		"explode": {
 			"projectile": "weapon.spice_projectile",
 			"instant": "weapon.spice_explosion",
-			"count": [15, 30, 45]
-		},
-		"solid": false
+			"sound": "explmd1",
+			"count": [0, 15, 30, 45]
+		}
 	},
 	"worm": {
 		"type": "worm",
