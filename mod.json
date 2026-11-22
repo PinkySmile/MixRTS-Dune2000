@@ -1,4 +1,5 @@
 {
 	"name": "d2k",
+	"maps_folder": "maps",
 	"factions": [ "factions.json", "maps/objects/factions.json" ]
 }
