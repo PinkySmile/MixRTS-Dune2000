@@ -180,6 +180,11 @@
 		"objects": [ "buildings/a_buildings.json", "units/a_units.json" ],
 		"animations": [ "buildings/a_animations.json", "units/atank/anim.json"],
 		"sounds": [ "units/a_sounds.json" ],
+		"preview": {
+			"file": "buildings/a_animations.json",
+			"key": "cony",
+			"size": { "x": 96, "y": 64 }
+		},
 		"ui_params": {
 			"blazon": "ui/common/blazon_a.png",
 			"cameo_prefix": "a",
@@ -190,6 +195,11 @@
 		"objects": [ "buildings/h_buildings.json", "units/h_units.json" ],
 		"animations": [ "buildings/h_animations.json", "units/htank/anim.json"],
 		"sounds": [ "units/h_sounds.json" ],
+		"preview": {
+			"file": "buildings/h_animations.json",
+			"key": "cony",
+			"size": { "x": 96, "y": 64 }
+		},
 		"ui_params": {
 			"blazon": "ui/common/blazon_h.png",
 			"cameo_prefix": "h",
@@ -200,6 +210,11 @@
 		"objects": [ "buildings/o_buildings.json", "units/o_units.json" ],
 		"animations": [ "buildings/o_animations.json", "units/otank/anim.json" ],
 		"sounds": [ "units/o_sounds.json" ],
+		"preview": {
+			"file": "buildings/o_animations.json",
+			"key": "cony",
+			"size": { "x": 96, "y": 64 }
+		},
 		"ui_params": {
 			"blazon": "ui/common/blazon_o.png",
 			"cameo_prefix": "o",

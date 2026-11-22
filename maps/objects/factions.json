@@ -34,6 +34,11 @@
 			"weapons/dh_expl/anim.json"
 		],
 		"sounds": [ "sounds.json" ],
-		"object_factory": "support.dl"
+		"object_factory": "support.dl",
+		"preview": {
+			"file": "buildings/a_animations.json",
+			"key": "cony",
+			"size": { "x": 96, "y": 96 }
+		}
 	}
 }
